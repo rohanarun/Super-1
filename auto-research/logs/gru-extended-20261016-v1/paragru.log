@@ -1,0 +1,14 @@
+paragru {'step': 0, 'training_targets': 0, 'train_wall_seconds': 0.0, 'train_cpu_seconds': 0.0, 'validation_ce': 8.097500562667847, 'validation_top1': 0.0009765625}
+paragru {'step': 25, 'training_targets': 12800, 'train_wall_seconds': 2.0713247700005013, 'train_cpu_seconds': 2.0718676539999996, 'validation_ce': 6.800773203372955, 'validation_top1': 0.024169921875}
+paragru {'step': 50, 'training_targets': 25600, 'train_wall_seconds': 4.072559346999697, 'train_cpu_seconds': 4.075610927999999, 'validation_ce': 6.702478468418121, 'validation_top1': 0.038818359375}
+paragru {'step': 100, 'training_targets': 51200, 'train_wall_seconds': 8.20288999400509, 'train_cpu_seconds': 8.205343586, 'validation_ce': 6.488761901855469, 'validation_top1': 0.052001953125}
+paragru {'step': 200, 'training_targets': 102400, 'train_wall_seconds': 16.9498569180123, 'train_cpu_seconds': 16.948461702999996, 'validation_ce': 6.065464079380035, 'validation_top1': 0.0556640625}
+paragru {'step': 400, 'training_targets': 204800, 'train_wall_seconds': 31.77390829901924, 'train_cpu_seconds': 31.770680499999994, 'validation_ce': 5.71938294172287, 'validation_top1': 0.073974609375}
+paragru {'step': 600, 'training_targets': 307200, 'train_wall_seconds': 46.44698300200798, 'train_cpu_seconds': 46.436962501, 'validation_ce': 5.508377730846405, 'validation_top1': 0.099853515625}
+paragru {'step': 800, 'training_targets': 409600, 'train_wall_seconds': 62.12353116801569, 'train_cpu_seconds': 62.118957746999996, 'validation_ce': 5.393488824367523, 'validation_top1': 0.1142578125}
+paragru {'step': 1000, 'training_targets': 512000, 'train_wall_seconds': 77.54231196101318, 'train_cpu_seconds': 77.54158601699999, 'validation_ce': 5.29424375295639, 'validation_top1': 0.11279296875}
+paragru {'step': 1250, 'training_targets': 640000, 'train_wall_seconds': 95.83008530300685, 'train_cpu_seconds': 95.81628729699999, 'validation_ce': 5.200649976730347, 'validation_top1': 0.126220703125}
+paragru {'step': 1500, 'training_targets': 768000, 'train_wall_seconds': 116.76231964900035, 'train_cpu_seconds': 116.756559391, 'validation_ce': 5.12610137462616, 'validation_top1': 0.126953125}
+paragru {'step': 1750, 'training_targets': 896000, 'train_wall_seconds': 135.39677189600116, 'train_cpu_seconds': 135.39026951399998, 'validation_ce': 5.086344957351685, 'validation_top1': 0.132080078125}
+paragru {'step': 2000, 'training_targets': 1024000, 'train_wall_seconds': 153.78473501898952, 'train_cpu_seconds': 153.781184774, 'validation_ce': 5.07254296541214, 'validation_top1': 0.1298828125}
+COMPLETE paragru 4.995581492781639

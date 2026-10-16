@@ -96,8 +96,50 @@
       "terminal": "auto-research/results/synthetic-rotation-radial-20261016-v1/execution/TERMINAL.json",
       "training_metrics": "auto-research/results/synthetic-rotation-radial-20261016-v1/execution/progress.jsonl",
       "updates_per_arm": 80
+    },
+    {
+      "run_id": "gru-extended-20261016-v1",
+      "status": "COMPLETED_EXPLORATORY_NO_ADVANCE",
+      "kind": "Independent explorer text pilot",
+      "approval": "User 2026-10-16 15:02 America/Denver: excellent - go ahead with the next experiment, and push the updates and results when done, proceed with linear mingru and paragru",
+      "protocol": "auto-research/results/gru-extended-20261016-v1/PROTOCOL.json",
+      "protocol_sha256": "7b4ccea2b278a45faf50c6fb14ee5b4a1f047236d9ede00ac03963eb4f750cdb",
+      "source_manifest": "auto-research/results/gru-extended-20261016-v1/SOURCE_MANIFEST.json",
+      "metrics": "auto-research/results/gru-extended-20261016-v1/SUMMARY.json",
+      "report": "auto-research/reports/gru-extended-20261016-v1.md",
+      "terminal": "auto-research/results/gru-extended-20261016-v1/TERMINAL.json",
+      "updates_per_arm": 2000,
+      "arm_seed_rows": 3,
+      "decision": "BOTH_CANDIDATES_EXCEED_CE_TOLERANCE",
+      "parameters": {
+        "native": 995925,
+        "mingru_linear": 996320,
+        "paragru": 995724
+      },
+      "seed": 101602,
+      "targets_per_arm": 1024000,
+      "checkpoint_manifest": "auto-research/results/gru-extended-20261016-v1/CHECKPOINT_MANIFEST.json",
+      "preservation": "auto-research/results/gru-extended-20261016-v1/PRESERVATION.json",
+      "summary": {
+        "native": {
+          "ce": 4.8641151040792465,
+          "training_cpu_speedup_vs_native": 1.0,
+          "decision": "CONTROL"
+        },
+        "mingru_linear": {
+          "ce": 4.9888046234846115,
+          "training_cpu_speedup_vs_native": 2.140619169953866,
+          "decision": "DOES_NOT_MEET_EXPLORATORY_RULE"
+        },
+        "paragru": {
+          "ce": 4.995581492781639,
+          "training_cpu_speedup_vs_native": 1.6683385771090566,
+          "decision": "DOES_NOT_MEET_EXPLORATORY_RULE"
+        }
+      }
     }
   ],
   "schema_version": 1,
-  "status": "LANGUAGE_TRAINING_PAUSED_SYNTHETIC_EXPERIMENTS_NO_PROMOTION"
+  "status": "LANGUAGE_TRAINING_PAUSED_SYNTHETIC_EXPERIMENTS_NO_PROMOTION",
+  "independent_fork_authorization": "User-authorized bounded GRU pilot in this fork; historical upstream pause applies to its separate official studies"
 }

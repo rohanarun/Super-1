@@ -1,0 +1,172 @@
+{
+  "study": "gru_parallel_v1",
+  "scope": "Independent GRU fast-cell hybrid screen; not an official Super-1 study",
+  "upstream_commit": "e9afef41fe85de826e8edc97dcf2ffeb6917f2f3",
+  "architecture_sources": "Pinned native slow hierarchy; independently implemented minGRU and diagonal ParaGRU cores",
+  "arms": [
+    "native",
+    "mingru",
+    "paragru"
+  ],
+  "configs": {
+    "native": {
+      "vocab_size": 2048,
+      "width": 147,
+      "max_context": 512,
+      "segment_length": 32,
+      "document_segments": 8
+    },
+    "mingru": {
+      "vocab_size": 2048,
+      "width": 160,
+      "max_context": 512,
+      "segment_length": 32,
+      "document_segments": 8
+    },
+    "paragru": {
+      "vocab_size": 2048,
+      "width": 153,
+      "max_context": 512,
+      "segment_length": 32,
+      "document_segments": 8
+    }
+  },
+  "parameters": {
+    "native": 995925,
+    "mingru": 996320,
+    "paragru": 995724
+  },
+  "seed": 101601,
+  "data_seed": 101611,
+  "eval_seed": 101621,
+  "updates": 400,
+  "batch_size": 1,
+  "sequence_length": 512,
+  "training_targets_per_arm": 204800,
+  "objective": "Mean full-vocabulary next-token cross-entropy in nats; no teacher, pretraining or auxiliary loss",
+  "initialization": "Original outer/slow initializer at each width. Native byte-identical to old baseline. New fast input projections PyTorch Linear weights, zero biases; Para diagonal N(0,1/width), projected per-vector L2<=0.5.",
+  "optimizer": {
+    "name": "AdamW",
+    "peak_lr": 0.002,
+    "betas": [
+      0.9,
+      0.95
+    ],
+    "eps": 1e-08,
+    "weight_decay": 0.1,
+    "exclusions": "Tied token embedding table and all parameters with ndim<2",
+    "clip_norm": 1.0,
+    "warmup_updates": 25,
+    "schedule": "Linear warmup then cosine to 10% of peak"
+  },
+  "monitor_steps": [
+    0,
+    25,
+    50,
+    100,
+    150,
+    200,
+    250,
+    300,
+    350,
+    400
+  ],
+  "monitor_targets": 4096,
+  "final_targets": 16384,
+  "ranking": "Final update-400 checkpoint CE on 32 final-region held-out windows; lower is better. No best-checkpoint selection.",
+  "offsets_sha256": "2ccf731c0987797e681cc81c746696600a104bf2f63da96c8113725c2126484a",
+  "data": {
+    "dataset": "FineWeb-Edu preserved sample",
+    "vocabulary": 2048,
+    "dtype": "uint16",
+    "train_tokens": 24148694,
+    "validation_tokens": 1315955,
+    "split_metadata": {
+      "vocab": 2048,
+      "split_rule": "SHA256(text) first 16 hex digits mod 100: 0..89 train, 90..94 validation, 95..99 test; exact duplicate texts removed before split",
+      "tokenizer": "Byte-level BPE 2048, trained on train documents only; EOS 0 between documents",
+      "splits": {
+        "train": {
+          "documents": 15130,
+          "tokens": 24148694,
+          "sha256": "d5ff543af38bb0cba0759727b20ac391ead161ebf9aa348831b192603a9ef358"
+        },
+        "validation": {
+          "documents": 880,
+          "tokens": 1315955,
+          "sha256": "e450dec7f2489d3020d266358ef44910519fd70325b8a4999f9fe7a69e2b1752"
+        },
+        "test": {
+          "documents": 884,
+          "tokens": 1415660,
+          "sha256": "fc6223b46eb4a94326604af52eb7f789d411ae9f3bbaf21586deb029e0d70f24"
+        }
+      },
+      "tokenizer_sha256": "3ed2eca49e889b85eee5e4eecb0480e340d652cb18dc9edb3c0deaf3727868a6"
+    },
+    "monitor_validation_region": [
+      0,
+      600000
+    ],
+    "final_validation_region": [
+      650000,
+      1315955
+    ],
+    "note": "Exact-text deduplicated hash split; not a decontaminated benchmark or unseen test set."
+  },
+  "resource_limits": {
+    "device": "cpu",
+    "dtype": "float32",
+    "threads_per_worker": 1,
+    "max_workers": 3,
+    "cpu_seconds_per_arm": 1800,
+    "wall_seconds_per_arm": 2400
+  },
+  "comparability": [
+    "Same ordered train/monitor/final windows, 400 updates, AdamW schedule; all three newly trained",
+    "Parameters within 1% of 1M, unequal widths/state/FLOPs; no hyperparameter tuning",
+    "Native nn.GRU batches input projection, recurrence is still sequential; all wrappers batch readout",
+    "minGRU uses positive candidate g(x), direct-space signed-capable Hillis-Steele scan (no log-space scan needed at length32)",
+    "ParaGRU uses dense input projection (one head), diagonal recurrent weights and nonlinear gates; no convolution/extra output projection",
+    "Para Newton starts f(0,x), at least3 at most8 iterations, residual<=5e-7 or raise; implicit first-order backward uses reverse affine scan",
+    "Para recurrent vectors excluded from weight decay and projected to L2 norm0.5 after each optimizer step",
+    "Parallelism limited to within32-token segments by slow-state feedback; no full-sequence/GPU speedup claim",
+    "Small one-seed screen cannot establish scaling or long-context retrieval; reused validation is not an untouched test"
+  ],
+  "state_scalars": {
+    "native": 588,
+    "mingru": 640,
+    "paragru": 612
+  },
+  "reused_controls": [
+    "ours"
+  ],
+  "control_study": "matched_1m_v1",
+  "benchmark": {
+    "repeats": 7,
+    "warmups": 2,
+    "lengths": [
+      32,
+      512,
+      2048
+    ],
+    "threads": 1,
+    "measure": "Fresh sequential benchmark after all training workers finish; median forward and forward+backward seconds",
+    "backends": {
+      "native": [
+        "tokenwise",
+        "batched"
+      ],
+      "mingru": [
+        "sequential",
+        "parallel"
+      ],
+      "paragru": [
+        "sequential",
+        "parallel"
+      ]
+    },
+    "note": "Both new-cell backends batch projections and readout identically; native tokenwise also changes outer batching"
+  },
+  "created_utc": "2026-10-16T20:50:28Z"
+}

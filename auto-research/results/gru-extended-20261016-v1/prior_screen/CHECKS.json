@@ -1,0 +1,42 @@
+{
+  "models": {
+    "native": {
+      "checkpoint_replay_error": 0.0,
+      "trained_tokenwise_logit_error": 6.67572021484375e-06,
+      "trained_gradient_relative_l2": 2.49836915600099e-07,
+      "prefix_error": 1.9073486328125e-06,
+      "continuation_error": 4.76837158203125e-06
+    },
+    "mingru": {
+      "checkpoint_replay_error": 0.0,
+      "trained_tokenwise_logit_error": 4.76837158203125e-06,
+      "trained_gradient_relative_l2": 1.6180425177481084e-07,
+      "prefix_error": 1.9073486328125e-06,
+      "continuation_error": 4.76837158203125e-06
+    },
+    "paragru": {
+      "checkpoint_replay_error": 0.0,
+      "trained_tokenwise_logit_error": 5.7220458984375e-06,
+      "trained_gradient_relative_l2": 2.438477224586677e-07,
+      "prefix_error": 1.9073486328125e-06,
+      "continuation_error": 4.76837158203125e-06,
+      "evaluation_solver_histogram": {
+        "3": 1507
+      },
+      "evaluation_max_solver_residual": 4.470348358154297e-08
+    },
+    "mingru_linear": {
+      "checkpoint_replay_error": 0.0,
+      "trained_tokenwise_logit_error": 6.67572021484375e-06,
+      "trained_gradient_relative_l2": 2.6799688157552737e-07,
+      "prefix_error": 2.384185791015625e-06,
+      "continuation_error": 4.76837158203125e-06
+    }
+  },
+  "native_reproduction": {
+    "previous_ce": 5.768937662243843,
+    "fresh_ce": 5.768937677145004,
+    "delta": 1.4901161193847656e-08,
+    "note": "Same native initial parameters and training recipe, different batched execution and floating-point operation order; not an independent seed."
+  }
+}

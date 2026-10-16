@@ -1,0 +1,14 @@
+{
+  "status": "COMPLETED",
+  "arms": [
+    "native",
+    "mingru_linear",
+    "paragru"
+  ],
+  "complete_arms": 3,
+  "updates_per_arm": 2000,
+  "all_checkpoints_replayed": true,
+  "all_sequential_parity_checks_passed": true,
+  "official_test_accessed": false,
+  "completed_utc": "2026-10-16T21:12:39Z"
+}

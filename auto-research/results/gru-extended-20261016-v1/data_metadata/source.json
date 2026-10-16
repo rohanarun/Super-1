@@ -1,0 +1,30 @@
+{
+  "dataset": "HuggingFaceFW/fineweb-edu",
+  "revision": "87f09149ef4734204d70ed1d046ddc9ca3f2b8f9",
+  "source_url": "https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu/resolve/87f09149ef4734204d70ed1d046ddc9ca3f2b8f9/sample/10BT/000_00000.parquet",
+  "source_row_groups": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "documents": 16894,
+  "text_utf8_bytes": 80003975,
+  "transfer_bytes": 51267332,
+  "documents_file_sha256": "28a4b143a43027e85e17d9efc2838f30c1d2675e908ff809b6bd9361b021755d",
+  "selection": "First unique text documents from shard 000_00000; bounded at 20k documents or 80MB; not corpus representative",
+  "license": "ODC-By 1.0; see dataset card; underlying websites retain their terms"
+}

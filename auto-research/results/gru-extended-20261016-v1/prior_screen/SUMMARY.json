@@ -1,0 +1,97 @@
+{
+  "study": "gru_parallel_v1",
+  "ranking": [
+    {
+      "arm": "native",
+      "label": "Ordinary GRU",
+      "parameters": 995925,
+      "ce": 5.768937677145004,
+      "perplexity": 320.1973988922462,
+      "top1": 0.07330322265625,
+      "state_scalars": 588,
+      "train_cpu_seconds": 54.790400498,
+      "train_wall_seconds": 54.816970272994695,
+      "reused_control": false,
+      "posthoc_followup": false
+    },
+    {
+      "arm": "mingru_linear",
+      "label": "minGRU (linear)",
+      "parameters": 996320,
+      "ce": 5.778749376535416,
+      "perplexity": 323.3545426605629,
+      "top1": 0.0723876953125,
+      "state_scalars": 640,
+      "train_cpu_seconds": 22.960097049000005,
+      "train_wall_seconds": 22.975075110002763,
+      "reused_control": false,
+      "posthoc_followup": true
+    },
+    {
+      "arm": "paragru",
+      "label": "ParaGRU",
+      "parameters": 995724,
+      "ce": 5.794662848114967,
+      "perplexity": 328.54139695567864,
+      "top1": 0.07275390625,
+      "state_scalars": 612,
+      "train_cpu_seconds": 32.461362141,
+      "train_wall_seconds": 32.46830581198901,
+      "reused_control": false,
+      "posthoc_followup": false
+    },
+    {
+      "arm": "mingru",
+      "label": "minGRU (positive)",
+      "parameters": 996320,
+      "ce": 6.4523521810770035,
+      "perplexity": 634.1922748395725,
+      "top1": 0.047607421875,
+      "state_scalars": 640,
+      "train_cpu_seconds": 26.538798653000008,
+      "train_wall_seconds": 26.53710931600017,
+      "reused_control": false,
+      "posthoc_followup": false
+    }
+  ],
+  "previous_reference": {
+    "arm": "ours",
+    "label": "Rotating banks + curves (previous)",
+    "parameters": 997476,
+    "ce": 5.700775548815727,
+    "perplexity": 299.09927712995915,
+    "reused_control": true
+  },
+  "comparisons": {
+    "mingru": {
+      "mean_ce_delta_vs_native": 0.6834145039319992,
+      "windows_better_than_native": 0,
+      "windows": 32,
+      "note": "Descriptive only: adjacent/reused validation windows and one training seed, not independent replications"
+    },
+    "paragru": {
+      "mean_ce_delta_vs_native": 0.025725170969963074,
+      "windows_better_than_native": 5,
+      "windows": 32,
+      "note": "Descriptive only: adjacent/reused validation windows and one training seed, not independent replications"
+    },
+    "mingru_linear": {
+      "mean_ce_delta_vs_native": 0.009811699390411377,
+      "windows_better_than_native": 10,
+      "windows": 32,
+      "note": "Descriptive only: adjacent/reused validation windows and one training seed, not independent replications"
+    }
+  },
+  "native_reproduction": {
+    "previous_ce": 5.768937662243843,
+    "fresh_ce": 5.768937677145004,
+    "delta": 1.4901161193847656e-08,
+    "note": "Same native initial parameters and training recipe, different batched execution and floating-point operation order; not an independent seed."
+  },
+  "updates_per_arm": 400,
+  "training_targets_per_arm": 204800,
+  "final_targets": 16384,
+  "seed": 101601,
+  "protocol_sha256": "02809dc56b5aaa4bb0d47d75c3e278a05f1ab77e54ca8596baeee5a4c6831d80",
+  "conclusion_scope": "One-seed short screen; no GPU/scaling/long-context conclusion"
+}

@@ -1,0 +1,8 @@
+{
+  "owned_training_workers": "All launch.py child processes exited0 before analysis",
+  "new_cloud_resources_created": false,
+  "gpu_used": false,
+  "followup_running": false,
+  "automations_created": false,
+  "note": "No cloud provisioning was attempted; no global account/resource inventory claim"
+}
