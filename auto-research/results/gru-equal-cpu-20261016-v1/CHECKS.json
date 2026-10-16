@@ -1,0 +1,16 @@
+{
+  "execution": {
+    "replay_max_ce_error": 0.0,
+    "logit_error": 1.1444091796875e-05,
+    "gradient_relative_l2": 3.5499630257618264e-07,
+    "budget_under_native_cpu_seconds": 0.1817177440012756,
+    "trace_and_schedule_passed": true
+  },
+  "fresh_execution": {
+    "replay_max_ce_error": 0.0,
+    "logit_error": 1.811981201171875e-05,
+    "gradient_relative_l2": 3.552029284037417e-07,
+    "budget_under_native_cpu_seconds": 0.19292645900003436,
+    "trace_and_schedule_passed": true
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "status": "COMPLETED",
+  "checkpoints_replayed": true,
+  "parity_passed": true,
+  "official_test_accessed": false,
+  "new_paid_resources": false,
+  "training_running": false,
+  "completed_utc": "2026-10-16T21:30:35Z"
+}

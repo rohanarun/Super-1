@@ -1,0 +1,158 @@
+{
+  "arm": "nanogpt",
+  "status": "COMPLETE",
+  "parameters": 1004880,
+  "seed": 101601,
+  "config": {
+    "vocab_size": 2048,
+    "block_size": 512,
+    "n_layer": 4,
+    "n_head": 4,
+    "n_embd": 120,
+    "dropout": 0.0,
+    "bias": true
+  },
+  "updates": 400,
+  "training_targets": 204800,
+  "final": {
+    "ce": 6.0730293691158295,
+    "perplexity": 433.993418446599,
+    "top1": 0.05352783203125,
+    "targets": 16384,
+    "window_ce": [
+      6.039099216461182,
+      6.003234386444092,
+      6.064507007598877,
+      5.86834716796875,
+      5.963874340057373,
+      6.0063910484313965,
+      6.052462100982666,
+      6.131504535675049,
+      6.125274658203125,
+      5.973692893981934,
+      5.949006080627441,
+      6.194480895996094,
+      6.120296001434326,
+      6.245685577392578,
+      6.063551902770996,
+      6.244350910186768,
+      6.063841342926025,
+      6.207518577575684,
+      6.152386665344238,
+      5.980648040771484,
+      6.090554714202881,
+      6.173398494720459,
+      6.199041366577148,
+      5.738842964172363,
+      6.195558071136475,
+      6.184919834136963,
+      6.004298686981201,
+      6.215109348297119,
+      5.987484455108643,
+      6.14718770980835,
+      5.902024745941162,
+      6.048366069793701
+    ]
+  },
+  "monitor": [
+    {
+      "step": 0,
+      "training_targets": 0,
+      "train_wall_seconds": 0.0,
+      "train_cpu_seconds": 0.0,
+      "validation_ce": 7.644285440444946,
+      "validation_top1": 0.001953125
+    },
+    {
+      "step": 25,
+      "training_targets": 12800,
+      "train_wall_seconds": 2.57305084599966,
+      "train_cpu_seconds": 2.571695931,
+      "validation_ce": 6.7113423347473145,
+      "validation_top1": 0.021484375
+    },
+    {
+      "step": 50,
+      "training_targets": 25600,
+      "train_wall_seconds": 4.899080631998913,
+      "train_cpu_seconds": 4.892698544000001,
+      "validation_ce": 6.659366965293884,
+      "validation_top1": 0.02978515625
+    },
+    {
+      "step": 100,
+      "training_targets": 51200,
+      "train_wall_seconds": 10.227706940997905,
+      "train_cpu_seconds": 10.222106366,
+      "validation_ce": 6.613145291805267,
+      "validation_top1": 0.0390625
+    },
+    {
+      "step": 150,
+      "training_targets": 76800,
+      "train_wall_seconds": 15.40627143999518,
+      "train_cpu_seconds": 15.400870285999998,
+      "validation_ce": 6.504692077636719,
+      "validation_top1": 0.03515625
+    },
+    {
+      "step": 200,
+      "training_targets": 102400,
+      "train_wall_seconds": 20.30340956399641,
+      "train_cpu_seconds": 20.300383988999997,
+      "validation_ce": 6.39782977104187,
+      "validation_top1": 0.03515625
+    },
+    {
+      "step": 250,
+      "training_targets": 128000,
+      "train_wall_seconds": 25.50637101199709,
+      "train_cpu_seconds": 25.503558757999993,
+      "validation_ce": 6.2961519956588745,
+      "validation_top1": 0.03759765625
+    },
+    {
+      "step": 300,
+      "training_targets": 153600,
+      "train_wall_seconds": 31.079273830996044,
+      "train_cpu_seconds": 31.077535679999993,
+      "validation_ce": 6.224893689155579,
+      "validation_top1": 0.03955078125
+    },
+    {
+      "step": 350,
+      "training_targets": 179200,
+      "train_wall_seconds": 35.994132563999756,
+      "train_cpu_seconds": 35.992942461999995,
+      "validation_ce": 6.159398376941681,
+      "validation_top1": 0.044189453125
+    },
+    {
+      "step": 400,
+      "training_targets": 204800,
+      "train_wall_seconds": 41.33607868700119,
+      "train_cpu_seconds": 41.332511102,
+      "validation_ce": 6.1299285888671875,
+      "validation_top1": 0.04345703125
+    }
+  ],
+  "train_wall_seconds": 41.33607868700119,
+  "train_cpu_seconds": 41.332511102,
+  "run_wall_seconds": 45.04265676299974,
+  "run_cpu_seconds": 45.032365229,
+  "peak_process_rss_kib": 439656,
+  "checkpoint_sha256": "d65643053ea5dde5f4b80c098df27edcb53e0ccd57c67a690d6c663dc464d9a5",
+  "protocol_sha256": "56a27b87fb7e76595731ca4f1395ccf2dbce84438bff5724f7ad4b1ef31b52be",
+  "runtime": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "torch": "2.14.1+cpu",
+    "numpy": "2.5.4",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+    "threads": 1,
+    "affinity": [
+      3
+    ],
+    "device": "cpu",
+    "dtype": "float32"
+  }
+}

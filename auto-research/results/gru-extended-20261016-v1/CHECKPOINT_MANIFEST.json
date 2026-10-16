@@ -1,0 +1,41 @@
+{
+  "native": {
+    "path": "execution/native/checkpoint.pt",
+    "bytes": 12108277,
+    "sha256": "254c8f52ab254eee573f19ee4905079275a8d99a89ea3e3770524a65d5f1ca52",
+    "step": 2000,
+    "protocol_sha256": "7b4ccea2b278a45faf50c6fb14ee5b4a1f047236d9ede00ac03963eb4f750cdb",
+    "includes": [
+      "model",
+      "optimizer",
+      "RNG",
+      "all training/monitor metrics"
+    ]
+  },
+  "mingru_linear": {
+    "path": "execution/mingru_linear/checkpoint.pt",
+    "bytes": 12112437,
+    "sha256": "043a05bc2273a371d1c2306974327f4766106666389faece849685ecbde06803",
+    "step": 2000,
+    "protocol_sha256": "7b4ccea2b278a45faf50c6fb14ee5b4a1f047236d9ede00ac03963eb4f750cdb",
+    "includes": [
+      "model",
+      "optimizer",
+      "RNG",
+      "all training/monitor metrics"
+    ]
+  },
+  "paragru": {
+    "path": "execution/paragru/checkpoint.pt",
+    "bytes": 12104885,
+    "sha256": "809a0267041241e20c3f570cc60476d2a3e8661bbb220b2d244b4f008c0e0263",
+    "step": 2000,
+    "protocol_sha256": "7b4ccea2b278a45faf50c6fb14ee5b4a1f047236d9ede00ac03963eb4f750cdb",
+    "includes": [
+      "model",
+      "optimizer",
+      "RNG",
+      "all training/monitor metrics"
+    ]
+  }
+}

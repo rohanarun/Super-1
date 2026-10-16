@@ -1,0 +1,38 @@
+{
+  "run_id": "gru-extended-20261016-v1",
+  "archive_filename": "gru_extended_checkpoints_20261016.zip",
+  "bytes": 61771279,
+  "sha256": "c90bb924b3b69e49bf217582776e7add78292d8c72e8a2fa5e82bd28a6db80a6",
+  "protocol_sha256": "7b4ccea2b278a45faf50c6fb14ee5b4a1f047236d9ede00ac03963eb4f750cdb",
+  "contents": {
+    "checkpoints/native/checkpoint.pt": {
+      "sha256": "254c8f52ab254eee573f19ee4905079275a8d99a89ea3e3770524a65d5f1ca52",
+      "bytes": 12108277
+    },
+    "checkpoints/mingru_linear/checkpoint.pt": {
+      "sha256": "043a05bc2273a371d1c2306974327f4766106666389faece849685ecbde06803",
+      "bytes": 12112437
+    },
+    "checkpoints/paragru/checkpoint.pt": {
+      "sha256": "809a0267041241e20c3f570cc60476d2a3e8661bbb220b2d244b4f008c0e0263",
+      "bytes": 12104885
+    },
+    "data/train.bin": {
+      "sha256": "d5ff543af38bb0cba0759727b20ac391ead161ebf9aa348831b192603a9ef358",
+      "bytes": 48297388
+    },
+    "data/validation.bin": {
+      "sha256": "e450dec7f2489d3020d266358ef44910519fd70325b8a4999f9fe7a69e2b1752",
+      "bytes": 2631910
+    }
+  },
+  "location": "Companion artifact retained by contributor outside Git; request from contributor for replay",
+  "public_download": false,
+  "git_exclusions": [
+    "checkpoint.pt",
+    "train.bin",
+    "validation.bin",
+    "uncompressed duplicate curves"
+  ],
+  "source_and_results": "https://github.com/JRowe47/Super-1/tree/research/gru-extended-20261016-v1/auto-research/results/gru-extended-20261016-v1"
+}

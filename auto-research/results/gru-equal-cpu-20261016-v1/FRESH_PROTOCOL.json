@@ -1,0 +1,55 @@
+{
+  "run_id": "gru-equal-cpu-20261016-v1",
+  "parent_run_id": "gru-extended-20261016-v1",
+  "parent_commit": "f68ba902387ac53d4765f652259dc20b1a7ac49e",
+  "config": {
+    "vocab_size": 2048,
+    "width": 160,
+    "max_context": 512,
+    "segment_length": 32,
+    "document_segments": 8
+  },
+  "parameters": 996320,
+  "seed": 101602,
+  "data_seed": 101611,
+  "data_hashes": {
+    "train.bin": "d5ff543af38bb0cba0759727b20ac391ead161ebf9aa348831b192603a9ef358",
+    "validation.bin": "e450dec7f2489d3020d266358ef44910519fd70325b8a4999f9fe7a69e2b1752"
+  },
+  "tokenizer_sha256": "3ed2eca49e889b85eee5e4eecb0480e340d652cb18dc9edb3c0deaf3727868a6",
+  "offsets_sha256": "a00e15acd62a981b476af63fd6215536b21dc4e5098c1fb6134716d3fabe78b1",
+  "target_total_train_cpu_seconds": 256.55908299200007,
+  "arm": "mingru_linear_fresh_clock",
+  "source_hashes": {
+    "run.py": "0e1fd79861389f58cd470cdfd609634f594c4ab05e8b565875fdd4a3ccf91a65",
+    "prepare.py": "9508f68cd830042dcb441e8bd24be3ac3d8e42ed78a254314c1c42c2f1c39bfc",
+    "../gru-extended-20261016-v1/models.py": "f340db31acb1b6075c10116de2bc11ad8bd50b11d88e1e5d2520227b9b3f2f70",
+    "../gru-extended-20261016-v1/vendor/representation_experiments/common.py": "381c5950aa454fc2275c45755bafd4c3e0641802013c0bf7ce9276abf5415fe1",
+    "../gru-extended-20261016-v1/vendor/representation_experiments/predictive_models.py": "b73a7c07801f5672adb52c0cb16a3c772d62e50eebc0366491d497f76d13f73f",
+    "../gru-extended-20261016-v1/vendor/representation_experiments/__init__.py": "984ccff890f7a52a48a106a611ab4588e0333109d5c36ac88444ffd83a069b4e",
+    "fresh.py": "db42a6dd55aab28162ca95a5cbca44ab241730d19f0ddf32a49c42da8815baf1",
+    "prepare_fresh.py": "2b243f5d42fccc05e8400e8ef04a275d959f0cfd65d7677e123ffc9544e54d57"
+  },
+  "motivation": "A fresh full-budget schedule avoids penalizing the continuation for reaching the LR floor early",
+  "initialization": "Build from scratch at original seed101602; no checkpoint/model/optimizer continuation",
+  "schedule": "Warmup25updates to0.002; cosine by cumulative measured training CPU time after warmup to0.0002 at256.559082992CPU seconds",
+  "stopping_rule": "Stop when remaining CPU budget is at most max(0.2 seconds, twice largest of last20 update costs). Report actual time and any overshoot; target within0.5s. No validation-dependent stopping.",
+  "maximum_total_updates": 8000,
+  "optimizer": "Same original AdamW betas0.9/0.95 eps1e-8 decay0.1 exclusions and clip1",
+  "final_metric": "CE in nats per2048-BPE token on same32 final-region validation windows (16384targets)",
+  "comparison": "Frozen native2000-step endpoint (full-horizon step cosine); fresh linear uses full-horizon CPU-clock cosine",
+  "caveats": [
+    "Schedule parametrization changes to clock time; no per-arm LR search",
+    "Native measured in prior run; host load and clock speed may differ",
+    "Single seed and repeatedly used validation; no FLOP match or GPU performance claim",
+    "Show continuation and fresh outcomes; do not hide a losing arm"
+  ],
+  "official_test_access_permitted": false,
+  "resource_limits": {
+    "process_cpu_seconds": 400,
+    "wall_seconds": 700,
+    "threads": 1,
+    "new_paid_resources": false
+  },
+  "created_utc": "2026-10-16T21:25:38Z"
+}

@@ -1,0 +1,14 @@
+{
+  "execution": {
+    "path": "execution/checkpoint.pt",
+    "sha256": "e11c5276b2ef2caf3ff4b35fc6e64e9096458b10bf3c00a4f28ba22622fdbc49",
+    "bytes": 12352373,
+    "updates": 4489
+  },
+  "fresh_execution": {
+    "path": "fresh_execution/checkpoint.pt",
+    "sha256": "f3db0d19b16b72cedb1ae731266914315cac36826d5eef6a16ff7edad1b46ddc",
+    "bytes": 12404085,
+    "updates": 4524
+  }
+}

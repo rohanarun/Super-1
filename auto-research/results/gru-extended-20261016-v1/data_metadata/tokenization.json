@@ -1,0 +1,23 @@
+{
+  "vocab": 2048,
+  "split_rule": "SHA256(text) first 16 hex digits mod 100: 0..89 train, 90..94 validation, 95..99 test; exact duplicate texts removed before split",
+  "tokenizer": "Byte-level BPE 2048, trained on train documents only; EOS 0 between documents",
+  "splits": {
+    "train": {
+      "documents": 15130,
+      "tokens": 24148694,
+      "sha256": "d5ff543af38bb0cba0759727b20ac391ead161ebf9aa348831b192603a9ef358"
+    },
+    "validation": {
+      "documents": 880,
+      "tokens": 1315955,
+      "sha256": "e450dec7f2489d3020d266358ef44910519fd70325b8a4999f9fe7a69e2b1752"
+    },
+    "test": {
+      "documents": 884,
+      "tokens": 1415660,
+      "sha256": "fc6223b46eb4a94326604af52eb7f789d411ae9f3bbaf21586deb029e0d70f24"
+    }
+  },
+  "tokenizer_sha256": "3ed2eca49e889b85eee5e4eecb0480e340d652cb18dc9edb3c0deaf3727868a6"
+}

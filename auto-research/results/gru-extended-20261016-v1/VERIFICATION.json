@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "scope": "New contribution only; no full historical repository reevaluation",
+  "arms": 3,
+  "updates_per_arm": 2000,
+  "final_targets_per_arm": 16384,
+  "source_hashes": true,
+  "all_metric_relations": true,
+  "complete_compressed_traces": true,
+  "local_report_links": true,
+  "frozen_protocol_sha256": "7b4ccea2b278a45faf50c6fb14ee5b4a1f047236d9ede00ac03963eb4f750cdb"
+}

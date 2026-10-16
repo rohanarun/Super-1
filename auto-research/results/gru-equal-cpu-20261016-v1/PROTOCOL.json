@@ -1,0 +1,62 @@
+{
+  "run_id": "gru-equal-cpu-20261016-v1",
+  "hypothesis": "Spending its speed advantage on more updates can let linear minGRU beat native GRU at matched training CPU time",
+  "scope": "Single-seed exploratory budget-extension diagnostic; not a from-scratch schedule-optimized benchmark",
+  "authorization": "User requests equal-compute comparison; continuing prior authorization for bounded CPU experiments and fork updates",
+  "parent_run_id": "gru-extended-20261016-v1",
+  "parent_commit": "f68ba902387ac53d4765f652259dc20b1a7ac49e",
+  "parent_protocol_sha256": "7b4ccea2b278a45faf50c6fb14ee5b4a1f047236d9ede00ac03963eb4f750cdb",
+  "source_checkpoint": "../gru-extended-20261016-v1/execution/mingru_linear/checkpoint.pt",
+  "input_hashes": {
+    "../gru-extended-20261016-v1/execution/mingru_linear/checkpoint.pt": "043a05bc2273a371d1c2306974327f4766106666389faece849685ecbde06803",
+    "../gru-extended-20261016-v1/PROTOCOL.json": "7b4ccea2b278a45faf50c6fb14ee5b4a1f047236d9ede00ac03963eb4f750cdb",
+    "../gru-extended-20261016-v1/OFFSETS.json": "2aea61002e54b9220a345a470beafbcdb77d7b1324dac529b47dfb65b45085bf",
+    "../gru-extended-20261016-v1/execution/native/RESULT.json": "c719b64ad3f5439bfebfd04660664f3e18134abfb538b342ee94657bcfa8aa2d",
+    "../gru-extended-20261016-v1/execution/mingru_linear/RESULT.json": "e8eb41558cc416fc95945b0ee66be9fa25ff6455567a697edb500f17bde757fd"
+  },
+  "config": {
+    "vocab_size": 2048,
+    "width": 160,
+    "max_context": 512,
+    "segment_length": 32,
+    "document_segments": 8
+  },
+  "parameters": 996320,
+  "seed": 101602,
+  "data_seed": 101611,
+  "data_hashes": {
+    "train.bin": "d5ff543af38bb0cba0759727b20ac391ead161ebf9aa348831b192603a9ef358",
+    "validation.bin": "e450dec7f2489d3020d266358ef44910519fd70325b8a4999f9fe7a69e2b1752"
+  },
+  "tokenizer_sha256": "3ed2eca49e889b85eee5e4eecb0480e340d652cb18dc9edb3c0deaf3727868a6",
+  "offsets_sha256": "a00e15acd62a981b476af63fd6215536b21dc4e5098c1fb6134716d3fabe78b1",
+  "initial_updates": 2000,
+  "initial_train_cpu_seconds": 119.852744754,
+  "target_total_train_cpu_seconds": 256.55908299200007,
+  "stop_margin_cpu_seconds": 0.2,
+  "stopping_rule": "Stop when remaining CPU budget is at most max(0.2 seconds, twice largest of last20 update costs). Report actual time and any overshoot; target within0.5s. No validation-dependent stopping.",
+  "maximum_total_updates": 8000,
+  "continuation_lr": 0.0002,
+  "optimizer": "Resume exact AdamW moments; same decay/exclusions/betas/clip; hold final LR0.0002 constant without restart",
+  "inherited_schedule": "First2000 updates use original warmup25 and cosine0.002 to0.0002; native remains its frozen2000-step endpoint",
+  "data_order": "Continue same RNG window stream; first2000 offsets identical to parent;512-target reset episodes",
+  "final_metric": "CE in nats per2048-BPE token on same32 final-region validation windows (16384targets)",
+  "monitoring": "Same8 monitor windows, every250 additional steps and endpoint; monitor and final CE remain separate",
+  "decision": "Descriptive endpoint CE vs frozen native; candidate if lower with budget within0.5CPU seconds. No significance claim.",
+  "compute_definition": "Sum of one-thread process CPU seconds inside training updates, including batch construction, forward/backward, optimizer and constraints; excludes validation, checkpoint IO and startup. Not FLOPs or end-to-end speedrun time.",
+  "limitations": [
+    "Unequal training tokens are intentional at equal time",
+    "Continuation LR differs from a fresh full-budget cosine schedule",
+    "One seed and repeatedly reused validation; no GPU/scaling/general-speedrun claim",
+    "Inherited parent ranking text mentions400 steps in error; parent code/results actually used2000; original evidence left immutable"
+  ],
+  "resource_limits": {
+    "threads": 1,
+    "device": "cpu",
+    "process_cpu_seconds": 360,
+    "wall_seconds": 600,
+    "new_paid_resources": false
+  },
+  "official_test_access_permitted": false,
+  "created_utc": "2026-10-16T21:23:35Z"
+}

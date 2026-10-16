@@ -1,0 +1,62 @@
+{
+  "core": {
+    "affine_non_power_of_two_signed_error": 8.881784197001252e-16,
+    "para_double_output_error": 2.7755575615628914e-16,
+    "para_double_gradient_errors": [
+      6.661338147750939e-16,
+      4.440892098500626e-16,
+      4.440892098500626e-16
+    ],
+    "para_newton_iterations": 4,
+    "para_residual": 2.7755575615628914e-16,
+    "para_diagonal_jacobian_error": 5.551115123125783e-17
+  },
+  "models": {
+    "native": {
+      "parameters": 995925,
+      "state_scalars": 588,
+      "preflight_seconds": 0.641709966000235,
+      "initial_train_ce": 8.113091468811035,
+      "gradient_norm": 3.1363027095794678,
+      "document_gradient_l1": 8.149828873574734,
+      "tokenwise_logit_error": 1.9073486328125e-06,
+      "tokenwise_gradient_max_error": 8.940696716308594e-08,
+      "tokenwise_gradient_relative_l2": 1.407626797345074e-07,
+      "prefix_error": 1.1920928955078125e-06,
+      "split_error": 1.9073486328125e-06,
+      "all_parameters_finite_gradients": true,
+      "pinned_original_logit_error": 2.86102294921875e-06,
+      "pinned_original_parameters_identical": true
+    },
+    "mingru": {
+      "parameters": 996320,
+      "state_scalars": 640,
+      "preflight_seconds": 0.37436827999954403,
+      "initial_train_ce": 8.250931739807129,
+      "gradient_norm": 3.747000217437744,
+      "document_gradient_l1": 12.23111042380333,
+      "tokenwise_logit_error": 2.86102294921875e-06,
+      "tokenwise_gradient_max_error": 2.9802322387695312e-08,
+      "tokenwise_gradient_relative_l2": 2.0544800349853176e-07,
+      "prefix_error": 9.5367431640625e-07,
+      "split_error": 1.9073486328125e-06,
+      "all_parameters_finite_gradients": true
+    },
+    "paragru": {
+      "parameters": 995724,
+      "state_scalars": 612,
+      "preflight_seconds": 0.5146240849999231,
+      "initial_train_ce": 7.9684062004089355,
+      "gradient_norm": 2.9817044734954834,
+      "document_gradient_l1": 5.957738921046257,
+      "tokenwise_logit_error": 1.9073486328125e-06,
+      "tokenwise_gradient_max_error": 5.960464477539063e-08,
+      "tokenwise_gradient_relative_l2": 1.1442950409445984e-07,
+      "prefix_error": 9.5367431640625e-07,
+      "split_error": 1.6689300537109375e-06,
+      "all_parameters_finite_gradients": true
+    }
+  },
+  "data_hashes_verified": true,
+  "preflight_weights_discarded": true
+}

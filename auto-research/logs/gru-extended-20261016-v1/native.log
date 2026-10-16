@@ -1,0 +1,14 @@
+native {'step': 0, 'training_targets': 0, 'train_wall_seconds': 0.0, 'train_cpu_seconds': 0.0, 'validation_ce': 8.11312884092331, 'validation_top1': 0.0}
+native {'step': 25, 'training_targets': 12800, 'train_wall_seconds': 3.413083216999439, 'train_cpu_seconds': 3.411670796, 'validation_ce': 6.7899158000946045, 'validation_top1': 0.0234375}
+native {'step': 50, 'training_targets': 25600, 'train_wall_seconds': 6.986623194003187, 'train_cpu_seconds': 6.98308087, 'validation_ce': 6.6856849193573, 'validation_top1': 0.03662109375}
+native {'step': 100, 'training_targets': 51200, 'train_wall_seconds': 14.994759310997324, 'train_cpu_seconds': 14.988484138999999, 'validation_ce': 6.43894350528717, 'validation_top1': 0.05078125}
+native {'step': 200, 'training_targets': 102400, 'train_wall_seconds': 28.15760823200071, 'train_cpu_seconds': 28.155098221, 'validation_ce': 6.018294930458069, 'validation_top1': 0.052734375}
+native {'step': 400, 'training_targets': 204800, 'train_wall_seconds': 54.989126647999, 'train_cpu_seconds': 54.996727005, 'validation_ce': 5.621119499206543, 'validation_top1': 0.08837890625}
+native {'step': 600, 'training_targets': 307200, 'train_wall_seconds': 81.81126471000789, 'train_cpu_seconds': 81.82693404499999, 'validation_ce': 5.410747289657593, 'validation_top1': 0.109130859375}
+native {'step': 800, 'training_targets': 409600, 'train_wall_seconds': 107.62711125799251, 'train_cpu_seconds': 107.64937057699998, 'validation_ce': 5.275410711765289, 'validation_top1': 0.117431640625}
+native {'step': 1000, 'training_targets': 512000, 'train_wall_seconds': 134.48585733198888, 'train_cpu_seconds': 134.50366460700005, 'validation_ce': 5.165285348892212, 'validation_top1': 0.1240234375}
+native {'step': 1250, 'training_targets': 640000, 'train_wall_seconds': 165.9559637089842, 'train_cpu_seconds': 165.97714821900001, 'validation_ce': 5.057908713817596, 'validation_top1': 0.142578125}
+native {'step': 1500, 'training_targets': 768000, 'train_wall_seconds': 196.17189965496618, 'train_cpu_seconds': 196.18953149800004, 'validation_ce': 4.9814717173576355, 'validation_top1': 0.144775390625}
+native {'step': 1750, 'training_targets': 896000, 'train_wall_seconds': 226.02995244996782, 'train_cpu_seconds': 226.04665086500006, 'validation_ce': 4.941765367984772, 'validation_top1': 0.150390625}
+native {'step': 2000, 'training_targets': 1024000, 'train_wall_seconds': 256.537820848971, 'train_cpu_seconds': 256.55908299200007, 'validation_ce': 4.929720640182495, 'validation_top1': 0.156494140625}
+COMPLETE native 4.8641151040792465

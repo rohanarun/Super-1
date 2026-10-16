@@ -1,0 +1,12 @@
+{
+  "short_linear_RESULT.json": {
+    "sha256": "f9fb4f8fd025d4e07e2b8f0456de4fe7d7c581f5a54bb72582a87a22f7abb1f4",
+    "original_protocol_sha256": "511d65f37e99cad0dd64858725893890b9d2d335235046e2179163c82224a3cf",
+    "status": "Historical completed run; copied unchanged for limited CPU-pilot context"
+  },
+  "short_nanogpt_RESULT.json": {
+    "sha256": "ca666d8747b162742bd3c3d9df5a49d0e63ea80978baaad89620169b5fa7cdae",
+    "original_protocol_sha256": "56a27b87fb7e76595731ca4f1395ccf2dbce84438bff5724f7ad4b1ef31b52be",
+    "status": "Historical completed run; copied unchanged for limited CPU-pilot context"
+  }
+}

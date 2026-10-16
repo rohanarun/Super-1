@@ -1,0 +1,11 @@
+{
+  "archive": "gru_equal_cpu_checkpoints_20261016.zip",
+  "sha256": "8461e6f0c04afc1a4433e365d7c92c7f793bfc55a2a4f698543c23290bc0bf8b",
+  "bytes": 22627374,
+  "included": "Two complete checkpoints with optimizer/RNG/trace; no duplicate Git-backed code/results or data arrays",
+  "source_repository": "JRowe47/Super-1",
+  "status": "ARCHIVE_VERIFIED",
+  "checkpoint_manifest": "CHECKPOINT_MANIFEST.json",
+  "exact_data_archive": "gru_extended_checkpoints_20261016.zip",
+  "exact_data_sha256": "c90bb924b3b69e49bf217582776e7add78292d8c72e8a2fa5e82bd28a6db80a6"
+}
