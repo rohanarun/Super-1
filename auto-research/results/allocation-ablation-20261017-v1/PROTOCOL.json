@@ -1,0 +1,74 @@
+{
+  "run_id": "allocation-ablation-20261017-v1",
+  "frozen_before_execution": true,
+  "frozen_at_utc": "2026-10-17T10:40:00Z",
+  "title": "Vocabulary and embedding allocation ablation, then matched-context E02 at the reallocated budget",
+  "status_at_freeze": "PREREGISTERED_NOT_EXECUTED",
+  "why_this_run": [
+    "The only measured hierarchy-versus-nanoGPT quality comparisons currently in the repository are a 512-matched loss (nanoGPT 5.126 vs hierarchy 5.260) and a synthetic task where nanoGPT sits on the ln(8) readout floor (2.098) while all three hierarchy arms are near 3.9, i.e. worse than a uniform guess.",
+    "The hierarchy's only recorded advantage is at 2K while trained at 512, which is length extrapolation rather than an architecture result.",
+    "Before spending compute on a 1B run, the repository must exclude the explanation that the hierarchy is losing because of parameter allocation rather than recurrence."
+  ],
+  "analytic_evidence": "PARAMETER_ALLOCATION.json (see findings F1-F5)",
+  "primary_hypothesis": "At a matched total-parameter envelope, reducing the vocabulary and the tied embedding width moves the hierarchy's body share from 12.7% to 30-40% and closes a material part of its deficit against a parameter-matched nanoGPT.",
+  "named_comparator": "Pinned upstream nanoGPT, parameter-matched to each hierarchy arm within 1%, with a separately labelled FLOP-matched track.",
+  "arms": [
+    {"id": "hier_V151936_d688", "vocab": 151936, "width": 688, "role": "reproduces the historical configuration"},
+    {"id": "hier_V50257_d688", "vocab": 50257, "width": 688, "role": "vocabulary ablation, body width held fixed"},
+    {"id": "hier_V32768_d688", "vocab": 32768, "width": 688, "role": "vocabulary ablation, body width held fixed"},
+    {"id": "hier_V32768_wide", "vocab": 32768, "width": 832, "role": "reinvests freed budget in the body at constant total"},
+    {"id": "nanogpt_matched_each", "vocab": "per arm", "width": "resolved to match total within 1%", "role": "baseline"},
+    {"id": "nanogpt_rope_matched", "vocab": "per arm", "width": "resolved", "role": "strong positional control, declared separately"}
+  ],
+  "controls": [
+    "Equal total parameters within 1% per arm pair.",
+    "Equal token budget, equal optimizer trials and equal selection opportunities per arm.",
+    "Equal tokenizer per arm pair; vocabulary differs only across declared vocabulary arms, never within a matched pair.",
+    "Body width held fixed at the recovered 688 across the vocabulary arms so the vocabulary effect is isolated from body width.",
+    "Separately labelled FLOP-matched track, because parameter matching does not imply compute matching.",
+    "Reset-state versus carry-state ablation, and a reset-window control."
+  ],
+  "primary_metric": "Reserved confirmation cross-entropy on held-out tokens, in nats/token, at each matched context.",
+  "secondary_metrics": [
+    "All-token CE, reported separately from the primary readout/sequence metric.",
+    "Learning curves against tokens and against measured FLOPs.",
+    "Measured persistent sequence-state bytes and measured decode latency p50/p95."
+  ],
+  "contexts_primary_matched": [
+    {"train": 512, "evaluate": 512},
+    {"train": 1024, "evaluate": 1024},
+    {"train": 2048, "evaluate": 2048}
+  ],
+  "contexts_secondary_extrapolation": [
+    {"train": 512, "evaluate": 2048, "note": "labelled separately; never merged with primary results"}
+  ],
+  "seeds": [3, "paired, identical sampler seeds across arms within a pair"],
+  "budget": {
+    "tokens_per_arm": 10000000,
+    "note": "A 10M-token run is a short-budget regime and is not evidence of convergence. Learning curves must be reported before any asymptotic language claim.",
+    "cost_status": "NOT_COSTED_AND_NOT_APPROVED",
+    "requested_from_user": "an explicit compute budget for the matched-context pilot, plus a decision on the storage blocker below"
+  },
+  "minimum_useful_effect": "At least 0.02 nats/token improvement in reserved confirmation CE for the hierarchy arm over its own parameter-matched nanoGPT arm, in at least 2 of 3 contexts, consistent in sign across all three seeds.",
+  "advance_gate": "All of: (1) hierarchy beats its matched nanoGPT by the minimum useful effect; (2) improvement holds at all three matched contexts; (3) sign is consistent across all three seeds; (4) the reported 95% paired interval upper bound is below zero; (5) the full token budget completed on every seed with a terminal receipt.",
+  "stop_and_futility": [
+    "Any arm fails source or fidelity checks.",
+    "Nonfinite loss.",
+    "Incomplete data bindings: any unresolved corpus, tokenizer or partition hash.",
+    "The allocation hypothesis is falsified and the hierarchy still loses at matched context, which is itself a reportable result.",
+    "Approved compute budget exhausted.",
+    "Any run that cannot be preserved."
+  ],
+  "decision_rule": "If the reallocated hierarchy arm still loses to parameter-matched nanoGPT at every matched context, the allocation explanation is falsified and the recurrence itself carries the remaining deficit. That outcome must be reported as an architecture result and must not be reframed as an allocation problem.",
+  "prohibited": [
+    "Opening, uploading or evaluating the sealed Salesforce WikiText-2 official test.",
+    "Tuning on confirmation data or reusing a selection region as confirmation.",
+    "Changing the advance gate or minimum useful effect after seeing results.",
+    "Reporting an analytic parameter count as a quality, SOTA, novelty or transfer result.",
+    "Silently substituting a different recurrence, attention, linear scan, shared-mean approximation or concept-token memory for the original design.",
+    "Silently falling back from the SSD output location to another volume."
+  ],
+  "preserved_evidence_from_prior_runs": [
+    "auto-research/results/synthetic-rotation-radial-20261016-v1/ is unchanged and is not overwritten by this run."
+  ]
+}

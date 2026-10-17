@@ -1,0 +1,30 @@
+{
+  "run_id": "allocation-ablation-20261017-v1",
+  "recorded_at_utc": "2026-10-17T14:38:55.513767+00:00",
+  "severity": "BLOCKS_PRIMARY_EXPERIMENT",
+  "summary": "The preregistered matched-context pilot cannot be executed on the mandated output volume: it is full.",
+  "required_volume": "/Volumes/SP AI 01_16/CodexWorkspaces",
+  "volume_state": "/dev/disk4s1   932Gi   930Gi   1.4Gi   100%    5.6M  4.3G    0%   /Volumes/SP AI 01_16",
+  "free_gib": 1.4,
+  "estimated_requirement_gib": 6.5,
+  "requirement_breakdown": {
+    "train.bin": 4.0,
+    "val.bin": 0.008,
+    "checkpoints_100M_fp32_3seeds_2arms": 2.4,
+    "note": "corpus is a GitHub release asset and was not downloaded; nothing was fetched"
+  },
+  "action_taken": "NONE_NO_FALLBACK",
+  "why_no_fallback": "auto-research.md requires a genuinely mounted writable SSD destination outside Documents/Desktop/iCloud and forbids silently falling back. The internal volume has ~53 GiB free and could hold the run, but writing there would be a silent fallback, so it was not used.",
+  "what_did_run_here": [
+    "PARAMETER_ALLOCATION.json: analytic parameter counts from two published formulas. No training.",
+    "Three figures derived only from already-verified artifacts of run synthetic-rotation-radial-20261016-v1 and from PARAMETER_ALLOCATION.json.",
+    "This protocol and blocker receipt."
+  ],
+  "storage_used_bytes_this_run": 0,
+  "unblocks_when": [
+    "The SSD has >=10 GiB free, and the 4 GB train.bin release asset is fetched and its sha256 verified against the recovered INPUT_MANIFEST.json, and",
+    "An explicit compute budget is approved for the matched-context pilot."
+  ],
+  "claims_made": "NONE",
+  "credential_handling": "A third-party GPU API key was supplied in chat. It is not written to this repository, not used, and must be rotated by the user because it appeared in plaintext chat history."
+}

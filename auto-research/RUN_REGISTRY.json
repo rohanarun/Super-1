@@ -96,6 +96,25 @@
       "terminal": "auto-research/results/synthetic-rotation-radial-20261016-v1/execution/TERMINAL.json",
       "training_metrics": "auto-research/results/synthetic-rotation-radial-20261016-v1/execution/progress.jsonl",
       "updates_per_arm": 80
+    },
+    {
+      "approval": "User instruction 2026-10-17 in chat: perform the parameter-allocation analysis, produce graphs from verified artifacts, and submit a PR. Explicitly NOT an authorization to train, and no compute budget was supplied.",
+      "arm_seed_rows": 0,
+      "blocker": "auto-research/results/allocation-ablation-20261017-v1/BLOCKER.json",
+      "credential_note": "Third-party GPU API key supplied in chat was NOT used, NOT stored and is NOT committed. User should rotate it because it appeared in plaintext chat history.",
+      "decision": "NO_RESULT_PRIMARY_EXPERIMENT_BLOCKED",
+      "graphs": "auto-research/graphs/allocation-ablation-20261017-v1/",
+      "metrics": "auto-research/results/allocation-ablation-20261017-v1/PARAMETER_ALLOCATION.json",
+      "preregistration_commit": "af44f1620090705050df4a5f78080e3cc015e126",
+      "protocol": "auto-research/results/allocation-ablation-20261017-v1/PROTOCOL.json",
+      "protocol_sha256": "9c5ac784a789203d287d6fa2f416c5d270e6f82da9799ef037aaee4b136226e6",
+      "recorded_at_utc": "2026-10-17T14:39:18.898496+00:00",
+      "report": "auto-research/reports/allocation-ablation-20261017-v1.md",
+      "results_dir": "auto-research/results/allocation-ablation-20261017-v1/",
+      "run_id": "allocation-ablation-20261017-v1",
+      "status": "PREREGISTERED_BLOCKED_BEFORE_EXECUTION",
+      "terminal": "Preregistration frozen; analytic parameter-allocation analysis and three figures produced. Primary matched-context pilot not executed: mandated SSD output volume full (1.4 GiB free vs ~6.5 GiB required) and no approved compute budget. No fallback volume used. No model trained; no quality, SOTA, novelty or transfer claim.",
+      "training_metrics": null
     }
   ],
   "schema_version": 1,

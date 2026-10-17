@@ -1,0 +1,230 @@
+{
+  "purpose": "Isolate parameter allocation from architecture before spending compute on a ~100M hierarchy-versus-nanoGPT comparison.",
+  "status": "ANALYSIS_ONLY_NO_TRAINING_NO_QUALITY_CLAIM",
+  "inputs": {
+    "hierarchy_formula": "P(V,d) = V*d + 32*d^2 + 23*d",
+    "nanogpt_block_formula": "12*d^2 + 11*d (tied lm_head)",
+    "vocabularies_reported": [
+      50257,
+      32768,
+      151936
+    ],
+    "token_budget_assumed": 10000000,
+    "token_budget_source": "historical 120M/10M-token report"
+  },
+  "hierarchy_by_width_at_qwen_vocab": [
+    {
+      "vocab": 151936,
+      "width": 512,
+      "total": 86191616,
+      "embedding": 77791232,
+      "body": 8400384,
+      "body_fraction_pct": 9.746
+    },
+    {
+      "vocab": 151936,
+      "width": 560,
+      "total": 95132240,
+      "embedding": 85084160,
+      "body": 10048080,
+      "body_fraction_pct": 10.562
+    },
+    {
+      "vocab": 151936,
+      "width": 608,
+      "total": 104220320,
+      "embedding": 92377088,
+      "body": 11843232,
+      "body_fraction_pct": 11.364
+    },
+    {
+      "vocab": 151936,
+      "width": 640,
+      "total": 110360960,
+      "embedding": 97239040,
+      "body": 13121920,
+      "body_fraction_pct": 11.89
+    },
+    {
+      "vocab": 151936,
+      "width": 688,
+      "total": 119694800,
+      "embedding": 104531968,
+      "body": 15162832,
+      "body_fraction_pct": 12.668
+    },
+    {
+      "vocab": 151936,
+      "width": 768,
+      "total": 135578880,
+      "embedding": 116686848,
+      "body": 18892032,
+      "body_fraction_pct": 13.934
+    }
+  ],
+  "nanogpt_by_shape": [
+    {
+      "vocab": 151936,
+      "width": 640,
+      "total": 128084480,
+      "embedding": 98549760,
+      "body": 29534720,
+      "body_fraction_pct": 23.059,
+      "layers": 6,
+      "block_size": 2048
+    },
+    {
+      "vocab": 151936,
+      "width": 768,
+      "total": 174951936,
+      "embedding": 118259712,
+      "body": 56692224,
+      "body_fraction_pct": 32.404,
+      "layers": 8,
+      "block_size": 2048
+    },
+    {
+      "vocab": 151936,
+      "width": 768,
+      "total": 189124608,
+      "embedding": 118259712,
+      "body": 70864896,
+      "body_fraction_pct": 37.47,
+      "layers": 10,
+      "block_size": 2048
+    },
+    {
+      "vocab": 151936,
+      "width": 768,
+      "total": 203297280,
+      "embedding": 118259712,
+      "body": 85037568,
+      "body_fraction_pct": 41.829,
+      "layers": 12,
+      "block_size": 2048
+    }
+  ],
+  "hierarchy_by_vocab_at_width_688": [
+    {
+      "vocab": 50257,
+      "width": 688,
+      "total": 49739648,
+      "embedding": 34576816,
+      "body": 15162832,
+      "body_fraction_pct": 30.484,
+      "tokens_per_embedding_row": 199.0
+    },
+    {
+      "vocab": 32768,
+      "width": 688,
+      "total": 37707216,
+      "embedding": 22544384,
+      "body": 15162832,
+      "body_fraction_pct": 40.212,
+      "tokens_per_embedding_row": 305.2
+    },
+    {
+      "vocab": 151936,
+      "width": 688,
+      "total": 119694800,
+      "embedding": 104531968,
+      "body": 15162832,
+      "body_fraction_pct": 12.668,
+      "tokens_per_embedding_row": 65.8
+    }
+  ],
+  "embedding_data_per_row": [
+    {
+      "vocab": 50257,
+      "tokens_per_embedding_row": 199.0
+    },
+    {
+      "vocab": 32768,
+      "tokens_per_embedding_row": 305.2
+    },
+    {
+      "vocab": 151936,
+      "tokens_per_embedding_row": 65.8
+    }
+  ],
+  "allocation_lever_split_embed_width": [
+    {
+      "vocab": 151936,
+      "width": 512,
+      "total": 92954064,
+      "embedding": 77791232,
+      "body": 15162832,
+      "body_fraction_pct": 16.312,
+      "body_width": 688,
+      "embed_width": 512
+    },
+    {
+      "vocab": 151936,
+      "width": 448,
+      "total": 86959360,
+      "embedding": 68067328,
+      "body": 18892032,
+      "body_fraction_pct": 21.725,
+      "body_width": 768,
+      "embed_width": 448
+    },
+    {
+      "vocab": 151936,
+      "width": 384,
+      "total": 80513728,
+      "embedding": 58343424,
+      "body": 22170304,
+      "body_fraction_pct": 27.536,
+      "body_width": 832,
+      "embed_width": 384
+    },
+    {
+      "vocab": 151936,
+      "width": 320,
+      "total": 74330240,
+      "embedding": 48619520,
+      "body": 25710720,
+      "body_fraction_pct": 34.59,
+      "body_width": 896,
+      "embed_width": 320
+    },
+    {
+      "vocab": 151936,
+      "width": 256,
+      "total": 68408896,
+      "embedding": 38895616,
+      "body": 29513280,
+      "body_fraction_pct": 43.142,
+      "body_width": 960,
+      "embed_width": 256
+    }
+  ],
+  "findings": [
+    {
+      "id": "F1-embedding-dominates",
+      "statement": "At V=151936 the recovered hierarchy at d=688 spends 12.668% of its parameters on the tied embedding (104531968 of 119694800), leaving 15162832 for the body.",
+      "consequence": "The ~100M envelope is dominated by a lookup table, so a parameter-matched comparison is not a capacity-matched comparison."
+    },
+    {
+      "id": "F2-baseline-gets-more-body",
+      "statement": "At a comparable total, nanoGPT d=640/6L holds 29534720 body parameters against the hierarchy's 15162832 (1.95x more).",
+      "consequence": "Part of the observed hierarchy deficit is explainable by allocation rather than by recurrence, and must be excluded before any architecture claim."
+    },
+    {
+      "id": "F3-embedding-untrained-at-budget",
+      "statement": "At the 10M-token budget the V=151936 embedding gives each row 66 tokens.",
+      "consequence": "That table is essentially untrained, so a V=151936 short-budget comparison mostly measures embedding efficiency."
+    },
+    {
+      "id": "F4-vocab-shrink-frees-budget",
+      "statement": "Holding the exact recovered body width d=688, V=32768 costs 37707216 parameters versus 119694800 at V=151936, freeing 81987584.",
+      "consequence": "Vocabulary is the cheapest declared lever available and leaves the gates, clocks and recurrence untouched."
+    },
+    {
+      "id": "F5-not-a-quality-result",
+      "statement": "No model was trained and no loss, quality or frontier number was produced.",
+      "consequence": "These are analytic parameter counts. They do not license any quality, SOTA, novelty or transfer claim."
+    }
+  ],
+  "decision_rule": "If a matched-context comparison at the reallocated budget still loses to nanoGPT, the allocation explanation is falsified and the recurrence carries the remaining deficit. Only that outcome may be reported as an architecture result."
+}
