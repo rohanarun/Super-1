@@ -1,0 +1,30 @@
+{
+  "asset": {
+    "asset_id": 654739349,
+    "bytes": 26220237,
+    "github_digest_verified": true,
+    "name": "research-source-evidence-003.tar.gz",
+    "sha256": "5805a56839c7743d1d92d7c4088dfeeb1dd39fcda092f813f9276c19bc7f33f0",
+    "state": "uploaded",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/research-source-evidence-003.tar.gz"
+  },
+  "checked_at_utc": "2026-10-18T23:43:06.636471+00:00",
+  "checkpoint_loaded": false,
+  "historical_source_executed": false,
+  "method": "Authenticated download of draft GitHub release archive, then selective restore from verified cache and byte-for-byte comparison to original source",
+  "public_pinned_git_smoke": {
+    "bytes": 2153,
+    "location": {
+      "commit": "492a87a5e263e806b0a2581c57259e81f1a000e6",
+      "kind": "existing_git_file",
+      "path": "auto-research/results/perturbation-recovery-20261018-v1/source/hfw-w560-continuous-optimizer-20260815-v1r1/runtime_guard.py"
+    },
+    "restore_path": "ssd/hfw-w560-continuous-mps-cumulative-optimizer-20260816-v1-attempt3/runtime/vendor/hfw_w560_post_training_bridge_20260815_v1r4r1_proven_solver/runtime_guard.py",
+    "sha256": "9453260051c2af6d9c3930a15a4883e02b52bee1c16cbf23c3d91a65f81a91f1",
+    "status": "PASS"
+  },
+  "restored_bytes": 8105,
+  "restored_path": "ssd/w560-attempt13-g11-iterative-candidate-direction-20260822-v2/regular/candidate-000129-from-c4e5b207201a/SUMMARY.json",
+  "restored_sha256": "7902c39535d49e37cba390e7036fb4425bc7ed02698cb58a3bd56ae77e756336",
+  "status": "PASS"
+}

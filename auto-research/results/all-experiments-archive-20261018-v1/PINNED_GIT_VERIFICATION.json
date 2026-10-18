@@ -1,0 +1,10 @@
+{
+  "checked_at_utc": "2026-10-18T23:54:34.003934+00:00",
+  "historical_source_executed": false,
+  "method": "Read pinned Git blobs and compare sizes and SHA-256 against every distinct existing_git_file object",
+  "pinned_commits": [
+    "492a87a5e263e806b0a2581c57259e81f1a000e6"
+  ],
+  "pinned_git_objects_checked": 1609,
+  "status": "PASS"
+}

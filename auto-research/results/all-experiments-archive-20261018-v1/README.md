@@ -1,6 +1,6 @@
 # All located Super-1 experiments: archive and restore index
 
-This archive covers the Super-1/function-weight/hierarchy research found across **270 source directories** on the SSD and in the iCloud backup. It maps **30,795 source paths to 16,815 unique content objects** (33,982,565,377 uncompressed bytes). Source-directory and path counts include duplicate snapshots; they are not counts of independent experiments.
+This archive covers the Super-1/function-weight/hierarchy research found across **270 source directories** on the SSD and in the iCloud backup. It maps **30,885 source paths to 16,867 unique content objects** (33,983,273,743 uncompressed bytes). Source-directory and path counts include duplicate snapshots; they are not counts of independent experiments.
 
 The owner selected **source, results, logs, graphs and final checkpoints**. The archive includes final/best/selected checkpoints, final model files named by terminal records, and the latest located checkpoint in each saved lineage. There are 754 unique selected checkpoint objects: most are small and packed with the evidence; 162 larger objects are individual release assets. Intermediate checkpoints and raw tensor dumps were not exhaustively uploaded.
 
@@ -10,6 +10,8 @@ The owner selected **source, results, logs, graphs and final checkpoints**. The 
 - [Release assets](https://github.com/rohanarun/Super-1/releases/tag/all-experiments-20261018)
 - [Compressed file/provenance index](FILES.json.gz)
 - [Upload receipts with asset sizes and SHA-256](UPLOAD_RECEIPTS.json)
+- [Restoration smoke test](RESTORE_SMOKE.json)
+- [Pinned Git content verification](PINNED_GIT_VERIFICATION.json)
 - [Source roots searched](SOURCE_ROOTS.json)
 - [Excluded-file index](EXCLUSIONS.json.gz)
 

@@ -63,6 +63,15 @@
     "url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/research-source-evidence-007.tar.gz"
   },
   {
+    "asset_id": 654761937,
+    "bytes": 155945,
+    "github_digest_verified": true,
+    "name": "research-source-evidence-008.tar.gz",
+    "sha256": "9932a3c10e1ba772d65ede46c58634ce24f2f79e5e6cc20ef47239af741185a3",
+    "state": "uploaded",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/research-source-evidence-008.tar.gz"
+  },
+  {
     "asset_id": 654739376,
     "bytes": 121116142,
     "github_digest_verified": true,
@@ -142,5 +151,302 @@
     "sha256": "6cb8565b6804e209cbd7ade9c1ce40ac7a38722eb2765933d24470e4ddefc4a7",
     "state": "uploaded",
     "url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-6cb8565b6804e209cbd7ade9c1ce40ac7a38722eb2765933d24470e4ddefc4a7.pt"
+  },
+  {
+    "asset_id": 654746643,
+    "bytes": 119276829,
+    "github_digest_verified": true,
+    "name": "checkpoint-fe6c75b5edd692f6781b30ca5150aa0fd12776f36764cf26ae495909235946af.pt",
+    "sha256": "fe6c75b5edd692f6781b30ca5150aa0fd12776f36764cf26ae495909235946af",
+    "state": "uploaded",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-fe6c75b5edd692f6781b30ca5150aa0fd12776f36764cf26ae495909235946af.pt"
+  },
+  {
+    "asset_id": 654748039,
+    "bytes": 124006409,
+    "github_digest_verified": true,
+    "name": "checkpoint-b8ca419948d759a596c13d9df8f11c97c1ef696c07a19db09a6f9c32cba26d76.pt",
+    "sha256": "b8ca419948d759a596c13d9df8f11c97c1ef696c07a19db09a6f9c32cba26d76",
+    "state": "uploaded",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-b8ca419948d759a596c13d9df8f11c97c1ef696c07a19db09a6f9c32cba26d76.pt"
+  },
+  {
+    "asset_id": 654747450,
+    "bytes": 124006409,
+    "github_digest_verified": true,
+    "name": "checkpoint-2fd70cc643002ae13dc4b346bf38e0fef13c028dcd1cfaf1cbef5203cf88c304.pt",
+    "sha256": "2fd70cc643002ae13dc4b346bf38e0fef13c028dcd1cfaf1cbef5203cf88c304",
+    "state": "uploaded",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-2fd70cc643002ae13dc4b346bf38e0fef13c028dcd1cfaf1cbef5203cf88c304.pt"
+  },
+  {
+    "asset_id": 654748685,
+    "bytes": 122579254,
+    "github_digest_verified": true,
+    "name": "checkpoint-dde0a5515139162034ba336b4487db2ca3ebe8945c077f2ae553fa3b48b96a16.pt",
+    "sha256": "dde0a5515139162034ba336b4487db2ca3ebe8945c077f2ae553fa3b48b96a16",
+    "state": "uploaded",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-dde0a5515139162034ba336b4487db2ca3ebe8945c077f2ae553fa3b48b96a16.pt"
+  },
+  {
+    "asset_id": 654748809,
+    "bytes": 122579254,
+    "github_digest_verified": true,
+    "name": "checkpoint-2c8da03cce69a37e88e665fe330143ae03248d303ae79766d6cba424a90db1d6.pt",
+    "sha256": "2c8da03cce69a37e88e665fe330143ae03248d303ae79766d6cba424a90db1d6",
+    "state": "uploaded",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-2c8da03cce69a37e88e665fe330143ae03248d303ae79766d6cba424a90db1d6.pt"
+  },
+  {
+    "asset_id": 654746624,
+    "bytes": 219958098,
+    "github_digest_verified": true,
+    "name": "checkpoint-7b74826c4c299750605bfaf9b585438dea4f9bc426d93cffe99795ff8bdcca87.pt",
+    "sha256": "7b74826c4c299750605bfaf9b585438dea4f9bc426d93cffe99795ff8bdcca87",
+    "state": "uploaded",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-7b74826c4c299750605bfaf9b585438dea4f9bc426d93cffe99795ff8bdcca87.pt"
+  },
+  {
+    "asset_id": 654749906,
+    "bytes": 122579254,
+    "github_digest_verified": true,
+    "name": "checkpoint-bb156f813e37ed476ac0b12115fdde51f30831c0f5dcff3be8f526958ff3accc.pt",
+    "sha256": "bb156f813e37ed476ac0b12115fdde51f30831c0f5dcff3be8f526958ff3accc",
+    "state": "uploaded",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-bb156f813e37ed476ac0b12115fdde51f30831c0f5dcff3be8f526958ff3accc.pt"
+  },
+  {
+    "asset_id": 654750105,
+    "bytes": 182756164,
+    "github_digest_verified": true,
+    "name": "checkpoint-682ede226151d561aaca1445526a6d802e5cbba4201720eb4381f3a5fcacd6c1.pt",
+    "sha256": "682ede226151d561aaca1445526a6d802e5cbba4201720eb4381f3a5fcacd6c1",
+    "state": "uploaded",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-682ede226151d561aaca1445526a6d802e5cbba4201720eb4381f3a5fcacd6c1.pt"
+  },
+  {
+    "asset_id": 654750017,
+    "bytes": 182756292,
+    "github_digest_verified": true,
+    "name": "checkpoint-1869537dc26b329e8ed8dd18603529ab9cff7bd278e8271dbfc6b8d0aac859fa.pt",
+    "sha256": "1869537dc26b329e8ed8dd18603529ab9cff7bd278e8271dbfc6b8d0aac859fa",
+    "state": "uploaded",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-1869537dc26b329e8ed8dd18603529ab9cff7bd278e8271dbfc6b8d0aac859fa.pt"
+  },
+  {
+    "asset_id": 654750880,
+    "bytes": 182756164,
+    "github_digest_verified": true,
+    "name": "checkpoint-e0127e68e195a5a16473fa997a51951e0056dcff4d598f17810cad25ab3a369a.pt",
+    "sha256": "e0127e68e195a5a16473fa997a51951e0056dcff4d598f17810cad25ab3a369a",
+    "state": "uploaded",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-e0127e68e195a5a16473fa997a51951e0056dcff4d598f17810cad25ab3a369a.pt"
+  },
+  {
+    "asset_id": 654751946,
+    "bytes": 182756164,
+    "github_digest_verified": true,
+    "name": "checkpoint-daff93e0e610a615d6b4662b73395379a652e0184fde0c4fc684f8f4010e6005.pt",
+    "sha256": "daff93e0e610a615d6b4662b73395379a652e0184fde0c4fc684f8f4010e6005",
+    "state": "uploaded",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-daff93e0e610a615d6b4662b73395379a652e0184fde0c4fc684f8f4010e6005.pt"
+  },
+  {
+    "asset_id": 654752156,
+    "bytes": 182756100,
+    "github_digest_verified": true,
+    "name": "checkpoint-43e12261c15c41b97614c713dab9b4ae2300c3d5232c040e06cd03610ae9273a.pt",
+    "sha256": "43e12261c15c41b97614c713dab9b4ae2300c3d5232c040e06cd03610ae9273a",
+    "state": "uploaded",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-43e12261c15c41b97614c713dab9b4ae2300c3d5232c040e06cd03610ae9273a.pt"
+  },
+  {
+    "asset_id": 654752328,
+    "bytes": 182756676,
+    "github_digest_verified": true,
+    "name": "checkpoint-bbf5f56f5b36e859b26b1bd81b098f8bfb143619eb10b6521166f62b16005f75.pt",
+    "sha256": "bbf5f56f5b36e859b26b1bd81b098f8bfb143619eb10b6521166f62b16005f75",
+    "state": "uploaded",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-bbf5f56f5b36e859b26b1bd81b098f8bfb143619eb10b6521166f62b16005f75.pt"
+  },
+  {
+    "asset_id": 654753497,
+    "bytes": 182756612,
+    "github_digest_verified": true,
+    "name": "checkpoint-974bd79c62241cf6a2ca15911dd63dfe4d1e1baa9021e378df9d748d60465c31.pt",
+    "sha256": "974bd79c62241cf6a2ca15911dd63dfe4d1e1baa9021e378df9d748d60465c31",
+    "state": "uploaded",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-974bd79c62241cf6a2ca15911dd63dfe4d1e1baa9021e378df9d748d60465c31.pt"
+  },
+  {
+    "asset_id": 654754013,
+    "bytes": 182756548,
+    "github_digest_verified": true,
+    "name": "checkpoint-7f3a9fc99d75f7f4336834102f5816d003f77458335bc1a2c5751d405f57ca5f.pt",
+    "sha256": "7f3a9fc99d75f7f4336834102f5816d003f77458335bc1a2c5751d405f57ca5f",
+    "state": "uploaded",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-7f3a9fc99d75f7f4336834102f5816d003f77458335bc1a2c5751d405f57ca5f.pt"
+  },
+  {
+    "asset_id": 654754615,
+    "bytes": 182756548,
+    "github_digest_verified": true,
+    "name": "checkpoint-b7e8ca7d6ab09617cedbb66dd41d15fd048787c749e8222814b2d84a5ad182ff.pt",
+    "sha256": "b7e8ca7d6ab09617cedbb66dd41d15fd048787c749e8222814b2d84a5ad182ff",
+    "state": "uploaded",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-b7e8ca7d6ab09617cedbb66dd41d15fd048787c749e8222814b2d84a5ad182ff.pt"
+  },
+  {
+    "asset_id": 654757757,
+    "bytes": 180821231,
+    "github_digest_verified": true,
+    "name": "checkpoint-eb5158276350e12f30b52713e2f11f9fb793708780fe4532573890efbb38fd90.pt",
+    "sha256": "eb5158276350e12f30b52713e2f11f9fb793708780fe4532573890efbb38fd90",
+    "state": "uploaded",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-eb5158276350e12f30b52713e2f11f9fb793708780fe4532573890efbb38fd90.pt"
+  },
+  {
+    "asset_id": 654755354,
+    "bytes": 180821295,
+    "github_digest_verified": true,
+    "name": "checkpoint-0063d20913335c0d967f8ba04131b4d5c4a308c31336b414dff4732d4a8c905e.pt",
+    "sha256": "0063d20913335c0d967f8ba04131b4d5c4a308c31336b414dff4732d4a8c905e",
+    "state": "uploaded",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-0063d20913335c0d967f8ba04131b4d5c4a308c31336b414dff4732d4a8c905e.pt"
+  },
+  {
+    "asset_id": 654756205,
+    "bytes": 181489466,
+    "github_digest_verified": true,
+    "name": "checkpoint-4c7476563fa5caa4b3d05777e51357c1077476017d7dcb3ae67f737c35757262.pt",
+    "sha256": "4c7476563fa5caa4b3d05777e51357c1077476017d7dcb3ae67f737c35757262",
+    "state": "uploaded",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-4c7476563fa5caa4b3d05777e51357c1077476017d7dcb3ae67f737c35757262.pt"
+  },
+  {
+    "asset_id": 654756652,
+    "bytes": 180821475,
+    "github_digest_verified": true,
+    "name": "checkpoint-36536bf87d0c6bc6bbb873ee8cbd50bf42f00b32fe996351e28345baec87f43b.pt",
+    "sha256": "36536bf87d0c6bc6bbb873ee8cbd50bf42f00b32fe996351e28345baec87f43b",
+    "state": "uploaded",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-36536bf87d0c6bc6bbb873ee8cbd50bf42f00b32fe996351e28345baec87f43b.pt"
+  },
+  {
+    "asset_id": 654759205,
+    "bytes": 180821411,
+    "github_digest_verified": true,
+    "name": "checkpoint-aa118e9773d1334fe703c846d6e0be15abcbab366239bc2279df611c7b312e70.pt",
+    "sha256": "aa118e9773d1334fe703c846d6e0be15abcbab366239bc2279df611c7b312e70",
+    "state": "uploaded",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-aa118e9773d1334fe703c846d6e0be15abcbab366239bc2279df611c7b312e70.pt"
+  },
+  {
+    "asset_id": 654759202,
+    "bytes": 181489466,
+    "github_digest_verified": true,
+    "name": "checkpoint-00a04633accd55d09953753c144374cee3d6a9397d5e9a1ff79ba5b5b11dd190.pt",
+    "sha256": "00a04633accd55d09953753c144374cee3d6a9397d5e9a1ff79ba5b5b11dd190",
+    "state": "uploaded",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-00a04633accd55d09953753c144374cee3d6a9397d5e9a1ff79ba5b5b11dd190.pt"
+  },
+  {
+    "asset_id": 654760190,
+    "bytes": 229327858,
+    "github_digest_verified": true,
+    "name": "checkpoint-95f250abf22b441283d27d2873291c9972c0891db9413dbe654e8103c23b82ca.pt",
+    "sha256": "95f250abf22b441283d27d2873291c9972c0891db9413dbe654e8103c23b82ca",
+    "state": "uploaded",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-95f250abf22b441283d27d2873291c9972c0891db9413dbe654e8103c23b82ca.pt"
+  },
+  {
+    "asset_id": 654760505,
+    "bytes": 229795605,
+    "github_digest_verified": true,
+    "name": "checkpoint-d35a284bba59059098ecfc5737bdabb459e4de22a6b8d8924430cbb04d806a9d.pt",
+    "sha256": "d35a284bba59059098ecfc5737bdabb459e4de22a6b8d8924430cbb04d806a9d",
+    "state": "uploaded",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-d35a284bba59059098ecfc5737bdabb459e4de22a6b8d8924430cbb04d806a9d.pt"
+  },
+  {
+    "asset_id": 654761981,
+    "bytes": 229327858,
+    "github_digest_verified": true,
+    "name": "checkpoint-0fbb1fa1bff2ea3a8f714298466627b66cd6200fd7fde78876e81dbecf89c50c.pt",
+    "sha256": "0fbb1fa1bff2ea3a8f714298466627b66cd6200fd7fde78876e81dbecf89c50c",
+    "state": "uploaded",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-0fbb1fa1bff2ea3a8f714298466627b66cd6200fd7fde78876e81dbecf89c50c.pt"
+  },
+  {
+    "asset_id": 654762091,
+    "bytes": 229795605,
+    "github_digest_verified": true,
+    "name": "checkpoint-7457e85d9220de366273a24f172c37abad4f9a3b13cbb28c95d7a2a4eb3fc3e7.pt",
+    "sha256": "7457e85d9220de366273a24f172c37abad4f9a3b13cbb28c95d7a2a4eb3fc3e7",
+    "state": "uploaded",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-7457e85d9220de366273a24f172c37abad4f9a3b13cbb28c95d7a2a4eb3fc3e7.pt"
+  },
+  {
+    "asset_id": 654763594,
+    "bytes": 182008298,
+    "github_digest_verified": true,
+    "name": "checkpoint-77c4a6282bca02921e6891462f05060890fd9a7c991491b7f53a6c21a8bb5141.pt",
+    "sha256": "77c4a6282bca02921e6891462f05060890fd9a7c991491b7f53a6c21a8bb5141",
+    "state": "uploaded",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-77c4a6282bca02921e6891462f05060890fd9a7c991491b7f53a6c21a8bb5141.pt"
+  },
+  {
+    "asset_id": 654763506,
+    "bytes": 182008426,
+    "github_digest_verified": true,
+    "name": "checkpoint-1092f8366e4b6e5b56393f20ec42cde315634585b77ea465e44d2aa452bd0991.pt",
+    "sha256": "1092f8366e4b6e5b56393f20ec42cde315634585b77ea465e44d2aa452bd0991",
+    "state": "uploaded",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-1092f8366e4b6e5b56393f20ec42cde315634585b77ea465e44d2aa452bd0991.pt"
+  },
+  {
+    "asset_id": 654764667,
+    "bytes": 185978493,
+    "github_digest_verified": true,
+    "name": "checkpoint-b6ea06129c5beb6a4818c8aee54e94663bdfa20ccc44e2cb90c262322874d00b.pt",
+    "sha256": "b6ea06129c5beb6a4818c8aee54e94663bdfa20ccc44e2cb90c262322874d00b",
+    "state": "uploaded",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-b6ea06129c5beb6a4818c8aee54e94663bdfa20ccc44e2cb90c262322874d00b.pt"
+  },
+  {
+    "asset_id": 654764792,
+    "bytes": 185978493,
+    "github_digest_verified": true,
+    "name": "checkpoint-27ca9b8f6115f5b72c3da4e745aae64591d6d9cc4b725b1b5da48ddfa9d1eb11.pt",
+    "sha256": "27ca9b8f6115f5b72c3da4e745aae64591d6d9cc4b725b1b5da48ddfa9d1eb11",
+    "state": "uploaded",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-27ca9b8f6115f5b72c3da4e745aae64591d6d9cc4b725b1b5da48ddfa9d1eb11.pt"
+  },
+  {
+    "asset_id": 654766478,
+    "bytes": 180047801,
+    "github_digest_verified": true,
+    "name": "checkpoint-547234c86d095aa1ec4ed6e5708389b421d2e0b4109a22139f5d2956f69a657a.pt",
+    "sha256": "547234c86d095aa1ec4ed6e5708389b421d2e0b4109a22139f5d2956f69a657a",
+    "state": "uploaded",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-547234c86d095aa1ec4ed6e5708389b421d2e0b4109a22139f5d2956f69a657a.pt"
+  },
+  {
+    "asset_id": 654766334,
+    "bytes": 185978557,
+    "github_digest_verified": true,
+    "name": "checkpoint-f966a7d7c66830b058ccdb0b07ba1408c1f9a05092ec0cf9cf8b4745cc21ea9d.pt",
+    "sha256": "f966a7d7c66830b058ccdb0b07ba1408c1f9a05092ec0cf9cf8b4745cc21ea9d",
+    "state": "uploaded",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-f966a7d7c66830b058ccdb0b07ba1408c1f9a05092ec0cf9cf8b4745cc21ea9d.pt"
+  },
+  {
+    "asset_id": 654768360,
+    "bytes": 180822521,
+    "github_digest_verified": true,
+    "name": "checkpoint-36d414a576d7142c3819105a5130e71b4465f12b62b3fb0a99e7ae5cad9faa33.pt",
+    "sha256": "36d414a576d7142c3819105a5130e71b4465f12b62b3fb0a99e7ae5cad9faa33",
+    "state": "uploaded",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-36d414a576d7142c3819105a5130e71b4465f12b62b3fb0a99e7ae5cad9faa33.pt"
   }
 ]
