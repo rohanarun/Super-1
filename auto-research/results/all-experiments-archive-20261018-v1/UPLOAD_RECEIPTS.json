@@ -1,0 +1,146 @@
+[
+  {
+    "asset_id": 654735957,
+    "bytes": 239396074,
+    "github_digest_verified": true,
+    "name": "research-source-evidence-001.tar.gz",
+    "sha256": "fe358b7b81d15c70eef0cad4a17278bead3fb81b503d43193128ed577f1654be",
+    "state": "uploaded",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/research-source-evidence-001.tar.gz"
+  },
+  {
+    "asset_id": 654738693,
+    "bytes": 123726156,
+    "github_digest_verified": true,
+    "name": "research-source-evidence-002.tar.gz",
+    "sha256": "6094b73e2d17d78a2e67a002970b005c8aef61552b9a9ab43eabb480414204b0",
+    "state": "uploaded",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/research-source-evidence-002.tar.gz"
+  },
+  {
+    "asset_id": 654739349,
+    "bytes": 26220237,
+    "github_digest_verified": true,
+    "name": "research-source-evidence-003.tar.gz",
+    "sha256": "5805a56839c7743d1d92d7c4088dfeeb1dd39fcda092f813f9276c19bc7f33f0",
+    "state": "uploaded",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/research-source-evidence-003.tar.gz"
+  },
+  {
+    "asset_id": 654740278,
+    "bytes": 45151439,
+    "github_digest_verified": true,
+    "name": "research-source-evidence-004.tar.gz",
+    "sha256": "42878d1edd6d8eb883579c9be95a4466bd5b1e81583d95580c518cdc1bcba70c",
+    "state": "uploaded",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/research-source-evidence-004.tar.gz"
+  },
+  {
+    "asset_id": 654740695,
+    "bytes": 43861658,
+    "github_digest_verified": true,
+    "name": "research-source-evidence-005.tar.gz",
+    "sha256": "9c5ada519a77cfa08fd79b42dbf835555b145f4ee5c6a63c9641d93a590c6ed3",
+    "state": "uploaded",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/research-source-evidence-005.tar.gz"
+  },
+  {
+    "asset_id": 654741308,
+    "bytes": 41631983,
+    "github_digest_verified": true,
+    "name": "research-source-evidence-006.tar.gz",
+    "sha256": "247269890ac2b7f283d7583adea6a0f10ca42af1a5322b90520df700d6b7e598",
+    "state": "uploaded",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/research-source-evidence-006.tar.gz"
+  },
+  {
+    "asset_id": 654741641,
+    "bytes": 149738532,
+    "github_digest_verified": true,
+    "name": "research-source-evidence-007.tar.gz",
+    "sha256": "60e99094ed68efd6e79b955061e1257e81d7c3f09042daa42158a8d8376998d9",
+    "state": "uploaded",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/research-source-evidence-007.tar.gz"
+  },
+  {
+    "asset_id": 654739376,
+    "bytes": 121116142,
+    "github_digest_verified": true,
+    "name": "checkpoint-31579a9c1da082f6bfdbde3b03132fad2113c0f7c7b998e05e63f3634ed11ee0.pt",
+    "sha256": "31579a9c1da082f6bfdbde3b03132fad2113c0f7c7b998e05e63f3634ed11ee0",
+    "state": "uploaded",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-31579a9c1da082f6bfdbde3b03132fad2113c0f7c7b998e05e63f3634ed11ee0.pt"
+  },
+  {
+    "asset_id": 654741518,
+    "bytes": 121116142,
+    "github_digest_verified": true,
+    "name": "checkpoint-0038708f6c9c2d84a68afab70c3c217bcefd1578cf6a1ff8cc31bf1c95da87f4.pt",
+    "sha256": "0038708f6c9c2d84a68afab70c3c217bcefd1578cf6a1ff8cc31bf1c95da87f4",
+    "state": "uploaded",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-0038708f6c9c2d84a68afab70c3c217bcefd1578cf6a1ff8cc31bf1c95da87f4.pt"
+  },
+  {
+    "asset_id": 654743061,
+    "bytes": 121116142,
+    "github_digest_verified": true,
+    "name": "checkpoint-b1945fd971e52cc66465ab8ed9f3626938d8802d9861494809db7b6eadb0e9ea.pt",
+    "sha256": "b1945fd971e52cc66465ab8ed9f3626938d8802d9861494809db7b6eadb0e9ea",
+    "state": "uploaded",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-b1945fd971e52cc66465ab8ed9f3626938d8802d9861494809db7b6eadb0e9ea.pt"
+  },
+  {
+    "asset_id": 654744891,
+    "bytes": 121099527,
+    "github_digest_verified": true,
+    "name": "checkpoint-e2310da47d012bcbded65a78a82e055904494fb4a3fedce9c960d9ba9e1485f1.pt",
+    "sha256": "e2310da47d012bcbded65a78a82e055904494fb4a3fedce9c960d9ba9e1485f1",
+    "state": "uploaded",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-e2310da47d012bcbded65a78a82e055904494fb4a3fedce9c960d9ba9e1485f1.pt"
+  },
+  {
+    "asset_id": 654739374,
+    "bytes": 399517590,
+    "github_digest_verified": true,
+    "name": "checkpoint-999a1fa8cb8fcf2fc9e3ce3965522cff867dd322ae1c99a171af8c61f8b35afb.pt",
+    "sha256": "999a1fa8cb8fcf2fc9e3ce3965522cff867dd322ae1c99a171af8c61f8b35afb",
+    "state": "uploaded",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-999a1fa8cb8fcf2fc9e3ce3965522cff867dd322ae1c99a171af8c61f8b35afb.pt"
+  },
+  {
+    "asset_id": 654739371,
+    "bytes": 399517590,
+    "github_digest_verified": true,
+    "name": "checkpoint-c98c1da38e4bdb5e5b87d893ee3f4b047303007c73e8a7d15d3ab9c2ee12ec54.pt",
+    "sha256": "c98c1da38e4bdb5e5b87d893ee3f4b047303007c73e8a7d15d3ab9c2ee12ec54",
+    "state": "uploaded",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-c98c1da38e4bdb5e5b87d893ee3f4b047303007c73e8a7d15d3ab9c2ee12ec54.pt"
+  },
+  {
+    "asset_id": 654739372,
+    "bytes": 399517590,
+    "github_digest_verified": true,
+    "name": "checkpoint-8b65f885c2e1a81437bedca34511a6c6692c1bcec7671764b2a431f26757b4a6.pt",
+    "sha256": "8b65f885c2e1a81437bedca34511a6c6692c1bcec7671764b2a431f26757b4a6",
+    "state": "uploaded",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-8b65f885c2e1a81437bedca34511a6c6692c1bcec7671764b2a431f26757b4a6.pt"
+  },
+  {
+    "asset_id": 654746495,
+    "bytes": 119204906,
+    "github_digest_verified": true,
+    "name": "checkpoint-7a45c5680c580a4c545fab48b2777eeadbd91409ddceae1fc0c6158cf920a2cd.pt",
+    "sha256": "7a45c5680c580a4c545fab48b2777eeadbd91409ddceae1fc0c6158cf920a2cd",
+    "state": "uploaded",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-7a45c5680c580a4c545fab48b2777eeadbd91409ddceae1fc0c6158cf920a2cd.pt"
+  },
+  {
+    "asset_id": 654746689,
+    "bytes": 124006409,
+    "github_digest_verified": true,
+    "name": "checkpoint-6cb8565b6804e209cbd7ade9c1ce40ac7a38722eb2765933d24470e4ddefc4a7.pt",
+    "sha256": "6cb8565b6804e209cbd7ade9c1ce40ac7a38722eb2765933d24470e4ddefc4a7",
+    "state": "uploaded",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-6cb8565b6804e209cbd7ade9c1ce40ac7a38722eb2765933d24470e4ddefc4a7.pt"
+  }
+]

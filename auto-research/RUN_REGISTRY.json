@@ -60,6 +60,17 @@
       "scope": "Additional SSD/iCloud source, saved scores, tests and failures. Includes separate gradient diagnostic; no concept-learning claim or new launch.",
       "status": "ARCHIVAL_FILES_AND_SAVED_ARITHMETIC_VERIFIED",
       "verification": "auto-research/results/perturbation-extended-recovery-20261018-v1/VERIFICATION.json"
+    },
+    {
+      "catalog": "auto-research/results/all-experiments-archive-20261018-v1/CATALOG.md",
+      "id": "all-experiments-archive-20261018-v1",
+      "inventory": "auto-research/results/all-experiments-archive-20261018-v1/FILES.json.gz",
+      "new_model_evaluation": false,
+      "new_training": false,
+      "report": "auto-research/results/all-experiments-archive-20261018-v1/README.md",
+      "scope": "User selected source, results, logs, graphs and final checkpoints. Intermediate tensor artifacts, dependencies, credentials and raw datasets excluded. All located readable in-scope objects will be linked to verified release assets or pinned existing Git/release content.",
+      "status": "UPLOAD_IN_PROGRESS",
+      "summary": "auto-research/results/all-experiments-archive-20261018-v1/SUMMARY.json"
     }
   ],
   "historical_authorization_note": "Language training remains paused. Fresh user-authorized synthetic angular/radial optimization completed without recovery; no future execution authorized. Previous synthetic failure/recovery remains preserved.",
