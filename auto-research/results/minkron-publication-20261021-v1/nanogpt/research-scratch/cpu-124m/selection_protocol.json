@@ -1,0 +1,20 @@
+{
+  "layout": "h48",
+  "core": "factored",
+  "precision": "fp32",
+  "threads": 4,
+  "batch": 2,
+  "sequence_length": 256,
+  "accumulate": 1,
+  "pilot_seed": 24101,
+  "rates": [
+    0.0003,
+    0.001,
+    0.003
+  ],
+  "steps_per_rate": 16,
+  "development_tokens": 2048,
+  "selection_rule": "lowest finite final development NLL; retain all failed outcomes; main restarts from same initialization and data order",
+  "main_training_wall_seconds": 1500,
+  "reason": "384 readout channels with 144 KiB state; 123.38M weights; bounded GEMM implementation and 2x256 batch yielded about 203 tokens/s at roughly 4 GB peak RSS"
+}

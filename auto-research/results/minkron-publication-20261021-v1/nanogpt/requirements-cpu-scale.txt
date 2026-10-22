@@ -1,0 +1,6 @@
+-r requirements.txt
+numpy==2.3.5
+einops==0.8.2
+requests==2.34.2
+matplotlib==3.10.8
+pyarrow==26.0.0

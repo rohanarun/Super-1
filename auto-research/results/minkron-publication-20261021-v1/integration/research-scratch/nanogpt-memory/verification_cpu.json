@@ -1,0 +1,183 @@
+{
+  "status": "PASS",
+  "device": "cpu",
+  "torch": "2.9.1+cpu",
+  "tests": [
+    {
+      "name": "core_vs_authors",
+      "status": "PASS",
+      "dtype": "torch.float64",
+      "length": 1,
+      "resets": true,
+      "output_max_abs": 2.7755575615628914e-17,
+      "state_max_abs": 2.7755575615628914e-17,
+      "all_inputs_and_initial_state_gradient_max_abs": 4.440892098500626e-16
+    },
+    {
+      "name": "core_vs_authors",
+      "status": "PASS",
+      "dtype": "torch.float64",
+      "length": 17,
+      "resets": true,
+      "output_max_abs": 8.326672684688674e-17,
+      "state_max_abs": 3.3306690738754696e-16,
+      "all_inputs_and_initial_state_gradient_max_abs": 1.7763568394002505e-15
+    },
+    {
+      "name": "core_vs_authors",
+      "status": "PASS",
+      "dtype": "torch.float64",
+      "length": 33,
+      "resets": true,
+      "output_max_abs": 1.1102230246251565e-16,
+      "state_max_abs": 3.885780586188048e-16,
+      "all_inputs_and_initial_state_gradient_max_abs": 1.7763568394002505e-15
+    },
+    {
+      "name": "core_vs_authors",
+      "status": "PASS",
+      "dtype": "torch.float64",
+      "length": 65,
+      "resets": true,
+      "output_max_abs": 1.3877787807814457e-16,
+      "state_max_abs": 4.440892098500626e-16,
+      "all_inputs_and_initial_state_gradient_max_abs": 1.7763568394002505e-15
+    },
+    {
+      "name": "core_vs_authors",
+      "status": "PASS",
+      "dtype": "torch.float64",
+      "length": 513,
+      "resets": true,
+      "output_max_abs": 2.7755575615628914e-16,
+      "state_max_abs": 7.771561172376096e-16,
+      "all_inputs_and_initial_state_gradient_max_abs": 3.552713678800501e-15
+    },
+    {
+      "name": "core_vs_authors",
+      "status": "PASS",
+      "dtype": "torch.float32",
+      "length": 1,
+      "resets": true,
+      "output_max_abs": 1.4901161193847656e-08,
+      "state_max_abs": 1.4901161193847656e-08,
+      "all_inputs_and_initial_state_gradient_max_abs": 1.4901161193847656e-07
+    },
+    {
+      "name": "core_vs_authors",
+      "status": "PASS",
+      "dtype": "torch.float32",
+      "length": 17,
+      "resets": true,
+      "output_max_abs": 5.960464477539063e-08,
+      "state_max_abs": 2.980232238769531e-07,
+      "all_inputs_and_initial_state_gradient_max_abs": 9.5367431640625e-07
+    },
+    {
+      "name": "core_vs_authors",
+      "status": "PASS",
+      "dtype": "torch.float32",
+      "length": 33,
+      "resets": true,
+      "output_max_abs": 5.960464477539063e-08,
+      "state_max_abs": 2.384185791015625e-07,
+      "all_inputs_and_initial_state_gradient_max_abs": 9.5367431640625e-07
+    },
+    {
+      "name": "core_vs_authors",
+      "status": "PASS",
+      "dtype": "torch.float32",
+      "length": 65,
+      "resets": true,
+      "output_max_abs": 8.940696716308594e-08,
+      "state_max_abs": 2.384185791015625e-07,
+      "all_inputs_and_initial_state_gradient_max_abs": 7.152557373046875e-07
+    },
+    {
+      "name": "core_vs_authors",
+      "status": "PASS",
+      "dtype": "torch.float32",
+      "length": 513,
+      "resets": true,
+      "output_max_abs": 1.6391277313232422e-07,
+      "state_max_abs": 2.980232238769531e-07,
+      "all_inputs_and_initial_state_gradient_max_abs": 1.430511474609375e-06
+    },
+    {
+      "name": "zero_and_tiny_values",
+      "status": "PASS",
+      "max_abs": 2.7755575615628914e-16,
+      "all_gradients_finite": true
+    },
+    {
+      "name": "finite_difference_gradcheck",
+      "status": "PASS"
+    },
+    {
+      "name": "permanent_projection_packing",
+      "status": "PASS",
+      "initializer": "exact",
+      "output_state_max_abs": 1.2212453270876722e-15,
+      "all_parameter_gradient_max_abs": 2.7755575615628914e-17
+    },
+    {
+      "name": "packed_adamw_three_steps",
+      "status": "PASS",
+      "parameter_max_abs": 4.042122539460458e-15
+    },
+    {
+      "name": "common_lm_causal_reset_split",
+      "status": "PASS",
+      "arm": "minkron_8x8",
+      "split_max_abs": 3.248453140258789e-06,
+      "causality_max_abs": 0.0,
+      "reset_max_abs": 3.4570693969726562e-06,
+      "reset_prefix_gradient_max_abs": 4.2639185515724876e-09,
+      "state_tensor_bytes_batch2": 8192,
+      "state_backing_bytes_batch2": 8192
+    },
+    {
+      "name": "common_lm_causal_reset_split",
+      "status": "PASS",
+      "arm": "mingru_linear",
+      "split_max_abs": 8.344650268554688e-07,
+      "causality_max_abs": 0.0,
+      "reset_max_abs": 5.364418029785156e-07,
+      "reset_prefix_gradient_max_abs": 0.0,
+      "state_tensor_bytes_batch2": 8192,
+      "state_backing_bytes_batch2": 8192
+    },
+    {
+      "name": "common_lm_causal_reset_split",
+      "status": "PASS",
+      "arm": "transformer",
+      "split_max_abs": 9.5367431640625e-07,
+      "causality_max_abs": 0.0,
+      "reset_max_abs": 5.364418029785156e-07,
+      "reset_prefix_gradient_max_abs": 0.0,
+      "state_tensor_bytes_batch2": 1102144,
+      "state_backing_bytes_batch2": 1102144
+    },
+    {
+      "name": "identical_common_initialization_all_arms",
+      "status": "PASS"
+    },
+    {
+      "name": "full_contract_shape_forward_backward",
+      "status": "PASS",
+      "layers": 4,
+      "width": 256,
+      "vocab": 50257,
+      "sequence_length": 512,
+      "loss": 10.877450942993164,
+      "state_bytes": 4096,
+      "parameters": 15146800,
+      "elapsed_seconds": 2.213189270001749,
+      "note": "Random-token integration check; not an LM quality measurement"
+    }
+  ],
+  "elapsed_seconds": 5.64485041199805,
+  "model_sha256": "b11822ff94cd8646177ea9951443271a12de02d45246b8b1ba4e0848230801d9",
+  "device_name": "INTEL(R) XEON(R) PLATINUM 8573C",
+  "metadata_note": "Added source hash and CPU label after verification; model code was unchanged."
+}

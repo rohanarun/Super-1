@@ -1,0 +1,183 @@
+{
+  "screen": [
+    {
+      "arm": "k8",
+      "parameters": 1970364,
+      "development_ce": 6.434614528724221,
+      "confirmation_ce": 6.436723671566142,
+      "confirmation_ce_sd": 0.03623088723317108,
+      "per_seed_confirmation_ce": [
+        6.395641608301958,
+        6.450418153105602,
+        6.464111253290866
+      ],
+      "paired_confirmation_delta": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_paired_confirmation_delta": 0.0,
+      "paired_confirmation_delta_sd": 0.0,
+      "mean_paired_development_delta": 0.0,
+      "exploratory_development_advance_gate": false,
+      "confirmation_consistent": false,
+      "training_tokens_per_second": 4895.494794920526,
+      "mean_screen_seconds": 38.90597538733406
+    },
+    {
+      "arm": "k16",
+      "parameters": 1970370,
+      "development_ce": 6.413220990982761,
+      "confirmation_ce": 6.416028510488711,
+      "confirmation_ce_sd": 0.04152068867724918,
+      "per_seed_confirmation_ce": [
+        6.36810708097255,
+        6.441262030447433,
+        6.438716420046148
+      ],
+      "paired_confirmation_delta": [
+        -0.027534527329407865,
+        -0.009156122658168897,
+        -0.02539483324471803
+      ],
+      "mean_paired_confirmation_delta": -0.020695161077431596,
+      "paired_confirmation_delta_sd": 0.010050205392176303,
+      "mean_paired_development_delta": -0.021393537741460023,
+      "exploratory_development_advance_gate": true,
+      "confirmation_consistent": true,
+      "training_tokens_per_second": 5196.039661715471,
+      "mean_screen_seconds": 36.65560934866274
+    },
+    {
+      "arm": "k32",
+      "parameters": 1980777,
+      "development_ce": 6.416257691613282,
+      "confirmation_ce": 6.411793680970125,
+      "confirmation_ce_sd": 0.05490308810817979,
+      "per_seed_confirmation_ce": [
+        6.390919917537758,
+        6.474072279323991,
+        6.370388846048627
+      ],
+      "paired_confirmation_delta": [
+        -0.004721690764199593,
+        0.023654126218389138,
+        -0.09372240724223957
+      ],
+      "mean_paired_confirmation_delta": -0.024929990596016676,
+      "paired_confirmation_delta_sd": 0.06124209490520378,
+      "mean_paired_development_delta": -0.01835683711093831,
+      "exploratory_development_advance_gate": false,
+      "confirmation_consistent": false,
+      "training_tokens_per_second": 5474.337803904756,
+      "mean_screen_seconds": 34.792153283662024
+    },
+    {
+      "arm": "k16_lean",
+      "parameters": 1528002,
+      "development_ce": 6.390274191172163,
+      "confirmation_ce": 6.3963685275581765,
+      "confirmation_ce_sd": 0.02799747150312134,
+      "per_seed_confirmation_ce": [
+        6.368820464921555,
+        6.395490371521191,
+        6.4247947462317825
+      ],
+      "paired_confirmation_delta": [
+        -0.026821143380402646,
+        -0.054927781584410695,
+        -0.03931650705908396
+      ],
+      "mean_paired_confirmation_delta": -0.04035514400796577,
+      "paired_confirmation_delta_sd": 0.01408207558623508,
+      "mean_paired_development_delta": -0.04434033755205746,
+      "exploratory_development_advance_gate": true,
+      "confirmation_consistent": true,
+      "training_tokens_per_second": 5965.291538928461,
+      "mean_screen_seconds": 31.92869933632998
+    },
+    {
+      "arm": "k16_lean_conv",
+      "parameters": 1531458,
+      "development_ce": 6.403220347064537,
+      "confirmation_ce": 6.406671768940821,
+      "confirmation_ce_sd": 0.05478991952601161,
+      "per_seed_confirmation_ce": [
+        6.354922015920238,
+        6.40102827654664,
+        6.464065014355583
+      ],
+      "paired_confirmation_delta": [
+        -0.04071959238171985,
+        -0.04938987655896199,
+        -4.623893528332701e-05
+      ],
+      "mean_paired_confirmation_delta": -0.03005190262532172,
+      "paired_confirmation_delta_sd": 0.02634479734289676,
+      "mean_paired_development_delta": -0.03139418165968285,
+      "exploratory_development_advance_gate": true,
+      "confirmation_consistent": true,
+      "training_tokens_per_second": 5336.193152929698,
+      "mean_screen_seconds": 35.692860910672
+    },
+    {
+      "arm": "transformer_lean",
+      "parameters": 1672512,
+      "development_ce": 6.738309402210386,
+      "confirmation_ce": 6.726136162662442,
+      "confirmation_ce_sd": 0.06316497127752788,
+      "per_seed_confirmation_ce": [
+        6.794470756336523,
+        6.714050556816801,
+        6.6698871748340025
+      ],
+      "paired_confirmation_delta": [
+        0.39882914803456515,
+        0.263632403711199,
+        0.20577592154313606
+      ],
+      "mean_paired_confirmation_delta": 0.2894124910963001,
+      "paired_confirmation_delta_sd": 0.09907495517977961,
+      "mean_paired_development_delta": 0.3036948734861653,
+      "exploratory_development_advance_gate": false,
+      "confirmation_consistent": false,
+      "training_tokens_per_second": 10451.247058728553,
+      "mean_screen_seconds": 18.224045315332052
+    }
+  ],
+  "extensions": [
+    {
+      "arm": "k8",
+      "tokens": 1409024,
+      "additional_tokens": 1218560,
+      "total_training_seconds": 338.41279457002383,
+      "extension_seconds": 300.1128638810187,
+      "tokens_per_second": 4060.339114564261,
+      "development_ce": 5.2648051090071135,
+      "confirmation_ce": 5.278801074778791
+    },
+    {
+      "arm": "k16_lean",
+      "tokens": 1657856,
+      "additional_tokens": 1467392,
+      "total_training_seconds": 331.81646973400075,
+      "extension_seconds": 300.09464670300986,
+      "tokens_per_second": 4889.763999863056,
+      "development_ce": 5.1297676238950025,
+      "confirmation_ce": 5.144337171330731
+    },
+    {
+      "arm": "transformer_lean",
+      "tokens": 3383296,
+      "additional_tokens": 3192832,
+      "total_training_seconds": 318.1821954069519,
+      "extension_seconds": 300.03987524595505,
+      "tokens_per_second": 10641.358910653806,
+      "development_ce": 4.844948315588468,
+      "confirmation_ce": 4.859354583699513
+    }
+  ],
+  "total_target_exposures": 9307136,
+  "total_training_seconds": 1488.8454165759622,
+  "selection": "k16_lean"
+}

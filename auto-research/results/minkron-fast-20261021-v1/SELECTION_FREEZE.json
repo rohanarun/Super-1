@@ -1,0 +1,105 @@
+{
+  "selected_recurrent_variant": "k16_lean",
+  "development_means": {
+    "k8": 6.434614528724221,
+    "k16": 6.413220990982761,
+    "k32": 6.416257691613282,
+    "k16_lean": 6.390274191172163,
+    "k16_lean_conv": 6.403220347064537,
+    "transformer_lean": 6.738309402210386
+  },
+  "rule": "Lowest mean development CE among four new recurrent variants; anchor and Transformer always continued.",
+  "checkpoints": [
+    {
+      "path": "checkpoints/screen_k8_25101.pt",
+      "sha256": "00fa35e09ce9450b7ef7ab751b4e641fb39f6c9fd4998e2a3622a031522c4e64",
+      "bytes": 23687031
+    },
+    {
+      "path": "checkpoints/screen_k16_25101.pt",
+      "sha256": "f9b11afac49c08d6a19f0d35fa8ba18db7f2f325a1a9a0f12df3f243db7d46c5",
+      "bytes": 23687753
+    },
+    {
+      "path": "checkpoints/screen_k32_25101.pt",
+      "sha256": "9810facb40ce736ea1d6ba58d913008b9addf7209d2c8da4e645ffc810802f02",
+      "bytes": 23812745
+    },
+    {
+      "path": "checkpoints/screen_k16_lean_25101.pt",
+      "sha256": "8ec7625b6da168667747e0377460a8455ddc411068f6cf934a2bd9b09a56d518",
+      "bytes": 18380067
+    },
+    {
+      "path": "checkpoints/screen_k16_lean_conv_25101.pt",
+      "sha256": "57cc31f3a1d8a4f58f213e31f28933fa559f17fbeee5ee2217f65bf015607e60",
+      "bytes": 18425929
+    },
+    {
+      "path": "checkpoints/screen_transformer_lean_25101.pt",
+      "sha256": "34b7938008b8ca54ef8d6a58021ad98a7427275c15a548821b793b601d133464",
+      "bytes": 20097495
+    },
+    {
+      "path": "checkpoints/screen_k16_25102.pt",
+      "sha256": "88325f8454bc72e553c1297e9dece95be4defa7b4d0ea66e10102502a27c22e8",
+      "bytes": 23687753
+    },
+    {
+      "path": "checkpoints/screen_k32_25102.pt",
+      "sha256": "bd9c65e3a11af6f98305cba7bb3747bf23a0863148e0f0fb024f779b4a2a14ca",
+      "bytes": 23812745
+    },
+    {
+      "path": "checkpoints/screen_k16_lean_25102.pt",
+      "sha256": "10f76ddd2b8aa564c4bef31af3e50bd63daac8032456ed0ad0700ec8b73400ac",
+      "bytes": 18380067
+    },
+    {
+      "path": "checkpoints/screen_k16_lean_conv_25102.pt",
+      "sha256": "512fafae195048a208e8284b088910538975fe125f5ee5c40d17d80890994159",
+      "bytes": 18425929
+    },
+    {
+      "path": "checkpoints/screen_transformer_lean_25102.pt",
+      "sha256": "a1a596b643a3fc43e161fba1943258cf7567adbf805d0bf271de48097999b031",
+      "bytes": 20097495
+    },
+    {
+      "path": "checkpoints/screen_k8_25102.pt",
+      "sha256": "6928d205e6c691debd4b8a0e7003cd8d13ec9082ba6fbecfe3962e4c408cf701",
+      "bytes": 23687031
+    },
+    {
+      "path": "checkpoints/screen_k32_25103.pt",
+      "sha256": "187ea077815d132ffc3377f3895710a7799dc19a161015b0de5847228243745c",
+      "bytes": 23812745
+    },
+    {
+      "path": "checkpoints/screen_k16_lean_25103.pt",
+      "sha256": "cb6492d7034508bf80f6fa503fd9c735297d66f28e6a1f684b70bb7653851300",
+      "bytes": 18380067
+    },
+    {
+      "path": "checkpoints/screen_k16_lean_conv_25103.pt",
+      "sha256": "30aef790a18c7fb66571a9b5707d7af72c8c98018cd0ce86a2c14941019a2397",
+      "bytes": 18425929
+    },
+    {
+      "path": "checkpoints/screen_transformer_lean_25103.pt",
+      "sha256": "d367b25c57f60285d4c9630ef26f63a7946492e67034880d2e27538bce1e5923",
+      "bytes": 20097495
+    },
+    {
+      "path": "checkpoints/screen_k8_25103.pt",
+      "sha256": "6622c938ba5d69568791ac4f3eb10606ee410cfdc6f6c046cffab4463017d5fd",
+      "bytes": 23687031
+    },
+    {
+      "path": "checkpoints/screen_k16_25103.pt",
+      "sha256": "c9741d81699924f60104ffcb90f2c7e2b0bef6d6e2449f5fb50fe4d3015050a8",
+      "bytes": 23687753
+    }
+  ],
+  "utc": "2026-10-21T22:51:48.451588+00:00"
+}

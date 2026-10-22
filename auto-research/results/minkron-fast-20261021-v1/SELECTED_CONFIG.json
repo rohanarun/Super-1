@@ -1,0 +1,22 @@
+{
+  "role": "Small recurrent working configuration; Transformer remains the quality-per-minute control.",
+  "config": {
+    "vocab_size": 4096,
+    "layers": 3,
+    "width": 192,
+    "mlp_multiplier": 4,
+    "transformer_heads": 6,
+    "kron_heads": 6,
+    "key_dim": 16,
+    "value_dim": 16,
+    "chunk_size": 32,
+    "arm": "minkron_8x8",
+    "enforce_equal_state": false,
+    "mlp_hidden": 384,
+    "kron_core": "factored",
+    "short_conv": 0,
+    "recurrence_fp64": true
+  },
+  "parameters": 1528002,
+  "selection": "Three-seed development mean; no convolution; original selection freeze retained."
+}

@@ -1,0 +1,265 @@
+{
+  "status": "completed",
+  "arm": "kron2h4",
+  "seed": 22103,
+  "checkpoint_sha256": "84320a3bb420127918b7bc064364ca0d1fcfae47ffb0669b22d28289e8472002",
+  "records": [
+    {
+      "arm": "kron2h4",
+      "seed": 22103,
+      "mode": "quiet",
+      "age": 32,
+      "actual_age": [
+        29,
+        32
+      ],
+      "n": 256,
+      "correct": 256,
+      "accuracy": 1.0,
+      "loss": 0.0028920765726070385,
+      "stale_rate": null,
+      "data_sha256": "16a2d61066de4e1eed08f7f868ff39254400656be716aee538fef3d7dcf8cb3c"
+    },
+    {
+      "arm": "kron2h4",
+      "seed": 22103,
+      "mode": "quiet",
+      "age": 128,
+      "actual_age": [
+        125,
+        128
+      ],
+      "n": 256,
+      "correct": 255,
+      "accuracy": 0.99609375,
+      "loss": 0.003952990569814574,
+      "stale_rate": null,
+      "data_sha256": "429ce93d03a9aa72cb978a4b45c9a61c87673aa8de536df5b547f54538eea75b"
+    },
+    {
+      "arm": "kron2h4",
+      "seed": 22103,
+      "mode": "quiet",
+      "age": 512,
+      "actual_age": [
+        509,
+        512
+      ],
+      "n": 256,
+      "correct": 255,
+      "accuracy": 0.99609375,
+      "loss": 0.013282045198138803,
+      "stale_rate": null,
+      "data_sha256": "fc1a59a711af02f235c9162f5cfa40f50456ae6fcfcd3bf528afac47ce8863e9"
+    },
+    {
+      "arm": "kron2h4",
+      "seed": 22103,
+      "mode": "quiet",
+      "age": 2048,
+      "actual_age": [
+        2045,
+        2048
+      ],
+      "n": 256,
+      "correct": 254,
+      "accuracy": 0.9921875,
+      "loss": 0.053921258775517344,
+      "stale_rate": null,
+      "data_sha256": "37482bb23d71aeeff005b9b6aa291ff6a12f453747909a24a99cfb84e7b72aff"
+    },
+    {
+      "arm": "kron2h4",
+      "seed": 22103,
+      "mode": "repeat",
+      "age": 32,
+      "actual_age": [
+        29,
+        32
+      ],
+      "n": 256,
+      "correct": 256,
+      "accuracy": 1.0,
+      "loss": 0.0013204024398874026,
+      "stale_rate": null,
+      "data_sha256": "a9ec9f8f5e6a6fe9622c41455f61ba40cc087792d96eeb06f42fc5427fc701d3"
+    },
+    {
+      "arm": "kron2h4",
+      "seed": 22103,
+      "mode": "repeat",
+      "age": 128,
+      "actual_age": [
+        125,
+        128
+      ],
+      "n": 256,
+      "correct": 256,
+      "accuracy": 1.0,
+      "loss": 0.0012544694218377117,
+      "stale_rate": null,
+      "data_sha256": "5440359207a966a9158df3d8ae8c14c778bbb38182cf60c4d5905e2e7fb184ab"
+    },
+    {
+      "arm": "kron2h4",
+      "seed": 22103,
+      "mode": "repeat",
+      "age": 512,
+      "actual_age": [
+        509,
+        512
+      ],
+      "n": 256,
+      "correct": 254,
+      "accuracy": 0.9921875,
+      "loss": 0.018924753399915062,
+      "stale_rate": null,
+      "data_sha256": "669aa4b208650a33f55c601dae766e6f7bd8ec53cef6788acd0c217221031018"
+    },
+    {
+      "arm": "kron2h4",
+      "seed": 22103,
+      "mode": "repeat",
+      "age": 2048,
+      "actual_age": [
+        2045,
+        2048
+      ],
+      "n": 256,
+      "correct": 250,
+      "accuracy": 0.9765625,
+      "loss": 0.06756726165986038,
+      "stale_rate": null,
+      "data_sha256": "aa29e0da7c1a1e8ee47338111ec94562eda9603620f7c76d44ee920bbd010044"
+    },
+    {
+      "arm": "kron2h4",
+      "seed": 22103,
+      "mode": "competing",
+      "age": 32,
+      "actual_age": [
+        29,
+        32
+      ],
+      "n": 256,
+      "correct": 254,
+      "accuracy": 0.9921875,
+      "loss": 0.017697477363981307,
+      "stale_rate": null,
+      "data_sha256": "5125a5fd1f903391b3c17f4be5788985e52e209ab8e1abc05ab6ee26b0e91b4f"
+    },
+    {
+      "arm": "kron2h4",
+      "seed": 22103,
+      "mode": "competing",
+      "age": 128,
+      "actual_age": [
+        125,
+        128
+      ],
+      "n": 256,
+      "correct": 235,
+      "accuracy": 0.91796875,
+      "loss": 0.4836907054996118,
+      "stale_rate": null,
+      "data_sha256": "1c4673700ff02d559471835da6a33a79b311670446adcdefa08bbadeefe25cc5"
+    },
+    {
+      "arm": "kron2h4",
+      "seed": 22103,
+      "mode": "competing",
+      "age": 512,
+      "actual_age": [
+        509,
+        512
+      ],
+      "n": 1024,
+      "correct": 925,
+      "accuracy": 0.9033203125,
+      "loss": 0.5054053376370575,
+      "stale_rate": null,
+      "data_sha256": "4dc8b6e65d41d150c08c05f5817969af29d7a29f79cc8030d7ebaf70fe16e11e"
+    },
+    {
+      "arm": "kron2h4",
+      "seed": 22103,
+      "mode": "competing",
+      "age": 2048,
+      "actual_age": [
+        2045,
+        2048
+      ],
+      "n": 256,
+      "correct": 156,
+      "accuracy": 0.609375,
+      "loss": 2.6074383556842804,
+      "stale_rate": null,
+      "data_sha256": "4b7dd576353f960e1879b54978cf7bb0c39939d2e76532d5f9bb296593610315"
+    },
+    {
+      "arm": "kron2h4",
+      "seed": 22103,
+      "mode": "overwrite",
+      "age": 32,
+      "actual_age": [
+        29,
+        32
+      ],
+      "n": 256,
+      "correct": 250,
+      "accuracy": 0.9765625,
+      "loss": 0.11194505740422755,
+      "stale_rate": 0.0,
+      "data_sha256": "8a9f0327a629d97cd8c05b604ead6008706e2cc236efdae6ecb258cfd4b56a02"
+    },
+    {
+      "arm": "kron2h4",
+      "seed": 22103,
+      "mode": "overwrite",
+      "age": 128,
+      "actual_age": [
+        125,
+        128
+      ],
+      "n": 256,
+      "correct": 249,
+      "accuracy": 0.97265625,
+      "loss": 0.12632837489945814,
+      "stale_rate": 0.0,
+      "data_sha256": "8dc0cf073b79f9b55998667fa2d075454f2387029b312d16fc0160b62a39b715"
+    },
+    {
+      "arm": "kron2h4",
+      "seed": 22103,
+      "mode": "overwrite",
+      "age": 512,
+      "actual_age": [
+        509,
+        512
+      ],
+      "n": 1024,
+      "correct": 990,
+      "accuracy": 0.966796875,
+      "loss": 0.1250573367869947,
+      "stale_rate": 0.005859375,
+      "data_sha256": "03098da29f5d7e2c286769458cb84ff8d341db785bc291642243fa80e5bdbde3"
+    },
+    {
+      "arm": "kron2h4",
+      "seed": 22103,
+      "mode": "overwrite",
+      "age": 2048,
+      "actual_age": [
+        2045,
+        2048
+      ],
+      "n": 256,
+      "correct": 196,
+      "accuracy": 0.765625,
+      "loss": 1.3658921867609024,
+      "stale_rate": 0.0390625,
+      "data_sha256": "5de7e2ab638d5016f706ca7279cd555c9fe289c800d4da6c2c1be821dc86e9be"
+    }
+  ],
+  "seconds": 37.97985935199904
+}

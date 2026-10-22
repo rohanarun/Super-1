@@ -1,0 +1,19 @@
+/workspace/scratch/737f8ed2f57e/super-1/auto-research/results/minkron-fast-20261021-v1/qualify.py:23: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)
+  worst=max(worst,float((x-y).abs().max()))
+Traceback (most recent call last):
+  File "/workspace/scratch/737f8ed2f57e/super-1/auto-research/results/minkron-fast-20261021-v1/qualify.py", line 95, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/scratch/737f8ed2f57e/super-1/auto-research/results/minkron-fast-20261021-v1/qualify.py", line 52, in main
+    step=check(list(m.parameters()),list(ref.parameters()),**tol)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/737f8ed2f57e/super-1/auto-research/results/minkron-fast-20261021-v1/qualify.py", line 22, in check
+    torch.testing.assert_close(x,y,atol=atol,rtol=rtol)
+  File "/workspace/scratch/a22737d1618c/kron-integrated-runtime/torch/testing/_comparison.py", line 1589, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 1 / 79872 (0.0%)
+Greatest absolute difference: 2.4419103283435106e-05 at index (326, 74) (up to 2e-05 allowed)
+Greatest relative difference: 0.029587330296635628 at index (326, 74) (up to 0.0002 allowed)

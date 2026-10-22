@@ -1,5 +1,18 @@
 # Research catalog and recovery status — 2026-10-15
 
+## Compact minKron and CPU scale feasibility — 2026-10-21
+
+[Report](reports/minkron-publication-20261021-v1.md) and
+[source/evidence index](results/minkron-publication-20261021-v1/README.md): three-seed
+synthetic retrieval at the minGRU state/training-CPU budget, all compact layouts,
+common-decoder integration, and the separate 123.38M 25-minute CPU text run.
+One 8×8 memory improves the two mean primary accuracies with fewer parameters,
+but decode is 3.41× slower and training tensor allocation is 13.1% higher; the
+overall resource screen fails. The scale run establishes early learning and
+resource feasibility, not a language-quality win. All ten generations and
+negative/failed outcomes are retained. This is retrospective publication with
+no new training or model evaluation.
+
 ## Perturbation optimizer recovered — 2026-10-18
 
 The [W560 perturbation optimizer](PERTURBATION_OPTIMIZATION.md) is now preserved as source: 85 original frozen files plus a separately inventoried later MPS snapshot and all three located completed decisions. The recovery includes 137 imported files, fresh passing toy tests, and a read-only audit of all 46 saved candidates. One historical promotion and two rejections remain visible; scores are from reused optimization data. Checkpoints/token arrays stay external and no new language training or W560 evaluation was launched.

@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "status": "AUTHORIZED_PREREGISTERED",
+  "experiment_id": "small-minkron-head-and-locality-ablation",
+  "run_id": "minkron-fast-20261021-v1",
+  "parent_run_ids": [
+    "minkron-publication-20261021-v1"
+  ],
+  "hypothesis": "At a small fixed residual width, 16x16/32x32 memory heads or local convolution improve held-out language loss enough to justify cost; halving the MLP may improve learning per CPU second.",
+  "primary_comparator": "k8",
+  "primary_metric": "Mean paired development cross-entropy after equal token exposure; confirmation is an internal reused-region check.",
+  "minimum_useful_effect": "0.02 nat/token mean CE reduction; no universal capability or superiority claim.",
+  "success_rule": "Exploratory advance only if mean CE improves >=0.02 and all three paired seeds agree, with all fidelity/completion gates passed. Speed and state memory reported separately.",
+  "futility_rule": "Stop any nonfinite/fidelity-failing arm. Stop screening at 900 training wall seconds, extensions at 300 training seconds each, total 1800 training wall seconds. Incomplete matched grids cannot claim a completed comparison.",
+  "authorization": {
+    "approved": true,
+    "user_approval_reference": "2026-10-21 user: Let us run with a smaller, faster model ... go ahead and run with those new experiments. Earlier user requests code/results and reconstruction placeholders, no big files.",
+    "approved_resources": "Existing user-provided CPU workspace only; no GPU or new external compute resources. This active instruction supersedes the historical paused/mounted-macOS-workflow scope for this run.",
+    "max_cost": "No purchases or paid resource provisioning.",
+    "max_walltime": "Self-imposed <=30 minutes training; setup, fidelity, evaluation and publication additional.",
+    "local_cpu_budget": "Up to 4 of available 8 CPU cores during training; <=2 CPU hours; selected from 1/2/4 threads by throughput."
+  },
+  "design": {
+    "original_source_hashes": {
+      "model.py": "b21433cf697d7808cff14092a8e20f9a91fa68bf5aac46a2fdec7d0879faba15"
+    },
+    "mechanism_equations": "S_decay=exp(g)*S; u=write-beta*<k,S_decay v>/||v||^2; S=S_decay+u*k*v^T (normalized v); y=q^T S/sqrt(K). Optional depthwise causal FIR4 on qkv, initialized identity.",
+    "arms": [
+      "k8:12 heads 8x8, MLP768",
+      "k16:6 heads 16x16, MLP768",
+      "k32:3 heads 32x32, MLP768",
+      "k16_lean:6 heads 16x16, MLP384",
+      "k16_lean_conv:lean plus identity-initialized FIR4",
+      "transformer_lean:6-head RoPE attention, MLP384"
+    ],
+    "control_rationale": "All models: width192, 3 layers, vocab4096, tied embedding/head, squared ReLU MLP, pre-RMSNorm. Fixed readout width96 across recurrent arms. Lean Transformer gives a practical speed/quality reference; not parameter matched.",
+    "seeds": [
+      25101,
+      25102,
+      25103
+    ],
+    "seed_selection_method": "Three sequential fresh seeds; independent of outcomes; shared named backbone initialization and identical training windows within each paired seed.",
+    "learning_rate_trials_per_arm": 1,
+    "parameter_counts": "Exact counts written by qualify.py to PROFILE.json before language training.",
+    "matching_track": "Screen: token/update matched, not parameter/FLOP/walltime matched. Extension: equal additional training seconds from screen endpoint, not equal lifetime compute.",
+    "compute_accounting": "Per-step measured training walltime, target exposures and process peak RSS; no inferred FLOP match."
+  },
+  "data": {
+    "dataset_versions": {
+      "repo": "HuggingFaceFW/fineweb",
+      "config": "sample-10BT",
+      "revision": "9bb295ddab0e05d785b879661af7260fed5140fc",
+      "path": "sample/10BT/000_00000.parquet",
+      "bytes": 2147292183,
+      "sha256": "6b552ea48424648dc86d00df276f93fdfc55e9ad342ce3e4affc23a3a370792b",
+      "rows_examined": 12692,
+      "total_shard_rows": 1048581
+    },
+    "tokenizer_sha256": "79deb09ce4ad2a7341b34456053eff0cf9ffde966db132293a90ae1fa6b840be",
+    "train_sha256": "e9cc19dd52a173cdcab5557acbdedd73710b148a9d3ab791ba620fc4a7b5cc1b",
+    "selection_sha256": "29894020b5ae4e82d64698d053bceea480b8e83044bf27f8441d94f38824b55d",
+    "confirmation_sha256": "5d26cce81fe1a8340b6fe2a04f6f9a7fb338a64125726cc397634fdab2ee3b01",
+    "split_boundaries": "Original SHA256 whole-document split preserved; retokenized losslessly. Prefix4096 GPT-2 vocabulary not fitted to holdouts.",
+    "research_wide_region_reuse_audit": "Development and confirmation documents were used in the earlier 124M pilot. This is internal ablation evidence, not a globally unseen transfer test.",
+    "teacher_and_objective": "No teacher; next-token cross entropy, including text-to-EOT, document resets before EOT.",
+    "official_test_access_permitted": false
+  },
+  "training": {
+    "updates": "Screen S=max(16,min(512,floor(900*0.75*min_arm_throughput/(18*1024)))) at maximin-speed thread count in {1,2,4}. Freeze in PROFILE.json before corpus training; 18 arm/seed runs. Extension: k8, selected best recurrent variant, Transformer, seed25101, 300 training seconds each, continue next window.",
+    "target_exposures_per_trial": "Screen S*1024 each. Extension measured exactly; no wrapping within an epoch, deterministic re-shuffle at next epoch.",
+    "tokens_per_update": 1024,
+    "microbatch": 8,
+    "gradient_accumulation": 1,
+    "bptt_length": 128,
+    "accessible_history": "128 independent-token windows at training/evaluation; no evidence for longer-context retention.",
+    "state_carry_and_detach": "Reset at each window; no cross-window state. This is a reset-window architecture screen, not persistent-state hierarchy training.",
+    "document_reset_policy": "Reset before every EOT input, and window start; conv cache resets too.",
+    "optimizer_schedule": "AdamW beta(.9,.95), eps1e-8; weight_decay0.1 except embeddings/norms/decays/bias; clip global grad norm1; peak LR0.003; linear warmup first min(20,max(4,S//10)) steps then cosine to0.0003. Extension starts at0.0015 and cosine decays by measured extension training time to0.0003, all arms same rule.",
+    "precision": "CPU FP32 canonical; no AMP/quantization/compile.",
+    "checkpoint_selection_rule": "Use final fixed-exposure screen checkpoint for every arm/seed. Select variant by mean dev CE, tie within1e-6 by name. Extension endpoints final by time budget. No best-of-checkpoint selection."
+  },
+  "execution": {
+    "hardware": "Linux x86_64; 8-core cgroup CPU quota, 8GiB memory; no CUDA.",
+    "runtime_versions": "Python3.12; torch2.9.1+cpu; numpy existing runtime; tiktoken0.14.0; full environment captured before execution.",
+    "resolved_writable_output": "/workspace/scratch/737f8ed2f57e/super-1/auto-research/results/minkron-fast-20261021-v1",
+    "source_ownership_and_concurrent_writers": "Single agent owns new unique run directory; prior sources unchanged; no other training jobs started.",
+    "fidelity_tolerances": {
+      "torch.float64": {
+        "atol": 1e-08,
+        "rtol": 1e-06
+      },
+      "torch.float32": {
+        "atol": 2e-05,
+        "rtol": 0.0002
+      }
+    },
+    "canary_matrix": "All 6 arms, seeds25101/25102, FP64/FP32, B2 T19 with 2 document resets; chunk vs independent recurrence output/state/parameter grads/AdamW; full vs split(6,13), future-token causality, reset isolation; nonzero conv history. Synthetic throughput B8 T128, 2 warmup +5 measured steps at1/2/4threads.",
+    "cost_estimate": "<=30 minutes training on existing CPU host; no resource provisioning."
+  },
+  "evaluation": {
+    "primary_endpoint": "Screen final fixed-token checkpoints: dev first16384 next-token targets. After selecting recurrent variant, freeze all screen checkpoints and evaluate all arms/seeds on first32768 confirmation targets twice. Extension endpoint dev and confirmation scored after fixed time, plus fixed prompt samples.",
+    "confirmation_frozen_before_scoring": true,
+    "canonical_precision": "FP32",
+    "duplicate_policy": "Repeat confirmation CE FP32; require absolute mean difference <=1e-7. Report any failure.",
+    "uncertainty_method": "Show all three paired seeds, mean and sample SD of CE differences; n=3 descriptive only, no strong statistical claim.",
+    "multiple_comparison_policy": "Six-arm exploratory screen with development selection; reused confirmation not an untouched external dataset; no familywise-significance claim.",
+    "no_test_tuning": true
+  },
+  "deployment": {
+    "weight_dtype": "FP32",
+    "kv_or_state_dtype": "FP32",
+    "quantization_metadata": "None",
+    "batching": "Training8; deployment measurement1.",
+    "prefill_decode_protocol": "Final extension seed25101 models: prefill128 and decode64, same fixed token sequence; report persistent state at128/256, weight bytes, RSS separately.",
+    "warmup_and_synchronization": "CPU synchronous; 2 warmups then5 timed prefill and64 individual decode timings.",
+    "memory_components": "Weight tensor bytes, persistent state tensor bytes, peak process RSS separately; RSS includes runtime/training allocations and is not isolated deployment memory.",
+    "latency_statistics": "p50/p95 decode token time and prefill time, batch1."
+  },
+  "evidence": {
+    "protocol_sha256": "External digest in RUN_REGISTRY.json avoids circular self-hash.",
+    "source_manifest": "SOURCE_MANIFEST.json frozen before training; preserve any later fixes separately.",
+    "checkpoint_manifest": "CHECKPOINTS.json; checkpoint bodies retained locally and excluded from Git per user; reconstruction recipe and hashes included.",
+    "progress_path": "training.jsonl",
+    "terminal_receipt_path": "TERMINAL.json",
+    "preservation_policy": "Commit code, tokenizer, source/data/checkpoint hashes, compact metrics and samples; exclude corpus arrays and weights, include reconstruction placeholders.",
+    "cleanup_receipt": "CLEANUP.json; do not delete checkpoint evidence or affect unrelated processes."
+  },
+  "decision": {
+    "outcome": "PENDING_EXECUTION",
+    "reason": "Frozen before synthetic qualification and language training.",
+    "next_experiment": "Decide only after all outcomes; no automatic unbounded run."
+  }
+}

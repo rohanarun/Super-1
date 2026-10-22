@@ -1,0 +1,6 @@
+torch==2.9.1
+numpy>=2.0
+einops>=0.8
+tiktoken==0.14.0
+requests>=2.32
+matplotlib>=3.9

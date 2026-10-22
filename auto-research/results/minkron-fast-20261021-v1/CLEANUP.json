@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-21T23:11:47.730177+00:00",
+  "status": "COMPLETE",
+  "active_run_processes": [],
+  "training_and_evaluation_finished": true,
+  "external_compute_provisioned": false,
+  "gpu_used": false,
+  "automations_created": false,
+  "artifacts_deleted": false,
+  "omitted_bodies": "Retained locally and excluded from Git per user; data and checkpoint hashes verified.",
+  "reconstruction_replay_seconds": 39.50604033699983
+}

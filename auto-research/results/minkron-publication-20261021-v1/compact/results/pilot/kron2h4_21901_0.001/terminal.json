@@ -1,0 +1,110 @@
+{
+  "arm": "kron2h4",
+  "seed": 21901,
+  "lr": 0.001,
+  "phases": [
+    {
+      "phase": "short",
+      "steps": 3200,
+      "tokens": 2457600,
+      "training_cpu_seconds": 99.00056182500037,
+      "cpu_cap": 100.0,
+      "data_sha256": "a7e530203b187752a26c8ecee491c2f37c4bed6a8f7addecde8dfb3c453fb0aa",
+      "max_step_cpu_seconds": 0.3207037610000043
+    }
+  ],
+  "updates": 3200,
+  "tokens": 2457600,
+  "training_cpu_seconds": 99.00056182500037,
+  "training_wall_seconds": 99.25945938900259,
+  "pilot": true,
+  "status": "completed",
+  "accounting": {
+    "parameters": 94590,
+    "parameter_bytes": 378360,
+    "persistent_tensor_state_bytes": 896,
+    "persistent_backing_storage_bytes": 896,
+    "state_shapes": {
+      "segment": [
+        1,
+        64
+      ],
+      "document": [
+        1,
+        64
+      ],
+      "segment_sum": [
+        1,
+        64
+      ],
+      "segment_tokens": 1,
+      "segments": 0,
+      "kron_state": [
+        1,
+        2,
+        4,
+        4
+      ]
+    }
+  },
+  "validation": [
+    {
+      "mode": "quiet",
+      "age": 16,
+      "n": 128,
+      "correct": 128,
+      "accuracy": 1.0
+    },
+    {
+      "mode": "quiet",
+      "age": 32,
+      "n": 128,
+      "correct": 128,
+      "accuracy": 1.0
+    },
+    {
+      "mode": "repeat",
+      "age": 16,
+      "n": 128,
+      "correct": 128,
+      "accuracy": 1.0
+    },
+    {
+      "mode": "repeat",
+      "age": 32,
+      "n": 128,
+      "correct": 128,
+      "accuracy": 1.0
+    },
+    {
+      "mode": "competing",
+      "age": 16,
+      "n": 128,
+      "correct": 128,
+      "accuracy": 1.0
+    },
+    {
+      "mode": "competing",
+      "age": 32,
+      "n": 128,
+      "correct": 128,
+      "accuracy": 1.0
+    },
+    {
+      "mode": "overwrite",
+      "age": 16,
+      "n": 128,
+      "correct": 126,
+      "accuracy": 0.984375
+    },
+    {
+      "mode": "overwrite",
+      "age": 32,
+      "n": 128,
+      "correct": 124,
+      "accuracy": 0.96875
+    }
+  ],
+  "checkpoint": "results/pilot/kron2h4_21901_0.001/final.pt",
+  "checkpoint_sha256": "8297d2b4f68875fbaf7421768cf6977f327be1e4367334a35ad9e19cb8f55254"
+}

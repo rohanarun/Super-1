@@ -1,0 +1,47 @@
+[
+  {
+    "path": "upstream/hierarchy/vendor/representation_experiments/predictive_models.py",
+    "sha": "c99cf906a5a6805d490ad84e360170083bd01720",
+    "display_url": "https://github.com/JRowe47/Super-1/blob/568cfb7b4017619b93c1f4107cc688ca33d30c5c/auto-research/results/gru-extended-20261016-v1/vendor/representation_experiments/predictive_models.py"
+  },
+  {
+    "path": "upstream/hierarchy/vendor/representation_experiments/common.py",
+    "sha": "ba7a5bd04a9d88dafdd0ac3f16da9338423ab2c3",
+    "display_url": "https://github.com/JRowe47/Super-1/blob/568cfb7b4017619b93c1f4107cc688ca33d30c5c/auto-research/results/gru-extended-20261016-v1/vendor/representation_experiments/common.py"
+  },
+  {
+    "path": "upstream/fla/layers/kronlstm.py",
+    "sha": "9f4b9b68ff242cf847c5e78857a37264db50cb55",
+    "display_url": "https://github.com/NX-AI/KronLSTM/blob/main/fla/layers/kronlstm.py"
+  },
+  {
+    "path": "upstream/fla/ops/kronlstm/naive.py",
+    "sha": "4280290762f798579af5cae2bb51b640fa0563dc",
+    "display_url": "https://github.com/NX-AI/KronLSTM/blob/main/fla/ops/kronlstm/naive.py"
+  },
+  {
+    "path": "references/fused_norm_gate.py",
+    "sha": "f45853bd43e512c9cd999a7d2284f1f9a42b8f66",
+    "display_url": "https://github.com/NX-AI/KronLSTM/blob/main/fla/modules/norm/fused_norm_gate.py"
+  },
+  {
+    "path": "references/causal_conv1d_ops.py",
+    "sha": "beb7b1022e71b52cd9f6bedc66ca667dc5dda517",
+    "display_url": "https://github.com/NX-AI/KronLSTM/blob/main/fla/modules/causal_conv1d/ops.py"
+  },
+  {
+    "path": "upstream/KronLSTM_LICENSE.txt",
+    "sha": "216e99a61a79db98c610bb27cafbae2f0a18be97",
+    "display_url": "https://github.com/NX-AI/KronLSTM/blob/main/LICENSE"
+  },
+  {
+    "path": "upstream/hierarchy/models.py",
+    "sha": "00ec06cfcc3f29a52f285f2b9ca20b701d728ed2",
+    "display_url": "https://github.com/JRowe47/Super-1/blob/568cfb7b4017619b93c1f4107cc688ca33d30c5c/auto-research/results/gru-extended-20261016-v1/models.py"
+  },
+  {
+    "path": "upstream/Super-1_LICENSE.txt",
+    "sha": "b6d7ff74422387c5162aa626229678d42004128c",
+    "display_url": "https://github.com/JRowe47/Super-1/blob/568cfb7b4017619b93c1f4107cc688ca33d30c5c/LICENSE"
+  }
+]

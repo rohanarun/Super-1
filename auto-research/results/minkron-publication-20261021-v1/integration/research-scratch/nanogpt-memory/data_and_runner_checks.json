@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "tests": [
+    {
+      "name": "document_disjointness_deduplication_exact_token_masks",
+      "status": "PASS"
+    },
+    {
+      "name": "fixed_token_runner_resume",
+      "arm": "minkron_8x8",
+      "status": "PASS",
+      "scored_tokens": 53,
+      "optimizer_steps": 3,
+      "parameter_max_abs": 0.0,
+      "failed_attempt_and_spent_compute_preserved": true
+    },
+    {
+      "name": "fixed_token_runner_resume",
+      "arm": "mingru_linear",
+      "status": "PASS",
+      "scored_tokens": 53,
+      "optimizer_steps": 3,
+      "parameter_max_abs": 0.0,
+      "failed_attempt_and_spent_compute_preserved": true
+    },
+    {
+      "name": "fixed_token_runner_resume",
+      "arm": "transformer",
+      "status": "PASS",
+      "scored_tokens": 53,
+      "optimizer_steps": 3,
+      "parameter_max_abs": 0.0,
+      "failed_attempt_and_spent_compute_preserved": true
+    }
+  ],
+  "caveat": "Harness fixtures only; no research data or quality evidence"
+}

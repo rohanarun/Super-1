@@ -1,0 +1,69 @@
+{
+  "arm": "mingru",
+  "seed": 22103,
+  "lr": 0.003,
+  "phases": [
+    {
+      "phase": "short",
+      "steps": 10000,
+      "tokens": 7680000,
+      "training_cpu_seconds": 115.4734885729995,
+      "cpu_cap": null,
+      "data_sha256": "5ce499f17e921ebac31e7e15cfb7deec05485d662039660d83e263b23295b9a2",
+      "max_step_cpu_seconds": 0.20576615699999934
+    },
+    {
+      "phase": "medium",
+      "steps": 1000,
+      "tokens": 2671872,
+      "training_cpu_seconds": 35.30485983699937,
+      "cpu_cap": null,
+      "data_sha256": "4d6728263b751e69ffcecfa84f109cdbc8f1ee1a0000d8c5a3ee55116b214607",
+      "max_step_cpu_seconds": 0.624906760000016
+    },
+    {
+      "phase": "long",
+      "steps": 3000,
+      "tokens": 19910400,
+      "training_cpu_seconds": 321.3619023309993,
+      "cpu_cap": null,
+      "data_sha256": "f7052d66aee97e7cd5a5fdcab2854bf2e69f5a7a539c10ea41c58bc56db2d319",
+      "max_step_cpu_seconds": 0.6907013519999623
+    }
+  ],
+  "updates": 14000,
+  "tokens": 30262272,
+  "training_cpu_seconds": 472.14025074099817,
+  "training_wall_seconds": 473.51271968999936,
+  "pilot": false,
+  "status": "completed",
+  "accounting": {
+    "parameters": 111048,
+    "parameter_bytes": 444192,
+    "persistent_tensor_state_bytes": 1024,
+    "persistent_backing_storage_bytes": 1024,
+    "state_shapes": {
+      "fast": [
+        1,
+        64
+      ],
+      "segment": [
+        1,
+        64
+      ],
+      "document": [
+        1,
+        64
+      ],
+      "segment_sum": [
+        1,
+        64
+      ],
+      "segment_tokens": 1,
+      "segments": 0
+    }
+  },
+  "validation": [],
+  "checkpoint": "results/main/mingru_22103_0.003/final.pt",
+  "checkpoint_sha256": "d5dea9231c268d8b05eca20db598a7b8e4f4a2899649a879502ef692015c17df"
+}

@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-21T22:40:01.471881+00:00",
+  "before_language_training": true,
+  "reason": "FP32 parameter/state/forward parity passed up to first failing optimizer check, but Adam epsilon1e-8 amplified tiny gradient rounding differences beyond the frozen tolerance. Stable unfactored core did not resolve the diagnostic.",
+  "change": "Use AdamW epsilon1e-4 for every arm and phase, in both candidate and reference. Retain factored core. No fidelity tolerance change, no data/metric/selection change.",
+  "old_eps": 1e-08,
+  "new_eps": 0.0001,
+  "failed_receipt": "qualification_initial_failed.log",
+  "diagnostic": "FAILURE_DIAGNOSTIC.json"
+}

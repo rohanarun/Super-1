@@ -1,0 +1,71 @@
+{
+  "arm": "kron8",
+  "seed": 22101,
+  "lr": 0.001,
+  "phases": [
+    {
+      "phase": "short",
+      "steps": 5020,
+      "tokens": 3853184,
+      "training_cpu_seconds": 110.23747835599995,
+      "cpu_cap": 111.21766280999967,
+      "data_sha256": "2ce65ebe5a2d7ab508a36ce3c6bada420aa20c632b3808f698e6cd64e1cc07a9",
+      "max_step_cpu_seconds": 0.4816955969999981
+    },
+    {
+      "phase": "medium",
+      "steps": 432,
+      "tokens": 1156608,
+      "training_cpu_seconds": 32.933520999999686,
+      "cpu_cap": 33.790334367999606,
+      "data_sha256": "22838c219bd1e752f2577e7127c46733864d921c645ef87670de73fc578294f5",
+      "max_step_cpu_seconds": 0.20623016300000074
+    },
+    {
+      "phase": "long",
+      "steps": 2053,
+      "tokens": 13579424,
+      "training_cpu_seconds": 282.31413231600004,
+      "cpu_cap": 283.18776605099987,
+      "data_sha256": "baa4272f88523f3f17f461029efd7759a42ecfad3b6a2f0a4565a42e45da66e8",
+      "max_step_cpu_seconds": 0.8270889920000002
+    }
+  ],
+  "updates": 7505,
+  "tokens": 18589216,
+  "training_cpu_seconds": 425.48513167199974,
+  "training_wall_seconds": 426.47492568600137,
+  "pilot": false,
+  "status": "completed",
+  "accounting": {
+    "parameters": 95009,
+    "parameter_bytes": 380036,
+    "persistent_tensor_state_bytes": 1024,
+    "persistent_backing_storage_bytes": 1024,
+    "state_shapes": {
+      "segment": [
+        1,
+        64
+      ],
+      "document": [
+        1,
+        64
+      ],
+      "segment_sum": [
+        1,
+        64
+      ],
+      "segment_tokens": 1,
+      "segments": 0,
+      "kron_state": [
+        1,
+        1,
+        8,
+        8
+      ]
+    }
+  },
+  "validation": [],
+  "checkpoint": "results/main/kron8_22101_0.001/final.pt",
+  "checkpoint_sha256": "9207cb19b976ff37b622bdb8ba630221b758436c75f634da6d2eb902d7d8c5cf"
+}

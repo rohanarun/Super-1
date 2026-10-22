@@ -1,0 +1,70 @@
+{
+  "name": "minGRU_minKron_common_LM_pilot_v1",
+  "status": "proposed defaults; freeze after hardware and data qualification, before training",
+  "nanogpt_reference_commit": "4ea6b937337a4889b8cfe3f38a93d120048d8f71",
+  "arms": [
+    "transformer",
+    "mingru_linear",
+    "minkron_8x8"
+  ],
+  "data": {
+    "corpus": "FineWeb via the pinned speedrun data pipeline",
+    "tokenizer": "GPT-2, identical token IDs for all arms",
+    "train_tokens": 20000000,
+    "development_tokens": 1000000,
+    "confirmation_tokens": 1000000,
+    "split_rule": "document-disjoint; publish exact shard, document, token and checksum manifests"
+  },
+  "model": {
+    "layers": 4,
+    "width": 256,
+    "mlp_multiplier": 4,
+    "mlp_activation": "ReLU squared",
+    "normalization": "pre-RMSNorm",
+    "tied_token_embedding_and_lm_head": true,
+    "dropout": 0.0,
+    "transformer_heads": 4,
+    "transformer_position": "RoPE",
+    "mingru_state_values_per_layer": 256,
+    "minkron_heads": 4,
+    "minkron_key_dim": 8,
+    "minkron_value_dim": 8,
+    "ngram_augmentation": "off"
+  },
+  "training": {
+    "sequence_length": 512,
+    "global_tokens_per_optimizer_step": 16384,
+    "optimizer": "AdamW",
+    "betas": [
+      0.9,
+      0.95
+    ],
+    "weight_decay": 0.1,
+    "gradient_clip": 1.0,
+    "warmup_fraction": 0.05,
+    "no_weight_decay": "embedding/tied head, norms, biases and explicit recurrence decay parameters",
+    "schedule": "cosine to 0.1 of selected peak LR",
+    "pilot_learning_rates": [
+      0.0003,
+      0.001,
+      0.003
+    ],
+    "pilot_tokens_per_rate": 2000000,
+    "pilot_seed": 22901,
+    "confirmation_seeds": [
+      23101,
+      23102,
+      23103
+    ],
+    "additional_prespecified_seeds_if_promoted": [
+      23104,
+      23105
+    ],
+    "state_storage": "FP32 for both recurrent arms initially",
+    "projection_precision": "BF16 after reference equivalence passes",
+    "state_policy": "reset at independent windows and document boundaries; full BPTT within each window"
+  },
+  "selection": "LR selected on development only; final fixed-token checkpoint for confirmation",
+  "timing": "record full training-loop wall time and separate setup/compile/preprocessing time",
+  "hardware_gate": "same GPU type/count for comparative timings; CPU-only sessions prepare and verify only"
+}

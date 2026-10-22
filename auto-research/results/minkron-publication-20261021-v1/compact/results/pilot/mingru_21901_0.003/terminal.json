@@ -1,0 +1,108 @@
+{
+  "arm": "mingru",
+  "seed": 21901,
+  "lr": 0.003,
+  "phases": [
+    {
+      "phase": "short",
+      "steps": 8315,
+      "tokens": 6382944,
+      "training_cpu_seconds": 99.00321015400041,
+      "cpu_cap": 100.0,
+      "data_sha256": "1a76ba37b7667282c32951ba164c70dae58a4ca9b293dceadacbed122ff47f21",
+      "max_step_cpu_seconds": 0.12973508500000008
+    }
+  ],
+  "updates": 8315,
+  "tokens": 6382944,
+  "training_cpu_seconds": 99.00321015400041,
+  "training_wall_seconds": 99.55649449200064,
+  "pilot": true,
+  "status": "completed",
+  "accounting": {
+    "parameters": 111048,
+    "parameter_bytes": 444192,
+    "persistent_tensor_state_bytes": 1024,
+    "persistent_backing_storage_bytes": 1024,
+    "state_shapes": {
+      "fast": [
+        1,
+        64
+      ],
+      "segment": [
+        1,
+        64
+      ],
+      "document": [
+        1,
+        64
+      ],
+      "segment_sum": [
+        1,
+        64
+      ],
+      "segment_tokens": 1,
+      "segments": 0
+    }
+  },
+  "validation": [
+    {
+      "mode": "quiet",
+      "age": 16,
+      "n": 128,
+      "correct": 128,
+      "accuracy": 1.0
+    },
+    {
+      "mode": "quiet",
+      "age": 32,
+      "n": 128,
+      "correct": 128,
+      "accuracy": 1.0
+    },
+    {
+      "mode": "repeat",
+      "age": 16,
+      "n": 128,
+      "correct": 128,
+      "accuracy": 1.0
+    },
+    {
+      "mode": "repeat",
+      "age": 32,
+      "n": 128,
+      "correct": 128,
+      "accuracy": 1.0
+    },
+    {
+      "mode": "competing",
+      "age": 16,
+      "n": 128,
+      "correct": 118,
+      "accuracy": 0.921875
+    },
+    {
+      "mode": "competing",
+      "age": 32,
+      "n": 128,
+      "correct": 116,
+      "accuracy": 0.90625
+    },
+    {
+      "mode": "overwrite",
+      "age": 16,
+      "n": 128,
+      "correct": 115,
+      "accuracy": 0.8984375
+    },
+    {
+      "mode": "overwrite",
+      "age": 32,
+      "n": 128,
+      "correct": 100,
+      "accuracy": 0.78125
+    }
+  ],
+  "checkpoint": "results/pilot/mingru_21901_0.003/final.pt",
+  "checkpoint_sha256": "f8226b42016c0fd204a83254caac9422bde7fe27fc8002a03960efbd43646172"
+}

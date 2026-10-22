@@ -1,0 +1,47 @@
+Checking k8 25101 torch.float64
+/workspace/scratch/737f8ed2f57e/super-1/auto-research/results/minkron-fast-20261021-v1/qualify.py:23: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)
+  worst=max(worst,float((x-y).abs().max()))
+Checking k8 25102 torch.float64
+Checking k16 25101 torch.float64
+Checking k16 25102 torch.float64
+Checking k32 25101 torch.float64
+Checking k32 25102 torch.float64
+Checking k16_lean 25101 torch.float64
+Checking k16_lean 25102 torch.float64
+Checking k16_lean_conv 25101 torch.float64
+Checking k16_lean_conv 25102 torch.float64
+Checking transformer_lean 25101 torch.float64
+Checking transformer_lean 25102 torch.float64
+Checking k8 25101 torch.float32
+Checking k8 25102 torch.float32
+Checking k16 25101 torch.float32
+Checking k16 25102 torch.float32
+Checking k32 25101 torch.float32
+Checking k32 25102 torch.float32
+Checking k16_lean 25101 torch.float32
+Checking k16_lean 25102 torch.float32
+Checking k16_lean_conv 25101 torch.float32
+Checking k16_lean_conv 25102 torch.float32
+Checking transformer_lean 25101 torch.float32
+Checking transformer_lean 25102 torch.float32
+Fidelity PASS: all arms, two seeds, FP64/FP32, outputs/states/gradients/AdamW/reset/causality/streaming
+{"arm": "k8", "threads": 1, "tokens_per_second": 3612.6443809357274, "parameters": 1970364}
+{"arm": "k16", "threads": 1, "tokens_per_second": 4052.343166921821, "parameters": 1970370}
+{"arm": "k32", "threads": 1, "tokens_per_second": 4014.084450176005, "parameters": 1980777}
+{"arm": "k16_lean", "threads": 1, "tokens_per_second": 4553.486128525083, "parameters": 1528002}
+{"arm": "k16_lean_conv", "threads": 1, "tokens_per_second": 4363.23396065869, "parameters": 1531458}
+{"arm": "transformer_lean", "threads": 1, "tokens_per_second": 5969.816966858189, "parameters": 1672512}
+{"arm": "k8", "threads": 2, "tokens_per_second": 4951.381734821926, "parameters": 1970364}
+{"arm": "k16", "threads": 2, "tokens_per_second": 5308.06335775824, "parameters": 1970370}
+{"arm": "k32", "threads": 2, "tokens_per_second": 6299.661278766142, "parameters": 1980777}
+{"arm": "k16_lean", "threads": 2, "tokens_per_second": 7094.259387660664, "parameters": 1528002}
+{"arm": "k16_lean_conv", "threads": 2, "tokens_per_second": 7010.668100792929, "parameters": 1531458}
+{"arm": "transformer_lean", "threads": 2, "tokens_per_second": 8566.382723418472, "parameters": 1672512}
+{"arm": "k8", "threads": 4, "tokens_per_second": 5085.651282375382, "parameters": 1970364}
+{"arm": "k16", "threads": 4, "tokens_per_second": 5734.8754532736475, "parameters": 1970370}
+{"arm": "k32", "threads": 4, "tokens_per_second": 5835.298738674486, "parameters": 1980777}
+{"arm": "k16_lean", "threads": 4, "tokens_per_second": 6006.469413329846, "parameters": 1528002}
+{"arm": "k16_lean_conv", "threads": 4, "tokens_per_second": 5782.593601538678, "parameters": 1531458}
+{"arm": "transformer_lean", "threads": 4, "tokens_per_second": 11657.216144131668, "parameters": 1672512}
+{"threads": 4, "screen_steps": 186, "tokens_per_update": 1024, "screen_tokens_per_arm_seed": 190464, "screen_pairs": 18, "extension_seconds_per_arm": 300, "planned_total_training_walltime_ceiling_seconds": 1800, "phase1_walltime_ceiling_seconds": 900, "selected_by": "Synthetic training throughput only; no evaluation or trained pilot inspected."}

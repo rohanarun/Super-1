@@ -1,0 +1,6 @@
+data/*.npy
+data/*_documents.json
+checkpoints/
+runs/*_steps.json
+__pycache__/
+*.tmp
