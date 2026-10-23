@@ -1,0 +1,30 @@
+{
+  "status": "PASS_AUTHOR_CHECKED_EXACT_DOMAIN",
+  "normal_unit_tests": {
+    "command": "python3 -B -m unittest discover -s auto-research/results/kron-exact-core-20261023-v1 -p test_exact_core.py -v",
+    "exit_code": 0,
+    "test_methods": 14,
+    "unittest_reported_seconds": 1.217,
+    "wall_seconds": 1.3254
+  },
+  "optimized_unit_tests": {
+    "command": "python3 -O -B -m unittest discover -s auto-research/results/kron-exact-core-20261023-v1 -p test_exact_core.py -v",
+    "exit_code": 0,
+    "test_methods": 14,
+    "unittest_reported_seconds": 1.198
+  },
+  "full_finite_domain": {
+    "command": "python3 -B auto-research/results/kron-exact-core-20261023-v1/verify_exact.py",
+    "exit_code": 0,
+    "result_file": "EXACT_RESULTS.json",
+    "source_hashes_match_saved_receipt": true,
+    "result_digest": "ff6df29c68b803ffd59ecd33e46060c420ed1b9decaf3c1a314843b1caea020c",
+    "wall_seconds": 99.64921656000661,
+    "cpu_seconds": 99.373173983,
+    "fixed_cap_seconds": 600
+  },
+  "unfavorable_or_null_conditioning_controls_retained": {"worse": 3, "equal": 3, "better": 3},
+  "real_model_or_tensor_library_execution": false,
+  "dependency_installation": false,
+  "claim_level": "Author-checked finite verification plus an explicit proposed algebraic derivation; no machine-checked or independent proof, FP32 performance/qualification or model-quality claim."
+}

@@ -1,0 +1,117 @@
+{
+  "command": "python3 -B auto-research/results/kron-exact-core-20261023-v1/verify_exact.py",
+  "exit_code": 0,
+  "python": "3.13.5 (main, Aug 10 2026, 12:06:59) [GCC 14.2.0]",
+  "source_sha256": {
+    "exact_core.py": "6e68f3f02c2fc3af6bd8e713be1cf9ccc0843ca6a2d68ccbe03f53bc2297bd4e",
+    "fixtures.py": "cd360ce1000b8ba6a370ef5c62ab2046000b0638ea9055a8717b902be1517d81",
+    "verify_exact.py": "d1f88b2eebb32b8c45c88559fa6c04911809f7a1e9bb6b612054576079fc6a4f",
+    "PROTOCOL.json": "4dbb2d89cbedea4be9e1358d25363b487d8e882e825e0234ea6e9be6b8c1596d",
+    "INPUTS.json": "23597bfe89e7663d7d164353e9c37503b9549bfd7385f7d75184fe63b8c78213"
+  },
+  "result": {
+    "status": "PASS_FINITE_EXACT_DOMAIN",
+    "forward_cases": 3840,
+    "whole_block_comparisons": 11520,
+    "chunk_comparisons": 91136,
+    "state_contraction_checks": 3840,
+    "scaled_matrix_bound_checks": 3840,
+    "exact_derivative_cases": 64,
+    "exact_derivative_directions": 1536,
+    "exact_discrepancies": 0,
+    "domain_result_sha256": "ff6df29c68b803ffd59ecd33e46060c420ed1b9decaf3c1a314843b1caea020c",
+    "worst_scaled_condition_inf": "1185728597/131072000",
+    "worst_scaled_condition_case": "T8-K2-V1-7e51cf13-unit-S0-R0",
+    "maximum_absolute_core_partial": "20000000003/500",
+    "maximum_partial_location": {
+      "case": "J-ee6fda1f-near_floor-S1-R0",
+      "input": [
+        "v",
+        0,
+        1
+      ],
+      "output": [
+        "outputs",
+        0,
+        1
+      ],
+      "signed_derivative": "20000000003/500"
+    },
+    "conditioning_controls": [
+      {
+        "family": "small_current",
+        "epsilon": "1/10",
+        "original_condition_inf": "121",
+        "scaled_condition_inf": "4",
+        "comparison": "better"
+      },
+      {
+        "family": "small_previous",
+        "epsilon": "1/10",
+        "original_condition_inf": "121/100",
+        "scaled_condition_inf": "4",
+        "comparison": "worse"
+      },
+      {
+        "family": "unit_control",
+        "epsilon": "1/10",
+        "original_condition_inf": "4",
+        "scaled_condition_inf": "4",
+        "comparison": "equal"
+      },
+      {
+        "family": "small_current",
+        "epsilon": "1/1000000",
+        "original_condition_inf": "1000002000001",
+        "scaled_condition_inf": "4",
+        "comparison": "better"
+      },
+      {
+        "family": "small_previous",
+        "epsilon": "1/1000000",
+        "original_condition_inf": "1000002000001/1000000000000",
+        "scaled_condition_inf": "4",
+        "comparison": "worse"
+      },
+      {
+        "family": "unit_control",
+        "epsilon": "1/1000000",
+        "original_condition_inf": "4",
+        "scaled_condition_inf": "4",
+        "comparison": "equal"
+      },
+      {
+        "family": "small_current",
+        "epsilon": "1/10000000000",
+        "original_condition_inf": "10000000200000001",
+        "scaled_condition_inf": "121/100",
+        "comparison": "better"
+      },
+      {
+        "family": "small_previous",
+        "epsilon": "1/10000000000",
+        "original_condition_inf": "100000000020000000001/100000000000000000000",
+        "scaled_condition_inf": "121/100",
+        "comparison": "worse"
+      },
+      {
+        "family": "unit_control",
+        "epsilon": "1/10000000000",
+        "original_condition_inf": "4",
+        "scaled_condition_inf": "4",
+        "comparison": "equal"
+      }
+    ],
+    "wall_seconds": 99.64921656000661,
+    "cpu_seconds": 99.373173983,
+    "real_model_or_tensor_library_execution": false,
+    "limits": [
+      "Finite checks support the separately written algebraic derivation; they do not prove all inputs.",
+      "Rational fixtures have rational norm roots and omit the common 1/sqrt(K) output factor.",
+      "Exact core partials exclude the norm-floor kink and do not include upstream normalization or model gradients.",
+      "The factored oracle tests an arbitrary detached rational center, not floating exp/log numerics.",
+      "No FP32 accuracy, throughput, model quality, deployment or scaling improvement was measured."
+    ]
+  },
+  "stderr_progress_or_failure": "{\"progress\": {\"forward_cases\": 1910, \"whole_block_comparisons\": 5730, \"chunk_comparisons\": 41664, \"state_contraction_checks\": 1910, \"scaled_matrix_bound_checks\": 1910, \"exact_derivative_cases\": 0, \"exact_derivative_directions\": 0}, \"wall_seconds\": 20.0}\n{\"progress\": {\"forward_cases\": 2539, \"whole_block_comparisons\": 7617, \"chunk_comparisons\": 61792, \"state_contraction_checks\": 2539, \"scaled_matrix_bound_checks\": 2539, \"exact_derivative_cases\": 0, \"exact_derivative_directions\": 0}, \"wall_seconds\": 40.03}\n{\"progress\": {\"forward_cases\": 3182, \"whole_block_comparisons\": 9546, \"chunk_comparisons\": 77976, \"state_contraction_checks\": 3182, \"scaled_matrix_bound_checks\": 3182, \"exact_derivative_cases\": 0, \"exact_derivative_directions\": 0}, \"wall_seconds\": 60.03}\n{\"progress\": {\"forward_cases\": 3671, \"whole_block_comparisons\": 11013, \"chunk_comparisons\": 87756, \"state_contraction_checks\": 3671, \"scaled_matrix_bound_checks\": 3671, \"exact_derivative_cases\": 0, \"exact_derivative_directions\": 0}, \"wall_seconds\": 80.1}\n"
+}
