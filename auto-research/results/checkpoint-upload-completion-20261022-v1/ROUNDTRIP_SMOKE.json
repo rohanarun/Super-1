@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "checked_utc": "2026-10-23T02:56:05.746104+00:00",
+  "asset_id": 667747698,
+  "asset_name": "checkpoint-3b2138d61f2d03b709b7c57d80e409055bb458002c405cfd3b2e8c008ee9c3e5.pt",
+  "bytes": 70264953,
+  "sha256": "3b2138d61f2d03b709b7c57d80e409055bb458002c405cfd3b2e8c008ee9c3e5",
+  "saved_locally": false,
+  "model_executed": false,
+  "scope": "Authenticated streamed download of one newly uploaded checkpoint; hash-only verification."
+}

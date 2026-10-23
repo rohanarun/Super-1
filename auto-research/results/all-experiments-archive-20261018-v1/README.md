@@ -4,7 +4,7 @@ This archive covers the Super-1/function-weight/hierarchy research found across 
 
 The owner selected **source, results, logs, graphs and final checkpoints**. The archive includes final/best/selected checkpoints, final model files named by terminal records, and the latest located checkpoint in each saved lineage. There are 754 unique selected checkpoint objects: most are small and packed with the evidence; 162 larger objects are individual release assets. Intermediate checkpoints and raw tensor dumps were not exhaustively uploaded.
 
-[SUMMARY.current.json](SUMMARY.current.json) is the reconciled publication status as of 2026-10-22: **104 large checkpoints uploaded (19,571,737,789 bytes), 58 checkpoint objects still pending**. Uploads remain paused and the release remains a draft. The original [SUMMARY.json](SUMMARY.json), [FILES.json.gz](FILES.json.gz), and upload receipts are preserved as historical snapshots. Merging this index does not publish the draft release or complete the archive.
+[SUMMARY.current.json](SUMMARY.current.json) records the completed selected-object upload coverage: **162 large checkpoints uploaded (32,489,442,206 bytes), zero selected objects pending**. The final 58 checkpoints were uploaded under fresh user authorization; see [completion receipts](../checkpoint-upload-completion-20261022-v1/REPORT.md). The release remains a draft requiring authorized GitHub access. The original [SUMMARY.json](SUMMARY.json), [FILES.json.gz](FILES.json.gz), and earlier receipts remain historical snapshots. Completing and merging this index does not publish the draft release or validate scientific claims.
 
 - [Browse the experiment/source catalogue](CATALOG.md)
 - [Release assets](https://github.com/rohanarun/Super-1/releases/tag/all-experiments-20261018)
@@ -61,11 +61,11 @@ Check the index locally, or verify remote asset metadata with an authenticated G
 ```sh
 python3 -B auto-research/results/all-experiments-archive-20261018-v1/verify_archive.py
 python3 -B auto-research/results/all-experiments-archive-20261018-v1/verify_archive.py --remote
-# This intentionally fails while 58 selected objects remain pending:
+# Require complete selected-object coverage as well as remote hash checks:
 python3 -B auto-research/results/all-experiments-archive-20261018-v1/verify_archive.py --require-complete
 ```
 
-The default verifier reports `PASS_PARTIAL_ARCHIVE`, not a completed backup. `--remote` verifies every recorded available asset by size and GitHub SHA-256. To refresh locations without transferring anything, run `reconcile_archive.py`; it writes derived current files and leaves the original index unchanged. Do not resume uploads or publish a draft without authorization.
+The verifier now reports `PASS_COMPLETE_ARCHIVE` with zero pending objects. It still reports `PASS_PARTIAL_ARCHIVE` and rejects `--require-complete` for incomplete indexes. `--remote` verifies every recorded available asset by size and GitHub SHA-256. To refresh locations without transferring anything, run `reconcile_archive.py`; it writes derived current files and a fresh receipt, leaving the original index unchanged. Do not add further uploads or publish a draft without authorization.
 
 ## Boundaries
 

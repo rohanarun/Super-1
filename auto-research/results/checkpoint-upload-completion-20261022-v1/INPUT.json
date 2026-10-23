@@ -1,0 +1,14 @@
+{
+  "authorization": "User explicitly requested uploading the pending files after the prior archive merge.",
+  "input_index_commit": "d6cb4c521910f0e9854382541296e2b8b43e4f72",
+  "input_index_path": "auto-research/results/all-experiments-archive-20261018-v1/FILES.current.json.gz",
+  "expected_pending_objects": 58,
+  "expected_pending_bytes": 12917704417,
+  "repo": "rohanarun/Super-1",
+  "release_tag": "all-experiments-20261018",
+  "release_id": 416770023,
+  "release_publication_authorized": false,
+  "local_source_deletion_authorized": false,
+  "model_execution_authorized": false,
+  "source_policy": "Read exact recorded checkpoint paths without modifying them; prefer SSD aliases. All new outputs stay on mounted SSD."
+}

@@ -1,0 +1,47 @@
+{
+  "reason": "Remove only incomplete placeholders from paused 2026-10-19 transfers before resuming explicitly requested uploads. No verified remote assets or local sources deleted.",
+  "assets": [
+    {
+      "id": 654829985,
+      "name": "checkpoint-4fa36420a655338e07d5b321cadbceba811a85d0e93f0fc6d7c639095c7f0e5d.pt",
+      "size": 183023112,
+      "state": "starter",
+      "digest": null,
+      "created_at": "2026-10-19T00:26:06Z",
+      "updated_at": "2026-10-19T00:26:06Z"
+    },
+    {
+      "id": 654830070,
+      "name": "checkpoint-5200dfa93ba21ff38371b7aef64445563f5153a030777905a7ecd17f5a38b312.pt",
+      "size": 183107814,
+      "state": "starter",
+      "digest": null,
+      "created_at": "2026-10-19T00:26:09Z",
+      "updated_at": "2026-10-19T00:26:09Z"
+    },
+    {
+      "id": 654819569,
+      "name": "checkpoint-7440ccfcfe3fafd0c4f7a92cc9bbcb0e6696d373a8ce1f9065a2efc92384f1fd.pt",
+      "size": 462634306,
+      "state": "starter",
+      "digest": null,
+      "created_at": "2026-10-19T00:21:09Z",
+      "updated_at": "2026-10-19T00:21:09Z"
+    },
+    {
+      "id": 654828953,
+      "name": "checkpoint-9226b0f1ea64e45a78b7e451ada362b1f6c7289e29bd852865f7b43b2586eb17.pt",
+      "size": 183107686,
+      "state": "starter",
+      "digest": null,
+      "created_at": "2026-10-19T00:25:31Z",
+      "updated_at": "2026-10-19T00:25:31Z"
+    }
+  ],
+  "deleted_ids": [
+    654829985,
+    654830070,
+    654819569,
+    654828953
+  ]
+}

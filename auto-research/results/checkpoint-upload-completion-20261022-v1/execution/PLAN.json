@@ -1,0 +1,472 @@
+{
+  "manifest_sha256": "fef62411e1ab773a0939457745de2e45940ea9e4fc6af7b134a1f7bc06704663",
+  "objects": [
+    {
+      "bytes": 399517590,
+      "inode": 1077394,
+      "mtime_ns": 1787542350000000000,
+      "name": "checkpoint-02e53d1ef3e54020c4faa52b340dd25946fe9db2da4ee37c0efca93ef2af1acf.pt",
+      "sha256": "02e53d1ef3e54020c4faa52b340dd25946fe9db2da4ee37c0efca93ef2af1acf",
+      "source": "/Volumes/SP AI 01_16/hfw-w560-daytona-hybrid-ce-optimizer-20260822-attempt13/runtime/authority/lineage/promoted_checkpoints/generation-00000020-b7bbb7e646a86aa2.pt"
+    },
+    {
+      "bytes": 399517590,
+      "inode": 301981874,
+      "mtime_ns": 1787376384778322245,
+      "name": "checkpoint-04830cf33045b19dadb610873770b97e8d0cdb1446b5bccf96389f35b35b76fd.pt",
+      "sha256": "04830cf33045b19dadb610873770b97e8d0cdb1446b5bccf96389f35b35b76fd",
+      "source": "/Users/rohanarun/Library/Mobile Documents/com~apple~CloudDocs/Documents/trin/hfw-w560-daytona-distributed-ce-optimizer-20260821-attempt12-exhaustive/runtime/authority/lineage/promoted_checkpoints/generation-00000007-6a8bf92bbb0dab81.pt"
+    },
+    {
+      "bytes": 100010377,
+      "inode": 245566860,
+      "mtime_ns": 1786748304698170140,
+      "name": "checkpoint-070b8b5b4897633d19f9cd075114497c41fa61e90058d3879fee93671aa2c79b.pt",
+      "sha256": "070b8b5b4897633d19f9cd075114497c41fa61e90058d3879fee93671aa2c79b",
+      "source": "/Users/rohanarun/Library/Mobile Documents/com~apple~CloudDocs/Documents/trin/funcweights/fourier_weight_surface_feasibility_20260814_v1/runs/full_20260814T2258Z_attempt1/fourier_surface_25m/final_model.pt"
+    },
+    {
+      "bytes": 1198558775,
+      "inode": 374969,
+      "mtime_ns": 1786851292000000000,
+      "name": "checkpoint-0c69fbf81526282d7d68ac258a98867d7de0f0e88e69e5f9f0543fdf1c535fba.pt",
+      "sha256": "0c69fbf81526282d7d68ac258a98867d7de0f0e88e69e5f9f0543fdf1c535fba",
+      "source": "/Volumes/SP AI 01_16/hfw-w560-continuous-mps-cumulative-optimizer-20260816-v1-attempt3/runtime/inputs/lineage/origin/checkpoint_step_3052.pt"
+    },
+    {
+      "bytes": 182846261,
+      "inode": 491450045,
+      "mtime_ns": 1788004915554539931,
+      "name": "checkpoint-140635b2679bd7f1801ca5eec65a559ca67ee0d1c7aa034cf6d87782514b54af.pt",
+      "sha256": "140635b2679bd7f1801ca5eec65a559ca67ee0d1c7aa034cf6d87782514b54af",
+      "source": "/Users/rohanarun/Library/Mobile Documents/com~apple~CloudDocs/Documents/trin/runtime/wt2/all-weight-adamw-perturb-from65p457-fp32-v1/candidate-00/functional-final.pt"
+    },
+    {
+      "bytes": 121172386,
+      "inode": 4424766,
+      "mtime_ns": 1788303411000000000,
+      "name": "checkpoint-15fa8b850eba044fca86c488abc2feb07258f831772a3e1e1e73d6a5bc169f43.pt",
+      "sha256": "15fa8b850eba044fca86c488abc2feb07258f831772a3e1e1e73d6a5bc169f43",
+      "source": "/Volumes/SP AI 01_16/w560-function-weight-wt2-original-projection-hierarchy-results-20260901-v6/05-e05-safe-joint/best.pt"
+    },
+    {
+      "bytes": 121172386,
+      "inode": 4424897,
+      "mtime_ns": 1788309901000000000,
+      "name": "checkpoint-171a5742811367fad5867ed3b8a8b03fa0d4da9e16a82f6d98230b6a139598e3.pt",
+      "sha256": "171a5742811367fad5867ed3b8a8b03fa0d4da9e16a82f6d98230b6a139598e3",
+      "source": "/Volumes/SP AI 01_16/w560-function-weight-wt2-original-projection-hierarchy-results-20260901-v6/13-e07-safe-joint/best.pt"
+    },
+    {
+      "bytes": 121116142,
+      "inode": 4450358,
+      "mtime_ns": 1788365955000000000,
+      "name": "checkpoint-25501debc1ac0780a5829662784df1aa149fee0a9d7aed75938550a5aa4096fd.pt",
+      "sha256": "25501debc1ac0780a5829662784df1aa149fee0a9d7aed75938550a5aa4096fd",
+      "source": "/Volumes/SP AI 01_16/w560-function-weight-spinning-multiplexed-residual-results-20260902-v1-retry1/multiplexed_residual/best.pt"
+    },
+    {
+      "bytes": 399517590,
+      "inode": 1254921,
+      "mtime_ns": 1787571619000000000,
+      "name": "checkpoint-271dd1d4249f487fae3ef3d283a93e0963731ceb48b9f0e24ce3f135145017d3.pt",
+      "sha256": "271dd1d4249f487fae3ef3d283a93e0963731ceb48b9f0e24ce3f135145017d3",
+      "source": "/Volumes/SP AI 01_16/hfw-w560-daytona-hybrid-ce-optimizer-20260822-attempt13/runtime/authority/lineage/promoted_checkpoints/generation-00000022-58c6a0e502582687.pt"
+    },
+    {
+      "bytes": 121172386,
+      "inode": 4424855,
+      "mtime_ns": 1788307523000000000,
+      "name": "checkpoint-3065d5a2af3061e9ae224028f95ce191205d3e7dc57ee4cc7d45214ec2da8fd1.pt",
+      "sha256": "3065d5a2af3061e9ae224028f95ce191205d3e7dc57ee4cc7d45214ec2da8fd1",
+      "source": "/Volumes/SP AI 01_16/w560-function-weight-wt2-original-projection-hierarchy-results-20260901-v6/10-e06-adaptive-control/best.pt"
+    },
+    {
+      "bytes": 70264953,
+      "inode": 4411928,
+      "mtime_ns": 1788185081000000000,
+      "name": "checkpoint-3b2138d61f2d03b709b7c57d80e409055bb458002c405cfd3b2e8c008ee9c3e5.pt",
+      "sha256": "3b2138d61f2d03b709b7c57d80e409055bb458002c405cfd3b2e8c008ee9c3e5",
+      "source": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/coldstart-combined-hierarchy-pilot-20260831-v1/full_output_decoder_functional_mos-best.pt"
+    },
+    {
+      "bytes": 180047865,
+      "inode": 4084136,
+      "mtime_ns": 1787938680000000000,
+      "name": "checkpoint-4364f0153b0ec894d4bdc1e86306451441f1192c46ca2be75929f697ba9f1941.pt",
+      "sha256": "4364f0153b0ec894d4bdc1e86306451441f1192c46ca2be75929f697ba9f1941",
+      "source": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/combined-field-scale-calibration-epoch540-5f5ced3e/selected-output-calibration.pt"
+    },
+    {
+      "bytes": 399517590,
+      "inode": 374291,
+      "mtime_ns": 1786850115000000000,
+      "name": "checkpoint-4abc27b15d47fd08f539d0aa7c8842f22d83c0f9f846193d4ac7a9b9c7f9c76f.pt",
+      "sha256": "4abc27b15d47fd08f539d0aa7c8842f22d83c0f9f846193d4ac7a9b9c7f9c76f",
+      "source": "/Volumes/SP AI 01_16/hfw-w560-continuous-mps-cumulative-optimizer-20260816-v1-attempt1/runtime/inputs/imported_snapshot/current/generation-00000001-4abc27b15d47fd08f539d0aa7c8842f22d83c0f9f846193d4ac7a9b9c7f9c76f.pt"
+    },
+    {
+      "bytes": 183023112,
+      "inode": 4085587,
+      "mtime_ns": 1787970718000000000,
+      "name": "checkpoint-4fa36420a655338e07d5b321cadbceba811a85d0e93f0fc6d7c639095c7f0e5d.pt",
+      "sha256": "4fa36420a655338e07d5b321cadbceba811a85d0e93f0fc6d7c639095c7f0e5d",
+      "source": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/decoder-function-growth-from65p888862-v1/candidate-01/best.pt"
+    },
+    {
+      "bytes": 121172386,
+      "inode": 4424491,
+      "mtime_ns": 1788301736000000000,
+      "name": "checkpoint-509dc93c21759e93b4132ec53ce297181db4fa38d8f6bc6578fcc6d5f8f35de0.pt",
+      "sha256": "509dc93c21759e93b4132ec53ce297181db4fa38d8f6bc6578fcc6d5f8f35de0",
+      "source": "/Volumes/SP AI 01_16/w560-function-weight-wt2-original-projection-hierarchy-results-20260901-v6/03-e04-adaptive-joint/best.pt"
+    },
+    {
+      "bytes": 121172386,
+      "inode": 4424794,
+      "mtime_ns": 1788304255000000000,
+      "name": "checkpoint-51f4cee21cd3a886c6d40d952a50779d10d123ed951f4fa335473d70b84c3ced.pt",
+      "sha256": "51f4cee21cd3a886c6d40d952a50779d10d123ed951f4fa335473d70b84c3ced",
+      "source": "/Volumes/SP AI 01_16/w560-function-weight-wt2-original-projection-hierarchy-results-20260901-v6/06-e05-adaptive-control/best.pt"
+    },
+    {
+      "bytes": 183107814,
+      "inode": 4085733,
+      "mtime_ns": 1787975715000000000,
+      "name": "checkpoint-5200dfa93ba21ff38371b7aef64445563f5153a030777905a7ecd17f5a38b312.pt",
+      "sha256": "5200dfa93ba21ff38371b7aef64445563f5153a030777905a7ecd17f5a38b312",
+      "source": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/decoder-function-gradient-unsuppressed-from65p464-v1/candidate-01/best.pt"
+    },
+    {
+      "bytes": 399517590,
+      "inode": 1061660,
+      "mtime_ns": 1787418043000000000,
+      "name": "checkpoint-5343ed0dedbbef89d2d0895434e9b44ab185a98f29bea95d463205b3505dade1.pt",
+      "sha256": "5343ed0dedbbef89d2d0895434e9b44ab185a98f29bea95d463205b3505dade1",
+      "source": "/Volumes/SP AI 01_16/hfw-w560-daytona-hybrid-ce-optimizer-20260822-attempt13/runtime/authority/lineage/promoted_checkpoints/generation-00000010-840d5d720d03d9ae.pt"
+    },
+    {
+      "bytes": 121172386,
+      "inode": 4424869,
+      "mtime_ns": 1788308337000000000,
+      "name": "checkpoint-5c3ebcebade6c7b6323558efb8c5cf02885f80dd59d9c0140a1f43c330cc6f9e.pt",
+      "sha256": "5c3ebcebade6c7b6323558efb8c5cf02885f80dd59d9c0140a1f43c330cc6f9e",
+      "source": "/Volumes/SP AI 01_16/w560-function-weight-wt2-original-projection-hierarchy-results-20260901-v6/11-e06-adaptive-joint/best.pt"
+    },
+    {
+      "bytes": 121172386,
+      "inode": 4424883,
+      "mtime_ns": 1788309132000000000,
+      "name": "checkpoint-60e8421407fa8b9ebcef25460d77a6cf6dd38fb236ba7084078c6c98822ccdb7.pt",
+      "sha256": "60e8421407fa8b9ebcef25460d77a6cf6dd38fb236ba7084078c6c98822ccdb7",
+      "source": "/Volumes/SP AI 01_16/w560-function-weight-wt2-original-projection-hierarchy-results-20260901-v6/12-e07-safe-control/best.pt"
+    },
+    {
+      "bytes": 121172386,
+      "inode": 4423138,
+      "mtime_ns": 1788299933000000000,
+      "name": "checkpoint-635918f545a47ae23dc77e539c9ce2083b590a8621d740c0f6ba015b46297dc2.pt",
+      "sha256": "635918f545a47ae23dc77e539c9ce2083b590a8621d740c0f6ba015b46297dc2",
+      "source": "/Volumes/SP AI 01_16/w560-function-weight-wt2-original-projection-hierarchy-results-20260901-v6/01-e04-safe-joint/best.pt"
+    },
+    {
+      "bytes": 185518367,
+      "inode": 4619687,
+      "mtime_ns": 1788444137000000000,
+      "name": "checkpoint-6580bbeafb5da3a9d09da2e15b9e78aed9176e615931fb5fa038e6b591a45839.pt",
+      "sha256": "6580bbeafb5da3a9d09da2e15b9e78aed9176e615931fb5fa038e6b591a45839",
+      "source": "/Volumes/SP AI 01_16/w560-function-weight-wt2-phase-multiplexed-mature-20260903-v1-retry2/best.pt"
+    },
+    {
+      "bytes": 399517590,
+      "inode": 743878,
+      "mtime_ns": 1786909734000000000,
+      "name": "checkpoint-6f07e776f28df8eea5c4b24d81848b6c8fefa273b3d430cb1d4f5b378605d8c1.pt",
+      "sha256": "6f07e776f28df8eea5c4b24d81848b6c8fefa273b3d430cb1d4f5b378605d8c1",
+      "source": "/Volumes/SP AI 01_16/hfw-w560-daytona-cpu100-test-20260816-attempt1/stage/input/checkpoint.pt"
+    },
+    {
+      "bytes": 182008426,
+      "inode": 4085050,
+      "mtime_ns": 1787953886000000000,
+      "name": "checkpoint-6f1722e064c18f2130e10eced4e601fd2690d98ed41457f4a8111b9a2dd76d47.pt",
+      "sha256": "6f1722e064c18f2130e10eced4e601fd2690d98ed41457f4a8111b9a2dd76d47",
+      "source": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/calibrated-best-add-recurrent-output-perturb/candidate-01/best.pt"
+    },
+    {
+      "bytes": 399517590,
+      "inode": 1077008,
+      "mtime_ns": 1787490007000000000,
+      "name": "checkpoint-7081ca83232766af67b897c456c7e720f5d834c1c97fb3cf000da7cc0cceba2c.pt",
+      "sha256": "7081ca83232766af67b897c456c7e720f5d834c1c97fb3cf000da7cc0cceba2c",
+      "source": "/Volumes/SP AI 01_16/hfw-w560-daytona-hybrid-ce-optimizer-20260822-attempt13/runtime/authority/lineage/promoted_checkpoints/generation-00000016-b585ed2aadf5b45e.pt"
+    },
+    {
+      "bytes": 462634306,
+      "inode": 4084035,
+      "mtime_ns": 1787938201000000000,
+      "name": "checkpoint-7440ccfcfe3fafd0c4f7a92cc9bbcb0e6696d373a8ce1f9065a2efc92384f1fd.pt",
+      "sha256": "7440ccfcfe3fafd0c4f7a92cc9bbcb0e6696d373a8ce1f9065a2efc92384f1fd",
+      "source": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/field-scale-continuation-epoch240-0p75-v3-locked-939ed87c/candidate-00/best-resume.pt"
+    },
+    {
+      "bytes": 183808283,
+      "inode": 4412173,
+      "mtime_ns": 1788196813000000000,
+      "name": "checkpoint-78d8f4a6bd2e6df3bf57f40815179510ccf5643cd45cd5e5e174395917f4cbb3.pt",
+      "sha256": "78d8f4a6bd2e6df3bf57f40815179510ccf5643cd45cd5e5e174395917f4cbb3",
+      "source": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/coldstart-fullscale-hierarchy-30epoch-20260831-v1/fixed_recurrent_input_hierarchy-best.pt"
+    },
+    {
+      "bytes": 121172386,
+      "inode": 4431435,
+      "mtime_ns": 1788311500000000000,
+      "name": "checkpoint-7da2fac7b161b69a904287254044686d20f5a765e3a82657732e043d9d606f04.pt",
+      "sha256": "7da2fac7b161b69a904287254044686d20f5a765e3a82657732e043d9d606f04",
+      "source": "/Volumes/SP AI 01_16/w560-function-weight-wt2-original-projection-hierarchy-results-20260901-v6/15-e07-adaptive-joint/best.pt"
+    },
+    {
+      "bytes": 181489722,
+      "inode": 4084590,
+      "mtime_ns": 1787944501000000000,
+      "name": "checkpoint-7f071b3a5a76de8648fb99cac14a2845daacaea9986ac598f50cb3817524e625.pt",
+      "sha256": "7f071b3a5a76de8648fb99cac14a2845daacaea9986ac598f50cb3817524e625",
+      "source": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/clean-successor-fp32-finetune-epoch300-32037247/candidate-00/functional-final.pt"
+    },
+    {
+      "bytes": 100010377,
+      "inode": 245570226,
+      "mtime_ns": 1786748356824156593,
+      "name": "checkpoint-816ef6b7bc0b35998f64890d5debe25ef52a220fd3eff5a826e642e66efc02ad.pt",
+      "sha256": "816ef6b7bc0b35998f64890d5debe25ef52a220fd3eff5a826e642e66efc02ad",
+      "source": "/Users/rohanarun/Library/Mobile Documents/com~apple~CloudDocs/Documents/trin/funcweights/fourier_weight_surface_feasibility_20260814_v1/runs/full_20260814T2301Z_attempt2/fourier_surface_25m/final_model.pt"
+    },
+    {
+      "bytes": 123033906,
+      "inode": 4418814,
+      "mtime_ns": 1788288603000000000,
+      "name": "checkpoint-84a0580ff8dc5a8434a8faa73c1c169a929ad6776d73f08bc1b6e114b33980d3.pt",
+      "sha256": "84a0580ff8dc5a8434a8faa73c1c169a929ad6776d73f08bc1b6e114b33980d3",
+      "source": "/Volumes/SP AI 01_16/w560-function-weight-wt2-original-hierarchy-successor-20260901-v3/results/best.pt"
+    },
+    {
+      "bytes": 399517590,
+      "inode": 1061699,
+      "mtime_ns": 1787421129000000000,
+      "name": "checkpoint-90662d43662af99f2bbebcabee7ded2255a17f39cbb42337f2d32adc2029e054.pt",
+      "sha256": "90662d43662af99f2bbebcabee7ded2255a17f39cbb42337f2d32adc2029e054",
+      "source": "/Volumes/SP AI 01_16/hfw-w560-daytona-hybrid-ce-optimizer-20260822-attempt13/runtime/authority/lineage/promoted_checkpoints/generation-00000011-5d26657e8e757574.pt"
+    },
+    {
+      "bytes": 183107686,
+      "inode": 4085778,
+      "mtime_ns": 1787977368000000000,
+      "name": "checkpoint-9226b0f1ea64e45a78b7e451ada362b1f6c7289e29bd852865f7b43b2586eb17.pt",
+      "sha256": "9226b0f1ea64e45a78b7e451ada362b1f6c7289e29bd852865f7b43b2586eb17",
+      "source": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/decoder-function-heterogeneous-growth-from65p464-v1/candidate-02/best.pt"
+    },
+    {
+      "bytes": 399517590,
+      "inode": 375619,
+      "mtime_ns": 1786851982000000000,
+      "name": "checkpoint-93df74ca9d49494f0065eaaa941d152fca32dcdaf7de7047239030a015bdba18.pt",
+      "sha256": "93df74ca9d49494f0065eaaa941d152fca32dcdaf7de7047239030a015bdba18",
+      "source": "/Volumes/SP AI 01_16/hfw-w560-continuous-mps-cumulative-optimizer-20260816-v1-attempt3/runtime/runs/cumulative-local-final-smoke-20260816-attempt1/ledger/promoted_checkpoints/generation-00000002-bade68174a5af8a1-attempt-0001.pt"
+    },
+    {
+      "bytes": 121116142,
+      "inode": 4450083,
+      "mtime_ns": 1788365353000000000,
+      "name": "checkpoint-94313481f8791477e79e08baf464668d7480a8b5ff65873e1572dc83650fcfed.pt",
+      "sha256": "94313481f8791477e79e08baf464668d7480a8b5ff65873e1572dc83650fcfed",
+      "source": "/Volumes/SP AI 01_16/w560-function-weight-spinning-multiplexed-residual-results-20260902-v1-retry1/spinning_additive/best.pt"
+    },
+    {
+      "bytes": 121116142,
+      "inode": 4450011,
+      "mtime_ns": 1788364959000000000,
+      "name": "checkpoint-a0850b524d13efb4ed4c1ad9295c79db45711b39200739dbbdcd2800e341de0b.pt",
+      "sha256": "a0850b524d13efb4ed4c1ad9295c79db45711b39200739dbbdcd2800e341de0b",
+      "source": "/Volumes/SP AI 01_16/w560-function-weight-spinning-multiplexed-residual-results-20260902-v1-retry1/clocked_dyncurve/best.pt"
+    },
+    {
+      "bytes": 40010377,
+      "inode": 245561736,
+      "mtime_ns": 1786748216403444290,
+      "name": "checkpoint-a6490ef5b71d863e26b4ce7db639779d26e354694d1ccf03ba198b7f4a953d98.pt",
+      "sha256": "a6490ef5b71d863e26b4ce7db639779d26e354694d1ccf03ba198b7f4a953d98",
+      "source": "/Users/rohanarun/Library/Mobile Documents/com~apple~CloudDocs/Documents/trin/funcweights/fourier_weight_surface_feasibility_20260814_v1/runs/smoke_20260814T2200Z_attempt1/fourier_surface_10m/final_model.pt"
+    },
+    {
+      "bytes": 399517590,
+      "inode": 3613712,
+      "mtime_ns": 1787641474000000000,
+      "name": "checkpoint-ab800bd88a60fe9cc4784df09853c367a38e11b4e54fcebd85b0f4802af53ff3.pt",
+      "sha256": "ab800bd88a60fe9cc4784df09853c367a38e11b4e54fcebd85b0f4802af53ff3",
+      "source": "/Volumes/SP AI 01_16/hfw-w560-daytona-hybrid-ce-optimizer-20260822-attempt13/runtime/authority/lineage/promoted_checkpoints/generation-00000027-54be5d194053a3f8.pt"
+    },
+    {
+      "bytes": 399517590,
+      "inode": 1062083,
+      "mtime_ns": 1787442353000000000,
+      "name": "checkpoint-b7a41092ee080c0263cfb5502612cad613bf005d658401762ed9bd5e21b4e77f.pt",
+      "sha256": "b7a41092ee080c0263cfb5502612cad613bf005d658401762ed9bd5e21b4e77f",
+      "source": "/Volumes/SP AI 01_16/hfw-w560-daytona-hybrid-ce-optimizer-20260822-attempt13/runtime/authority/lineage/promoted_checkpoints/generation-00000012-5070ebc75403ac9a.pt"
+    },
+    {
+      "bytes": 182846197,
+      "inode": 4412171,
+      "mtime_ns": 1788196765000000000,
+      "name": "checkpoint-c7b6bd857ead73f6816d3216db13be86e842effeecdb3f4052a1ea9f6585c1c1.pt",
+      "sha256": "c7b6bd857ead73f6816d3216db13be86e842effeecdb3f4052a1ea9f6585c1c1",
+      "source": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/coldstart-fullscale-hierarchy-30epoch-20260831-v1/mature_backbone_reference-best.pt"
+    },
+    {
+      "bytes": 121172386,
+      "inode": 4424462,
+      "mtime_ns": 1788300846000000000,
+      "name": "checkpoint-cc6fa975ffa3d049a504dfb00082b8b1ed198d1caee0539f23f5996eef045ff9.pt",
+      "sha256": "cc6fa975ffa3d049a504dfb00082b8b1ed198d1caee0539f23f5996eef045ff9",
+      "source": "/Volumes/SP AI 01_16/w560-function-weight-wt2-original-projection-hierarchy-results-20260901-v6/02-e04-adaptive-control/best.pt"
+    },
+    {
+      "bytes": 121172386,
+      "inode": 4424670,
+      "mtime_ns": 1788302573000000000,
+      "name": "checkpoint-cd18926e249ae5d296b73285194183b5ae99dd8cab53e8b5bb81a2bc51553db5.pt",
+      "sha256": "cd18926e249ae5d296b73285194183b5ae99dd8cab53e8b5bb81a2bc51553db5",
+      "source": "/Volumes/SP AI 01_16/w560-function-weight-wt2-original-projection-hierarchy-results-20260901-v6/04-e05-safe-control/best.pt"
+    },
+    {
+      "bytes": 60221577,
+      "inode": 245566706,
+      "mtime_ns": 1786748303036376714,
+      "name": "checkpoint-d0c8a6874822904e2fb28e24230114140a94b702b888685588f253aff402ba32.pt",
+      "sha256": "d0c8a6874822904e2fb28e24230114140a94b702b888685588f253aff402ba32",
+      "source": "/Users/rohanarun/Library/Mobile Documents/com~apple~CloudDocs/Documents/trin/funcweights/fourier_weight_surface_feasibility_20260814_v1/runs/full_20260814T2258Z_attempt1/fourier_surface_matched_15052800/final_model.pt"
+    },
+    {
+      "bytes": 182846261,
+      "inode": 491487886,
+      "mtime_ns": 1788006297016714296,
+      "name": "checkpoint-d7df1e449175b6988baba68485407b50128704593b537e86b2748f0d7fbf9b77.pt",
+      "sha256": "d7df1e449175b6988baba68485407b50128704593b537e86b2748f0d7fbf9b77",
+      "source": "/Users/rohanarun/Library/Mobile Documents/com~apple~CloudDocs/Documents/trin/runtime/wt2/all-weight-adamw-perturb-from65p456564-fp32-v2/candidate-00/functional-final.pt"
+    },
+    {
+      "bytes": 462642434,
+      "inode": 4084876,
+      "mtime_ns": 1787950004000000000,
+      "name": "checkpoint-d92e82c48472b081f68e4a71f91fd784c49df3cbb2552fa8c27db0765d9ec5cf.pt",
+      "sha256": "d92e82c48472b081f68e4a71f91fd784c49df3cbb2552fa8c27db0765d9ec5cf",
+      "source": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/clean-successor-fp32-asgd-continuation-v2-epoch300-32037247/candidate-00/best-resume.pt"
+    },
+    {
+      "bytes": 60221577,
+      "inode": 245570134,
+      "mtime_ns": 1786748355296544075,
+      "name": "checkpoint-dabdb12c4131abb9b634f369fe3310260b8c017edcd81ea7506296c5490aadfd.pt",
+      "sha256": "dabdb12c4131abb9b634f369fe3310260b8c017edcd81ea7506296c5490aadfd",
+      "source": "/Users/rohanarun/Library/Mobile Documents/com~apple~CloudDocs/Documents/trin/funcweights/fourier_weight_surface_feasibility_20260814_v1/runs/full_20260814T2301Z_attempt2/fourier_surface_matched_15052800/final_model.pt"
+    },
+    {
+      "bytes": 121172386,
+      "inode": 4424924,
+      "mtime_ns": 1788310684000000000,
+      "name": "checkpoint-dc2e2af684caf5197ebd4b1096b6b5cadad7da16a6d83954000d5a08b9f2f147.pt",
+      "sha256": "dc2e2af684caf5197ebd4b1096b6b5cadad7da16a6d83954000d5a08b9f2f147",
+      "source": "/Volumes/SP AI 01_16/w560-function-weight-wt2-original-projection-hierarchy-results-20260901-v6/14-e07-adaptive-control/best.pt"
+    },
+    {
+      "bytes": 121172386,
+      "inode": 4419149,
+      "mtime_ns": 1788299077000000000,
+      "name": "checkpoint-dcbf97625d0bdbfb923a72aac2fa0e994328e40b3323271695295d10003905ec.pt",
+      "sha256": "dcbf97625d0bdbfb923a72aac2fa0e994328e40b3323271695295d10003905ec",
+      "source": "/Volumes/SP AI 01_16/w560-function-weight-wt2-original-projection-hierarchy-results-20260901-v6/00-e04-safe-control/best.pt"
+    },
+    {
+      "bytes": 399517590,
+      "inode": 1061620,
+      "mtime_ns": 1787415733000000000,
+      "name": "checkpoint-e6b3c3c7ad858b9160ca5a9b06b7a4dc5d7369472111ab72062d640c08e6ca74.pt",
+      "sha256": "e6b3c3c7ad858b9160ca5a9b06b7a4dc5d7369472111ab72062d640c08e6ca74",
+      "source": "/Volumes/SP AI 01_16/hfw-w560-daytona-hybrid-ce-optimizer-20260822-attempt13/runtime/authority/lineage/promoted_checkpoints/generation-00000009-aa2bab5056cfaf30.pt"
+    },
+    {
+      "bytes": 40010377,
+      "inode": 245566654,
+      "mtime_ns": 1786748302041814327,
+      "name": "checkpoint-e73c89828e3055f07b680704994a053d4c31eee2d0477f48edcfbab3775f8acd.pt",
+      "sha256": "e73c89828e3055f07b680704994a053d4c31eee2d0477f48edcfbab3775f8acd",
+      "source": "/Users/rohanarun/Library/Mobile Documents/com~apple~CloudDocs/Documents/trin/funcweights/fourier_weight_surface_feasibility_20260814_v1/runs/full_20260814T2258Z_attempt1/fourier_surface_10m/final_model.pt"
+    },
+    {
+      "bytes": 399517590,
+      "inode": 2907832,
+      "mtime_ns": 1787607078000000000,
+      "name": "checkpoint-ea4bf52f6a4708d20bd3289fd9cf2ef95b86bf27defdff6083bbafd6b1f8d4e6.pt",
+      "sha256": "ea4bf52f6a4708d20bd3289fd9cf2ef95b86bf27defdff6083bbafd6b1f8d4e6",
+      "source": "/Volumes/SP AI 01_16/hfw-w560-daytona-hybrid-ce-optimizer-20260822-attempt13/runtime/authority/lineage/promoted_checkpoints/generation-00000025-3b4b4d97d81c106f.pt"
+    },
+    {
+      "bytes": 40010377,
+      "inode": 245570103,
+      "mtime_ns": 1786748354213737487,
+      "name": "checkpoint-eba2f5755494c96518c44ff62937d4a03a8cc8b72b1fda114bc8888abb7849f5.pt",
+      "sha256": "eba2f5755494c96518c44ff62937d4a03a8cc8b72b1fda114bc8888abb7849f5",
+      "source": "/Users/rohanarun/Library/Mobile Documents/com~apple~CloudDocs/Documents/trin/funcweights/fourier_weight_surface_feasibility_20260814_v1/runs/full_20260814T2301Z_attempt2/fourier_surface_10m/final_model.pt"
+    },
+    {
+      "bytes": 121172386,
+      "inode": 4424841,
+      "mtime_ns": 1788306711000000000,
+      "name": "checkpoint-ef69b6109cb8d5387e2221f44082c18fef4e5e7cf1e5d37b87754a4597c21e5d.pt",
+      "sha256": "ef69b6109cb8d5387e2221f44082c18fef4e5e7cf1e5d37b87754a4597c21e5d",
+      "source": "/Volumes/SP AI 01_16/w560-function-weight-wt2-original-projection-hierarchy-results-20260901-v6/09-e06-safe-joint/best.pt"
+    },
+    {
+      "bytes": 121172386,
+      "inode": 4424822,
+      "mtime_ns": 1788305893000000000,
+      "name": "checkpoint-f1e58fffb5ca3956825bfccea576bc038a7f24406e79ba90c675e2e96c01ba17.pt",
+      "sha256": "f1e58fffb5ca3956825bfccea576bc038a7f24406e79ba90c675e2e96c01ba17",
+      "source": "/Volumes/SP AI 01_16/w560-function-weight-wt2-original-projection-hierarchy-results-20260901-v6/08-e06-safe-control/best.pt"
+    },
+    {
+      "bytes": 121172386,
+      "inode": 4424808,
+      "mtime_ns": 1788305084000000000,
+      "name": "checkpoint-f24fd7ec1736017fb062abf5635bf960afc961a6a5b6cb6a54956c31fe1f9758.pt",
+      "sha256": "f24fd7ec1736017fb062abf5635bf960afc961a6a5b6cb6a54956c31fe1f9758",
+      "source": "/Volumes/SP AI 01_16/w560-function-weight-wt2-original-projection-hierarchy-results-20260901-v6/07-e05-adaptive-joint/best.pt"
+    },
+    {
+      "bytes": 183795961,
+      "inode": 4412172,
+      "mtime_ns": 1788196790000000000,
+      "name": "checkpoint-f337b6a217feced41d1eb9c2ce8c49b0a949a6238833ce3f81be5b3362f59852.pt",
+      "sha256": "f337b6a217feced41d1eb9c2ce8c49b0a949a6238833ce3f81be5b3362f59852",
+      "source": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/coldstart-fullscale-hierarchy-30epoch-20260831-v1/active_capacity_control-best.pt"
+    },
+    {
+      "bytes": 399517590,
+      "inode": 374814,
+      "mtime_ns": 1786851177000000000,
+      "name": "checkpoint-f3827adb05c2956afaf5d8cd85c3c6d9aadfe2d022b3b2b911a866a1d1176efb.pt",
+      "sha256": "f3827adb05c2956afaf5d8cd85c3c6d9aadfe2d022b3b2b911a866a1d1176efb",
+      "source": "/Volumes/SP AI 01_16/hfw-w560-continuous-mps-cumulative-optimizer-20260816-v1-attempt2/runtime/runs/cumulative-local-smoke-20260816-attempt1/ledger/promoted_checkpoints/generation-00000002-d8e84f59091563ad-attempt-0001.pt"
+    },
+    {
+      "bytes": 70276187,
+      "inode": 4411929,
+      "mtime_ns": 1788185094000000000,
+      "name": "checkpoint-fa2c54411cf4f1507d65b535b6579b6d82255f9522ae51682515fb32ea1f725c.pt",
+      "sha256": "fa2c54411cf4f1507d65b535b6579b6d82255f9522ae51682515fb32ea1f725c",
+      "source": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/coldstart-combined-hierarchy-pilot-20260831-v1/full_output_decoder_hierarchical_transition_mos-best.pt"
+    }
+  ],
+  "release_id": 416770023,
+  "repo": "rohanarun/Super-1",
+  "tag": "all-experiments-20261018"
+}

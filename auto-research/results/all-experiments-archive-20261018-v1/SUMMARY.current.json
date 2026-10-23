@@ -1,21 +1,20 @@
 {
   "content_location_counts": {
     "archive_object": 15094,
-    "checkpoint_asset": 104,
+    "checkpoint_asset": 162,
     "existing_git_file": 1609,
-    "existing_release_asset": 2,
-    "upload_pending": 58
+    "existing_release_asset": 2
   },
   "files_manifest": "FILES.current.json.gz",
-  "files_manifest_sha256": "fef62411e1ab773a0939457745de2e45940ea9e4fc6af7b134a1f7bc06704663",
+  "files_manifest_sha256": "bcf0e2421a64f6f22edd0c7776ae7f609fa49c65edd350daf727bf6d2167ab88",
   "final_selected_terminal_checkpoint_objects": 754,
   "historical_source_executed": false,
   "mapped_source_paths": 30885,
   "new_model_inference": false,
-  "new_release_asset_bytes": null,
-  "new_release_assets": null,
+  "new_release_asset_bytes": 33159324230,
+  "new_release_assets": 170,
   "new_training": false,
-  "pending_objects": 58,
+  "pending_objects": 0,
   "release_states": [
     {
       "draft": true,
@@ -42,12 +41,12 @@
       "tag": "recovered-120m-checkpoints-20261015"
     }
   ],
-  "snapshot_note": "Original summary is historical. Current locations reconciled by size/SHA-256 only; no transfers resumed.",
+  "snapshot_note": "Original summary is historical. Current locations reconciled by size/SHA-256 only. This script performs no transfers.",
   "source_roots": 270,
-  "status": "PARTIAL_ARCHIVE_UPLOADS_PAUSED",
+  "status": "ALL_SELECTED_OBJECTS_LOCATED_AND_UPLOADED",
   "unique_content_bytes": 33983273743,
   "unique_content_objects": 16867,
   "unresolved_latest_checkpoint_references": 0,
-  "verified_large_checkpoint_bytes": 19571737789,
-  "verified_large_checkpoints": 104
+  "verified_large_checkpoint_bytes": 32489442206,
+  "verified_large_checkpoints": 162
 }
