@@ -1,0 +1,93 @@
+{
+  "artifact_transfers": false,
+  "early_passing_test_sources": "Final source is preserved and bound above; early passing versions had 13 methods before the shallow-root regression was added.",
+  "final_test_source_sha256": "5b6f310888c92cafdcc25cb960a503ea04fd92dab6d4bb9e925a42b2dfcb0609",
+  "metadata_attempts": [
+    {
+      "attempt": 1,
+      "planner_sha256": "cfb8aedee536616799db1c3cc374c60ebb840e4bda4f83df772af67955510d27",
+      "preserved_verifier_source": "development/verify_plans_attempt_01.py",
+      "reason": "Directory-only verification grouping missed 17 standalone receipt/log paths. Corrected grouping; no accounting expectation relaxed.",
+      "receipt": "METADATA_ATTEMPT_01.json",
+      "status": "FAIL_NOT_FINAL",
+      "verifier_sha256": "c930c1aec51f8e41df850a750912503703517443c9c8707d1cc43d9d0c997327"
+    },
+    {
+      "attempt": 2,
+      "cpu_seconds": 49.912214299,
+      "receipt": "PLAN_RESULTS.json",
+      "status": "PASS_PINNED_METADATA_PLANS_ONLY",
+      "wall_seconds": 49.95285765698645
+    }
+  ],
+  "new_model_execution": false,
+  "real_cli_checks": [
+    {
+      "exit_code": 0,
+      "known_download_payload_bytes": 41631983,
+      "prefix": "icloud-documents/trin/.w560_bench_pkg_attempt1/README.md",
+      "snapshot": "current",
+      "status": "PLANNED_COMPLETE_SELECTION"
+    },
+    {
+      "exit_code": 2,
+      "pending_unique_objects": 1,
+      "prefix": "ssd/w560-function-weight-wt2-word-sota-20260828/optimizer-preserving-lr-sweep-epoch220-e6d73358/candidate-00/best-resume.pt",
+      "snapshot": "historical",
+      "status": "BLOCKED_PENDING_OBJECTS"
+    }
+  ],
+  "synthetic_restorer_network": "All gh/urllib reads stubbed to tiny in-memory fixture bytes; no actual artifact requests.",
+  "test_runs": [
+    {
+      "command": "python3 -B -m unittest test_restore_plan -v",
+      "kind": "development_initial",
+      "log_path": "development/tests-r1.log",
+      "log_sha256": "155a183f87f323184a5aa41b76c1db459da52db5131b2616b9e1b77343354be3",
+      "methods": 13,
+      "round": "r1",
+      "status": "PASS",
+      "unittest_seconds": 0.095
+    },
+    {
+      "command": "python3 -B -m unittest test_restore_plan -v",
+      "kind": "development_stricter_download_stub",
+      "log_path": "development/tests-r2.log",
+      "log_sha256": "dd48a53ba874a71ebd19383d40efc6bcb57d18fbe47ed72920aaf160c078bb08",
+      "methods": 13,
+      "round": "r2",
+      "status": "PASS",
+      "unittest_seconds": 0.074
+    },
+    {
+      "command": "python3 -O -B -m unittest test_restore_plan -v",
+      "kind": "development_stricter_download_stub_optimized",
+      "log_path": "development/tests-optimized-r2.log",
+      "log_sha256": "918a6b20cf0f067c906750669be4c87920b3a11db19d428ae2200c47f325c45e",
+      "methods": 13,
+      "round": "optimized-r2",
+      "status": "PASS",
+      "unittest_seconds": 0.156
+    },
+    {
+      "command": "python3 -B -m unittest test_restore_plan -v",
+      "kind": "final",
+      "log_path": "development/tests-r3.log",
+      "log_sha256": "a5d240f8197fd7153da68265d29113ec5664a8803d78d6107af0b75c52d1c7e6",
+      "methods": 14,
+      "round": "r3",
+      "status": "PASS",
+      "unittest_seconds": 0.085
+    },
+    {
+      "command": "python3 -O -B -m unittest test_restore_plan -v",
+      "kind": "final_optimized",
+      "log_path": "development/tests-optimized-r3.log",
+      "log_sha256": "968ccc691cbb41f004010462257529e8a4ee25a9ecb4f8b7b4358f25c236bcd9",
+      "methods": 14,
+      "round": "optimized-r3",
+      "status": "PASS",
+      "unittest_seconds": 0.21
+    }
+  ]
+}

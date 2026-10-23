@@ -1,0 +1,19 @@
+test_cli_rejects_changed_pinned_input (test_restore_plan.PlanTests.test_cli_rejects_changed_pinned_input) ... ok
+test_cli_statuses_and_errors (test_restore_plan.PlanTests.test_cli_statuses_and_errors) ... ok
+test_differential_against_unchanged_restorer (test_restore_plan.PlanTests.test_differential_against_unchanged_restorer) ... ok
+test_empty_selection_fails (test_restore_plan.PlanTests.test_empty_selection_fails) ... ok
+test_existing_release_kind (test_restore_plan.PlanTests.test_existing_release_kind) ... ok
+test_metadata_corruption_controls (test_restore_plan.PlanTests.test_metadata_corruption_controls) ... ok
+test_one_member_still_needs_full_archive (test_restore_plan.PlanTests.test_one_member_still_needs_full_archive) ... ok
+test_order_does_not_change_plan (test_restore_plan.PlanTests.test_order_does_not_change_plan) ... ok
+test_pending_blocks_complete_budget (test_restore_plan.PlanTests.test_pending_blocks_complete_budget) ... ok
+test_pending_matches_restorer_without_download (test_restore_plan.PlanTests.test_pending_matches_restorer_without_download) ... ok
+test_root_partition_includes_shallow_files (test_restore_plan.PlanTests.test_root_partition_includes_shallow_files) ... ok
+test_unknown_release_state_stays_unknown (test_restore_plan.PlanTests.test_unknown_release_state_stays_unknown) ... ok
+test_whole_archive_and_alias_costs (test_restore_plan.PlanTests.test_whole_archive_and_alias_costs) ... ok
+test_zero_byte_git_object (test_restore_plan.PlanTests.test_zero_byte_git_object) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.085s
+
+OK
