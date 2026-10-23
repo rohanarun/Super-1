@@ -1,0 +1,263 @@
+{
+  "analytic_stress_anchors": [
+    {
+      "case": "tiny/torch.float32/(-134217728, -1)/S0/R0",
+      "centered_range": 0.0,
+      "stored_cumulative_logs": [
+        -134217728.0,
+        -134217728.0
+      ],
+      "variants": {
+        "interval_direct": {
+          "forward_passed": true,
+          "reference_state": 0.5919698476791382,
+          "state": 0.5919698476791382
+        },
+        "interval_scaled": {
+          "forward_passed": true,
+          "reference_state": 0.5919698476791382,
+          "state": 0.5919698476791382
+        },
+        "prefix_scaled": {
+          "forward_passed": false,
+          "reference_state": 0.5919698476791382,
+          "state": 0.75
+        },
+        "source_direct": {
+          "forward_passed": false,
+          "reference_state": 0.5919698476791382,
+          "state": 0.75
+        },
+        "source_factored": {
+          "forward_passed": false,
+          "reference_state": 0.5919698476791382,
+          "state": 0.75
+        }
+      }
+    },
+    {
+      "case": "tiny/torch.float64/(-134217728, -1)/S0/R0",
+      "centered_range": 0.5,
+      "stored_cumulative_logs": [
+        -134217728.0,
+        -134217729.0
+      ],
+      "variants": {
+        "interval_direct": {
+          "forward_passed": true,
+          "reference_state": 0.5919698602928606,
+          "state": 0.5919698602928606
+        },
+        "interval_scaled": {
+          "forward_passed": true,
+          "reference_state": 0.5919698602928606,
+          "state": 0.5919698602928606
+        },
+        "prefix_scaled": {
+          "forward_passed": true,
+          "reference_state": 0.5919698602928606,
+          "state": 0.5919698602928606
+        },
+        "source_direct": {
+          "forward_passed": true,
+          "reference_state": 0.5919698602928606,
+          "state": 0.5919698602928606
+        },
+        "source_factored": {
+          "forward_passed": true,
+          "reference_state": 0.5919698602928606,
+          "state": 0.5919698602928606
+        }
+      }
+    },
+    {
+      "case": "tiny/torch.float64/(-72057594037927936, -1)/S0/R0",
+      "centered_range": 0.0,
+      "stored_cumulative_logs": [
+        -7.205759403792794e+16,
+        -7.205759403792794e+16
+      ],
+      "variants": {
+        "interval_direct": {
+          "forward_passed": true,
+          "reference_state": 0.5919698602928606,
+          "state": 0.5919698602928606
+        },
+        "interval_scaled": {
+          "forward_passed": true,
+          "reference_state": 0.5919698602928606,
+          "state": 0.5919698602928606
+        },
+        "prefix_scaled": {
+          "forward_passed": false,
+          "reference_state": 0.5919698602928606,
+          "state": 0.75
+        },
+        "source_direct": {
+          "forward_passed": false,
+          "reference_state": 0.5919698602928606,
+          "state": 0.75
+        },
+        "source_factored": {
+          "forward_passed": false,
+          "reference_state": 0.5919698602928606,
+          "state": 0.75
+        }
+      }
+    }
+  ],
+  "analytic_tiny_reference_records": 160,
+  "charged_numerical_cpu_seconds": 24.792752,
+  "charged_numerical_wall_seconds": 23.213875569985248,
+  "core_cases_per_variant": 50,
+  "core_rows": 250,
+  "core_summary": {
+    "interval_direct": {
+      "all_gates_pass": 50,
+      "causal_pass": 50,
+      "finite": 50,
+      "forward_pass": 50,
+      "gradient_pass": 50,
+      "reset_pass": 50,
+      "streaming_pass": 50
+    },
+    "interval_scaled": {
+      "all_gates_pass": 50,
+      "causal_pass": 50,
+      "finite": 50,
+      "forward_pass": 50,
+      "gradient_pass": 50,
+      "reset_pass": 50,
+      "streaming_pass": 50
+    },
+    "prefix_scaled": {
+      "all_gates_pass": 34,
+      "causal_pass": 50,
+      "finite": 50,
+      "forward_pass": 34,
+      "gradient_pass": 34,
+      "reset_pass": 50,
+      "streaming_pass": 38
+    },
+    "source_direct": {
+      "all_gates_pass": 34,
+      "causal_pass": 50,
+      "finite": 50,
+      "forward_pass": 34,
+      "gradient_pass": 34,
+      "reset_pass": 50,
+      "streaming_pass": 38
+    },
+    "source_factored": {
+      "all_gates_pass": 34,
+      "causal_pass": 50,
+      "finite": 50,
+      "forward_pass": 34,
+      "gradient_pass": 34,
+      "reset_pass": 50,
+      "streaming_pass": 38
+    }
+  },
+  "model_gates": {
+    "interval_direct": false,
+    "interval_scaled": false,
+    "prefix_scaled": false,
+    "source_direct": false,
+    "source_factored": true,
+    "source_factored_fp64_core": true
+  },
+  "model_summary": {
+    "interval_direct": {
+      "failed_gates": [
+        "gradients"
+      ],
+      "gradients": {
+        "failed": [
+          "embedding.weight"
+        ],
+        "finite": true,
+        "max_abs": 3.5643577575683594e-05,
+        "max_normalized_error": 1.1277802809572521,
+        "passed": false
+      },
+      "recurrence_fp64": false
+    },
+    "interval_scaled": {
+      "failed_gates": [
+        "gradients"
+      ],
+      "gradients": {
+        "failed": [
+          "embedding.weight"
+        ],
+        "finite": true,
+        "max_abs": 5.036592483520508e-05,
+        "max_normalized_error": 1.6332032940194385,
+        "passed": false
+      },
+      "recurrence_fp64": false
+    },
+    "prefix_scaled": {
+      "failed_gates": [
+        "gradients"
+      ],
+      "gradients": {
+        "failed": [
+          "embedding.weight"
+        ],
+        "finite": true,
+        "max_abs": 5.02467155456543e-05,
+        "max_normalized_error": 1.646052423310467,
+        "passed": false
+      },
+      "recurrence_fp64": false
+    },
+    "source_direct": {
+      "failed_gates": [
+        "gradients"
+      ],
+      "gradients": {
+        "failed": [
+          "embedding.weight"
+        ],
+        "finite": true,
+        "max_abs": 3.635883331298828e-05,
+        "max_normalized_error": 1.1143568889046134,
+        "passed": false
+      },
+      "recurrence_fp64": false
+    },
+    "source_factored": {
+      "failed_gates": [],
+      "gradients": {
+        "failed": [],
+        "finite": true,
+        "max_abs": 2.872943878173828e-05,
+        "max_normalized_error": 0.9563628466166042,
+        "passed": true
+      },
+      "recurrence_fp64": false
+    },
+    "source_factored_fp64_core": {
+      "failed_gates": [],
+      "gradients": {
+        "failed": [],
+        "finite": true,
+        "max_abs": 0.0,
+        "max_normalized_error": 0.0,
+        "passed": true
+      },
+      "recurrence_fp64": true
+    }
+  },
+  "peak_sampled_environment_temp_results_bytes": 972656640,
+  "primary_core_gate_passed": true,
+  "raw_diagnostics_reconciled": true,
+  "raw_result_sha256": "2ff304b2b83cea8b7c63e807410e2de1b0abccc452e7a9088bedf0fe86028093",
+  "receipt_tests_sha256": "74e93e1dba856f082d78e49a1e177221cede86e661e11e2fcfc9be0a662ec883",
+  "receipt_verifier_sha256": "0d11fc037367760a0090c0d3520033776d6c0367431857b355178194e5471796",
+  "status": "PASS_SAVED_RECEIPT_COHERENCE_NOT_NUMERICAL_REPLAY",
+  "unchecked": [
+    "Full gradient arrays, independent tensor replay, wider model grid, performance, corpus quality and historical failure root cause."
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "additional_paid_spend": 0,
+  "ai_disclosure": "Substantially AI-assisted by Codex for @thakrarsagar.",
+  "approval": "APPROVAL.json",
+  "base_commit": "847bb75042e01b2c879272f97e72746f285c8872",
+  "candidate_reference_pairs": 6,
+  "charged_numerical_cpu_seconds": 24.792752,
+  "charged_numerical_wall_seconds": 23.213875569985248,
+  "checkpoints_saved": false,
+  "claims_excluded": [
+    "general fully FP32 qualification",
+    "language quality or speed win",
+    "historical failure root cause",
+    "independent tensor replay"
+  ],
+  "core_gate_counts": {
+    "interval_direct": 50,
+    "interval_scaled": 50,
+    "prefix_scaled": 34,
+    "source_direct": 34,
+    "source_factored": 34
+  },
+  "corpus_or_checkpoint_downloads": false,
+  "cuda_build": null,
+  "dependency_installation": "Exact CPU wheel and nine required wheels, session-local; raw install/resource receipts retained. No setup Torch import. Temporary wheel files removed after hash capture.",
+  "evidence_level": "author-checked",
+  "extra_disk_cap_bytes": 1073741824,
+  "gpu_cloud_resources": false,
+  "guard_preregistration_commit": "73b51b081b2002dae07479ae851a9c7fa46ae4df",
+  "harness_cpu_seconds": 21.824649485000002,
+  "harness_wall_seconds": 21.946902746974956,
+  "installation_cpu_accounting": "Recorded pip dependency-download/install phases exclude numerical budget; venv bootstrap and raw wheel transfer CPU were not separately profiled.",
+  "interop_threads": 1,
+  "model_gates": {
+    "interval_direct": false,
+    "interval_scaled": false,
+    "prefix_scaled": false,
+    "source_direct": false,
+    "source_factored": true,
+    "source_factored_fp64_core": true
+  },
+  "numerical_attempts": 1,
+  "numerical_cpu_cap_seconds": 600,
+  "numerical_source_preregistration_commit": "6636bc315022930108de66db2b6906e733429f19",
+  "numerical_wall_cap_seconds": 900,
+  "official_test_accessed": false,
+  "peak_sampled_environment_temp_results_bytes": 972656640,
+  "predecessor_credit": [
+    "@JRowe47 merged PR #15",
+    "Rohan Arun and Super-1 contributors",
+    "Preserved NX-AI/KronLSTM MIT and provenance"
+  ],
+  "primary_core_gate_passed": true,
+  "protocol_sha256": "1c03fddb8afd93ed9d06b415f0db29a8da48b7af91018bf3ef34e2bbfa8cb8b5",
+  "raw_result_sha256": "2ff304b2b83cea8b7c63e807410e2de1b0abccc452e7a9088bedf0fe86028093",
+  "recorded_at_utc": "2026-10-23T10:57:45.386348+00:00",
+  "registered_corpus_training_runs": 0,
+  "run_id": "kron-decay-canary-20261023-v1",
+  "status": "COMPLETED_BOUNDED_CANARY_CORE_PASS_MODEL_CANDIDATES_FAIL_NO_PROMOTION",
+  "synthetic_optimizer_steps_per_model_copy": 1,
+  "synthetic_optimizer_steps_total": 12,
+  "tensor_result_mtime_utc": "2026-10-23T10:31:49.559413+00:00",
+  "torch_git_version": "5811a8d7da873dd699ff6687092c225caffcf1bb",
+  "torch_threads": 1,
+  "torch_version": "2.9.1+cpu",
+  "unchecked": [
+    "Full gradient arrays, independent tensor replay, wider model grid, performance, corpus quality and historical failure root cause."
+  ]
+}

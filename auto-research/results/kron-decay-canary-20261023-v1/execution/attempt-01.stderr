@@ -1,0 +1,514 @@
+/root/.t3/scratch/2026-10-23-fetch-https-discoveryathome-org-v0-422259f3/super-1-20261023/canary-env/lib/python3.13/site-packages/torch/_subclasses/functional_tensor.py:279: UserWarning: Failed to initialize NumPy: No module named 'numpy' (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:84.)
+  cpu = _conversion_method_template(device=torch.device("cpu"))
+{"progress": "tiny/torch.float32/(-1, -1)/S0/R0/source_direct", "cpu_seconds": 4.541482974}
+{"core_result": ["tiny/torch.float32/(-1, -1)/S0/R0", "source_direct", true, 0.0, true, 5.960464477539063e-08, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "tiny/torch.float32/(-1, -1)/S0/R0/source_factored", "cpu_seconds": 4.565484993}
+{"core_result": ["tiny/torch.float32/(-1, -1)/S0/R0", "source_factored", true, 0.0, true, 5.960464477539063e-08, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "tiny/torch.float32/(-1, -1)/S0/R0/prefix_scaled", "cpu_seconds": 4.581485960999999}
+{"core_result": ["tiny/torch.float32/(-1, -1)/S0/R0", "prefix_scaled", true, 0.0, true, 5.960464477539063e-08, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "tiny/torch.float32/(-1, -1)/S0/R0/interval_direct", "cpu_seconds": 4.593481654}
+{"core_result": ["tiny/torch.float32/(-1, -1)/S0/R0", "interval_direct", true, 0.0, true, 5.960464477539063e-08, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "tiny/torch.float32/(-1, -1)/S0/R0/interval_scaled", "cpu_seconds": 4.605478613}
+{"core_result": ["tiny/torch.float32/(-1, -1)/S0/R0", "interval_scaled", true, 0.0, true, 5.960464477539063e-08, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "tiny/torch.float32/(-1, -1)/S0/R1/source_direct", "cpu_seconds": 4.6294821939999995}
+{"core_result": ["tiny/torch.float32/(-1, -1)/S0/R1", "source_direct", true, 0.0, true, 5.960464477539063e-08, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "tiny/torch.float32/(-1, -1)/S0/R1/source_factored", "cpu_seconds": 4.645485433999999}
+{"core_result": ["tiny/torch.float32/(-1, -1)/S0/R1", "source_factored", true, 0.0, true, 5.960464477539063e-08, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "tiny/torch.float32/(-1, -1)/S0/R1/prefix_scaled", "cpu_seconds": 4.665441856999999}
+{"core_result": ["tiny/torch.float32/(-1, -1)/S0/R1", "prefix_scaled", true, 0.0, true, 5.960464477539063e-08, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "tiny/torch.float32/(-1, -1)/S0/R1/interval_direct", "cpu_seconds": 4.681439575}
+{"core_result": ["tiny/torch.float32/(-1, -1)/S0/R1", "interval_direct", true, 0.0, true, 5.960464477539063e-08, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "tiny/torch.float32/(-1, -1)/S0/R1/interval_scaled", "cpu_seconds": 4.693435972}
+{"core_result": ["tiny/torch.float32/(-1, -1)/S0/R1", "interval_scaled", true, 0.0, true, 5.960464477539063e-08, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "tiny/torch.float32/(-1, -1)/S1/R0/source_direct", "cpu_seconds": 4.701433884}
+{"core_result": ["tiny/torch.float32/(-1, -1)/S1/R0", "source_direct", true, 5.960464477539063e-08, true, 5.960464477539063e-08, true, 5.960464477539063e-08, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "tiny/torch.float32/(-1, -1)/S1/R0/source_factored", "cpu_seconds": 4.725415648999999}
+{"core_result": ["tiny/torch.float32/(-1, -1)/S1/R0", "source_factored", true, 5.960464477539063e-08, true, 8.940696716308594e-08, true, 5.960464477539063e-08, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "tiny/torch.float32/(-1, -1)/S1/R0/prefix_scaled", "cpu_seconds": 4.741412046}
+{"core_result": ["tiny/torch.float32/(-1, -1)/S1/R0", "prefix_scaled", true, 5.960464477539063e-08, true, 5.960464477539063e-08, true, 5.960464477539063e-08, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "tiny/torch.float32/(-1, -1)/S1/R0/interval_direct", "cpu_seconds": 4.7614131319999995}
+{"core_result": ["tiny/torch.float32/(-1, -1)/S1/R0", "interval_direct", true, 0.0, true, 5.960464477539063e-08, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "tiny/torch.float32/(-1, -1)/S1/R0/interval_scaled", "cpu_seconds": 4.77737801}
+{"core_result": ["tiny/torch.float32/(-1, -1)/S1/R0", "interval_scaled", true, 0.0, true, 5.960464477539063e-08, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "tiny/torch.float32/(-1, -1)/S1/R1/source_direct", "cpu_seconds": 4.7893751}
+{"core_result": ["tiny/torch.float32/(-1, -1)/S1/R1", "source_direct", true, 0.0, true, 5.960464477539063e-08, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "tiny/torch.float32/(-1, -1)/S1/R1/source_factored", "cpu_seconds": 4.80137098}
+{"core_result": ["tiny/torch.float32/(-1, -1)/S1/R1", "source_factored", true, 0.0, true, 5.960464477539063e-08, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "tiny/torch.float32/(-1, -1)/S1/R1/prefix_scaled", "cpu_seconds": 4.809373743999999}
+{"core_result": ["tiny/torch.float32/(-1, -1)/S1/R1", "prefix_scaled", true, 0.0, true, 5.960464477539063e-08, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "tiny/torch.float32/(-1, -1)/S1/R1/interval_direct", "cpu_seconds": 4.8373771869999995}
+{"core_result": ["tiny/torch.float32/(-1, -1)/S1/R1", "interval_direct", true, 0.0, true, 5.960464477539063e-08, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "tiny/torch.float32/(-1, -1)/S1/R1/interval_scaled", "cpu_seconds": 4.853398447}
+{"core_result": ["tiny/torch.float32/(-1, -1)/S1/R1", "interval_scaled", true, 0.0, true, 5.960464477539063e-08, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "tiny/torch.float32/(-134217728, -1)/S0/R0/source_direct", "cpu_seconds": 4.873310028}
+{"core_result": ["tiny/torch.float32/(-134217728, -1)/S0/R0", "source_direct", false, 0.15803015232086182, false, 0.3565918207168579, false, 0.15803015232086182, true, 0.0, true, 0.0, true, "torch.float32", ["0", "1", "2", "3", "4", "5"]]}
+{"progress": "tiny/torch.float32/(-134217728, -1)/S0/R0/source_factored", "cpu_seconds": 4.8893063119999995}
+{"core_result": ["tiny/torch.float32/(-134217728, -1)/S0/R0", "source_factored", false, 0.15803015232086182, false, 0.3565918207168579, false, 0.15803015232086182, true, 0.0, true, 0.0, true, "torch.float32", ["0", "1", "2", "3", "4", "5"]]}
+{"progress": "tiny/torch.float32/(-134217728, -1)/S0/R0/prefix_scaled", "cpu_seconds": 4.897324998999999}
+{"core_result": ["tiny/torch.float32/(-134217728, -1)/S0/R0", "prefix_scaled", false, 0.15803015232086182, false, 0.3565918207168579, false, 0.15803015232086182, true, 0.0, true, 0.0, true, "torch.float32", ["0", "1", "2", "3", "4", "5"]]}
+{"progress": "tiny/torch.float32/(-134217728, -1)/S0/R0/interval_direct", "cpu_seconds": 4.905284215}
+{"core_result": ["tiny/torch.float32/(-134217728, -1)/S0/R0", "interval_direct", true, 0.0, true, 5.960464477539063e-08, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "tiny/torch.float32/(-134217728, -1)/S0/R0/interval_scaled", "cpu_seconds": 4.933286976}
+{"core_result": ["tiny/torch.float32/(-134217728, -1)/S0/R0", "interval_scaled", true, 0.0, true, 5.960464477539063e-08, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "tiny/torch.float32/(-134217728, -1)/S0/R1/source_direct", "cpu_seconds": 4.953287253}
+{"core_result": ["tiny/torch.float32/(-134217728, -1)/S0/R1", "source_direct", false, 0.15803015232086182, false, 0.3565918207168579, false, 0.15803015232086182, true, 0.0, true, 0.0, true, "torch.float32", ["0", "1", "2", "3", "4", "5"]]}
+{"progress": "tiny/torch.float32/(-134217728, -1)/S0/R1/source_factored", "cpu_seconds": 4.969288435999999}
+{"core_result": ["tiny/torch.float32/(-134217728, -1)/S0/R1", "source_factored", false, 0.15803015232086182, false, 0.3565918207168579, false, 0.15803015232086182, true, 0.0, true, 0.0, true, "torch.float32", ["0", "1", "2", "3", "4", "5"]]}
+{"progress": "tiny/torch.float32/(-134217728, -1)/S0/R1/prefix_scaled", "cpu_seconds": 4.989283146}
+{"core_result": ["tiny/torch.float32/(-134217728, -1)/S0/R1", "prefix_scaled", false, 0.15803015232086182, false, 0.3565918207168579, false, 0.15803015232086182, true, 0.0, true, 0.0, true, "torch.float32", ["0", "1", "2", "3", "4", "5"]]}
+{"progress": "tiny/torch.float32/(-134217728, -1)/S0/R1/interval_direct", "cpu_seconds": 4.997280934}
+{"core_result": ["tiny/torch.float32/(-134217728, -1)/S0/R1", "interval_direct", true, 0.0, true, 5.960464477539063e-08, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "tiny/torch.float32/(-134217728, -1)/S0/R1/interval_scaled", "cpu_seconds": 5.009280125}
+{"core_result": ["tiny/torch.float32/(-134217728, -1)/S0/R1", "interval_scaled", true, 0.0, true, 5.960464477539063e-08, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "tiny/torch.float32/(-134217728, -1)/S1/R0/source_direct", "cpu_seconds": 5.037285551}
+{"core_result": ["tiny/torch.float32/(-134217728, -1)/S1/R0", "source_direct", false, 0.15803015232086182, false, 0.3565918207168579, false, 0.15803015232086182, true, 0.0, true, 0.0, true, "torch.float32", ["0", "1", "2", "3", "4", "5"]]}
+{"progress": "tiny/torch.float32/(-134217728, -1)/S1/R0/source_factored", "cpu_seconds": 5.053283006}
+{"core_result": ["tiny/torch.float32/(-134217728, -1)/S1/R0", "source_factored", false, 0.15803015232086182, false, 0.3565918207168579, false, 0.15803015232086182, true, 0.0, true, 0.0, true, "torch.float32", ["0", "1", "2", "3", "4", "5"]]}
+{"progress": "tiny/torch.float32/(-134217728, -1)/S1/R0/prefix_scaled", "cpu_seconds": 5.065256141}
+{"core_result": ["tiny/torch.float32/(-134217728, -1)/S1/R0", "prefix_scaled", false, 0.15803015232086182, false, 0.3565918207168579, false, 0.15803015232086182, true, 0.0, true, 0.0, true, "torch.float32", ["0", "1", "2", "3", "4", "5"]]}
+{"progress": "tiny/torch.float32/(-134217728, -1)/S1/R0/interval_direct", "cpu_seconds": 5.077255032}
+{"core_result": ["tiny/torch.float32/(-134217728, -1)/S1/R0", "interval_direct", true, 0.0, true, 5.960464477539063e-08, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "tiny/torch.float32/(-134217728, -1)/S1/R0/interval_scaled", "cpu_seconds": 5.089254185}
+{"core_result": ["tiny/torch.float32/(-134217728, -1)/S1/R0", "interval_scaled", true, 0.0, true, 5.960464477539063e-08, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "tiny/torch.float32/(-134217728, -1)/S1/R1/source_direct", "cpu_seconds": 5.101249633}
+{"core_result": ["tiny/torch.float32/(-134217728, -1)/S1/R1", "source_direct", false, 0.15803015232086182, false, 0.3565918207168579, false, 0.15803015232086182, true, 0.0, true, 0.0, true, "torch.float32", ["0", "1", "2", "3", "4", "5"]]}
+{"progress": "tiny/torch.float32/(-134217728, -1)/S1/R1/source_factored", "cpu_seconds": 5.1213070489999994}
+{"core_result": ["tiny/torch.float32/(-134217728, -1)/S1/R1", "source_factored", false, 0.15803015232086182, false, 0.3565918207168579, false, 0.15803015232086182, true, 0.0, true, 0.0, true, "torch.float32", ["0", "1", "2", "3", "4", "5"]]}
+{"progress": "tiny/torch.float32/(-134217728, -1)/S1/R1/prefix_scaled", "cpu_seconds": 5.133253444999999}
+{"core_result": ["tiny/torch.float32/(-134217728, -1)/S1/R1", "prefix_scaled", false, 0.15803015232086182, false, 0.3565918207168579, false, 0.15803015232086182, true, 0.0, true, 0.0, true, "torch.float32", ["0", "1", "2", "3", "4", "5"]]}
+{"progress": "tiny/torch.float32/(-134217728, -1)/S1/R1/interval_direct", "cpu_seconds": 5.145253767}
+{"core_result": ["tiny/torch.float32/(-134217728, -1)/S1/R1", "interval_direct", true, 0.0, true, 5.960464477539063e-08, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "tiny/torch.float32/(-134217728, -1)/S1/R1/interval_scaled", "cpu_seconds": 5.1572458899999996}
+{"core_result": ["tiny/torch.float32/(-134217728, -1)/S1/R1", "interval_scaled", true, 0.0, true, 5.960464477539063e-08, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "tiny/torch.float32/(-72057594037927936, -1)/S0/R0/source_direct", "cpu_seconds": 5.173223719}
+{"core_result": ["tiny/torch.float32/(-72057594037927936, -1)/S0/R0", "source_direct", false, 0.15803015232086182, false, 0.3565918207168579, false, 0.15803015232086182, true, 0.0, true, 0.0, true, "torch.float32", ["0", "1", "2", "3", "4", "5"]]}
+{"progress": "tiny/torch.float32/(-72057594037927936, -1)/S0/R0/source_factored", "cpu_seconds": 5.181230998999999}
+{"core_result": ["tiny/torch.float32/(-72057594037927936, -1)/S0/R0", "source_factored", false, 0.15803015232086182, false, 0.3565918207168579, false, 0.15803015232086182, true, 0.0, true, 0.0, true, "torch.float32", ["0", "1", "2", "3", "4", "5"]]}
+{"progress": "tiny/torch.float32/(-72057594037927936, -1)/S0/R0/prefix_scaled", "cpu_seconds": 5.193224748}
+{"core_result": ["tiny/torch.float32/(-72057594037927936, -1)/S0/R0", "prefix_scaled", false, 0.15803015232086182, false, 0.3565918207168579, false, 0.15803015232086182, true, 0.0, true, 0.0, true, "torch.float32", ["0", "1", "2", "3", "4", "5"]]}
+{"progress": "tiny/torch.float32/(-72057594037927936, -1)/S0/R0/interval_direct", "cpu_seconds": 5.205224717}
+{"core_result": ["tiny/torch.float32/(-72057594037927936, -1)/S0/R0", "interval_direct", true, 0.0, true, 5.960464477539063e-08, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "tiny/torch.float32/(-72057594037927936, -1)/S0/R0/interval_scaled", "cpu_seconds": 5.229188659}
+{"core_result": ["tiny/torch.float32/(-72057594037927936, -1)/S0/R0", "interval_scaled", true, 0.0, true, 5.960464477539063e-08, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "tiny/torch.float32/(-72057594037927936, -1)/S0/R1/source_direct", "cpu_seconds": 5.241183792999999}
+{"core_result": ["tiny/torch.float32/(-72057594037927936, -1)/S0/R1", "source_direct", false, 0.15803015232086182, false, 0.3565918207168579, false, 0.15803015232086182, true, 0.0, true, 0.0, true, "torch.float32", ["0", "1", "2", "3", "4", "5"]]}
+{"progress": "tiny/torch.float32/(-72057594037927936, -1)/S0/R1/source_factored", "cpu_seconds": 5.253162916}
+{"core_result": ["tiny/torch.float32/(-72057594037927936, -1)/S0/R1", "source_factored", false, 0.15803015232086182, false, 0.3565918207168579, false, 0.15803015232086182, true, 0.0, true, 0.0, true, "torch.float32", ["0", "1", "2", "3", "4", "5"]]}
+{"progress": "tiny/torch.float32/(-72057594037927936, -1)/S0/R1/prefix_scaled", "cpu_seconds": 5.265111183999999}
+{"core_result": ["tiny/torch.float32/(-72057594037927936, -1)/S0/R1", "prefix_scaled", false, 0.15803015232086182, false, 0.3565918207168579, false, 0.15803015232086182, true, 0.0, true, 0.0, true, "torch.float32", ["0", "1", "2", "3", "4", "5"]]}
+{"progress": "tiny/torch.float32/(-72057594037927936, -1)/S0/R1/interval_direct", "cpu_seconds": 5.277098992}
+{"core_result": ["tiny/torch.float32/(-72057594037927936, -1)/S0/R1", "interval_direct", true, 0.0, true, 5.960464477539063e-08, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "tiny/torch.float32/(-72057594037927936, -1)/S0/R1/interval_scaled", "cpu_seconds": 5.293095773999999}
+{"core_result": ["tiny/torch.float32/(-72057594037927936, -1)/S0/R1", "interval_scaled", true, 0.0, true, 5.960464477539063e-08, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "tiny/torch.float32/(-72057594037927936, -1)/S1/R0/source_direct", "cpu_seconds": 5.305094006}
+{"core_result": ["tiny/torch.float32/(-72057594037927936, -1)/S1/R0", "source_direct", false, 0.15803015232086182, false, 0.3565918207168579, false, 0.15803015232086182, true, 0.0, true, 0.0, true, "torch.float32", ["0", "1", "2", "3", "4", "5"]]}
+{"progress": "tiny/torch.float32/(-72057594037927936, -1)/S1/R0/source_factored", "cpu_seconds": 5.329097339}
+{"core_result": ["tiny/torch.float32/(-72057594037927936, -1)/S1/R0", "source_factored", false, 0.15803015232086182, false, 0.3565918207168579, false, 0.15803015232086182, true, 0.0, true, 0.0, true, "torch.float32", ["0", "1", "2", "3", "4", "5"]]}
+{"progress": "tiny/torch.float32/(-72057594037927936, -1)/S1/R0/prefix_scaled", "cpu_seconds": 5.341094366999999}
+{"core_result": ["tiny/torch.float32/(-72057594037927936, -1)/S1/R0", "prefix_scaled", false, 0.15803015232086182, false, 0.3565918207168579, false, 0.15803015232086182, true, 0.0, true, 0.0, true, "torch.float32", ["0", "1", "2", "3", "4", "5"]]}
+{"progress": "tiny/torch.float32/(-72057594037927936, -1)/S1/R0/interval_direct", "cpu_seconds": 5.353094896}
+{"core_result": ["tiny/torch.float32/(-72057594037927936, -1)/S1/R0", "interval_direct", true, 0.0, true, 5.960464477539063e-08, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "tiny/torch.float32/(-72057594037927936, -1)/S1/R0/interval_scaled", "cpu_seconds": 5.365097587999999}
+{"core_result": ["tiny/torch.float32/(-72057594037927936, -1)/S1/R0", "interval_scaled", true, 0.0, true, 5.960464477539063e-08, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "tiny/torch.float32/(-72057594037927936, -1)/S1/R1/source_direct", "cpu_seconds": 5.38109329}
+{"core_result": ["tiny/torch.float32/(-72057594037927936, -1)/S1/R1", "source_direct", false, 0.15803015232086182, false, 0.3565918207168579, false, 0.15803015232086182, true, 0.0, true, 0.0, true, "torch.float32", ["0", "1", "2", "3", "4", "5"]]}
+{"progress": "tiny/torch.float32/(-72057594037927936, -1)/S1/R1/source_factored", "cpu_seconds": 5.393090722999999}
+{"core_result": ["tiny/torch.float32/(-72057594037927936, -1)/S1/R1", "source_factored", false, 0.15803015232086182, false, 0.3565918207168579, false, 0.15803015232086182, true, 0.0, true, 0.0, true, "torch.float32", ["0", "1", "2", "3", "4", "5"]]}
+{"progress": "tiny/torch.float32/(-72057594037927936, -1)/S1/R1/prefix_scaled", "cpu_seconds": 5.40109192}
+{"core_result": ["tiny/torch.float32/(-72057594037927936, -1)/S1/R1", "prefix_scaled", false, 0.15803015232086182, false, 0.3565918207168579, false, 0.15803015232086182, true, 0.0, true, 0.0, true, "torch.float32", ["0", "1", "2", "3", "4", "5"]]}
+{"progress": "tiny/torch.float32/(-72057594037927936, -1)/S1/R1/interval_direct", "cpu_seconds": 5.429092416}
+{"core_result": ["tiny/torch.float32/(-72057594037927936, -1)/S1/R1", "interval_direct", true, 0.0, true, 5.960464477539063e-08, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "tiny/torch.float32/(-72057594037927936, -1)/S1/R1/interval_scaled", "cpu_seconds": 5.441090635999999}
+{"core_result": ["tiny/torch.float32/(-72057594037927936, -1)/S1/R1", "interval_scaled", true, 0.0, true, 5.960464477539063e-08, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "tiny/torch.float32/(-1, -134217728, -1)/S0/R0/source_direct", "cpu_seconds": 5.4530932409999995}
+{"core_result": ["tiny/torch.float32/(-1, -134217728, -1)/S0/R0", "source_direct", false, 0.15803015232086182, false, 0.2678873538970947, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", ["0", "1", "2", "3", "4", "5"]]}
+{"progress": "tiny/torch.float32/(-1, -134217728, -1)/S0/R0/source_factored", "cpu_seconds": 5.469074527999999}
+{"core_result": ["tiny/torch.float32/(-1, -134217728, -1)/S0/R0", "source_factored", false, 0.15803015232086182, false, 0.2678873538970947, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", ["0", "1", "2", "3", "4", "5"]]}
+{"progress": "tiny/torch.float32/(-1, -134217728, -1)/S0/R0/prefix_scaled", "cpu_seconds": 5.485059434999999}
+{"core_result": ["tiny/torch.float32/(-1, -134217728, -1)/S0/R0", "prefix_scaled", false, 0.15803015232086182, false, 0.2678873538970947, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", ["0", "1", "2", "3", "4", "5"]]}
+{"progress": "tiny/torch.float32/(-1, -134217728, -1)/S0/R0/interval_direct", "cpu_seconds": 5.493051126999999}
+{"core_result": ["tiny/torch.float32/(-1, -134217728, -1)/S0/R0", "interval_direct", true, 0.0, true, 2.9802322387695312e-08, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "tiny/torch.float32/(-1, -134217728, -1)/S0/R0/interval_scaled", "cpu_seconds": 5.505049883}
+{"core_result": ["tiny/torch.float32/(-1, -134217728, -1)/S0/R0", "interval_scaled", true, 0.0, true, 2.9802322387695312e-08, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "tiny/torch.float32/(-1, -134217728, -1)/S0/R1/source_direct", "cpu_seconds": 5.529051364}
+{"core_result": ["tiny/torch.float32/(-1, -134217728, -1)/S0/R1", "source_direct", false, 0.15803015232086182, false, 0.2678873538970947, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", ["0", "1", "2", "3", "4", "5"]]}
+{"progress": "tiny/torch.float32/(-1, -134217728, -1)/S0/R1/source_factored", "cpu_seconds": 5.545055638}
+{"core_result": ["tiny/torch.float32/(-1, -134217728, -1)/S0/R1", "source_factored", false, 0.15803015232086182, false, 0.2678873538970947, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", ["0", "1", "2", "3", "4", "5"]]}
+{"progress": "tiny/torch.float32/(-1, -134217728, -1)/S0/R1/prefix_scaled", "cpu_seconds": 5.5570488639999995}
+{"core_result": ["tiny/torch.float32/(-1, -134217728, -1)/S0/R1", "prefix_scaled", false, 0.15803015232086182, false, 0.2678873538970947, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", ["0", "1", "2", "3", "4", "5"]]}
+{"progress": "tiny/torch.float32/(-1, -134217728, -1)/S0/R1/interval_direct", "cpu_seconds": 5.569054039}
+{"core_result": ["tiny/torch.float32/(-1, -134217728, -1)/S0/R1", "interval_direct", true, 0.0, true, 2.9802322387695312e-08, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "tiny/torch.float32/(-1, -134217728, -1)/S0/R1/interval_scaled", "cpu_seconds": 5.585048721}
+{"core_result": ["tiny/torch.float32/(-1, -134217728, -1)/S0/R1", "interval_scaled", true, 0.0, true, 2.9802322387695312e-08, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "tiny/torch.float32/(-1, -134217728, -1)/S1/R0/source_direct", "cpu_seconds": 5.5970441189999995}
+{"core_result": ["tiny/torch.float32/(-1, -134217728, -1)/S1/R0", "source_direct", false, 0.15803015232086182, false, 0.2678873538970947, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", ["0", "1", "2", "3", "4", "5"]]}
+{"progress": "tiny/torch.float32/(-1, -134217728, -1)/S1/R0/source_factored", "cpu_seconds": 5.605047561999999}
+{"core_result": ["tiny/torch.float32/(-1, -134217728, -1)/S1/R0", "source_factored", false, 0.15803015232086182, false, 0.2678873538970947, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", ["0", "1", "2", "3", "4", "5"]]}
+{"progress": "tiny/torch.float32/(-1, -134217728, -1)/S1/R0/prefix_scaled", "cpu_seconds": 5.629046896999999}
+{"core_result": ["tiny/torch.float32/(-1, -134217728, -1)/S1/R0", "prefix_scaled", false, 0.15803015232086182, false, 0.2678873538970947, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", ["0", "1", "2", "3", "4", "5"]]}
+{"progress": "tiny/torch.float32/(-1, -134217728, -1)/S1/R0/interval_direct", "cpu_seconds": 5.646178834}
+{"core_result": ["tiny/torch.float32/(-1, -134217728, -1)/S1/R0", "interval_direct", true, 0.0, true, 2.9802322387695312e-08, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "tiny/torch.float32/(-1, -134217728, -1)/S1/R0/interval_scaled", "cpu_seconds": 5.665944249}
+{"core_result": ["tiny/torch.float32/(-1, -134217728, -1)/S1/R0", "interval_scaled", true, 0.0, true, 2.9802322387695312e-08, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "tiny/torch.float32/(-1, -134217728, -1)/S1/R1/source_direct", "cpu_seconds": 5.685945101}
+{"core_result": ["tiny/torch.float32/(-1, -134217728, -1)/S1/R1", "source_direct", false, 0.15803015232086182, false, 0.2678873538970947, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", ["0", "1", "2", "3", "4", "5"]]}
+{"progress": "tiny/torch.float32/(-1, -134217728, -1)/S1/R1/source_factored", "cpu_seconds": 5.7140005149999995}
+{"core_result": ["tiny/torch.float32/(-1, -134217728, -1)/S1/R1", "source_factored", false, 0.15803015232086182, false, 0.2678873538970947, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", ["0", "1", "2", "3", "4", "5"]]}
+{"progress": "tiny/torch.float32/(-1, -134217728, -1)/S1/R1/prefix_scaled", "cpu_seconds": 5.733944564}
+{"core_result": ["tiny/torch.float32/(-1, -134217728, -1)/S1/R1", "prefix_scaled", false, 0.15803015232086182, false, 0.2678873538970947, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", ["0", "1", "2", "3", "4", "5"]]}
+{"progress": "tiny/torch.float32/(-1, -134217728, -1)/S1/R1/interval_direct", "cpu_seconds": 5.749938408999999}
+{"core_result": ["tiny/torch.float32/(-1, -134217728, -1)/S1/R1", "interval_direct", true, 0.0, true, 2.9802322387695312e-08, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "tiny/torch.float32/(-1, -134217728, -1)/S1/R1/interval_scaled", "cpu_seconds": 5.761946233}
+{"core_result": ["tiny/torch.float32/(-1, -134217728, -1)/S1/R1", "interval_scaled", true, 0.0, true, 2.9802322387695312e-08, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "tiny/torch.float64/(-1, -1)/S0/R0/source_direct", "cpu_seconds": 5.781942909}
+{"core_result": ["tiny/torch.float64/(-1, -1)/S0/R0", "source_direct", true, 0.0, true, 5.551115123125783e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-1, -1)/S0/R0/source_factored", "cpu_seconds": 5.797938963}
+{"core_result": ["tiny/torch.float64/(-1, -1)/S0/R0", "source_factored", true, 0.0, true, 5.551115123125783e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-1, -1)/S0/R0/prefix_scaled", "cpu_seconds": 5.829938117999999}
+{"core_result": ["tiny/torch.float64/(-1, -1)/S0/R0", "prefix_scaled", true, 0.0, true, 5.551115123125783e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-1, -1)/S0/R0/interval_direct", "cpu_seconds": 5.841940331}
+{"core_result": ["tiny/torch.float64/(-1, -1)/S0/R0", "interval_direct", true, 0.0, true, 2.7755575615628914e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-1, -1)/S0/R0/interval_scaled", "cpu_seconds": 5.853922259}
+{"core_result": ["tiny/torch.float64/(-1, -1)/S0/R0", "interval_scaled", true, 0.0, true, 2.7755575615628914e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-1, -1)/S0/R1/source_direct", "cpu_seconds": 5.8659394019999995}
+{"core_result": ["tiny/torch.float64/(-1, -1)/S0/R1", "source_direct", true, 0.0, true, 5.551115123125783e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-1, -1)/S0/R1/source_factored", "cpu_seconds": 5.873886723}
+{"core_result": ["tiny/torch.float64/(-1, -1)/S0/R1", "source_factored", true, 0.0, true, 5.551115123125783e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-1, -1)/S0/R1/prefix_scaled", "cpu_seconds": 5.8858846709999995}
+{"core_result": ["tiny/torch.float64/(-1, -1)/S0/R1", "prefix_scaled", true, 0.0, true, 5.551115123125783e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-1, -1)/S0/R1/interval_direct", "cpu_seconds": 5.893884367999999}
+{"core_result": ["tiny/torch.float64/(-1, -1)/S0/R1", "interval_direct", true, 0.0, true, 1.3877787807814457e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-1, -1)/S0/R1/interval_scaled", "cpu_seconds": 5.9139449609999994}
+{"core_result": ["tiny/torch.float64/(-1, -1)/S0/R1", "interval_scaled", true, 0.0, true, 1.3877787807814457e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-1, -1)/S1/R0/source_direct", "cpu_seconds": 5.929883236999999}
+{"core_result": ["tiny/torch.float64/(-1, -1)/S1/R0", "source_direct", true, 0.0, true, 1.1102230246251565e-16, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-1, -1)/S1/R0/source_factored", "cpu_seconds": 5.9378827649999995}
+{"core_result": ["tiny/torch.float64/(-1, -1)/S1/R0", "source_factored", true, 0.0, true, 1.1102230246251565e-16, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-1, -1)/S1/R0/prefix_scaled", "cpu_seconds": 5.9498812679999995}
+{"core_result": ["tiny/torch.float64/(-1, -1)/S1/R0", "prefix_scaled", true, 0.0, true, 1.1102230246251565e-16, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-1, -1)/S1/R0/interval_direct", "cpu_seconds": 5.95788369}
+{"core_result": ["tiny/torch.float64/(-1, -1)/S1/R0", "interval_direct", true, 0.0, true, 1.1102230246251565e-16, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-1, -1)/S1/R0/interval_scaled", "cpu_seconds": 5.969881856}
+{"core_result": ["tiny/torch.float64/(-1, -1)/S1/R0", "interval_scaled", true, 0.0, true, 1.1102230246251565e-16, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-1, -1)/S1/R1/source_direct", "cpu_seconds": 5.977885486}
+{"core_result": ["tiny/torch.float64/(-1, -1)/S1/R1", "source_direct", true, 0.0, true, 5.551115123125783e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-1, -1)/S1/R1/source_factored", "cpu_seconds": 5.989880706}
+{"core_result": ["tiny/torch.float64/(-1, -1)/S1/R1", "source_factored", true, 0.0, true, 5.551115123125783e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-1, -1)/S1/R1/prefix_scaled", "cpu_seconds": 5.997879799}
+{"core_result": ["tiny/torch.float64/(-1, -1)/S1/R1", "prefix_scaled", true, 0.0, true, 5.551115123125783e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-1, -1)/S1/R1/interval_direct", "cpu_seconds": 6.017882138}
+{"core_result": ["tiny/torch.float64/(-1, -1)/S1/R1", "interval_direct", true, 0.0, true, 1.3877787807814457e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-1, -1)/S1/R1/interval_scaled", "cpu_seconds": 6.029883368999999}
+{"core_result": ["tiny/torch.float64/(-1, -1)/S1/R1", "interval_scaled", true, 0.0, true, 1.3877787807814457e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-134217728, -1)/S0/R0/source_direct", "cpu_seconds": 6.0458873529999995}
+{"core_result": ["tiny/torch.float64/(-134217728, -1)/S0/R0", "source_direct", true, 0.0, true, 5.551115123125783e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-134217728, -1)/S0/R0/source_factored", "cpu_seconds": 6.053878162999999}
+{"core_result": ["tiny/torch.float64/(-134217728, -1)/S0/R0", "source_factored", true, 0.0, true, 5.551115123125783e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-134217728, -1)/S0/R0/prefix_scaled", "cpu_seconds": 6.065880021}
+{"core_result": ["tiny/torch.float64/(-134217728, -1)/S0/R0", "prefix_scaled", true, 0.0, true, 5.551115123125783e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-134217728, -1)/S0/R0/interval_direct", "cpu_seconds": 6.077848359}
+{"core_result": ["tiny/torch.float64/(-134217728, -1)/S0/R0", "interval_direct", true, 0.0, true, 1.3877787807814457e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-134217728, -1)/S0/R0/interval_scaled", "cpu_seconds": 6.089844729999999}
+{"core_result": ["tiny/torch.float64/(-134217728, -1)/S0/R0", "interval_scaled", true, 0.0, true, 1.3877787807814457e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-134217728, -1)/S0/R1/source_direct", "cpu_seconds": 6.101844526}
+{"core_result": ["tiny/torch.float64/(-134217728, -1)/S0/R1", "source_direct", true, 0.0, true, 5.551115123125783e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-134217728, -1)/S0/R1/source_factored", "cpu_seconds": 6.1258594749999995}
+{"core_result": ["tiny/torch.float64/(-134217728, -1)/S0/R1", "source_factored", true, 0.0, true, 5.551115123125783e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-134217728, -1)/S0/R1/prefix_scaled", "cpu_seconds": 6.141857115}
+{"core_result": ["tiny/torch.float64/(-134217728, -1)/S0/R1", "prefix_scaled", true, 0.0, true, 5.551115123125783e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-134217728, -1)/S0/R1/interval_direct", "cpu_seconds": 6.157858361}
+{"core_result": ["tiny/torch.float64/(-134217728, -1)/S0/R1", "interval_direct", true, 0.0, true, 1.3877787807814457e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-134217728, -1)/S0/R1/interval_scaled", "cpu_seconds": 6.169853381999999}
+{"core_result": ["tiny/torch.float64/(-134217728, -1)/S0/R1", "interval_scaled", true, 0.0, true, 1.3877787807814457e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-134217728, -1)/S1/R0/source_direct", "cpu_seconds": 6.185847255}
+{"core_result": ["tiny/torch.float64/(-134217728, -1)/S1/R0", "source_direct", true, 0.0, true, 5.551115123125783e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-134217728, -1)/S1/R0/source_factored", "cpu_seconds": 6.193852285999999}
+{"core_result": ["tiny/torch.float64/(-134217728, -1)/S1/R0", "source_factored", true, 0.0, true, 5.551115123125783e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-134217728, -1)/S1/R0/prefix_scaled", "cpu_seconds": 6.213909242}
+{"core_result": ["tiny/torch.float64/(-134217728, -1)/S1/R0", "prefix_scaled", true, 0.0, true, 5.551115123125783e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-134217728, -1)/S1/R0/interval_direct", "cpu_seconds": 6.229855088}
+{"core_result": ["tiny/torch.float64/(-134217728, -1)/S1/R0", "interval_direct", true, 0.0, true, 1.3877787807814457e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-134217728, -1)/S1/R0/interval_scaled", "cpu_seconds": 6.2458496949999995}
+{"core_result": ["tiny/torch.float64/(-134217728, -1)/S1/R0", "interval_scaled", true, 0.0, true, 1.3877787807814457e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-134217728, -1)/S1/R1/source_direct", "cpu_seconds": 6.257850604}
+{"core_result": ["tiny/torch.float64/(-134217728, -1)/S1/R1", "source_direct", true, 0.0, true, 5.551115123125783e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-134217728, -1)/S1/R1/source_factored", "cpu_seconds": 6.269853695}
+{"core_result": ["tiny/torch.float64/(-134217728, -1)/S1/R1", "source_factored", true, 0.0, true, 5.551115123125783e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-134217728, -1)/S1/R1/prefix_scaled", "cpu_seconds": 6.285790573}
+{"core_result": ["tiny/torch.float64/(-134217728, -1)/S1/R1", "prefix_scaled", true, 0.0, true, 5.551115123125783e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-134217728, -1)/S1/R1/interval_direct", "cpu_seconds": 6.297803921}
+{"core_result": ["tiny/torch.float64/(-134217728, -1)/S1/R1", "interval_direct", true, 0.0, true, 1.3877787807814457e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-134217728, -1)/S1/R1/interval_scaled", "cpu_seconds": 6.31776463}
+{"core_result": ["tiny/torch.float64/(-134217728, -1)/S1/R1", "interval_scaled", true, 0.0, true, 1.3877787807814457e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-72057594037927936, -1)/S0/R0/source_direct", "cpu_seconds": 6.329765982}
+{"core_result": ["tiny/torch.float64/(-72057594037927936, -1)/S0/R0", "source_direct", false, 0.15803013970713942, false, 0.3565917272654342, false, 0.15803013970713942, true, 0.0, true, 0.0, true, "torch.float64", ["0", "1", "2", "3", "4", "5"]]}
+{"progress": "tiny/torch.float64/(-72057594037927936, -1)/S0/R0/source_factored", "cpu_seconds": 6.341764508}
+{"core_result": ["tiny/torch.float64/(-72057594037927936, -1)/S0/R0", "source_factored", false, 0.15803013970713942, false, 0.3565917272654342, false, 0.15803013970713942, true, 0.0, true, 0.0, true, "torch.float64", ["0", "1", "2", "3", "4", "5"]]}
+{"progress": "tiny/torch.float64/(-72057594037927936, -1)/S0/R0/prefix_scaled", "cpu_seconds": 6.353765859999999}
+{"core_result": ["tiny/torch.float64/(-72057594037927936, -1)/S0/R0", "prefix_scaled", false, 0.15803013970713942, false, 0.3565917272654342, false, 0.15803013970713942, true, 0.0, true, 0.0, true, "torch.float64", ["0", "1", "2", "3", "4", "5"]]}
+{"progress": "tiny/torch.float64/(-72057594037927936, -1)/S0/R0/interval_direct", "cpu_seconds": 6.365764082999999}
+{"core_result": ["tiny/torch.float64/(-72057594037927936, -1)/S0/R0", "interval_direct", true, 0.0, true, 1.3877787807814457e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-72057594037927936, -1)/S0/R0/interval_scaled", "cpu_seconds": 6.377762708}
+{"core_result": ["tiny/torch.float64/(-72057594037927936, -1)/S0/R0", "interval_scaled", true, 0.0, true, 1.3877787807814457e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-72057594037927936, -1)/S0/R1/source_direct", "cpu_seconds": 6.389761243}
+{"core_result": ["tiny/torch.float64/(-72057594037927936, -1)/S0/R1", "source_direct", false, 0.15803013970713942, false, 0.3565917272654342, false, 0.15803013970713942, true, 0.0, true, 0.0, true, "torch.float64", ["0", "1", "2", "3", "4", "5"]]}
+{"progress": "tiny/torch.float64/(-72057594037927936, -1)/S0/R1/source_factored", "cpu_seconds": 6.397760324}
+{"core_result": ["tiny/torch.float64/(-72057594037927936, -1)/S0/R1", "source_factored", false, 0.15803013970713942, false, 0.3565917272654342, false, 0.15803013970713942, true, 0.0, true, 0.0, true, "torch.float64", ["0", "1", "2", "3", "4", "5"]]}
+{"progress": "tiny/torch.float64/(-72057594037927936, -1)/S0/R1/prefix_scaled", "cpu_seconds": 6.417764224}
+{"core_result": ["tiny/torch.float64/(-72057594037927936, -1)/S0/R1", "prefix_scaled", false, 0.15803013970713942, false, 0.3565917272654342, false, 0.15803013970713942, true, 0.0, true, 0.0, true, "torch.float64", ["0", "1", "2", "3", "4", "5"]]}
+{"progress": "tiny/torch.float64/(-72057594037927936, -1)/S0/R1/interval_direct", "cpu_seconds": 6.429764974999999}
+{"core_result": ["tiny/torch.float64/(-72057594037927936, -1)/S0/R1", "interval_direct", true, 0.0, true, 1.3877787807814457e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-72057594037927936, -1)/S0/R1/interval_scaled", "cpu_seconds": 6.441764012999999}
+{"core_result": ["tiny/torch.float64/(-72057594037927936, -1)/S0/R1", "interval_scaled", true, 0.0, true, 1.3877787807814457e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-72057594037927936, -1)/S1/R0/source_direct", "cpu_seconds": 6.453760093}
+{"core_result": ["tiny/torch.float64/(-72057594037927936, -1)/S1/R0", "source_direct", false, 0.15803013970713942, false, 0.3565917272654342, false, 0.15803013970713942, true, 0.0, true, 0.0, true, "torch.float64", ["0", "1", "2", "3", "4", "5"]]}
+{"progress": "tiny/torch.float64/(-72057594037927936, -1)/S1/R0/source_factored", "cpu_seconds": 6.465733135}
+{"core_result": ["tiny/torch.float64/(-72057594037927936, -1)/S1/R0", "source_factored", false, 0.15803013970713942, false, 0.3565917272654342, false, 0.15803013970713942, true, 0.0, true, 0.0, true, "torch.float64", ["0", "1", "2", "3", "4", "5"]]}
+{"progress": "tiny/torch.float64/(-72057594037927936, -1)/S1/R0/prefix_scaled", "cpu_seconds": 6.48169447}
+{"core_result": ["tiny/torch.float64/(-72057594037927936, -1)/S1/R0", "prefix_scaled", false, 0.15803013970713942, false, 0.3565917272654342, false, 0.15803013970713942, true, 0.0, true, 0.0, true, "torch.float64", ["0", "1", "2", "3", "4", "5"]]}
+{"progress": "tiny/torch.float64/(-72057594037927936, -1)/S1/R0/interval_direct", "cpu_seconds": 6.4936929789999995}
+{"core_result": ["tiny/torch.float64/(-72057594037927936, -1)/S1/R0", "interval_direct", true, 0.0, true, 1.3877787807814457e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-72057594037927936, -1)/S1/R0/interval_scaled", "cpu_seconds": 6.521692906999999}
+{"core_result": ["tiny/torch.float64/(-72057594037927936, -1)/S1/R0", "interval_scaled", true, 0.0, true, 1.3877787807814457e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-72057594037927936, -1)/S1/R1/source_direct", "cpu_seconds": 6.5416962089999995}
+{"core_result": ["tiny/torch.float64/(-72057594037927936, -1)/S1/R1", "source_direct", false, 0.15803013970713942, false, 0.3565917272654342, false, 0.15803013970713942, true, 0.0, true, 0.0, true, "torch.float64", ["0", "1", "2", "3", "4", "5"]]}
+{"progress": "tiny/torch.float64/(-72057594037927936, -1)/S1/R1/source_factored", "cpu_seconds": 6.5576930639999995}
+{"core_result": ["tiny/torch.float64/(-72057594037927936, -1)/S1/R1", "source_factored", false, 0.15803013970713942, false, 0.3565917272654342, false, 0.15803013970713942, true, 0.0, true, 0.0, true, "torch.float64", ["0", "1", "2", "3", "4", "5"]]}
+{"progress": "tiny/torch.float64/(-72057594037927936, -1)/S1/R1/prefix_scaled", "cpu_seconds": 6.577691258}
+{"core_result": ["tiny/torch.float64/(-72057594037927936, -1)/S1/R1", "prefix_scaled", false, 0.15803013970713942, false, 0.3565917272654342, false, 0.15803013970713942, true, 0.0, true, 0.0, true, "torch.float64", ["0", "1", "2", "3", "4", "5"]]}
+{"progress": "tiny/torch.float64/(-72057594037927936, -1)/S1/R1/interval_direct", "cpu_seconds": 6.593687579}
+{"core_result": ["tiny/torch.float64/(-72057594037927936, -1)/S1/R1", "interval_direct", true, 0.0, true, 1.3877787807814457e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-72057594037927936, -1)/S1/R1/interval_scaled", "cpu_seconds": 6.621688588}
+{"core_result": ["tiny/torch.float64/(-72057594037927936, -1)/S1/R1", "interval_scaled", true, 0.0, true, 1.3877787807814457e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-1, -134217728, -1)/S0/R0/source_direct", "cpu_seconds": 6.641687171999999}
+{"core_result": ["tiny/torch.float64/(-1, -134217728, -1)/S0/R0", "source_direct", true, 0.0, true, 5.551115123125783e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-1, -134217728, -1)/S0/R0/source_factored", "cpu_seconds": 6.653686907}
+{"core_result": ["tiny/torch.float64/(-1, -134217728, -1)/S0/R0", "source_factored", true, 0.0, true, 5.551115123125783e-17, true, 0.0, true, 0.0, true, 5.551115123125783e-17, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-1, -134217728, -1)/S0/R0/prefix_scaled", "cpu_seconds": 6.669691127}
+{"core_result": ["tiny/torch.float64/(-1, -134217728, -1)/S0/R0", "prefix_scaled", true, 0.0, true, 5.551115123125783e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-1, -134217728, -1)/S0/R0/interval_direct", "cpu_seconds": 6.689655027}
+{"core_result": ["tiny/torch.float64/(-1, -134217728, -1)/S0/R0", "interval_direct", true, 0.0, true, 5.551115123125783e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-1, -134217728, -1)/S0/R0/interval_scaled", "cpu_seconds": 6.721652768999999}
+{"core_result": ["tiny/torch.float64/(-1, -134217728, -1)/S0/R0", "interval_scaled", true, 0.0, true, 5.551115123125783e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-1, -134217728, -1)/S0/R1/source_direct", "cpu_seconds": 6.737652154}
+{"core_result": ["tiny/torch.float64/(-1, -134217728, -1)/S0/R1", "source_direct", true, 0.0, true, 5.551115123125783e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-1, -134217728, -1)/S0/R1/source_factored", "cpu_seconds": 6.7496478589999995}
+{"core_result": ["tiny/torch.float64/(-1, -134217728, -1)/S0/R1", "source_factored", true, 0.0, true, 5.551115123125783e-17, true, 0.0, true, 0.0, true, 5.551115123125783e-17, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-1, -134217728, -1)/S0/R1/prefix_scaled", "cpu_seconds": 6.761650554}
+{"core_result": ["tiny/torch.float64/(-1, -134217728, -1)/S0/R1", "prefix_scaled", true, 0.0, true, 5.551115123125783e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-1, -134217728, -1)/S0/R1/interval_direct", "cpu_seconds": 6.777648108999999}
+{"core_result": ["tiny/torch.float64/(-1, -134217728, -1)/S0/R1", "interval_direct", true, 0.0, true, 5.551115123125783e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-1, -134217728, -1)/S0/R1/interval_scaled", "cpu_seconds": 6.789646809}
+{"core_result": ["tiny/torch.float64/(-1, -134217728, -1)/S0/R1", "interval_scaled", true, 0.0, true, 5.551115123125783e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-1, -134217728, -1)/S1/R0/source_direct", "cpu_seconds": 6.814514994}
+{"core_result": ["tiny/torch.float64/(-1, -134217728, -1)/S1/R0", "source_direct", true, 0.0, true, 5.551115123125783e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-1, -134217728, -1)/S1/R0/source_factored", "cpu_seconds": 6.833646765}
+{"core_result": ["tiny/torch.float64/(-1, -134217728, -1)/S1/R0", "source_factored", true, 0.0, true, 5.551115123125783e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-1, -134217728, -1)/S1/R0/prefix_scaled", "cpu_seconds": 6.845627294}
+{"core_result": ["tiny/torch.float64/(-1, -134217728, -1)/S1/R0", "prefix_scaled", true, 0.0, true, 5.551115123125783e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-1, -134217728, -1)/S1/R0/interval_direct", "cpu_seconds": 6.857626632}
+{"core_result": ["tiny/torch.float64/(-1, -134217728, -1)/S1/R0", "interval_direct", true, 0.0, true, 5.551115123125783e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-1, -134217728, -1)/S1/R0/interval_scaled", "cpu_seconds": 6.873648750999999}
+{"core_result": ["tiny/torch.float64/(-1, -134217728, -1)/S1/R0", "interval_scaled", true, 0.0, true, 5.551115123125783e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-1, -134217728, -1)/S1/R1/source_direct", "cpu_seconds": 6.893549812}
+{"core_result": ["tiny/torch.float64/(-1, -134217728, -1)/S1/R1", "source_direct", true, 0.0, true, 5.551115123125783e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-1, -134217728, -1)/S1/R1/source_factored", "cpu_seconds": 6.913608097}
+{"core_result": ["tiny/torch.float64/(-1, -134217728, -1)/S1/R1", "source_factored", true, 0.0, true, 5.551115123125783e-17, true, 0.0, true, 0.0, true, 5.551115123125783e-17, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-1, -134217728, -1)/S1/R1/prefix_scaled", "cpu_seconds": 6.929545236999999}
+{"core_result": ["tiny/torch.float64/(-1, -134217728, -1)/S1/R1", "prefix_scaled", true, 0.0, true, 5.551115123125783e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-1, -134217728, -1)/S1/R1/interval_direct", "cpu_seconds": 6.941546504}
+{"core_result": ["tiny/torch.float64/(-1, -134217728, -1)/S1/R1", "interval_direct", true, 0.0, true, 5.551115123125783e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "tiny/torch.float64/(-1, -134217728, -1)/S1/R1/interval_scaled", "cpu_seconds": 6.953547825999999}
+{"core_result": ["tiny/torch.float64/(-1, -134217728, -1)/S1/R1", "interval_scaled", true, 0.0, true, 5.551115123125783e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "random/torch.float32/73/1,2,1,1,1/source_direct", "cpu_seconds": 6.969541294}
+{"core_result": ["random/torch.float32/73/1,2,1,1,1", "source_direct", true, 0.0, true, 1.4901161193847656e-08, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "random/torch.float32/73/1,2,1,1,1/source_factored", "cpu_seconds": 6.98154369}
+{"core_result": ["random/torch.float32/73/1,2,1,1,1", "source_factored", true, 0.0, true, 1.4901161193847656e-08, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "random/torch.float32/73/1,2,1,1,1/prefix_scaled", "cpu_seconds": 6.993544183}
+{"core_result": ["random/torch.float32/73/1,2,1,1,1", "prefix_scaled", true, 0.0, true, 1.4901161193847656e-08, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "random/torch.float32/73/1,2,1,1,1/interval_direct", "cpu_seconds": 7.021546358999999}
+{"core_result": ["random/torch.float32/73/1,2,1,1,1", "interval_direct", true, 0.0, true, 1.4901161193847656e-08, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "random/torch.float32/73/1,2,1,1,1/interval_scaled", "cpu_seconds": 7.037545165999999}
+{"core_result": ["random/torch.float32/73/1,2,1,1,1", "interval_scaled", true, 0.0, true, 1.4901161193847656e-08, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "random/torch.float32/73/2,7,2,4,3/source_direct", "cpu_seconds": 7.053539423999999}
+{"core_result": ["random/torch.float32/73/2,7,2,4,3", "source_direct", true, 5.960464477539063e-08, true, 9.313225746154785e-10, true, 4.470348358154297e-08, true, 7.450580596923828e-09, true, 0.0, true, "torch.float32", []]}
+{"progress": "random/torch.float32/73/2,7,2,4,3/source_factored", "cpu_seconds": 7.077541784}
+{"core_result": ["random/torch.float32/73/2,7,2,4,3", "source_factored", true, 5.960464477539063e-08, true, 9.313225746154785e-10, true, 5.960464477539063e-08, true, 2.9802322387695312e-08, true, 1.8634724839594607e-20, true, "torch.float32", []]}
+{"progress": "random/torch.float32/73/2,7,2,4,3/prefix_scaled", "cpu_seconds": 7.101502903}
+{"core_result": ["random/torch.float32/73/2,7,2,4,3", "prefix_scaled", true, 8.940696716308594e-08, true, 2.7939677238464355e-09, true, 5.960464477539063e-08, true, 1.4901161193847656e-08, true, 0.0, true, "torch.float32", []]}
+{"progress": "random/torch.float32/73/2,7,2,4,3/interval_direct", "cpu_seconds": 7.145505979999999}
+{"core_result": ["random/torch.float32/73/2,7,2,4,3", "interval_direct", true, 5.960464477539063e-08, true, 9.313225746154785e-10, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "random/torch.float32/73/2,7,2,4,3/interval_scaled", "cpu_seconds": 7.181469975}
+{"core_result": ["random/torch.float32/73/2,7,2,4,3", "interval_scaled", true, 8.940696716308594e-08, true, 2.7939677238464355e-09, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "random/torch.float32/73/2,19,1,4,3/source_direct", "cpu_seconds": 7.225466086}
+{"core_result": ["random/torch.float32/73/2,19,1,4,3", "source_direct", true, 8.940696716308594e-08, true, 2.7939677238464355e-09, true, 8.940696716308594e-08, true, 6.332993507385254e-08, true, 0.0, true, "torch.float32", []]}
+{"progress": "random/torch.float32/73/2,19,1,4,3/source_factored", "cpu_seconds": 7.277435477}
+{"core_result": ["random/torch.float32/73/2,19,1,4,3", "source_factored", true, 8.940696716308594e-08, true, 2.7939677238464355e-09, true, 8.940696716308594e-08, true, 7.450580596923828e-08, true, 3.725290298461914e-08, true, "torch.float32", []]}
+{"progress": "random/torch.float32/73/2,19,1,4,3/prefix_scaled", "cpu_seconds": 7.337393822999999}
+{"core_result": ["random/torch.float32/73/2,19,1,4,3", "prefix_scaled", true, 8.940696716308594e-08, true, 2.3283064365386963e-09, true, 8.940696716308594e-08, true, 6.332993507385254e-08, true, 0.0, true, "torch.float32", []]}
+{"progress": "random/torch.float32/73/2,19,1,4,3/interval_direct", "cpu_seconds": 7.3853875559999995}
+{"core_result": ["random/torch.float32/73/2,19,1,4,3", "interval_direct", true, 2.9802322387695312e-08, true, 9.313225746154785e-10, true, 5.960464477539063e-08, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "random/torch.float32/73/2,19,1,4,3/interval_scaled", "cpu_seconds": 7.4453891709999995}
+{"core_result": ["random/torch.float32/73/2,19,1,4,3", "interval_scaled", true, 4.470348358154297e-08, true, 1.862645149230957e-09, true, 5.960464477539063e-08, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "random/torch.float32/191/1,2,1,1,1/source_direct", "cpu_seconds": 7.513425933}
+{"core_result": ["random/torch.float32/191/1,2,1,1,1", "source_direct", true, 0.0, true, 0.0, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "random/torch.float32/191/1,2,1,1,1/source_factored", "cpu_seconds": 7.533232400999999}
+{"core_result": ["random/torch.float32/191/1,2,1,1,1", "source_factored", true, 5.960464477539063e-08, true, 1.1920928955078125e-07, true, 5.960464477539063e-08, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "random/torch.float32/191/1,2,1,1,1/prefix_scaled", "cpu_seconds": 7.549232062}
+{"core_result": ["random/torch.float32/191/1,2,1,1,1", "prefix_scaled", true, 0.0, true, 0.0, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "random/torch.float32/191/1,2,1,1,1/interval_direct", "cpu_seconds": 7.569231359}
+{"core_result": ["random/torch.float32/191/1,2,1,1,1", "interval_direct", true, 0.0, true, 0.0, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "random/torch.float32/191/1,2,1,1,1/interval_scaled", "cpu_seconds": 7.58922501}
+{"core_result": ["random/torch.float32/191/1,2,1,1,1", "interval_scaled", true, 0.0, true, 0.0, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "random/torch.float32/191/2,7,2,4,3/source_direct", "cpu_seconds": 7.6251546}
+{"core_result": ["random/torch.float32/191/2,7,2,4,3", "source_direct", true, 8.940696716308594e-08, true, 0.00048828125, true, 5.960464477539063e-08, true, 4.470348358154297e-08, true, 0.0, true, "torch.float32", []]}
+{"progress": "random/torch.float32/191/2,7,2,4,3/source_factored", "cpu_seconds": 7.658002957}
+{"core_result": ["random/torch.float32/191/2,7,2,4,3", "source_factored", true, 8.940696716308594e-08, true, 0.000244140625, true, 5.960464477539063e-08, true, 2.60770320892334e-08, true, 0.0, true, "torch.float32", []]}
+{"progress": "random/torch.float32/191/2,7,2,4,3/prefix_scaled", "cpu_seconds": 7.678001405}
+{"core_result": ["random/torch.float32/191/2,7,2,4,3", "prefix_scaled", true, 8.940696716308594e-08, true, 0.0003662109375, true, 5.960464477539063e-08, true, 5.960464477539063e-08, true, 0.0, true, "torch.float32", []]}
+{"progress": "random/torch.float32/191/2,7,2,4,3/interval_direct", "cpu_seconds": 7.7059946749999995}
+{"core_result": ["random/torch.float32/191/2,7,2,4,3", "interval_direct", true, 5.960464477539063e-08, true, 0.0003662109375, true, 5.960464477539063e-08, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "random/torch.float32/191/2,7,2,4,3/interval_scaled", "cpu_seconds": 7.733941929999999}
+{"core_result": ["random/torch.float32/191/2,7,2,4,3", "interval_scaled", true, 5.960464477539063e-08, true, 0.000244140625, true, 5.960464477539063e-08, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "random/torch.float32/191/2,19,1,4,3/source_direct", "cpu_seconds": 7.7659398049999995}
+{"core_result": ["random/torch.float32/191/2,19,1,4,3", "source_direct", true, 1.043081283569336e-07, true, 0.0001220703125, true, 1.341104507446289e-07, true, 1.2665987014770508e-07, true, 0.0, true, "torch.float32", []]}
+{"progress": "random/torch.float32/191/2,19,1,4,3/source_factored", "cpu_seconds": 7.829944566}
+{"core_result": ["random/torch.float32/191/2,19,1,4,3", "source_factored", true, 9.685754776000977e-08, true, 0.000274658203125, true, 1.341104507446289e-07, true, 1.1920928955078125e-07, true, 2.60770320892334e-08, true, "torch.float32", []]}
+{"progress": "random/torch.float32/191/2,19,1,4,3/prefix_scaled", "cpu_seconds": 7.865913034}
+{"core_result": ["random/torch.float32/191/2,19,1,4,3", "prefix_scaled", true, 1.1920928955078125e-07, true, 6.103515625e-05, true, 1.341104507446289e-07, true, 1.2665987014770508e-07, true, 0.0, true, "torch.float32", []]}
+{"progress": "random/torch.float32/191/2,19,1,4,3/interval_direct", "cpu_seconds": 7.893938363999999}
+{"core_result": ["random/torch.float32/191/2,19,1,4,3", "interval_direct", true, 5.960464477539063e-08, true, 9.1552734375e-05, true, 5.960464477539063e-08, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "random/torch.float32/191/2,19,1,4,3/interval_scaled", "cpu_seconds": 7.925882697}
+{"core_result": ["random/torch.float32/191/2,19,1,4,3", "interval_scaled", true, 8.940696716308594e-08, true, 5.7220458984375e-05, true, 2.9802322387695312e-08, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "random/torch.float32/307/1,2,1,1,1/source_direct", "cpu_seconds": 7.961886068}
+{"core_result": ["random/torch.float32/307/1,2,1,1,1", "source_direct", true, 0.0, true, 5.960464477539063e-08, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "random/torch.float32/307/1,2,1,1,1/source_factored", "cpu_seconds": 7.973879707}
+{"core_result": ["random/torch.float32/307/1,2,1,1,1", "source_factored", true, 5.960464477539063e-08, true, 1.1920928955078125e-07, true, 5.960464477539063e-08, true, 5.960464477539063e-08, true, 0.0, true, "torch.float32", []]}
+{"progress": "random/torch.float32/307/1,2,1,1,1/prefix_scaled", "cpu_seconds": 7.985877722}
+{"core_result": ["random/torch.float32/307/1,2,1,1,1", "prefix_scaled", true, 0.0, true, 5.960464477539063e-08, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "random/torch.float32/307/1,2,1,1,1/interval_direct", "cpu_seconds": 8.00987978}
+{"core_result": ["random/torch.float32/307/1,2,1,1,1", "interval_direct", true, 0.0, true, 5.960464477539063e-08, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "random/torch.float32/307/1,2,1,1,1/interval_scaled", "cpu_seconds": 8.033847346}
+{"core_result": ["random/torch.float32/307/1,2,1,1,1", "interval_scaled", true, 0.0, true, 5.960464477539063e-08, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "random/torch.float32/307/2,7,2,4,3/source_direct", "cpu_seconds": 8.057837064}
+{"core_result": ["random/torch.float32/307/2,7,2,4,3", "source_direct", true, 5.960464477539063e-08, true, 9.313225746154785e-10, true, 4.470348358154297e-08, true, 2.2351741790771484e-08, true, 0.0, true, "torch.float32", []]}
+{"progress": "random/torch.float32/307/2,7,2,4,3/source_factored", "cpu_seconds": 8.077834127}
+{"core_result": ["random/torch.float32/307/2,7,2,4,3", "source_factored", true, 5.960464477539063e-08, true, 1.3969838619232178e-09, true, 3.725290298461914e-08, true, 2.9802322387695312e-08, true, 2.710505431213761e-20, true, "torch.float32", []]}
+{"progress": "random/torch.float32/307/2,7,2,4,3/prefix_scaled", "cpu_seconds": 8.109790127}
+{"core_result": ["random/torch.float32/307/2,7,2,4,3", "prefix_scaled", true, 5.960464477539063e-08, true, 1.862645149230957e-09, true, 5.960464477539063e-08, true, 2.2351741790771484e-08, true, 0.0, true, "torch.float32", []]}
+{"progress": "random/torch.float32/307/2,7,2,4,3/interval_direct", "cpu_seconds": 8.133800726}
+{"core_result": ["random/torch.float32/307/2,7,2,4,3", "interval_direct", true, 5.960464477539063e-08, true, 9.313225746154785e-10, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "random/torch.float32/307/2,7,2,4,3/interval_scaled", "cpu_seconds": 8.157800942}
+{"core_result": ["random/torch.float32/307/2,7,2,4,3", "interval_scaled", true, 5.960464477539063e-08, true, 1.862645149230957e-09, true, 0.0, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "random/torch.float32/307/2,19,1,4,3/source_direct", "cpu_seconds": 8.18178708}
+{"core_result": ["random/torch.float32/307/2,19,1,4,3", "source_direct", true, 1.1920928955078125e-07, true, 2.0954757928848267e-09, true, 2.086162567138672e-07, true, 1.341104507446289e-07, true, 0.0, true, "torch.float32", []]}
+{"progress": "random/torch.float32/307/2,19,1,4,3/source_factored", "cpu_seconds": 8.229772611}
+{"core_result": ["random/torch.float32/307/2,19,1,4,3", "source_factored", true, 1.1920928955078125e-07, true, 2.0954757928848267e-09, true, 2.086162567138672e-07, true, 1.341104507446289e-07, true, 4.470348358154297e-08, true, "torch.float32", []]}
+{"progress": "random/torch.float32/307/2,19,1,4,3/prefix_scaled", "cpu_seconds": 8.273748684}
+{"core_result": ["random/torch.float32/307/2,19,1,4,3", "prefix_scaled", true, 1.4901161193847656e-07, true, 2.7939677238464355e-09, true, 2.086162567138672e-07, true, 1.341104507446289e-07, true, 0.0, true, "torch.float32", []]}
+{"progress": "random/torch.float32/307/2,19,1,4,3/interval_direct", "cpu_seconds": 8.325700179}
+{"core_result": ["random/torch.float32/307/2,19,1,4,3", "interval_direct", true, 5.960464477539063e-08, true, 1.862645149230957e-09, true, 8.940696716308594e-08, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "random/torch.float32/307/2,19,1,4,3/interval_scaled", "cpu_seconds": 8.369697476999999}
+{"core_result": ["random/torch.float32/307/2,19,1,4,3", "interval_scaled", true, 1.1920928955078125e-07, true, 2.7939677238464355e-09, true, 8.940696716308594e-08, true, 0.0, true, 0.0, true, "torch.float32", []]}
+{"progress": "random/torch.float64/73/1,2,1,1,1/source_direct", "cpu_seconds": 8.421697203999999}
+{"core_result": ["random/torch.float64/73/1,2,1,1,1", "source_direct", true, 0.0, true, 0.0, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "random/torch.float64/73/1,2,1,1,1/source_factored", "cpu_seconds": 8.433700595}
+{"core_result": ["random/torch.float64/73/1,2,1,1,1", "source_factored", true, 5.551115123125783e-17, true, 1.1102230246251565e-16, true, 5.551115123125783e-17, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "random/torch.float64/73/1,2,1,1,1/prefix_scaled", "cpu_seconds": 8.449696446999999}
+{"core_result": ["random/torch.float64/73/1,2,1,1,1", "prefix_scaled", true, 0.0, true, 0.0, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "random/torch.float64/73/1,2,1,1,1/interval_direct", "cpu_seconds": 8.46566575}
+{"core_result": ["random/torch.float64/73/1,2,1,1,1", "interval_direct", true, 0.0, true, 0.0, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "random/torch.float64/73/1,2,1,1,1/interval_scaled", "cpu_seconds": 8.477665208}
+{"core_result": ["random/torch.float64/73/1,2,1,1,1", "interval_scaled", true, 0.0, true, 0.0, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "random/torch.float64/73/2,7,2,4,3/source_direct", "cpu_seconds": 8.501720105}
+{"core_result": ["random/torch.float64/73/2,7,2,4,3", "source_direct", true, 1.6653345369377348e-16, true, 1.734723475976807e-18, true, 1.1102230246251565e-16, true, 5.551115123125783e-17, true, 0.0, true, "torch.float64", []]}
+{"progress": "random/torch.float64/73/2,7,2,4,3/source_factored", "cpu_seconds": 8.529628909}
+{"core_result": ["random/torch.float64/73/2,7,2,4,3", "source_factored", true, 1.6653345369377348e-16, true, 1.734723475976807e-18, true, 1.1102230246251565e-16, true, 9.71445146547012e-17, true, 3.7865323450608567e-29, true, "torch.float64", []]}
+{"progress": "random/torch.float64/73/2,7,2,4,3/prefix_scaled", "cpu_seconds": 8.557636332}
+{"core_result": ["random/torch.float64/73/2,7,2,4,3", "prefix_scaled", true, 1.6653345369377348e-16, true, 3.0357660829594124e-18, true, 1.1102230246251565e-16, true, 6.938893903907228e-17, true, 0.0, true, "torch.float64", []]}
+{"progress": "random/torch.float64/73/2,7,2,4,3/interval_direct", "cpu_seconds": 8.577623921999999}
+{"core_result": ["random/torch.float64/73/2,7,2,4,3", "interval_direct", true, 1.1102230246251565e-16, true, 2.6020852139652106e-18, true, 5.551115123125783e-17, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "random/torch.float64/73/2,7,2,4,3/interval_scaled", "cpu_seconds": 8.609635564}
+{"core_result": ["random/torch.float64/73/2,7,2,4,3", "interval_scaled", true, 1.1102230246251565e-16, true, 3.0357660829594124e-18, true, 1.1102230246251565e-16, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "random/torch.float64/73/2,19,1,4,3/source_direct", "cpu_seconds": 8.637623735}
+{"core_result": ["random/torch.float64/73/2,19,1,4,3", "source_direct", true, 1.942890293094024e-16, true, 6.071532165918825e-18, true, 1.6653345369377348e-16, true, 6.938893903907228e-17, true, 0.0, true, "torch.float64", []]}
+{"progress": "random/torch.float64/73/2,19,1,4,3/source_factored", "cpu_seconds": 8.677625311}
+{"core_result": ["random/torch.float64/73/2,19,1,4,3", "source_factored", true, 1.942890293094024e-16, true, 5.204170427930421e-18, true, 1.1102230246251565e-16, true, 7.632783294297951e-17, true, 5.551115123125783e-17, true, "torch.float64", []]}
+{"progress": "random/torch.float64/73/2,19,1,4,3/prefix_scaled", "cpu_seconds": 8.729581283}
+{"core_result": ["random/torch.float64/73/2,19,1,4,3", "prefix_scaled", true, 2.220446049250313e-16, true, 5.204170427930421e-18, true, 1.1102230246251565e-16, true, 6.938893903907228e-17, true, 0.0, true, "torch.float64", []]}
+{"progress": "random/torch.float64/73/2,19,1,4,3/interval_direct", "cpu_seconds": 8.773576805}
+{"core_result": ["random/torch.float64/73/2,19,1,4,3", "interval_direct", true, 1.1102230246251565e-16, true, 2.6020852139652106e-18, true, 5.551115123125783e-17, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "random/torch.float64/73/2,19,1,4,3/interval_scaled", "cpu_seconds": 8.817588394}
+{"core_result": ["random/torch.float64/73/2,19,1,4,3", "interval_scaled", true, 1.1102230246251565e-16, true, 4.336808689942018e-18, true, 1.1102230246251565e-16, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "random/torch.float64/191/1,2,1,1,1/source_direct", "cpu_seconds": 8.853551196}
+{"core_result": ["random/torch.float64/191/1,2,1,1,1", "source_direct", true, 0.0, true, 1.1102230246251565e-16, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "random/torch.float64/191/1,2,1,1,1/source_factored", "cpu_seconds": 8.861554887999999}
+{"core_result": ["random/torch.float64/191/1,2,1,1,1", "source_factored", true, 0.0, true, 1.1102230246251565e-16, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "random/torch.float64/191/1,2,1,1,1/prefix_scaled", "cpu_seconds": 8.873551853}
+{"core_result": ["random/torch.float64/191/1,2,1,1,1", "prefix_scaled", true, 0.0, true, 1.1102230246251565e-16, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "random/torch.float64/191/1,2,1,1,1/interval_direct", "cpu_seconds": 8.88552285}
+{"core_result": ["random/torch.float64/191/1,2,1,1,1", "interval_direct", true, 0.0, true, 1.1102230246251565e-16, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "random/torch.float64/191/1,2,1,1,1/interval_scaled", "cpu_seconds": 8.909528149}
+{"core_result": ["random/torch.float64/191/1,2,1,1,1", "interval_scaled", true, 0.0, true, 1.1102230246251565e-16, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "random/torch.float64/191/2,7,2,4,3/source_direct", "cpu_seconds": 8.921493160999999}
+{"core_result": ["random/torch.float64/191/2,7,2,4,3", "source_direct", true, 1.1102230246251565e-16, true, 2.2737367544323206e-12, true, 1.1102230246251565e-16, true, 1.9081958235744878e-17, true, 0.0, true, "torch.float64", []]}
+{"progress": "random/torch.float64/191/2,7,2,4,3/source_factored", "cpu_seconds": 8.941488804}
+{"core_result": ["random/torch.float64/191/2,7,2,4,3", "source_factored", true, 1.1102230246251565e-16, true, 2.0463630789890885e-12, true, 1.1102230246251565e-16, true, 2.42861286636753e-17, true, 0.0, true, "torch.float64", []]}
+{"progress": "random/torch.float64/191/2,7,2,4,3/prefix_scaled", "cpu_seconds": 8.969491569999999}
+{"core_result": ["random/torch.float64/191/2,7,2,4,3", "prefix_scaled", true, 1.1102230246251565e-16, true, 2.2737367544323206e-12, true, 1.1102230246251565e-16, true, 2.7755575615628914e-17, true, 0.0, true, "torch.float64", []]}
+{"progress": "random/torch.float64/191/2,7,2,4,3/interval_direct", "cpu_seconds": 9.009457162}
+{"core_result": ["random/torch.float64/191/2,7,2,4,3", "interval_direct", true, 1.1102230246251565e-16, true, 1.2505552149377763e-12, true, 1.1102230246251565e-16, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "random/torch.float64/191/2,7,2,4,3/interval_scaled", "cpu_seconds": 9.033452824}
+{"core_result": ["random/torch.float64/191/2,7,2,4,3", "interval_scaled", true, 1.1102230246251565e-16, true, 1.2505552149377763e-12, true, 2.7755575615628914e-17, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "random/torch.float64/191/2,19,1,4,3/source_direct", "cpu_seconds": 9.06945324}
+{"core_result": ["random/torch.float64/191/2,19,1,4,3", "source_direct", true, 2.7755575615628914e-16, true, 3.410605131648481e-13, true, 1.6653345369377348e-16, true, 3.469446951953614e-17, true, 0.0, true, "torch.float64", []]}
+{"progress": "random/torch.float64/191/2,19,1,4,3/source_factored", "cpu_seconds": 9.125415091999999}
+{"core_result": ["random/torch.float64/191/2,19,1,4,3", "source_factored", true, 2.7755575615628914e-16, true, 9.094947017729282e-13, true, 1.6653345369377348e-16, true, 6.938893903907228e-17, true, 5.551115123125783e-17, true, "torch.float64", []]}
+{"progress": "random/torch.float64/191/2,19,1,4,3/prefix_scaled", "cpu_seconds": 9.173207771}
+{"core_result": ["random/torch.float64/191/2,19,1,4,3", "prefix_scaled", true, 2.7755575615628914e-16, true, 2.8421709430404007e-13, true, 1.6653345369377348e-16, true, 4.163336342344337e-17, true, 0.0, true, "torch.float64", []]}
+{"progress": "random/torch.float64/191/2,19,1,4,3/interval_direct", "cpu_seconds": 9.217206626}
+{"core_result": ["random/torch.float64/191/2,19,1,4,3", "interval_direct", true, 1.1102230246251565e-16, true, 3.410605131648481e-13, true, 8.326672684688674e-17, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "random/torch.float64/191/2,19,1,4,3/interval_scaled", "cpu_seconds": 9.261175095}
+{"core_result": ["random/torch.float64/191/2,19,1,4,3", "interval_scaled", true, 1.6653345369377348e-16, true, 3.907985046680551e-13, true, 5.551115123125783e-17, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "random/torch.float64/307/1,2,1,1,1/source_direct", "cpu_seconds": 9.30918183}
+{"core_result": ["random/torch.float64/307/1,2,1,1,1", "source_direct", true, 0.0, true, 0.0, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "random/torch.float64/307/1,2,1,1,1/source_factored", "cpu_seconds": 9.325189952999999}
+{"core_result": ["random/torch.float64/307/1,2,1,1,1", "source_factored", true, 0.0, true, 5.551115123125783e-17, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "random/torch.float64/307/1,2,1,1,1/prefix_scaled", "cpu_seconds": 9.345137127}
+{"core_result": ["random/torch.float64/307/1,2,1,1,1", "prefix_scaled", true, 0.0, true, 0.0, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "random/torch.float64/307/1,2,1,1,1/interval_direct", "cpu_seconds": 9.361138098}
+{"core_result": ["random/torch.float64/307/1,2,1,1,1", "interval_direct", true, 0.0, true, 0.0, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "random/torch.float64/307/1,2,1,1,1/interval_scaled", "cpu_seconds": 9.377134195}
+{"core_result": ["random/torch.float64/307/1,2,1,1,1", "interval_scaled", true, 0.0, true, 0.0, true, 0.0, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "random/torch.float64/307/2,7,2,4,3/source_direct", "cpu_seconds": 9.389129454999999}
+{"core_result": ["random/torch.float64/307/2,7,2,4,3", "source_direct", true, 1.1102230246251565e-16, true, 1.3010426069826053e-18, true, 1.6653345369377348e-16, true, 5.551115123125783e-17, true, 0.0, true, "torch.float64", []]}
+{"progress": "random/torch.float64/307/2,7,2,4,3/source_factored", "cpu_seconds": 9.425123834999999}
+{"core_result": ["random/torch.float64/307/2,7,2,4,3", "source_factored", true, 2.220446049250313e-16, true, 1.734723475976807e-18, true, 1.1102230246251565e-16, true, 5.551115123125783e-17, true, 5.048709793414476e-29, true, "torch.float64", []]}
+{"progress": "random/torch.float64/307/2,7,2,4,3/prefix_scaled", "cpu_seconds": 9.453116732}
+{"core_result": ["random/torch.float64/307/2,7,2,4,3", "prefix_scaled", true, 1.1102230246251565e-16, true, 3.469446951953614e-18, true, 1.1102230246251565e-16, true, 4.163336342344337e-17, true, 0.0, true, "torch.float64", []]}
+{"progress": "random/torch.float64/307/2,7,2,4,3/interval_direct", "cpu_seconds": 9.477111734}
+{"core_result": ["random/torch.float64/307/2,7,2,4,3", "interval_direct", true, 2.220446049250313e-16, true, 1.734723475976807e-18, true, 5.551115123125783e-17, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "random/torch.float64/307/2,7,2,4,3/interval_scaled", "cpu_seconds": 9.509119928}
+{"core_result": ["random/torch.float64/307/2,7,2,4,3", "interval_scaled", true, 1.1102230246251565e-16, true, 3.469446951953614e-18, true, 5.551115123125783e-17, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "random/torch.float64/307/2,19,1,4,3/source_direct", "cpu_seconds": 9.537074602999999}
+{"core_result": ["random/torch.float64/307/2,19,1,4,3", "source_direct", true, 2.220446049250313e-16, true, 6.071532165918825e-18, true, 1.6653345369377348e-16, true, 7.632783294297951e-17, true, 0.0, true, "torch.float64", []]}
+{"progress": "random/torch.float64/307/2,19,1,4,3/source_factored", "cpu_seconds": 9.565074367}
+{"core_result": ["random/torch.float64/307/2,19,1,4,3", "source_factored", true, 2.220446049250313e-16, true, 2.168404344971009e-18, true, 1.6653345369377348e-16, true, 7.632783294297951e-17, true, 2.7755575615628914e-17, true, "torch.float64", []]}
+{"progress": "random/torch.float64/307/2,19,1,4,3/prefix_scaled", "cpu_seconds": 9.609076208}
+{"core_result": ["random/torch.float64/307/2,19,1,4,3", "prefix_scaled", true, 2.220446049250313e-16, true, 6.938893903907228e-18, true, 1.942890293094024e-16, true, 6.938893903907228e-17, true, 0.0, true, "torch.float64", []]}
+{"progress": "random/torch.float64/307/2,19,1,4,3/interval_direct", "cpu_seconds": 9.645076184}
+{"core_result": ["random/torch.float64/307/2,19,1,4,3", "interval_direct", true, 1.1102230246251565e-16, true, 5.204170427930421e-18, true, 5.551115123125783e-17, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "random/torch.float64/307/2,19,1,4,3/interval_scaled", "cpu_seconds": 9.673077053}
+{"core_result": ["random/torch.float64/307/2,19,1,4,3", "interval_scaled", true, 1.1102230246251565e-16, true, 6.938893903907228e-18, true, 5.551115123125783e-17, true, 0.0, true, 0.0, true, "torch.float64", []]}
+{"progress": "model/k16/25101/source_direct", "cpu_seconds": 9.729102504}
+{"model_result": {"variant": "source_direct", "recurrence_fp64": false, "forward_state": {"passed": true, "finite": true, "max_abs": 6.489455699920654e-06, "max_normalized_error": 0.2537479465848781, "failed": []}, "loss": {"passed": true, "finite": true, "max_abs": 0.0, "max_normalized_error": 0.0, "failed": []}, "gradients": {"passed": false, "finite": true, "max_abs": 3.635883331298828e-05, "max_normalized_error": 1.1143568889046134, "failed": ["embedding.weight"]}, "optimizer_step": {"passed": true, "finite": true, "max_abs": 8.579343557357788e-06, "max_normalized_error": 0.3914422417785346, "failed": []}, "optimizer_state": {"passed": true, "finite": true, "max_abs": 3.635883331298828e-06, "max_normalized_error": 0.1404117507346405, "failed": []}, "streaming": {"passed": true, "finite": true, "max_abs": 1.2069940567016602e-06, "max_normalized_error": 0.04613769428172412, "failed": []}, "reset": {"passed": true, "finite": true, "max_abs": 9.5367431640625e-07, "max_normalized_error": 0.0310414582971469, "failed": []}, "causality": {"passed": true, "finite": true, "max_abs": 0.0, "max_normalized_error": 0.0, "failed": []}}}
+{"progress": "model/k16/25101/source_factored", "cpu_seconds": 17.320607284}
+{"model_result": {"variant": "source_factored", "recurrence_fp64": false, "forward_state": {"passed": true, "finite": true, "max_abs": 4.76837158203125e-06, "max_normalized_error": 0.20295376184671007, "failed": []}, "loss": {"passed": true, "finite": true, "max_abs": 0.0, "max_normalized_error": 0.0, "failed": []}, "gradients": {"passed": true, "finite": true, "max_abs": 2.872943878173828e-05, "max_normalized_error": 0.9563628466166042, "failed": []}, "optimizer_step": {"passed": true, "finite": true, "max_abs": 6.901100277900696e-06, "max_normalized_error": 0.3148704962634543, "failed": []}, "optimizer_state": {"passed": true, "finite": true, "max_abs": 2.8759241104125977e-06, "max_normalized_error": 0.12050312810632312, "failed": []}, "streaming": {"passed": true, "finite": true, "max_abs": 1.1920928955078125e-06, "max_normalized_error": 0.04562418772757817, "failed": []}, "reset": {"passed": true, "finite": true, "max_abs": 1.1175870895385742e-06, "max_normalized_error": 0.046953941676216616, "failed": []}, "causality": {"passed": true, "finite": true, "max_abs": 2.1457672119140625e-06, "max_normalized_error": 0.07414346123116632, "failed": []}}}
+{"progress": "model/k16/25101/prefix_scaled", "cpu_seconds": 18.312244253000003}
+{"model_result": {"variant": "prefix_scaled", "recurrence_fp64": false, "forward_state": {"passed": true, "finite": true, "max_abs": 8.866190910339355e-06, "max_normalized_error": 0.34671894181443913, "failed": []}, "loss": {"passed": true, "finite": true, "max_abs": 0.0, "max_normalized_error": 0.0, "failed": []}, "gradients": {"passed": false, "finite": true, "max_abs": 5.02467155456543e-05, "max_normalized_error": 1.646052423310467, "failed": ["embedding.weight"]}, "optimizer_step": {"passed": true, "finite": true, "max_abs": 1.2679025530815125e-05, "max_normalized_error": 0.5784948631755287, "failed": []}, "optimizer_state": {"passed": true, "finite": true, "max_abs": 5.02169132232666e-06, "max_normalized_error": 0.2073956173290644, "failed": []}, "streaming": {"passed": true, "finite": true, "max_abs": 1.0728836059570312e-06, "max_normalized_error": 0.02853074735955839, "failed": []}, "reset": {"passed": true, "finite": true, "max_abs": 1.1324882507324219e-06, "max_normalized_error": 0.037302312575158536, "failed": []}, "causality": {"passed": true, "finite": true, "max_abs": 0.0, "max_normalized_error": 0.0, "failed": []}}}
+{"progress": "model/k16/25101/interval_direct", "cpu_seconds": 19.279465325}
+{"model_result": {"variant": "interval_direct", "recurrence_fp64": false, "forward_state": {"passed": true, "finite": true, "max_abs": 6.489455699920654e-06, "max_normalized_error": 0.2537479465848781, "failed": []}, "loss": {"passed": true, "finite": true, "max_abs": 0.0, "max_normalized_error": 0.0, "failed": []}, "gradients": {"passed": false, "finite": true, "max_abs": 3.5643577575683594e-05, "max_normalized_error": 1.1277802809572521, "failed": ["embedding.weight"]}, "optimizer_step": {"passed": true, "finite": true, "max_abs": 8.744187653064728e-06, "max_normalized_error": 0.3989634398674187, "failed": []}, "optimizer_state": {"passed": true, "finite": true, "max_abs": 3.56137752532959e-06, "max_normalized_error": 0.1420962395316986, "failed": []}, "streaming": {"passed": true, "finite": true, "max_abs": 7.748603820800781e-07, "max_normalized_error": 0.025592047265625084, "failed": []}, "reset": {"passed": true, "finite": true, "max_abs": 0.0, "max_normalized_error": 0.0, "failed": []}, "causality": {"passed": true, "finite": true, "max_abs": 0.0, "max_normalized_error": 0.0, "failed": []}}}
+{"progress": "model/k16/25101/interval_scaled", "cpu_seconds": 20.130857774000003}
+{"model_result": {"variant": "interval_scaled", "recurrence_fp64": false, "forward_state": {"passed": true, "finite": true, "max_abs": 8.866190910339355e-06, "max_normalized_error": 0.34671894181443913, "failed": []}, "loss": {"passed": true, "finite": true, "max_abs": 9.5367431640625e-07, "max_normalized_error": 0.0005689338064404808, "failed": []}, "gradients": {"passed": false, "finite": true, "max_abs": 5.036592483520508e-05, "max_normalized_error": 1.6332032940194385, "failed": ["embedding.weight"]}, "optimizer_step": {"passed": true, "finite": true, "max_abs": 1.2481585144996643e-05, "max_normalized_error": 0.5694864225266957, "failed": []}, "optimizer_state": {"passed": true, "finite": true, "max_abs": 5.036592483520508e-06, "max_normalized_error": 0.20577896029564624, "failed": []}, "streaming": {"passed": true, "finite": true, "max_abs": 8.940696716308594e-07, "max_normalized_error": 0.026910503638500803, "failed": []}, "reset": {"passed": true, "finite": true, "max_abs": 0.0, "max_normalized_error": 0.0, "failed": []}, "causality": {"passed": true, "finite": true, "max_abs": 0.0, "max_normalized_error": 0.0, "failed": []}}}
+{"progress": "model/k16/25101/source_factored_fp64_core", "cpu_seconds": 20.989258027}
+{"model_result": {"variant": "source_factored_fp64_core", "recurrence_fp64": true, "forward_state": {"passed": true, "finite": true, "max_abs": 1.6653345369377348e-16, "max_normalized_error": 3.488923731602554e-12, "failed": []}, "loss": {"passed": true, "finite": true, "max_abs": 0.0, "max_normalized_error": 0.0, "failed": []}, "gradients": {"passed": true, "finite": true, "max_abs": 0.0, "max_normalized_error": 0.0, "failed": []}, "optimizer_step": {"passed": true, "finite": true, "max_abs": 0.0, "max_normalized_error": 0.0, "failed": []}, "optimizer_state": {"passed": true, "finite": true, "max_abs": 0.0, "max_normalized_error": 0.0, "failed": []}, "streaming": {"passed": true, "finite": true, "max_abs": 2.220446049250313e-16, "max_normalized_error": 3.827139979096121e-12, "failed": []}, "reset": {"passed": true, "finite": true, "max_abs": 0.0, "max_normalized_error": 0.0, "failed": []}, "causality": {"passed": true, "finite": true, "max_abs": 0.0, "max_normalized_error": 0.0, "failed": []}}}
