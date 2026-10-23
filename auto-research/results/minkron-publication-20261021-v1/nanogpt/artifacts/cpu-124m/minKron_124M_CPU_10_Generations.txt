@@ -1,0 +1,82 @@
+Ten fixed generations from the final 25-minute CPU checkpoint.
+Prompts/seeds fixed before training; temperature 0.8, top-k 50, at most 64 new GPT-2 tokens; no retries.
+
+1. PROMPT: The history of the city began
+CONTINUATION:
+ and theWe her.
+TheIn a life, but it is that as the great by the U to theI have a be all a be he are an final and a same.
+The number for the U. This and the long- Then, but also other “ bit.<|endoftext|>
+
+2. PROMPT: A computer network is
+CONTINUATION:
+ the new few-I people.
+I”
+For are be take the first.
+The new other past.
+- This-’
+TheYou’s a new lot.
+We no have have know are have you he a take the small. I’s have you are be
+
+3. PROMPT: Scientists have discovered that
+CONTINUATION:
+ can a third of its one.
+Theand as an mostWe are an most world of a same a lot of you can be the great on the first an first one and a no “I have’s’t have a lot it. Yes. I”
+- It’t
+
+4. PROMPT: In a small village near the mountains,
+CONTINUATION:
+ and not have a other newI want to be the small.
+-org for get you’s have a mostIt are “As that want to it with the lot to be a been.
+-99, and if it is a be that an “The way a website on the first one
+
+5. PROMPT: The best way to learn a new skill is
+CONTINUATION:
+ a way, and the final.com and the first best the good of your best.
+-S of an first year of a new lot to a other own
+-
+I can be your few and you are the second, the local I am, she and they are a time of this is have want to
+
+6. PROMPT: During the winter, the river
+CONTINUATION:
+ to an first a mostIn a more have.
+I can be the bit is a third, on the4?
+- These in a two and do. To is a lot for the newYou are use have a little, and the10 that can be her for the bit, and her
+I’
+
+7. PROMPT: The purpose of this experiment is
+CONTINUATION:
+ theWe.”
+-
+TheI’s them and the number to the "That of the own's other1. This.
+ own.
+I have they I”
+I’ve be the local:
+This as.
+-
+-” It can theyear-
+
+8. PROMPT: To make a simple meal,
+CONTINUATION:
+ the “s was the time. And are time of the whole is a first year.
+-
+TheFor the main-m as a lot, but the lot, but I’s a U’s are one to be you can be I can it.”
+D, and in
+
+9. PROMPT: The engineer examined the problem and
+CONTINUATION:
+ add just all of this can be a number of it’
+This it, you who what it was to a best.
+I can the first other1.
+2: I have no long, but in theFor been a an lot at the number of the lot.
+-
+I”
+
+
+10. PROMPT: In the years ahead, technology
+CONTINUATION:
+ to your first own.’s an own
+-
+- We- You are a second.
+How in yourAs that’t be get a bit to be the U, I have a one of a good, and it’t a new more.
+I have been them!
+-

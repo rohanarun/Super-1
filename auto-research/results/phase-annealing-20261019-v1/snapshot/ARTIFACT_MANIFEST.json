@@ -1,0 +1,783 @@
+{
+  "run_id": "phase-annealing-20261019-v1",
+  "protocol_sha256": "53664aa1acffebda396104cf95a52c2c4c0bf467b2b08a74dbde83a07c81f0f9",
+  "omitted": [
+    "tensor checkpoints",
+    "corpus text",
+    "token arrays",
+    "installed dependencies",
+    "Python bytecode"
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3569,
+      "sha256": "1248012aa02305ae88c8fe837e25b9e3565e5d1a9c7555844cda5d4b7e4898eb"
+    },
+    {
+      "path": "UPSTREAM_PROVENANCE.json",
+      "bytes": 1324,
+      "sha256": "6877de760f83b5bc13c8d124df6e6c186f8fc7345ff4ceb7c7b2a1617ad08bc6"
+    },
+    {
+      "path": "auto-research/RUN_REGISTRY.json",
+      "bytes": 724,
+      "sha256": "9c3917d7668d1bc95870bf6edce3394be9eac5d1f9632bf24b1ee4b0ed05cd0d"
+    },
+    {
+      "path": "auto-research/research-scratch/CURRENT.md",
+      "bytes": 2935,
+      "sha256": "86927ba88bfdf4d1cc20495971a9bdfce8b87d6dd50a56db59f4bc2bb4cf0e25"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/ANALYSIS.json",
+      "bytes": 25353,
+      "sha256": "f1a7afb3325248fcf2dd8c7cb57180e5e20a8287c94aa4ad0fbbf1938db5a42a"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/ARTIFACT_AUDIT.json",
+      "bytes": 729,
+      "sha256": "95edf05c17cd24ce929f219552e6f9b57729710107b7d3a52f19ed5cb7c83b14"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/PREFLIGHT.json",
+      "bytes": 1846,
+      "sha256": "573af26199f588317da9ea2594c4d5a9e9114eab0436f9a1e947d8750d7dbdb6"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/PROGRESS.json",
+      "bytes": 104,
+      "sha256": "e62f2ee795a1279957db942fccc308771e62afbcab41f7d65899b4f51fd23216"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/PROTOCOL.json",
+      "bytes": 87927,
+      "sha256": "53664aa1acffebda396104cf95a52c2c4c0bf467b2b08a74dbde83a07c81f0f9"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/REPORT.md",
+      "bytes": 13838,
+      "sha256": "19fea82ff2c3416ddd2128ed737210d72b9308ca9c31f7c8f7e514e20ed84652"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/START.json",
+      "bytes": 371,
+      "sha256": "3c18b1f149e94a63ffd5aaa649fdc4d8e604116d2a481c96351bcb02e0f8a65b"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/TERMINAL.json",
+      "bytes": 577,
+      "sha256": "69dfeb4c1a12d3adac95a496aa8547813022b996ce4166ba05c0c21f3a51f960"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/analysis.log",
+      "bytes": 24814,
+      "sha256": "58f82a3f63cfba8c6e3a04f6321f587aab79a392a33607e46b11087772cf4cbb"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/analyze.py",
+      "bytes": 21264,
+      "sha256": "ab6c4c5d2bbd9978caff23bbd474eef12a9a5ecd58eda63eb5285a76295e9952"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/mingru_linear-419/PARENT.json",
+      "bytes": 5627,
+      "sha256": "9c8286fa5892ac7880eaab431244061ab6967a8850c179cc9a64173b6f6d9756"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/mingru_linear-419/PHASE_MIDDLE.json",
+      "bytes": 37109,
+      "sha256": "0581f9b171848534e36cc06f4b744c03b84573832d75b603f703e81d4599989a"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/mingru_linear-419/PHASE_MIDDLE_EXTRA.json",
+      "bytes": 1290,
+      "sha256": "baefef077c3a3c9795c919cafc7c4204c32dfe0ba622593482aee602a79993aa"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/mingru_linear-419/baseline_keep.json",
+      "bytes": 9267,
+      "sha256": "298e0a782113473f1d16ddea02836a64a11058f6773db670e728df7a4c095222"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/mingru_linear-419/baseline_reset.json",
+      "bytes": 9264,
+      "sha256": "af622c45c2b85a80f88f7a647f523324ba86c8b0c222778a5e65de0568162738"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/mingru_linear-419/extra_mid_keep.json",
+      "bytes": 10662,
+      "sha256": "f66b7ebb9ebb319f4cd8936dbe3d12876c576bd9a266b70a7f00fd30aef89524"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/mingru_linear-419/extra_mid_reset.json",
+      "bytes": 10667,
+      "sha256": "e46cfc4c5fc6723e3ee2aaeecf26b77625792f9c48d1b33e829c840ca7114fb9"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/mingru_linear-419/extra_post.json",
+      "bytes": 10283,
+      "sha256": "5a4caf5b15574146aa3ba60d3b5254cf435af7e20a235335a7cd3a0c9d63ea35"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/mingru_linear-419/extra_pre.json",
+      "bytes": 10235,
+      "sha256": "ee21feb3af73145cfb2f2d8f40362c09d456c0a2f1e2cc1e34c821f5a2dd7e2c"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/mingru_linear-419/greedy_mid_keep.json",
+      "bytes": 47173,
+      "sha256": "afea79e3a901b03c2c6e57d9dd3636adb0b73ac118d8ab1f70f9db0925c8e427"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/mingru_linear-419/sa_mid_keep.json",
+      "bytes": 48783,
+      "sha256": "cd4a21656fc7d850434a63f8d33248294d2ce390249703dfa0ebcf2c8fc7660a"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/mingru_linear-419/sa_mid_reset.json",
+      "bytes": 48777,
+      "sha256": "398c76c4492879f046950ec10d14aba4411f470edecef2c342f24041fc48d835"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/mingru_linear-419/sa_post.json",
+      "bytes": 48588,
+      "sha256": "965b310c6dc1de8abe9c702f56bd8828a09d63cbc9ad9365957ef4b8b525e49b"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/mingru_linear-419/sa_pre.json",
+      "bytes": 48626,
+      "sha256": "67e4f71c55f62dfb5ea3629e96b54365ea81ff48b72c36dd7db9ed0abbca8f55"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/mingru_linear-563/PARENT.json",
+      "bytes": 5622,
+      "sha256": "fafba6d941bc4aa84ea70797dc36135605e5ce6a42add2df669adca9fa756db1"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/mingru_linear-563/PHASE_MIDDLE.json",
+      "bytes": 37162,
+      "sha256": "742b9359586ab4af8de393e9d06650abf0545d6c8b9b5f5e63ee0d78f9f20d70"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/mingru_linear-563/PHASE_MIDDLE_EXTRA.json",
+      "bytes": 1199,
+      "sha256": "cad2dc2bc2170cf9a1af1fc633b3dfeb76240858ebeb5687dcc4f2fe2510e7e3"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/mingru_linear-563/baseline_keep.json",
+      "bytes": 9261,
+      "sha256": "cb8e238d5012abf79825e211c4ecea128aefbd2c7b06baa0a059abe73d4f3f4e"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/mingru_linear-563/baseline_reset.json",
+      "bytes": 9264,
+      "sha256": "9e6e50bca220a0fe3e82caacd794cc68dba1cc70aa8009f8328b9f285c672090"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/mingru_linear-563/extra_mid_keep.json",
+      "bytes": 10560,
+      "sha256": "beb4a742796f5d76e664de35c87a8ce575fb74f399865642069303475647e24a"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/mingru_linear-563/extra_mid_reset.json",
+      "bytes": 10552,
+      "sha256": "e46f33903d2b7e33ec81dcbfdecf8907ae0606c28fd433b814f69cf8a26b2f0b"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/mingru_linear-563/extra_post.json",
+      "bytes": 9966,
+      "sha256": "2f82f48a6e76ad07a753ea207677b2e95baef37ea5e87307f0aa5e74a4256d7e"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/mingru_linear-563/extra_pre.json",
+      "bytes": 10240,
+      "sha256": "5d6005d66e43e2f6413057a6dc9a3797bd64514fb0c914c0e02cf48a529f1489"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/mingru_linear-563/greedy_mid_keep.json",
+      "bytes": 47114,
+      "sha256": "abac8713ede397d9b749ae13ba8189d3a55f2b917218fe40a1a97f57b903b966"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/mingru_linear-563/sa_mid_keep.json",
+      "bytes": 48821,
+      "sha256": "2444a70d913f2b23cc735c2bc041b22db6fd6b173b6b60b08a56317dab8b8362"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/mingru_linear-563/sa_mid_reset.json",
+      "bytes": 48828,
+      "sha256": "4ee51987b665b306eb032586ef7b41f875ca7dc45aef7cc369decedd6a578b02"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/mingru_linear-563/sa_post.json",
+      "bytes": 48510,
+      "sha256": "11f225c4bfee7f482b00f4c338e1c52e35f532c8d64e2c6779ad58a1a25ce500"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/mingru_linear-563/sa_pre.json",
+      "bytes": 48515,
+      "sha256": "2fddb4c5fc73ae8ae51f0c9225dc1cd2d856fa4912d144f03639541441b0d5ec"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/mingru_linear-701/PARENT.json",
+      "bytes": 5624,
+      "sha256": "589406ff64509f382c07ac02600fc1424fa914ffa64c3cafa45eb036a4f76be1"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/mingru_linear-701/PHASE_MIDDLE.json",
+      "bytes": 37218,
+      "sha256": "bdbdf1609ba237e1ec77c9c9cd01ec1c8bda307107d5c3e18d6f935aeb46652f"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/mingru_linear-701/PHASE_MIDDLE_EXTRA.json",
+      "bytes": 921,
+      "sha256": "285d56453706436ea4d7970d61c163dbc493d27d85f721f3289715d64be05c12"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/mingru_linear-701/baseline_keep.json",
+      "bytes": 9269,
+      "sha256": "d8d8b36ba5cd34754adbe3e1ca318d1af9609619414fbce9fa17a345c24c81c1"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/mingru_linear-701/baseline_reset.json",
+      "bytes": 9263,
+      "sha256": "f768c9763c310275f223a0b27a43ac6e0a30a9977d43ff4687ebfcb9c940a88b"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/mingru_linear-701/extra_mid_keep.json",
+      "bytes": 10254,
+      "sha256": "136255a780e220de8d147c8b711c007e7b21791bab243fdbf08925dfeebcb200"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/mingru_linear-701/extra_mid_reset.json",
+      "bytes": 10254,
+      "sha256": "7d0d6e7d7063e5be06f96fa2bdd10bd715a12806b004946884d379772b667371"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/mingru_linear-701/extra_post.json",
+      "bytes": 10309,
+      "sha256": "680ffaecea02ece11301f3c692f3215425845226e99c786790b5c1280e821058"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/mingru_linear-701/extra_pre.json",
+      "bytes": 10298,
+      "sha256": "78b9c5e8e0c2989d4f0a5bc82b331a666a33e2ad7c44941dd162ced1bd9c5b54"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/mingru_linear-701/greedy_mid_keep.json",
+      "bytes": 47058,
+      "sha256": "ebd92190d0e48454137fd51af5e720ac8956c409ae2cabdac411c38264119d82"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/mingru_linear-701/sa_mid_keep.json",
+      "bytes": 48888,
+      "sha256": "a77e1c6258585c10e55269e2c62d24627fde0663250798da527806f09fb4ba4b"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/mingru_linear-701/sa_mid_reset.json",
+      "bytes": 48883,
+      "sha256": "ddbdcb16bfe839c875fdf29e37baed1d0689b596c03ce2da5d0fc658c2644ced"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/mingru_linear-701/sa_post.json",
+      "bytes": 48515,
+      "sha256": "cbd178f57b54e6f7953830e9a1fe60842aab011e05a638659611a20127d69111"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/mingru_linear-701/sa_pre.json",
+      "bytes": 48742,
+      "sha256": "b01bfaa4e59abaad7e62be53797184f834ac74c5ebf6dcc1bd60071253d16367"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/native-419/PARENT.json",
+      "bytes": 5604,
+      "sha256": "6676632f03ae8e6f73bd1547be31a8fbe66d5aa7f59efb0a243cc2ac6d755282"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/native-419/PHASE_MIDDLE.json",
+      "bytes": 37172,
+      "sha256": "52b17289d3323b6776079a86b6578e7ec79c8ec0fc3507689e9a21d01c50a4da"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/native-419/PHASE_MIDDLE_EXTRA.json",
+      "bytes": 849,
+      "sha256": "4e602cfa229f89d4d9a600b3a1663f8cca5dfc3c8b248e6802193546db59f78d"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/native-419/baseline_keep.json",
+      "bytes": 9236,
+      "sha256": "ac6ec48a1dabf81c145a60f56d648821fb69f46ec405d2279abcca3bdbbed0e9"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/native-419/baseline_reset.json",
+      "bytes": 9226,
+      "sha256": "1e2cc5899bc99c9775adbd71ac560b397f296525ec7c531a823463225f733813"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/native-419/extra_mid_keep.json",
+      "bytes": 10127,
+      "sha256": "ea33347b7ff15f1d5e1357d206a17604369be7f27e1a019c7a0e48b7dcb91cda"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/native-419/extra_mid_reset.json",
+      "bytes": 10154,
+      "sha256": "11b651b555686ac997c5509da1f89aae68164196d9a06eb41726e43486f66b83"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/native-419/extra_post.json",
+      "bytes": 10042,
+      "sha256": "dd160bedd009b3e186e83894306bdc765a269983125efeb45e549d72b748c904"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/native-419/extra_pre.json",
+      "bytes": 10129,
+      "sha256": "b04ef13e62a0a25f65cc15aa09225dfc271cd20d217da7643d9994320f254fe7"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/native-419/greedy_mid_keep.json",
+      "bytes": 47147,
+      "sha256": "217d31e7360bbf133302539c72f776f67015d18048f3c7864403ba85723f344d"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/native-419/sa_mid_keep.json",
+      "bytes": 48807,
+      "sha256": "e043d3ad03a24f752ebcb9bfe9dd736a26aff07f73afc1ccd4c318c6250d0dce"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/native-419/sa_mid_reset.json",
+      "bytes": 48810,
+      "sha256": "ea7d101287f34d80480e365bbef5e3b6b76e2c0ad60167b6f73f4b4135d6c986"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/native-419/sa_post.json",
+      "bytes": 48672,
+      "sha256": "d27a2d39a8120862d8e218b211d0f34375b26f1c5006e08484670e72675f1337"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/native-419/sa_pre.json",
+      "bytes": 48691,
+      "sha256": "baa61f71df6e7fffdbd89a5cdbd852d0c00ff33af0c2d8a1e65cb4c75a288802"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/native-563/PARENT.json",
+      "bytes": 5621,
+      "sha256": "1c7e43b5d734a00637fec8675b778129e84a4ec82d2b1b42e9dda216177fbd8c"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/native-563/PHASE_MIDDLE.json",
+      "bytes": 37229,
+      "sha256": "b414031b6e54c9dc1e60e6615fef38e54b4009cd488bb34c569ba31a71f8d9cd"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/native-563/PHASE_MIDDLE_EXTRA.json",
+      "bytes": 849,
+      "sha256": "54a75191ef3a93e0908ab8ffb85154a1487ee29b74e7d7937fe22ad2e04c4c4d"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/native-563/baseline_keep.json",
+      "bytes": 9249,
+      "sha256": "3d187fc4f6970cb4385c1b21c62b5bb658fdee50512e1efc55b4b2758a9b1675"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/native-563/baseline_reset.json",
+      "bytes": 9260,
+      "sha256": "ac981c8853f34c75a75ce688fb5eb237c86d97e978c7210ea9d2012ac056017d"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/native-563/extra_mid_keep.json",
+      "bytes": 10170,
+      "sha256": "564a4e6246225c34bf463d360da05ae97effd8d84e10235aab7393b5c8a4e288"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/native-563/extra_mid_reset.json",
+      "bytes": 10170,
+      "sha256": "9ef2d3ae2979934c03d17883ed96d08b27e2b920894f43b112e3d3df75140ec6"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/native-563/extra_post.json",
+      "bytes": 9889,
+      "sha256": "2b07ccea076ade3bad6a81a2a9ac1c396d572736a202706a5c5cebe800a2f0ff"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/native-563/extra_pre.json",
+      "bytes": 10370,
+      "sha256": "ea32f364326a96dfdc2941981ecaacbce1da5d91faa25320e3ed7be63e92b822"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/native-563/greedy_mid_keep.json",
+      "bytes": 47270,
+      "sha256": "8af5c11997526089b3035d0d07e2fb4aff8a6fa9247ba40745e03c22c6ab297a"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/native-563/sa_mid_keep.json",
+      "bytes": 48884,
+      "sha256": "1192b97eba0a67a130f9f375aefe576fbc8e153af34a0c6ae3ce32023b6fe33e"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/native-563/sa_mid_reset.json",
+      "bytes": 48896,
+      "sha256": "6a835a4c7e6ad1cd125ca45656433be2d7cc6edc3ceca705bab7dc632a5a3246"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/native-563/sa_post.json",
+      "bytes": 48597,
+      "sha256": "54b14033aea5d3815eebd74cd75c7d240d746fd6ee9fc51834d9d8a2c1fa5449"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/native-563/sa_pre.json",
+      "bytes": 48719,
+      "sha256": "24e51101935ce9e4df9ac8051845b70bdac68a8287e8a7cf2bc7dd834db097c2"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/native-701/PARENT.json",
+      "bytes": 5619,
+      "sha256": "6ec43880478d83a48b0f889221034c0abbe4903f4d70cfa54fb5a534c288b6c2"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/native-701/PHASE_MIDDLE.json",
+      "bytes": 37168,
+      "sha256": "6d4f6b98eddf139c583936ac50a684c1826c24b33981c5745dfe13f285605d17"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/native-701/PHASE_MIDDLE_EXTRA.json",
+      "bytes": 824,
+      "sha256": "508c13427f256abd3c52318d8b724853f3c9157d158a302e6b8f95f33b07a955"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/native-701/baseline_keep.json",
+      "bytes": 9249,
+      "sha256": "fe8f07f879b964fe3f608a43e1d77224c4de6f4f097c604e40d80e374467e597"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/native-701/baseline_reset.json",
+      "bytes": 9253,
+      "sha256": "b2d8d6f805912d2eb85c386ecd6bb9eeaae439f16e3f3f8d04864068086c6aa4"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/native-701/extra_mid_keep.json",
+      "bytes": 10146,
+      "sha256": "050c3dc563c34b90ae0460ff63b66a9a54d9ae6d2a15c1240809947deb24a316"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/native-701/extra_mid_reset.json",
+      "bytes": 10137,
+      "sha256": "922651371b7439b4b6d0c5d529cf5ac6b02f956acf5311b6720ff0ebe5467bb9"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/native-701/extra_post.json",
+      "bytes": 9841,
+      "sha256": "5009bbd89d73e9e996972bee6dce71699d708ef9580ad24cb406457bcd8731a1"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/native-701/extra_pre.json",
+      "bytes": 10401,
+      "sha256": "0eab55ae6d40f8ab0e74031738cbdf46411e6a54e865e61fd78495cc32f95210"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/native-701/greedy_mid_keep.json",
+      "bytes": 47206,
+      "sha256": "5a29119fa8dd0285dbc54e30cabec135db2e049fb452584665bbae4381fc8170"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/native-701/sa_mid_keep.json",
+      "bytes": 48825,
+      "sha256": "8c965aa1b82b9c30157154bf86d3884097c46b5e33d5de17f05897948ac4394f"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/native-701/sa_mid_reset.json",
+      "bytes": 48823,
+      "sha256": "d43af72565584b0ecde2975cbb0e05281d89ca9056a0d31f5e8feef2915b941b"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/native-701/sa_post.json",
+      "bytes": 48638,
+      "sha256": "ac781ac186ba744a53c7dd4c7ef20c265b8ab306a606a3c4cae4ec975912a853"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/native-701/sa_pre.json",
+      "bytes": 48806,
+      "sha256": "9a1f86e462b3e121f437e862d0d62da45b3db9eefd9d370bd6a47b40ced24ed1"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/paragru-419/PARENT.json",
+      "bytes": 5627,
+      "sha256": "62f1f4e3138de580ca9df84da06970a7dc5b79c06ccbd1f137229d82bef280fa"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/paragru-419/PHASE_MIDDLE.json",
+      "bytes": 37168,
+      "sha256": "6d516be86a50ec9e00d044395d35e4768d7d0d3edd8899c9adbf393f78f040db"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/paragru-419/PHASE_MIDDLE_EXTRA.json",
+      "bytes": 1494,
+      "sha256": "1a0aebcb2a247afe9301fad63bf46a27b22ef6a8b5b2a8df232daa4d62e34ac9"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/paragru-419/baseline_keep.json",
+      "bytes": 9310,
+      "sha256": "21cfdb19c395f1c21e37711caab6ed3c1091f684f2a4dd6d105ee7b023852c55"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/paragru-419/baseline_reset.json",
+      "bytes": 9311,
+      "sha256": "cffa1051fa5594c74618dd2d15bd1689746e2bcf9abe75cb71c76d4ae25dbe85"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/paragru-419/extra_mid_keep.json",
+      "bytes": 10922,
+      "sha256": "0270678fb80f4f910b61b8843d91129fddc2769189cab3db3f45fd2b71923294"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/paragru-419/extra_mid_reset.json",
+      "bytes": 10917,
+      "sha256": "57fb8e26b9ee02794f8f4c3fff40fef6e24b160ddecd38ae49e4b797851bd649"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/paragru-419/extra_post.json",
+      "bytes": 10639,
+      "sha256": "a85b1937e6b87d60ff46b1c5020e733e913686b5357fe2e2964d63022b89bec8"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/paragru-419/extra_pre.json",
+      "bytes": 10706,
+      "sha256": "4b7513a58c5c7a6ed875e4f6a368b151aa617281a04b6a8c61c15c69da5cccc2"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/paragru-419/greedy_mid_keep.json",
+      "bytes": 47214,
+      "sha256": "91c60b1f852e3f7adfb9da759d1bbc33ed6c185c912316408196c779e538dcdf"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/paragru-419/sa_mid_keep.json",
+      "bytes": 48883,
+      "sha256": "184592f1cd8c6cfb313cf8b4a150c5819977327e515d835e0832cdfd1cb92f51"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/paragru-419/sa_mid_reset.json",
+      "bytes": 48877,
+      "sha256": "560445f6c539a19b07e9e439205c9d955a33830685212bdbc5270c634a9538b8"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/paragru-419/sa_post.json",
+      "bytes": 48528,
+      "sha256": "eae38e6c651d2da94e81f07280b755203bfe49eb6ebe4f4ad23bbe5b664a0053"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/paragru-419/sa_pre.json",
+      "bytes": 48663,
+      "sha256": "bad595c222ed75a207f9ed21e06ffff3e35b1d7f82f38487ab1936cfcd5a0a07"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/paragru-563/PARENT.json",
+      "bytes": 5625,
+      "sha256": "b162eaa234447dcb936cea337eb7577daaa737cbda77a04126bee39d1bef274f"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/paragru-563/PHASE_MIDDLE.json",
+      "bytes": 37125,
+      "sha256": "006f61dd3ffa513804c1d734754435cbfcb0d3571e1db011354e1442569c7781"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/paragru-563/PHASE_MIDDLE_EXTRA.json",
+      "bytes": 1475,
+      "sha256": "5d20036b586bb707c6e4cc42d1e6635200e475e480791b022df7792774553e16"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/paragru-563/baseline_keep.json",
+      "bytes": 9307,
+      "sha256": "900e473eeea11453da48817a9178aed3aaccdf1b1a2baab6feaf22dd54424f44"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/paragru-563/baseline_reset.json",
+      "bytes": 9306,
+      "sha256": "af6afcf26db84085dc59ea7df05ae9be467b7fbf28fb491e79d4e1f71d34104b"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/paragru-563/extra_mid_keep.json",
+      "bytes": 10889,
+      "sha256": "e8b27951e115051597eca132f6cfb87fb8a12f074ed54fdf7d0c657109e87e77"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/paragru-563/extra_mid_reset.json",
+      "bytes": 10908,
+      "sha256": "705b64bbbc2c03ec7a0fbd7d4a197ad353f3bc9e06f803cc7e8849efd11ab806"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/paragru-563/extra_post.json",
+      "bytes": 10648,
+      "sha256": "208fc469cfb6160c08dd3a1e2cdd84f47d0b5dbaea3788321f56dfe7659443bc"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/paragru-563/extra_pre.json",
+      "bytes": 10802,
+      "sha256": "9d085766fd235ee75cd5c6edf3148e6baf8e7a60a2b53e8af39e3d3648717a44"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/paragru-563/greedy_mid_keep.json",
+      "bytes": 47232,
+      "sha256": "33b09f95f74e551f6366b151ab2d0257905585badd153d08f95dcf48c888240c"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/paragru-563/sa_mid_keep.json",
+      "bytes": 48830,
+      "sha256": "b0daf9bdedad42c31697e398c4c8f90d3d62f48b1a2fa2d8bad650355a899c87"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/paragru-563/sa_mid_reset.json",
+      "bytes": 48830,
+      "sha256": "4f63ab13032c6d781832e323f5b7bb840f3244cb29acf550b1138d939e739d93"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/paragru-563/sa_post.json",
+      "bytes": 48525,
+      "sha256": "bed529990fb71db77fd9742b35eec9a82aa8dc47a5c87629b78f16cdecc13f95"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/paragru-563/sa_pre.json",
+      "bytes": 48689,
+      "sha256": "a81dffab72d7b2dcc01ae469dc00e9d1fba7f784c990211da7b2f0935626c816"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/paragru-701/PARENT.json",
+      "bytes": 5621,
+      "sha256": "9d89d07d826adc0a4ed77e3ca5f78568769b5bc71a40be63aee3baee4114e7dc"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/paragru-701/PHASE_MIDDLE.json",
+      "bytes": 37163,
+      "sha256": "4796f9a0e2b9b9dbbc4dc1d3f8c8c9633add7bafd766ead7e9f103bbfb1aafea"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/paragru-701/PHASE_MIDDLE_EXTRA.json",
+      "bytes": 1658,
+      "sha256": "36dd6005c3766888b817af468b980fe7419288f19d17a831820bc50d9040bdc4"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/paragru-701/baseline_keep.json",
+      "bytes": 9307,
+      "sha256": "8b74a85117708f57834f610074d658fe26fbb25a183a12ccf9ea32f2e017d721"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/paragru-701/baseline_reset.json",
+      "bytes": 9310,
+      "sha256": "32c00c027f10c3c1c509b5f997c477d13d7a28b633d6451947120158111a1577"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/paragru-701/extra_mid_keep.json",
+      "bytes": 11098,
+      "sha256": "7d83cb29c5187431782b4a1953d9ea4fa7a253348dbd46875744d7a35e685fda"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/paragru-701/extra_mid_reset.json",
+      "bytes": 11098,
+      "sha256": "047fac3b2d5215c0090509651ab6b94dcdd98b988190aef318853540a8219f2e"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/paragru-701/extra_post.json",
+      "bytes": 10675,
+      "sha256": "4fa055d802a75531789584eacb8fc0590b677ea4217715c58fd36de3f0bd1cb7"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/paragru-701/extra_pre.json",
+      "bytes": 10939,
+      "sha256": "122f39141aa05cfeac3f8f8a657a79aa1189a251bd9c2de17857eb7d5b59157f"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/paragru-701/greedy_mid_keep.json",
+      "bytes": 47155,
+      "sha256": "b329c844cfcc0272b6d0fcde5f87999b5eabf11509ed2e25da7d875f549ccd0e"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/paragru-701/sa_mid_keep.json",
+      "bytes": 48871,
+      "sha256": "de497e6fc9a9ec802cf003ab155ca746effc5adef33ddd4d9b618f04510e1e74"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/paragru-701/sa_mid_reset.json",
+      "bytes": 48873,
+      "sha256": "48dc7abf628b72d8e3bced7f839cd7b9baa940289adceea2713a90c20de79dd1"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/paragru-701/sa_post.json",
+      "bytes": 48495,
+      "sha256": "af5c375b1019200c44be21045b631aff8dedd6f080cd907b9887eb95bf21346e"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/paragru-701/sa_pre.json",
+      "bytes": 48611,
+      "sha256": "f3fa50285449ff6b721b04c697edbbe06640c1057544c0d6c9b4f7ad43c91f26"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/run.log",
+      "bytes": 6530,
+      "sha256": "ff3dba41d9e6f6518cda3d987e5dca755c2f4f47a34aca69e7f3fea1da0b15f2"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/summary.png",
+      "bytes": 145750,
+      "sha256": "08d24b79903414e1279b24d890ccc4d730b8d6b2dd5f68eec0e54b4cfbc81775"
+    },
+    {
+      "path": "auto-research/results/phase-annealing-20261019-v1/verify_saved.py",
+      "bytes": 3331,
+      "sha256": "2a6799e0c709ccc44a2588ac4c5cee6c79a2e9ccf7158dbaa8c2e4f5073ae85e"
+    },
+    {
+      "path": "data/manifest.json",
+      "bytes": 77200,
+      "sha256": "68306f779818da1e2166de65362246b8cd69e70e8f2659ddebe8d4fe338e55d5"
+    },
+    {
+      "path": "data/tokenizer.json",
+      "bytes": 122083,
+      "sha256": "3ed2eca49e889b85eee5e4eecb0480e340d652cb18dc9edb3c0deaf3727868a6"
+    },
+    {
+      "path": "experiment.py",
+      "bytes": 20724,
+      "sha256": "08c9c75c6e7673d8bd8389ad2d30ea613b0ecea7a09e7fe8e68856ca528837a7"
+    },
+    {
+      "path": "prepare_data.py",
+      "bytes": 3165,
+      "sha256": "42f207aa2e0835d95abb94db88f7b24040a94147c736fcd6edad4eef3fa3093b"
+    },
+    {
+      "path": "upstream/LICENSE",
+      "bytes": 1067,
+      "sha256": "e449f99f997074cdfe3b3e5b48ebcd94d1d5abbb1268a93a989ffcd4153db4ce"
+    },
+    {
+      "path": "upstream/exact_historical_predictive_models.py",
+      "bytes": 34215,
+      "sha256": "b73a7c07801f5672adb52c0cb16a3c772d62e50eebc0366491d497f76d13f73f"
+    },
+    {
+      "path": "upstream/models.py",
+      "bytes": 10059,
+      "sha256": "f340db31acb1b6075c10116de2bc11ad8bd50b11d88e1e5d2520227b9b3f2f70"
+    },
+    {
+      "path": "upstream/vendor/representation_experiments/__init__.py",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "upstream/vendor/representation_experiments/common.py",
+      "bytes": 5752,
+      "sha256": "381c5950aa454fc2275c45755bafd4c3e0641802013c0bf7ce9276abf5415fe1"
+    },
+    {
+      "path": "upstream/vendor/representation_experiments/predictive_models.py",
+      "bytes": 34215,
+      "sha256": "b73a7c07801f5672adb52c0cb16a3c772d62e50eebc0366491d497f76d13f73f"
+    },
+    {
+      "path": "validate.py",
+      "bytes": 4782,
+      "sha256": "51a4099afe284d71db83a9e6c6ee1e3cd24b74ea149b5529acdcd0dd8e65a36b"
+    }
+  ]
+}

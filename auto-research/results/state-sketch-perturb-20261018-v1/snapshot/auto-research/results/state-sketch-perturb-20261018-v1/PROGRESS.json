@@ -1,0 +1,13 @@
+{
+  "status": "COMPLETE",
+  "completed": 54,
+  "planned": 54,
+  "last": {
+    "architecture": "paragru",
+    "seed": 307,
+    "method": "replay_backprop",
+    "ce": 5.105070650577545
+  },
+  "elapsed_seconds": 967.8321093159975,
+  "completion_source": "TERMINAL.json"
+}

@@ -1,0 +1,145 @@
+{
+  "reason": "Original FP32 optimizer parity exceeded frozen tolerance; no corpus training started.",
+  "rows": [
+    {
+      "arm": "k8",
+      "core": "factored",
+      "eps": 1e-08,
+      "max_first_adam_update_error": 0.0001720907021081075,
+      "parameter": "blocks.0.fc2.weight"
+    },
+    {
+      "arm": "k8",
+      "core": "factored",
+      "eps": 1e-06,
+      "max_first_adam_update_error": 5.4726755479350686e-05,
+      "parameter": "blocks.0.mixer.packed_weight"
+    },
+    {
+      "arm": "k8",
+      "core": "stable",
+      "eps": 1e-08,
+      "max_first_adam_update_error": 0.0002482960117049515,
+      "parameter": "blocks.0.fc2.weight"
+    },
+    {
+      "arm": "k8",
+      "core": "stable",
+      "eps": 1e-06,
+      "max_first_adam_update_error": 3.751082840608433e-05,
+      "parameter": "blocks.1.mixer.packed_weight"
+    },
+    {
+      "arm": "k16",
+      "core": "factored",
+      "eps": 1e-08,
+      "max_first_adam_update_error": 0.0017677473369985819,
+      "parameter": "blocks.0.mixer.out_proj.weight"
+    },
+    {
+      "arm": "k16",
+      "core": "factored",
+      "eps": 1e-06,
+      "max_first_adam_update_error": 0.00015391716442536563,
+      "parameter": "blocks.0.mixer.out_proj.weight"
+    },
+    {
+      "arm": "k16",
+      "core": "stable",
+      "eps": 1e-08,
+      "max_first_adam_update_error": 0.0017280627507716417,
+      "parameter": "blocks.0.mixer.out_proj.weight"
+    },
+    {
+      "arm": "k16",
+      "core": "stable",
+      "eps": 1e-06,
+      "max_first_adam_update_error": 0.00012077961582690477,
+      "parameter": "blocks.0.mixer.out_proj.weight"
+    },
+    {
+      "arm": "k32",
+      "core": "factored",
+      "eps": 1e-08,
+      "max_first_adam_update_error": 5.657260771840811e-05,
+      "parameter": "blocks.2.mixer.packed_weight"
+    },
+    {
+      "arm": "k32",
+      "core": "factored",
+      "eps": 1e-06,
+      "max_first_adam_update_error": 1.9144557882100344e-05,
+      "parameter": "blocks.0.mixer.packed_weight"
+    },
+    {
+      "arm": "k32",
+      "core": "stable",
+      "eps": 1e-08,
+      "max_first_adam_update_error": 0.00018342139082960784,
+      "parameter": "blocks.2.mixer.packed_weight"
+    },
+    {
+      "arm": "k32",
+      "core": "stable",
+      "eps": 1e-06,
+      "max_first_adam_update_error": 1.2633827282115817e-05,
+      "parameter": "blocks.1.mixer.packed_weight"
+    },
+    {
+      "arm": "k16_lean",
+      "core": "factored",
+      "eps": 1e-08,
+      "max_first_adam_update_error": 0.00010014901636168361,
+      "parameter": "blocks.0.fc1.weight"
+    },
+    {
+      "arm": "k16_lean",
+      "core": "factored",
+      "eps": 1e-06,
+      "max_first_adam_update_error": 3.008986823260784e-05,
+      "parameter": "blocks.0.mixer.packed_weight"
+    },
+    {
+      "arm": "k16_lean",
+      "core": "stable",
+      "eps": 1e-08,
+      "max_first_adam_update_error": 6.329233292490244e-05,
+      "parameter": "blocks.1.fc2.weight"
+    },
+    {
+      "arm": "k16_lean",
+      "core": "stable",
+      "eps": 1e-06,
+      "max_first_adam_update_error": 2.4705659598112106e-05,
+      "parameter": "blocks.0.mixer.packed_weight"
+    },
+    {
+      "arm": "k16_lean_conv",
+      "core": "factored",
+      "eps": 1e-08,
+      "max_first_adam_update_error": 0.00011169928620802239,
+      "parameter": "blocks.0.fc1.weight"
+    },
+    {
+      "arm": "k16_lean_conv",
+      "core": "factored",
+      "eps": 1e-06,
+      "max_first_adam_update_error": 4.5399327063933015e-05,
+      "parameter": "embedding.weight"
+    },
+    {
+      "arm": "k16_lean_conv",
+      "core": "stable",
+      "eps": 1e-08,
+      "max_first_adam_update_error": 0.00011461798567324877,
+      "parameter": "blocks.0.fc1.weight"
+    },
+    {
+      "arm": "k16_lean_conv",
+      "core": "stable",
+      "eps": 1e-06,
+      "max_first_adam_update_error": 2.4049062631092966e-05,
+      "parameter": "blocks.1.mixer.packed_weight"
+    }
+  ]
+}

@@ -64,13 +64,44 @@
     {
       "catalog": "auto-research/results/all-experiments-archive-20261018-v1/CATALOG.md",
       "id": "all-experiments-archive-20261018-v1",
-      "inventory": "auto-research/results/all-experiments-archive-20261018-v1/FILES.json.gz",
+      "inventory": "auto-research/results/all-experiments-archive-20261018-v1/FILES.current.json.gz",
       "new_model_evaluation": false,
       "new_training": false,
       "report": "auto-research/results/all-experiments-archive-20261018-v1/README.md",
-      "scope": "User selected source, results, logs, graphs and final checkpoints. Intermediate tensor artifacts, dependencies, credentials and raw datasets excluded. All located readable in-scope objects will be linked to verified release assets or pinned existing Git/release content.",
-      "status": "UPLOAD_IN_PROGRESS",
-      "summary": "auto-research/results/all-experiments-archive-20261018-v1/SUMMARY.json"
+      "scope": "User selected source, results, logs, graphs and final checkpoints. Intermediate tensor artifacts, dependencies, credentials and raw datasets excluded. Partial archive only: uploads remain paused and pending objects are not backed up.",
+      "status": "PARTIAL_ARCHIVE_UPLOADS_PAUSED",
+      "summary": "auto-research/results/all-experiments-archive-20261018-v1/SUMMARY.current.json"
+    },
+    {
+      "run_id": "minkron-fast-20261021-v1",
+      "status": "COMPLETED_EXPLORATORY_TRADEOFF",
+      "kind": "Authorized small CPU language architecture screen",
+      "approval": "2026-10-21 user: Let us run with a smaller, faster model ... go ahead and run with those new experiments. Earlier user requests code/results and reconstruction placeholders, no big files.",
+      "protocol": "auto-research/results/minkron-fast-20261021-v1/PROTOCOL.json",
+      "protocol_sha256": "4fe1bd5d9339d53232b5a52f0bb6690b3ef6069d0668fc731fe7518ac596ac8d",
+      "report": "auto-research/reports/minkron-fast-20261021-v1.md",
+      "terminal": "auto-research/results/minkron-fast-20261021-v1/TERMINAL.json",
+      "metrics": "auto-research/results/minkron-fast-20261021-v1/METRICS.json",
+      "registration_chronology": "Registered before all qualification and language training.",
+      "seeds": [
+        25101,
+        25102,
+        25103
+      ],
+      "protocol_addenda": [
+        "auto-research/results/minkron-fast-20261021-v1/PROTOCOL_ADDENDUM_01.json",
+        "auto-research/results/minkron-fast-20261021-v1/PROTOCOL_ADDENDUM_02.json"
+      ],
+      "numerical_qualification": "PASS after two preserved failed checks and preregistered optimizer/precision corrections",
+      "decision": "Lean16x16 advances as recurrent working configuration; Transformer wins longer equal-time quality. Samples remain incoherent; no general capability claim.",
+      "completed_screen_runs": 18,
+      "completed_extensions": 3,
+      "total_target_exposures": 9307136,
+      "training_seconds": 1488.8454165759622,
+      "selected_recurrent_variant": "k16_lean",
+      "new_training": true,
+      "new_model_evaluation": true,
+      "official_test_accessed": false
     }
   ],
   "historical_authorization_note": "Language training remains paused. Fresh user-authorized synthetic angular/radial optimization completed without recovery; no future execution authorized. Previous synthetic failure/recovery remains preserved.",
@@ -455,6 +486,77 @@
       "report": "auto-research/reports/mingru-cpu-upstream-20261018-v1.md",
       "run_id": "mingru-cpu-upstream-20261018-v1",
       "status": "COMPLETED_ARCHIVAL_IMPORT_NO_NEW_MODEL_EXECUTION"
+    },
+    {
+      "run_id": "state-sketch-perturb-20261018-v1",
+      "kind": "Completed external CPU pilot; archival publication",
+      "status": "COMPLETED_NEGATIVE_OR_NULL_PRIMARY_RESULT",
+      "approval": "User authorized the experiment in the project conversation and explicitly authorized this upstream publication, including perturbation results.",
+      "registration_chronology": "Original local protocol and registry frozen before execution; upstream registry entry added retrospectively for publication.",
+      "protocol": "auto-research/results/state-sketch-perturb-20261018-v1/snapshot/auto-research/results/state-sketch-perturb-20261018-v1/PROTOCOL.json",
+      "protocol_sha256": "95a246b7909c2e37c20187fbec7981f713192059a7a0ef5facc5423e0a459785",
+      "terminal": "auto-research/results/state-sketch-perturb-20261018-v1/snapshot/auto-research/results/state-sketch-perturb-20261018-v1/TERMINAL.json",
+      "metrics": "auto-research/results/state-sketch-perturb-20261018-v1/snapshot/auto-research/results/state-sketch-perturb-20261018-v1/ANALYSIS.json",
+      "report": "auto-research/reports/state-sketch-perturb-20261018-v1.md",
+      "completed_outcomes": 54,
+      "seeds": [
+        73,
+        191,
+        307
+      ],
+      "decision": "DO_NOT_ADVANCE_THIS_CONFIGURATION",
+      "publication_target": "rohanarun/Super-1 main (PR only)",
+      "upstream_publication_authorization": "auto-research/results/perturbation-annealing-publication-20261019-v1/IMPORT.json"
+    },
+    {
+      "run_id": "phase-annealing-20261019-v1",
+      "kind": "Completed external CPU pilot; archival publication",
+      "status": "COMPLETED_NEGATIVE_OR_NULL_PRIMARY_RESULT",
+      "approval": "User authorized the experiment in the project conversation and explicitly authorized this upstream publication, including perturbation results.",
+      "registration_chronology": "Original local protocol and registry frozen before execution; upstream registry entry added retrospectively for publication.",
+      "protocol": "auto-research/results/phase-annealing-20261019-v1/snapshot/auto-research/results/phase-annealing-20261019-v1/PROTOCOL.json",
+      "protocol_sha256": "53664aa1acffebda396104cf95a52c2c4c0bf467b2b08a74dbde83a07c81f0f9",
+      "terminal": "auto-research/results/phase-annealing-20261019-v1/snapshot/auto-research/results/phase-annealing-20261019-v1/TERMINAL.json",
+      "metrics": "auto-research/results/phase-annealing-20261019-v1/snapshot/auto-research/results/phase-annealing-20261019-v1/ANALYSIS.json",
+      "report": "auto-research/reports/phase-annealing-20261019-v1.md",
+      "completed_outcomes": 99,
+      "seeds": [
+        419,
+        563,
+        701
+      ],
+      "decision": "PRIMARY_GATE_FAILED_NO_USEFUL_ADVANTAGE",
+      "publication_target": "rohanarun/Super-1 main (PR only)",
+      "upstream_publication_authorization": "auto-research/results/perturbation-annealing-publication-20261019-v1/IMPORT.json"
+    },
+    {
+      "run_id": "minkron-publication-20261021-v1",
+      "kind": "Completed external experiments; retrospective upstream publication",
+      "status": "COMPLETED_ARCHIVAL_IMPORT_NO_NEW_MODEL_EXECUTION",
+      "approval": "User explicitly requested the minKron experiment and results as a PR to rohanarun/super-1.",
+      "registration_chronology": "Retrospective upstream record; original frozen protocols and all outcomes preserved unchanged.",
+      "protocol": "auto-research/results/minkron-publication-20261021-v1/IMPORT.json",
+      "protocol_sha256": "46307fdf5733c82863c7b6df8919625b232325aba3e9ae0352818354939433c5",
+      "original_protocols": [
+        "auto-research/results/minkron-publication-20261021-v1/compact/protocol.json",
+        "auto-research/results/minkron-publication-20261021-v1/integration/comparison_contract.json",
+        "auto-research/results/minkron-publication-20261021-v1/nanogpt/research-scratch/cpu-124m/main/protocol.json"
+      ],
+      "terminal": "auto-research/results/minkron-publication-20261021-v1/TERMINAL.json",
+      "metrics": "auto-research/results/minkron-publication-20261021-v1/VERIFICATION.json",
+      "report": "auto-research/reports/minkron-publication-20261021-v1.md",
+      "seeds": [
+        22101,
+        22102,
+        22103
+      ],
+      "scale_seed": 24101,
+      "completed_compact_main_runs": 12,
+      "decision": "PROMISING_SYNTHETIC_ACCURACY_TRADEOFF; OVERALL_RESOURCE_SCREEN_FAILED; CPU_SCALE_FEASIBILITY_ONLY",
+      "publication_target": "rohanarun/Super-1 main (PR only)",
+      "new_training": false,
+      "new_model_evaluation": false,
+      "publication_scope": "Code, compact result summaries and reconstruction placeholders per user steering."
     }
   ],
   "schema_version": 1,

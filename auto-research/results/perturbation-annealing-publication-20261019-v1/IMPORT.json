@@ -1,0 +1,61 @@
+{
+  "publication_id": "perturbation-annealing-publication-20261019-v1",
+  "status": "PREPARED_FOR_PULL_REQUEST",
+  "authorization": "Ok, cool - go ahead and push that to the rohan repo, including the perturbation results",
+  "authorization_scope": "Publish both completed pilots; this supersedes the earlier minGRU-only publication scope for these two results.",
+  "destination": "rohanarun/Super-1",
+  "head_repository": "JRowe47/Super-1",
+  "base_commit": "492a87a5e263e806b0a2581c57259e81f1a000e6",
+  "experiment_source_commit": "492a87a5e263e806b0a2581c57259e81f1a000e6",
+  "registration_chronology": "Retrospective publication of previously frozen, completed local experiments. No claim that remote registration preceded execution.",
+  "new_training": false,
+  "new_model_evaluation": false,
+  "official_test_access": false,
+  "new_cloud_resources": false,
+  "automatic_merge": false,
+  "experiments": [
+    {
+      "run_id": "state-sketch-perturb-20261018-v1",
+      "source_archive": "Super1_State_Sketch_Pilot.zip",
+      "source_archive_sha256": "52b9ddab26c92e3392a5e808e5c11cc3f86d0ad6a39f47644c0229a58ecaa197",
+      "snapshot": "auto-research/results/state-sketch-perturb-20261018-v1/snapshot",
+      "raw_results": "auto-research/results/state-sketch-perturb-20261018-v1/snapshot/auto-research/results/state-sketch-perturb-20261018-v1",
+      "snapshot_file_count": 104,
+      "completed_outcomes": 54,
+      "protocol_sha256": "95a246b7909c2e37c20187fbec7981f713192059a7a0ef5facc5423e0a459785",
+      "protocol": "auto-research/results/state-sketch-perturb-20261018-v1/snapshot/auto-research/results/state-sketch-perturb-20261018-v1/PROTOCOL.json",
+      "terminal": "auto-research/results/state-sketch-perturb-20261018-v1/snapshot/auto-research/results/state-sketch-perturb-20261018-v1/TERMINAL.json",
+      "metrics": "auto-research/results/state-sketch-perturb-20261018-v1/snapshot/auto-research/results/state-sketch-perturb-20261018-v1/ANALYSIS.json",
+      "report": "auto-research/reports/state-sketch-perturb-20261018-v1.md",
+      "audit": "auto-research/results/state-sketch-perturb-20261018-v1/snapshot/auto-research/results/state-sketch-perturb-20261018-v1/ARTIFACT_AUDIT.json",
+      "original_run_wall_seconds": 967.8321093159975,
+      "decision": "DO_NOT_ADVANCE_THIS_CONFIGURATION"
+    },
+    {
+      "run_id": "phase-annealing-20261019-v1",
+      "source_archive": "Super1_Phase_Annealing_Pilot.zip",
+      "source_archive_sha256": "de298d0e569b9f1639506f458cd17c0f2e36e592e58f1511b69f2606f8921992",
+      "snapshot": "auto-research/results/phase-annealing-20261019-v1/snapshot",
+      "raw_results": "auto-research/results/phase-annealing-20261019-v1/snapshot/auto-research/results/phase-annealing-20261019-v1",
+      "snapshot_file_count": 155,
+      "completed_outcomes": 99,
+      "protocol_sha256": "53664aa1acffebda396104cf95a52c2c4c0bf467b2b08a74dbde83a07c81f0f9",
+      "protocol": "auto-research/results/phase-annealing-20261019-v1/snapshot/auto-research/results/phase-annealing-20261019-v1/PROTOCOL.json",
+      "terminal": "auto-research/results/phase-annealing-20261019-v1/snapshot/auto-research/results/phase-annealing-20261019-v1/TERMINAL.json",
+      "metrics": "auto-research/results/phase-annealing-20261019-v1/snapshot/auto-research/results/phase-annealing-20261019-v1/ANALYSIS.json",
+      "report": "auto-research/reports/phase-annealing-20261019-v1.md",
+      "audit": "auto-research/results/phase-annealing-20261019-v1/snapshot/auto-research/results/phase-annealing-20261019-v1/ARTIFACT_AUDIT.json",
+      "original_run_wall_seconds": 1615.3013123499986,
+      "decision": "PRIMARY_GATE_FAILED_NO_USEFUL_ADVANTAGE"
+    }
+  ],
+  "omitted": [
+    "tensor checkpoints",
+    "downloadable corpus text",
+    "token arrays",
+    "installed dependencies",
+    "Python bytecode"
+  ],
+  "historical_notes": "Statements in preserved snapshots about local/unpublished status are historical. Public report copies clarify the distinction from the separately recovered W560 optimizer.",
+  "decision": "Neither tested configuration supports scaling. The SA GRU post-only numerical pass returned unchanged baseline weights; it is not a learning gain."
+}

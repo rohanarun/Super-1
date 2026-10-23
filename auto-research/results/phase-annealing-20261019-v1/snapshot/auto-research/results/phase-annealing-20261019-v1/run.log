@@ -1,0 +1,109 @@
+PARENT native 419 5.470854
+COMPLETE native 419 baseline_keep 5.355745 seconds 33.97
+COMPLETE native 419 baseline_reset 5.358136 seconds 33.56
+COMPLETE native 419 sa_mid_keep 5.355745 seconds 36.84
+COMPLETE native 419 sa_mid_reset 5.358136 seconds 36.65
+COMPLETE native 419 extra_mid_keep 5.347161 seconds 37.13
+COMPLETE native 419 extra_mid_reset 5.349723 seconds 37.19
+COMPLETE native 419 greedy_mid_keep 5.356619 seconds 37.48
+COMPLETE native 419 sa_post 5.355745 seconds 37.55
+COMPLETE native 419 extra_post 5.35638 seconds 37.65
+COMPLETE native 419 sa_pre 5.358802 seconds 37.83
+COMPLETE native 419 extra_pre 5.234251 seconds 37.56
+PARENT native 563 5.489255
+COMPLETE native 563 baseline_keep 5.379518 seconds 34.21
+COMPLETE native 563 baseline_reset 5.381958 seconds 34.89
+COMPLETE native 563 sa_mid_keep 5.379518 seconds 36.73
+COMPLETE native 563 sa_mid_reset 5.381958 seconds 37.12
+COMPLETE native 563 extra_mid_keep 5.36906 seconds 37.17
+COMPLETE native 563 extra_mid_reset 5.37248 seconds 37.27
+COMPLETE native 563 greedy_mid_keep 5.378171 seconds 38.16
+COMPLETE native 563 sa_post 5.379518 seconds 36.99
+COMPLETE native 563 extra_post 5.390248 seconds 37.08
+COMPLETE native 563 sa_pre 5.366378 seconds 39.05
+COMPLETE native 563 extra_pre 5.202004 seconds 39.11
+PARENT native 701 5.480585
+COMPLETE native 701 baseline_keep 5.3853 seconds 35.15
+COMPLETE native 701 baseline_reset 5.388905 seconds 35.74
+COMPLETE native 701 sa_mid_keep 5.384741 seconds 38.08
+COMPLETE native 701 sa_mid_reset 5.388564 seconds 38.17
+COMPLETE native 701 extra_mid_keep 5.38049 seconds 38.27
+COMPLETE native 701 extra_mid_reset 5.382525 seconds 38.37
+COMPLETE native 701 greedy_mid_keep 5.384922 seconds 38.78
+COMPLETE native 701 sa_post 5.3853 seconds 37.82
+COMPLETE native 701 extra_post 5.389191 seconds 37.88
+COMPLETE native 701 sa_pre 5.371573 seconds 39.81
+COMPLETE native 701 extra_pre 5.212525 seconds 38.9
+PARENT mingru_linear 419 5.497688
+COMPLETE mingru_linear 419 baseline_keep 5.395761 seconds 23.69
+COMPLETE mingru_linear 419 baseline_reset 5.39862 seconds 23.3
+COMPLETE mingru_linear 419 sa_mid_keep 5.395694 seconds 26.49
+COMPLETE mingru_linear 419 sa_mid_reset 5.398607 seconds 26.42
+COMPLETE mingru_linear 419 extra_mid_keep 5.382724 seconds 26.43
+COMPLETE mingru_linear 419 extra_mid_reset 5.385821 seconds 26.93
+COMPLETE mingru_linear 419 greedy_mid_keep 5.396542 seconds 26.34
+COMPLETE mingru_linear 419 sa_post 5.416283 seconds 26.69
+COMPLETE mingru_linear 419 extra_post 5.404988 seconds 26.71
+COMPLETE mingru_linear 419 sa_pre 5.395528 seconds 25.55
+COMPLETE mingru_linear 419 extra_pre 5.309411 seconds 25.83
+PARENT mingru_linear 563 5.481939
+COMPLETE mingru_linear 563 baseline_keep 5.375244 seconds 23.12
+COMPLETE mingru_linear 563 baseline_reset 5.378188 seconds 23.06
+COMPLETE mingru_linear 563 sa_mid_keep 5.375244 seconds 26.56
+COMPLETE mingru_linear 563 sa_mid_reset 5.378188 seconds 26.55
+COMPLETE mingru_linear 563 extra_mid_keep 5.360641 seconds 26.95
+COMPLETE mingru_linear 563 extra_mid_reset 5.364122 seconds 26.74
+COMPLETE mingru_linear 563 greedy_mid_keep 5.374957 seconds 25.48
+COMPLETE mingru_linear 563 sa_post 5.375244 seconds 25.24
+COMPLETE mingru_linear 563 extra_post 5.386883 seconds 25.32
+COMPLETE mingru_linear 563 sa_pre 5.347005 seconds 26.02
+COMPLETE mingru_linear 563 extra_pre 5.24724 seconds 25.43
+PARENT mingru_linear 701 5.475008
+COMPLETE mingru_linear 701 baseline_keep 5.36723 seconds 24.0
+COMPLETE mingru_linear 701 baseline_reset 5.372024 seconds 23.82
+COMPLETE mingru_linear 701 sa_mid_keep 5.36723 seconds 25.95
+COMPLETE mingru_linear 701 sa_mid_reset 5.372024 seconds 25.82
+COMPLETE mingru_linear 701 extra_mid_keep 5.358414 seconds 25.72
+COMPLETE mingru_linear 701 extra_mid_reset 5.361653 seconds 26.09
+COMPLETE mingru_linear 701 greedy_mid_keep 5.366332 seconds 28.35
+COMPLETE mingru_linear 701 sa_post 5.36723 seconds 27.41
+COMPLETE mingru_linear 701 extra_post 5.372126 seconds 27.49
+COMPLETE mingru_linear 701 sa_pre 5.384617 seconds 26.58
+COMPLETE mingru_linear 701 extra_pre 5.270818 seconds 27.3
+PARENT paragru 419 5.499911
+COMPLETE paragru 419 baseline_keep 5.394702 seconds 28.97
+COMPLETE paragru 419 baseline_reset 5.397444 seconds 28.76
+COMPLETE paragru 419 sa_mid_keep 5.394712 seconds 33.74
+COMPLETE paragru 419 sa_mid_reset 5.397405 seconds 33.65
+COMPLETE paragru 419 extra_mid_keep 5.376533 seconds 33.93
+COMPLETE paragru 419 extra_mid_reset 5.38022 seconds 34.4
+COMPLETE paragru 419 greedy_mid_keep 5.395178 seconds 33.02
+COMPLETE paragru 419 sa_post 5.394702 seconds 34.08
+COMPLETE paragru 419 extra_post 5.405124 seconds 34.1
+COMPLETE paragru 419 sa_pre 5.383909 seconds 33.54
+COMPLETE paragru 419 extra_pre 5.121217 seconds 34.32
+PARENT paragru 563 5.530883
+COMPLETE paragru 563 baseline_keep 5.432444 seconds 29.49
+COMPLETE paragru 563 baseline_reset 5.435098 seconds 29.45
+COMPLETE paragru 563 sa_mid_keep 5.432444 seconds 34.21
+COMPLETE paragru 563 sa_mid_reset 5.435098 seconds 33.78
+COMPLETE paragru 563 extra_mid_keep 5.416329 seconds 34.71
+COMPLETE paragru 563 extra_mid_reset 5.420018 seconds 34.88
+COMPLETE paragru 563 greedy_mid_keep 5.432754 seconds 35.02
+COMPLETE paragru 563 sa_post 5.432444 seconds 34.84
+COMPLETE paragru 563 extra_post 5.453672 seconds 34.9
+COMPLETE paragru 563 sa_pre 5.427577 seconds 33.76
+COMPLETE paragru 563 extra_pre 5.18729 seconds 34.0
+PARENT paragru 701 5.494399
+COMPLETE paragru 701 baseline_keep 5.39202 seconds 30.0
+COMPLETE paragru 701 baseline_reset 5.396885 seconds 30.09
+COMPLETE paragru 701 sa_mid_keep 5.392636 seconds 36.03
+COMPLETE paragru 701 sa_mid_reset 5.397963 seconds 35.0
+COMPLETE paragru 701 extra_mid_keep 5.377022 seconds 36.06
+COMPLETE paragru 701 extra_mid_reset 5.380431 seconds 35.66
+COMPLETE paragru 701 greedy_mid_keep 5.394324 seconds 34.62
+COMPLETE paragru 701 sa_post 5.392364 seconds 34.94
+COMPLETE paragru 701 extra_post 5.399996 seconds 35.06
+COMPLETE paragru 701 sa_pre 5.38574 seconds 33.33
+COMPLETE paragru 701 extra_pre 5.185118 seconds 33.02
+ALL_COMPLETE {"status": "COMPLETE", "rows": 99, "wall_seconds": 1615.3013123499986, "cpu_seconds": 1615.133971701, "runtime": {"python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]", "torch": "2.8.0+cpu", "numpy": "2.3.5", "platform": "Linux-6.18.55-x86_64-with-glibc2.39", "threads": 1, "device": "cpu", "dtype": "float32"}, "peak_rss_kib": 441040, "protocol_sha256": "53664aa1acffebda396104cf95a52c2c4c0bf467b2b08a74dbde83a07c81f0f9", "source_seal_verified": true, "official_validation_reads": 0, "official_test_reads": 0}

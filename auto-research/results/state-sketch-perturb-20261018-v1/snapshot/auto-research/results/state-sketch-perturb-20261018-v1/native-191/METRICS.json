@@ -1,0 +1,359 @@
+[
+  {
+    "kind": "countsketch",
+    "k": 32,
+    "build_median_seconds": 0.006588930998987053,
+    "build_times": [
+      0.008012065998627804,
+      0.006482349999714643,
+      0.006301157001871616,
+      0.006588930998987053,
+      0.006821381000918336
+    ],
+    "shortlist_seconds": 0.03415426900028251,
+    "fingerprint_bytes": 49728,
+    "groups": [
+      {
+        "group": "res",
+        "candidate_edges": 325,
+        "selected_exact_cosine": 0.4812377393245697,
+        "best_on_candidate_set_exact_cosine": 0.4988535940647125,
+        "selected_cosine_rmse": 0.10286164283752441
+      },
+      {
+        "group": "fast",
+        "candidate_edges": 324,
+        "selected_exact_cosine": 0.4398277997970581,
+        "best_on_candidate_set_exact_cosine": 0.5216465592384338,
+        "selected_cosine_rmse": 0.21479184925556183
+      },
+      {
+        "group": "segment",
+        "candidate_edges": 326,
+        "selected_exact_cosine": 0.817706286907196,
+        "best_on_candidate_set_exact_cosine": 0.8495022058486938,
+        "selected_cosine_rmse": 0.07608432322740555
+      },
+      {
+        "group": "document",
+        "candidate_edges": 272,
+        "selected_exact_cosine": 0.995964527130127,
+        "best_on_candidate_set_exact_cosine": 0.9962671399116516,
+        "selected_cosine_rmse": 0.0017253553960472345
+      },
+      {
+        "group": "ff",
+        "candidate_edges": 707,
+        "selected_exact_cosine": 0.7938551306724548,
+        "best_on_candidate_set_exact_cosine": 0.8217506408691406,
+        "selected_cosine_rmse": 0.09388861805200577
+      }
+    ]
+  },
+  {
+    "kind": "countsketch",
+    "k": 64,
+    "build_median_seconds": 0.007344650999584701,
+    "build_times": [
+      0.00704804300039541,
+      0.010103694003191777,
+      0.00745599799847696,
+      0.007344650999584701,
+      0.006949094000447076
+    ],
+    "shortlist_seconds": 0.03678811900317669,
+    "fingerprint_bytes": 92736,
+    "groups": [
+      {
+        "group": "res",
+        "candidate_edges": 320,
+        "selected_exact_cosine": 0.4897637367248535,
+        "best_on_candidate_set_exact_cosine": 0.5150065422058105,
+        "selected_cosine_rmse": 0.05714893341064453
+      },
+      {
+        "group": "fast",
+        "candidate_edges": 316,
+        "selected_exact_cosine": 0.45309382677078247,
+        "best_on_candidate_set_exact_cosine": 0.5182172656059265,
+        "selected_cosine_rmse": 0.12916158139705658
+      },
+      {
+        "group": "segment",
+        "candidate_edges": 320,
+        "selected_exact_cosine": 0.8356441259384155,
+        "best_on_candidate_set_exact_cosine": 0.8385882377624512,
+        "selected_cosine_rmse": 0.04216402769088745
+      },
+      {
+        "group": "document",
+        "candidate_edges": 298,
+        "selected_exact_cosine": 0.9962789416313171,
+        "best_on_candidate_set_exact_cosine": 0.9964594841003418,
+        "selected_cosine_rmse": 0.0012873470550403
+      },
+      {
+        "group": "ff",
+        "candidate_edges": 708,
+        "selected_exact_cosine": 0.7954293489456177,
+        "best_on_candidate_set_exact_cosine": 0.8294903635978699,
+        "selected_cosine_rmse": 0.0504290945827961
+      }
+    ]
+  },
+  {
+    "kind": "hadamard",
+    "k": 32,
+    "build_median_seconds": 0.013184111994632985,
+    "build_times": [
+      0.012833853004849516,
+      0.014264429999457207,
+      0.012483186001190916,
+      0.013743224000791088,
+      0.013184111994632985
+    ],
+    "shortlist_seconds": 0.03574356399622047,
+    "fingerprint_bytes": 49728,
+    "groups": [
+      {
+        "group": "res",
+        "candidate_edges": 315,
+        "selected_exact_cosine": 0.434834748506546,
+        "best_on_candidate_set_exact_cosine": 0.4902406334877014,
+        "selected_cosine_rmse": 0.19183766841888428
+      },
+      {
+        "group": "fast",
+        "candidate_edges": 327,
+        "selected_exact_cosine": 0.4263540208339691,
+        "best_on_candidate_set_exact_cosine": 0.4933156371116638,
+        "selected_cosine_rmse": 0.20979535579681396
+      },
+      {
+        "group": "segment",
+        "candidate_edges": 301,
+        "selected_exact_cosine": 0.8587433695793152,
+        "best_on_candidate_set_exact_cosine": 0.868553876876831,
+        "selected_cosine_rmse": 0.05838443338871002
+      },
+      {
+        "group": "document",
+        "candidate_edges": 277,
+        "selected_exact_cosine": 0.995609700679779,
+        "best_on_candidate_set_exact_cosine": 0.9964224696159363,
+        "selected_cosine_rmse": 0.0013419565511867404
+      },
+      {
+        "group": "ff",
+        "candidate_edges": 699,
+        "selected_exact_cosine": 0.7927252054214478,
+        "best_on_candidate_set_exact_cosine": 0.8251960277557373,
+        "selected_cosine_rmse": 0.08998235315084457
+      }
+    ]
+  },
+  {
+    "kind": "hadamard",
+    "k": 64,
+    "build_median_seconds": 0.011496989005536307,
+    "build_times": [
+      0.011496989005536307,
+      0.012602014001458883,
+      0.011454113999207038,
+      0.012331717000051867,
+      0.011382956996385474
+    ],
+    "shortlist_seconds": 0.03576529699785169,
+    "fingerprint_bytes": 92736,
+    "groups": [
+      {
+        "group": "res",
+        "candidate_edges": 328,
+        "selected_exact_cosine": 0.4922395944595337,
+        "best_on_candidate_set_exact_cosine": 0.5192632675170898,
+        "selected_cosine_rmse": 0.09546419978141785
+      },
+      {
+        "group": "fast",
+        "candidate_edges": 329,
+        "selected_exact_cosine": 0.4338603913784027,
+        "best_on_candidate_set_exact_cosine": 0.4696497321128845,
+        "selected_cosine_rmse": 0.12216943502426147
+      },
+      {
+        "group": "segment",
+        "candidate_edges": 326,
+        "selected_exact_cosine": 0.8529513478279114,
+        "best_on_candidate_set_exact_cosine": 0.8621622323989868,
+        "selected_cosine_rmse": 0.04336664825677872
+      },
+      {
+        "group": "document",
+        "candidate_edges": 282,
+        "selected_exact_cosine": 0.9964107871055603,
+        "best_on_candidate_set_exact_cosine": 0.9964108467102051,
+        "selected_cosine_rmse": 0.00145254866220057
+      },
+      {
+        "group": "ff",
+        "candidate_edges": 702,
+        "selected_exact_cosine": 0.8412158489227295,
+        "best_on_candidate_set_exact_cosine": 0.8452162742614746,
+        "selected_cosine_rmse": 0.02390829473733902
+      }
+    ]
+  },
+  {
+    "kind": "dsp",
+    "k": 5,
+    "build_median_seconds": 0.006737544994393829,
+    "build_times": [
+      0.005589063999650534,
+      0.006208067003171891,
+      0.0069633359962608665,
+      0.006737544994393829,
+      0.007277098004124127
+    ],
+    "shortlist_seconds": 0.03839519100438338,
+    "fingerprint_bytes": 6720,
+    "groups": [
+      {
+        "group": "res",
+        "candidate_edges": 231,
+        "selected_exact_cosine": 0.36432701349258423,
+        "best_on_candidate_set_exact_cosine": 0.5118974447250366,
+        "selected_cosine_rmse": 0.6533816456794739
+      },
+      {
+        "group": "fast",
+        "candidate_edges": 272,
+        "selected_exact_cosine": -0.1136184111237526,
+        "best_on_candidate_set_exact_cosine": 0.5091227889060974,
+        "selected_cosine_rmse": 1.152332067489624
+      },
+      {
+        "group": "segment",
+        "candidate_edges": 264,
+        "selected_exact_cosine": 0.3433515429496765,
+        "best_on_candidate_set_exact_cosine": 0.8613380789756775,
+        "selected_cosine_rmse": 0.8057471513748169
+      },
+      {
+        "group": "document",
+        "candidate_edges": 268,
+        "selected_exact_cosine": 0.8319664001464844,
+        "best_on_candidate_set_exact_cosine": 0.9937095642089844,
+        "selected_cosine_rmse": 0.26768729090690613
+      },
+      {
+        "group": "ff",
+        "candidate_edges": 545,
+        "selected_exact_cosine": 0.06356845051050186,
+        "best_on_candidate_set_exact_cosine": 0.8037810325622559,
+        "selected_cosine_rmse": 1.0059655904769897
+      }
+    ]
+  },
+  {
+    "kind": "fft_power",
+    "k": 13,
+    "build_median_seconds": 0.012446339998859912,
+    "build_times": [
+      0.012446339998859912,
+      0.011042543999792542,
+      0.014104198999120854,
+      0.013576311997894663,
+      0.011388455000997055
+    ],
+    "shortlist_seconds": 0.035612987994682044,
+    "fingerprint_bytes": 17472,
+    "groups": [
+      {
+        "group": "res",
+        "candidate_edges": 310,
+        "selected_exact_cosine": 0.2332872450351715,
+        "best_on_candidate_set_exact_cosine": 0.498119980096817,
+        "selected_cosine_rmse": 0.8276211619377136
+      },
+      {
+        "group": "fast",
+        "candidate_edges": 327,
+        "selected_exact_cosine": 0.0844728946685791,
+        "best_on_candidate_set_exact_cosine": 0.4745553731918335,
+        "selected_cosine_rmse": 0.9590180516242981
+      },
+      {
+        "group": "segment",
+        "candidate_edges": 220,
+        "selected_exact_cosine": 0.23460105061531067,
+        "best_on_candidate_set_exact_cosine": 0.8616026639938354,
+        "selected_cosine_rmse": 0.9050422310829163
+      },
+      {
+        "group": "document",
+        "candidate_edges": 290,
+        "selected_exact_cosine": 0.7929000854492188,
+        "best_on_candidate_set_exact_cosine": 0.9943418502807617,
+        "selected_cosine_rmse": 0.37701064348220825
+      },
+      {
+        "group": "ff",
+        "candidate_edges": 698,
+        "selected_exact_cosine": 0.015319235622882843,
+        "best_on_candidate_set_exact_cosine": 0.8027434349060059,
+        "selected_cosine_rmse": 1.0633336305618286
+      }
+    ]
+  },
+  {
+    "kind": "exact",
+    "k": 0,
+    "build_median_seconds": 0.001251456000318285,
+    "build_times": [
+      0.001424948000931181,
+      0.001335874003416393,
+      0.0012370249969535507,
+      0.001251456000318285,
+      0.0011993879961664788
+    ],
+    "shortlist_seconds": 0.06061941799998749,
+    "fingerprint_bytes": 2752512,
+    "groups": [
+      {
+        "group": "res",
+        "candidate_edges": 329,
+        "selected_exact_cosine": 0.5035554766654968,
+        "best_on_candidate_set_exact_cosine": 0.5035554766654968,
+        "selected_cosine_rmse": 3.725290298461914e-08
+      },
+      {
+        "group": "fast",
+        "candidate_edges": 323,
+        "selected_exact_cosine": 0.5131587386131287,
+        "best_on_candidate_set_exact_cosine": 0.5131587386131287,
+        "selected_cosine_rmse": 2.78775207362969e-08
+      },
+      {
+        "group": "segment",
+        "candidate_edges": 331,
+        "selected_exact_cosine": 0.838016152381897,
+        "best_on_candidate_set_exact_cosine": 0.8380160331726074,
+        "selected_cosine_rmse": 1.1050997272832319e-07
+      },
+      {
+        "group": "document",
+        "candidate_edges": 295,
+        "selected_exact_cosine": 0.9965800642967224,
+        "best_on_candidate_set_exact_cosine": 0.9965800642967224,
+        "selected_cosine_rmse": 6.143906006172983e-08
+      },
+      {
+        "group": "ff",
+        "candidate_edges": 709,
+        "selected_exact_cosine": 0.8358979225158691,
+        "best_on_candidate_set_exact_cosine": 0.8358979821205139,
+        "selected_cosine_rmse": 5.372690026206328e-08
+      }
+    ]
+  }
+]

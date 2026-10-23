@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "scope": "Stored evidence verification only; no new model execution",
+  "completed_outcomes": 153,
+  "experiments": [
+    {
+      "run_id": "state-sketch-perturb-20261018-v1",
+      "outcomes": 54,
+      "original_artifact_hashes": true,
+      "protocol_and_source_seals": true,
+      "reported_means_recomputed": true,
+      "duplicate_receipts_preserved": true,
+      "charts_and_logs_identical": true
+    },
+    {
+      "run_id": "phase-annealing-20261019-v1",
+      "outcomes": 99,
+      "original_artifact_hashes": true,
+      "protocol_and_source_seals": true,
+      "reported_means_recomputed": true,
+      "duplicate_receipts_preserved": true,
+      "charts_and_logs_identical": true
+    }
+  ],
+  "new_training": false,
+  "new_model_evaluation": false,
+  "official_test_access": false
+}

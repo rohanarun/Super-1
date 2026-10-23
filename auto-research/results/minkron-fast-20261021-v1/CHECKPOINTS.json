@@ -1,0 +1,149 @@
+[
+  {
+    "path": "checkpoints/screen_k8_25101.pt",
+    "sha256": "00fa35e09ce9450b7ef7ab751b4e641fb39f6c9fd4998e2a3622a031522c4e64",
+    "bytes": 23687031,
+    "model_tensor_sha256": "e40190c07c861f7bc997d92220e3286117e5f70c11bd48082258b089597d5794",
+    "preservation": "Body retained locally, omitted from Git; replay with recorded step/LR trajectory."
+  },
+  {
+    "path": "checkpoints/screen_k16_25101.pt",
+    "sha256": "f9b11afac49c08d6a19f0d35fa8ba18db7f2f325a1a9a0f12df3f243db7d46c5",
+    "bytes": 23687753,
+    "model_tensor_sha256": "46b8eff4547efae9a55f59ee2cd8bbbd31d732103db8a395ff8eabb3b25c20cd",
+    "preservation": "Body retained locally, omitted from Git; replay with recorded step/LR trajectory."
+  },
+  {
+    "path": "checkpoints/screen_k32_25101.pt",
+    "sha256": "9810facb40ce736ea1d6ba58d913008b9addf7209d2c8da4e645ffc810802f02",
+    "bytes": 23812745,
+    "model_tensor_sha256": "6d43815d3b4e18525b5f0ae2e86f2970a1ee4a10f4836abffac7c974c9873863",
+    "preservation": "Body retained locally, omitted from Git; replay with recorded step/LR trajectory."
+  },
+  {
+    "path": "checkpoints/screen_k16_lean_25101.pt",
+    "sha256": "8ec7625b6da168667747e0377460a8455ddc411068f6cf934a2bd9b09a56d518",
+    "bytes": 18380067,
+    "model_tensor_sha256": "71d3c0a36bd18c6ca77d644003369a2c0312529dd277a358edf46c5b35d57280",
+    "preservation": "Body retained locally, omitted from Git; replay with recorded step/LR trajectory."
+  },
+  {
+    "path": "checkpoints/screen_k16_lean_conv_25101.pt",
+    "sha256": "57cc31f3a1d8a4f58f213e31f28933fa559f17fbeee5ee2217f65bf015607e60",
+    "bytes": 18425929,
+    "model_tensor_sha256": "fe4339cc2942fda064c885913df98c3b8aa36e63f4114a63434b3edd6acee361",
+    "preservation": "Body retained locally, omitted from Git; replay with recorded step/LR trajectory."
+  },
+  {
+    "path": "checkpoints/screen_transformer_lean_25101.pt",
+    "sha256": "34b7938008b8ca54ef8d6a58021ad98a7427275c15a548821b793b601d133464",
+    "bytes": 20097495,
+    "model_tensor_sha256": "9ecc34e3e646e184925bc03db2cb8245c0c0ab2dff9740fc29aef2b1aa259643",
+    "preservation": "Body retained locally, omitted from Git; replay with recorded step/LR trajectory."
+  },
+  {
+    "path": "checkpoints/screen_k16_25102.pt",
+    "sha256": "88325f8454bc72e553c1297e9dece95be4defa7b4d0ea66e10102502a27c22e8",
+    "bytes": 23687753,
+    "model_tensor_sha256": "0d4f8734c741c61559f1a2a18b5284caec79acf86d9344055611a89100aff497",
+    "preservation": "Body retained locally, omitted from Git; replay with recorded step/LR trajectory."
+  },
+  {
+    "path": "checkpoints/screen_k32_25102.pt",
+    "sha256": "bd9c65e3a11af6f98305cba7bb3747bf23a0863148e0f0fb024f779b4a2a14ca",
+    "bytes": 23812745,
+    "model_tensor_sha256": "b1ff1f16a49ff15e3b07e103a1bedaa33f4372f03bac8ecf9d5a7b2f43a0a332",
+    "preservation": "Body retained locally, omitted from Git; replay with recorded step/LR trajectory."
+  },
+  {
+    "path": "checkpoints/screen_k16_lean_25102.pt",
+    "sha256": "10f76ddd2b8aa564c4bef31af3e50bd63daac8032456ed0ad0700ec8b73400ac",
+    "bytes": 18380067,
+    "model_tensor_sha256": "ea3b59e42272e69300a46264cf142c00b1796344c5029f1b783ead8d8e63380a",
+    "preservation": "Body retained locally, omitted from Git; replay with recorded step/LR trajectory."
+  },
+  {
+    "path": "checkpoints/screen_k16_lean_conv_25102.pt",
+    "sha256": "512fafae195048a208e8284b088910538975fe125f5ee5c40d17d80890994159",
+    "bytes": 18425929,
+    "model_tensor_sha256": "63d0dad795581038b839562119b8b5f5c1dfcc1740e236d8fbbe70f4c72d17ad",
+    "preservation": "Body retained locally, omitted from Git; replay with recorded step/LR trajectory."
+  },
+  {
+    "path": "checkpoints/screen_transformer_lean_25102.pt",
+    "sha256": "a1a596b643a3fc43e161fba1943258cf7567adbf805d0bf271de48097999b031",
+    "bytes": 20097495,
+    "model_tensor_sha256": "ce0a2bf891945f3dc0ee597366aca0dcc678ad5a87bb8bcaa4528103c148275e",
+    "preservation": "Body retained locally, omitted from Git; replay with recorded step/LR trajectory."
+  },
+  {
+    "path": "checkpoints/screen_k8_25102.pt",
+    "sha256": "6928d205e6c691debd4b8a0e7003cd8d13ec9082ba6fbecfe3962e4c408cf701",
+    "bytes": 23687031,
+    "model_tensor_sha256": "21a9bd93491f5117b9c1f7aaa1dc2264ec1e7e1577d1b0512e70a8f1e406f4b4",
+    "preservation": "Body retained locally, omitted from Git; replay with recorded step/LR trajectory."
+  },
+  {
+    "path": "checkpoints/screen_k32_25103.pt",
+    "sha256": "187ea077815d132ffc3377f3895710a7799dc19a161015b0de5847228243745c",
+    "bytes": 23812745,
+    "model_tensor_sha256": "dc60f28d138483513d8e87c85183220cd8d3c057d740ad92ff98da20235d0ecd",
+    "preservation": "Body retained locally, omitted from Git; replay with recorded step/LR trajectory."
+  },
+  {
+    "path": "checkpoints/screen_k16_lean_25103.pt",
+    "sha256": "cb6492d7034508bf80f6fa503fd9c735297d66f28e6a1f684b70bb7653851300",
+    "bytes": 18380067,
+    "model_tensor_sha256": "3bcc847ad22500da6c43a7303ed03ce91e1fb9956cb613b6314a53efb2fa9905",
+    "preservation": "Body retained locally, omitted from Git; replay with recorded step/LR trajectory."
+  },
+  {
+    "path": "checkpoints/screen_k16_lean_conv_25103.pt",
+    "sha256": "30aef790a18c7fb66571a9b5707d7af72c8c98018cd0ce86a2c14941019a2397",
+    "bytes": 18425929,
+    "model_tensor_sha256": "8d5069ffed6fd599f6194228199e98ea0fc22791f93e9843d554bcb61ea7e3f1",
+    "preservation": "Body retained locally, omitted from Git; replay with recorded step/LR trajectory."
+  },
+  {
+    "path": "checkpoints/screen_transformer_lean_25103.pt",
+    "sha256": "d367b25c57f60285d4c9630ef26f63a7946492e67034880d2e27538bce1e5923",
+    "bytes": 20097495,
+    "model_tensor_sha256": "c40701a42f129d0ec6cb3abc1a0c7b1560ff5f1486121450cc55e340f62df9d2",
+    "preservation": "Body retained locally, omitted from Git; replay with recorded step/LR trajectory."
+  },
+  {
+    "path": "checkpoints/screen_k8_25103.pt",
+    "sha256": "6622c938ba5d69568791ac4f3eb10606ee410cfdc6f6c046cffab4463017d5fd",
+    "bytes": 23687031,
+    "model_tensor_sha256": "65697fa1b81029ee08460de2ca0ffaf2f735869e7c3004a2a7eaa67e846c542b",
+    "preservation": "Body retained locally, omitted from Git; replay with recorded step/LR trajectory."
+  },
+  {
+    "path": "checkpoints/screen_k16_25103.pt",
+    "sha256": "c9741d81699924f60104ffcb90f2c7e2b0bef6d6e2449f5fb50fe4d3015050a8",
+    "bytes": 23687753,
+    "model_tensor_sha256": "7f72ca67cfb6293b07eff937a8a9c8cc5dc3a5c2455b03a13bf3767d5e54cc4a",
+    "preservation": "Body retained locally, omitted from Git; replay with recorded step/LR trajectory."
+  },
+  {
+    "path": "checkpoints/extension_k8_25101.pt",
+    "sha256": "bbca472fbcc217876de6890174be690174a9225f8130b29b5bedbb547daac7c8",
+    "bytes": 23687469,
+    "model_tensor_sha256": "b206273e60e8c905263ee711b1f83bae1f9991044ce9226d95c6d49f0e6263d3",
+    "preservation": "Body retained locally, omitted from Git; replay with recorded step/LR trajectory."
+  },
+  {
+    "path": "checkpoints/extension_k16_lean_25101.pt",
+    "sha256": "68fe2447263584e68affa36033ca9b9fed8ebf8c9a0cc51e2c8aef979918b24d",
+    "bytes": 18380569,
+    "model_tensor_sha256": "0cb13b53cd538830fdf89a4b3e5848b83f66716065d5ee43cfc5b9779eca4b78",
+    "preservation": "Body retained locally, omitted from Git; replay with recorded step/LR trajectory."
+  },
+  {
+    "path": "checkpoints/extension_transformer_lean_25101.pt",
+    "sha256": "97d69cc4b11e0d3234adb0feddee424c23359330218cc049d7acf2e20f1fffe8",
+    "bytes": 20097753,
+    "model_tensor_sha256": "89565869647ab3ab8a71d7a910e763aaeba76e3343462ed9a800e9165b866c73",
+    "preservation": "Body retained locally, omitted from Git; replay with recorded step/LR trajectory."
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "branches_audited": 99,
+  "protocol_and_source_seals": true,
+  "metropolis_decisions_recomputed": true,
+  "best_checkpoint_rule_verified": true,
+  "fresh_checkpoint_checks": [
+    {
+      "architecture": "native",
+      "seed": 419,
+      "state_hash_exact": true,
+      "fresh_process_evaluation_exact": true,
+      "ce": 5.355744898319244
+    },
+    {
+      "architecture": "mingru_linear",
+      "seed": 419,
+      "state_hash_exact": true,
+      "fresh_process_evaluation_exact": true,
+      "ce": 5.395694017410278
+    },
+    {
+      "architecture": "paragru",
+      "seed": 419,
+      "state_hash_exact": true,
+      "fresh_process_evaluation_exact": true,
+      "ce": 5.394711673259735
+    }
+  ]
+}

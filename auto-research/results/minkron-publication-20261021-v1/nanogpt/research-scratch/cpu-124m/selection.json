@@ -1,0 +1,53 @@
+{
+  "selection_rule": "lowest final development NLL on 2048 tokens after 16 equal updates",
+  "selected": {
+    "lr": 0.001,
+    "status": "COMPLETED",
+    "steps": 16,
+    "targets": 8192,
+    "development_nll": 8.405229091644287,
+    "training_seconds": 90.7545226259972,
+    "throughput": 90.26547397268057,
+    "stable_fallback_calls": 879,
+    "core_calls": 2304
+  },
+  "all_pilots": [
+    {
+      "lr": 0.0003,
+      "status": "COMPLETED",
+      "steps": 16,
+      "targets": 8192,
+      "development_nll": 9.24797797203064,
+      "training_seconds": 62.45703208499981,
+      "throughput": 131.16217224108954,
+      "stable_fallback_calls": 6,
+      "core_calls": 2304
+    },
+    {
+      "lr": 0.001,
+      "status": "COMPLETED",
+      "steps": 16,
+      "targets": 8192,
+      "development_nll": 8.405229091644287,
+      "training_seconds": 90.7545226259972,
+      "throughput": 90.26547397268057,
+      "stable_fallback_calls": 879,
+      "core_calls": 2304
+    },
+    {
+      "lr": 0.003,
+      "status": "COMPLETED",
+      "steps": 16,
+      "targets": 8192,
+      "development_nll": 8.58495044708252,
+      "training_seconds": 110.86109412000224,
+      "throughput": 73.89427341509477,
+      "stable_fallback_calls": 1355,
+      "core_calls": 2304
+    }
+  ],
+  "main_from_fresh_initialization": true,
+  "main_seconds": 1500,
+  "startup_failures": "startup_failures.json",
+  "confirmation_opened": false
+}

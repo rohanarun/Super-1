@@ -1,0 +1,40 @@
+{
+  "steps": 16,
+  "scored_tokens": 8192,
+  "elapsed_seconds": 110.86109412000224,
+  "optimizer_seconds": 110.54635415500161,
+  "development_seconds": 0.0,
+  "checkpoint_seconds": 0.0,
+  "process_cpu_seconds": 423.609251865,
+  "gradient_norm_max": 119.77716827392578,
+  "clipped_steps": 16,
+  "nonfinite_count": 0,
+  "setup_seconds": 2.6352370400018117,
+  "rss_peak_bytes": 4691197952,
+  "status": "COMPLETED",
+  "failure_reason": null,
+  "final_development": {
+    "nll": 8.58495044708252,
+    "perplexity": 5350.527574490592,
+    "token_accuracy": 0.0400390625,
+    "evaluation_tokens": 2048,
+    "seconds": 11.00212833399928
+  },
+  "final_checkpoint_seconds": 0.0,
+  "parameters": 123376800,
+  "parameter_bytes": 493507200,
+  "optimizer_bytes": 987014936,
+  "state_bytes_per_sequence": 147456,
+  "throughput_full_loop_tokens_per_second": 73.89427341509477,
+  "throughput_optimizer_tokens_per_second": 74.10466010044672,
+  "source_sha256": {
+    "experiments/cpu_scale/__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "experiments/cpu_scale/benchmark.py": "77f4c2df5e5b3b65e59a0c283e98d5889872089656e00b25071e1879c1c4c81e",
+    "experiments/cpu_scale/common.py": "a021a07f9dce05b03be0d4083922e60978784fb3e80d0bc104c25d792910fe55",
+    "experiments/cpu_scale/prepare_fineweb.py": "104ea467946087b412ad052f55b214fbd6aefbe6820646ba2a5130b9658fc29e",
+    "experiments/cpu_scale/run.py": "d5c3e84746fe077ba644e14c428abdfde7934069650043cd73d2f211d997d70b",
+    "experiments/nanogpt_memory/model.py": "b21433cf697d7808cff14092a8e20f9a91fa68bf5aac46a2fdec7d0879faba15"
+  },
+  "factored_core_calls": 2304,
+  "stable_fallback_calls": 1355
+}

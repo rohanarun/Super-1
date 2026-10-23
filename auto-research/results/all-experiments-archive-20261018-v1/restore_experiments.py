@@ -5,6 +5,7 @@ import hashlib
 import json
 from pathlib import Path
 import shutil
+import subprocess
 import tarfile
 import urllib.parse
 import urllib.request
@@ -20,7 +21,8 @@ def sha256(path):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--manifest', type=Path, default=Path(__file__).with_name('FILES.json.gz'))
+    current = Path(__file__).with_name('FILES.current.json.gz')
+    parser.add_argument('--manifest', type=Path, default=current if current.exists() else Path(__file__).with_name('FILES.json.gz'))
     parser.add_argument('--prefix', default='', help='Restore-path prefix; list mode is the default')
     parser.add_argument('--restore', action='store_true')
     parser.add_argument('--output', type=Path, help='Required restore directory; use a writable SSD')
@@ -54,19 +56,30 @@ def main():
         if loc['kind'] == 'existing_git_file':
             url = 'https://raw.githubusercontent.com/rohanarun/Super-1/' + loc['commit'] + '/' + urllib.parse.quote(loc['path'])
             expected, size = row['sha256'], row['bytes']
+            asset_id = None
         elif loc['kind'] == 'archive_object':
             asset = manifest['assets'][loc['asset']]
             url, expected, size = asset['url'], asset['sha256'], asset['bytes']
+            asset_id = asset['asset_id']
         else:
             url, expected, size = loc['url'], row['sha256'], row['bytes']
+            asset_id = loc['asset_id']
         blob = cache / expected
         if expected not in verified:
             if not blob.exists():
                 if shutil.disk_usage(cache).free < size:
                     raise RuntimeError('Insufficient cache space for next asset')
                 part = blob.with_suffix('.partial')
-                with urllib.request.urlopen(url) as source, part.open('wb') as target:
-                    shutil.copyfileobj(source, target, 4 * 1024**2)
+                if asset_id is not None:
+                    # Authenticated API access also works for owner-visible draft releases.
+                    # gh owns credentials; no token is exposed to command arguments or files.
+                    with part.open('wb') as target:
+                        subprocess.run(['gh', 'api', '-H', 'Accept: application/octet-stream',
+                                        f'repos/rohanarun/Super-1/releases/assets/{asset_id}'],
+                                       stdout=target, check=True)
+                else:
+                    with urllib.request.urlopen(url) as source, part.open('wb') as target:
+                        shutil.copyfileobj(source, target, 4 * 1024**2)
                 if part.stat().st_size != size or sha256(part) != expected:
                     raise RuntimeError('Downloaded asset digest/size mismatch')
                 part.replace(blob)

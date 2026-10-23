@@ -1,0 +1,582 @@
+{
+  "checked_utc": "2026-10-23T02:17:14.790712+00:00",
+  "local_files_verified": 82,
+  "local_bytes_verified": 16275885630,
+  "verification": "Local SHA-256 and sizes match reconciled uploaded GitHub assets. Draft release requires authorized access. No files deleted.",
+  "files": [
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/zeroth-order-module-multiscale-from66p047-v1/candidate-00/best.pt",
+      "bytes": 182756292,
+      "sha256": "1869537dc26b329e8ed8dd18603529ab9cff7bd278e8271dbfc6b8d0aac859fa",
+      "asset_id": 654750017,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-1869537dc26b329e8ed8dd18603529ab9cff7bd278e8271dbfc6b8d0aac859fa.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/zeroth-order-module-block-v1/candidate-00/best.pt",
+      "bytes": 182756164,
+      "sha256": "682ede226151d561aaca1445526a6d802e5cbba4201720eb4381f3a5fcacd6c1",
+      "asset_id": 654750105,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-682ede226151d561aaca1445526a6d802e5cbba4201720eb4381f3a5fcacd6c1.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/zeroth-order-module-block-scale3e2-v1/candidate-00/best.pt",
+      "bytes": 182756164,
+      "sha256": "e0127e68e195a5a16473fa997a51951e0056dcff4d598f17810cad25ab3a369a",
+      "asset_id": 654750880,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-e0127e68e195a5a16473fa997a51951e0056dcff4d598f17810cad25ab3a369a.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/zeroth-order-module-block-scale1e2-v1/candidate-00/best.pt",
+      "bytes": 182756164,
+      "sha256": "daff93e0e610a615d6b4662b73395379a652e0184fde0c4fc684f8f4010e6005",
+      "asset_id": 654751946,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-daff93e0e610a615d6b4662b73395379a652e0184fde0c4fc684f8f4010e6005.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/zeroth-order-broad-continuation-v1/candidate-00/best.pt",
+      "bytes": 182756100,
+      "sha256": "43e12261c15c41b97614c713dab9b4ae2300c3d5232c040e06cd03610ae9273a",
+      "asset_id": 654752156,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-43e12261c15c41b97614c713dab9b4ae2300c3d5232c040e06cd03610ae9273a.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/zeroth-order-aggregate-independent-from65p938-v1/candidate-00/best.pt",
+      "bytes": 182756676,
+      "sha256": "bbf5f56f5b36e859b26b1bd81b098f8bfb143619eb10b6521166f62b16005f75",
+      "asset_id": 654752328,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-bbf5f56f5b36e859b26b1bd81b098f8bfb143619eb10b6521166f62b16005f75.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/zeroth-order-aggregate-from65p965-v1/candidate-00/best.pt",
+      "bytes": 182756612,
+      "sha256": "974bd79c62241cf6a2ca15911dd63dfe4d1e1baa9021e378df9d748d60465c31",
+      "asset_id": 654753497,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-974bd79c62241cf6a2ca15911dd63dfe4d1e1baa9021e378df9d748d60465c31.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/zeroth-order-adaptive-focused-from65p990-v2/candidate-00/best.pt",
+      "bytes": 182756548,
+      "sha256": "7f3a9fc99d75f7f4336834102f5816d003f77458335bc1a2c5751d405f57ca5f",
+      "asset_id": 654754013,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-7f3a9fc99d75f7f4336834102f5816d003f77458335bc1a2c5751d405f57ca5f.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/zeroth-order-adaptive-broad-from65p987-v1/candidate-00/best.pt",
+      "bytes": 182756548,
+      "sha256": "b7e8ca7d6ab09617cedbb66dd41d15fd048787c749e8222814b2d84a5ad182ff",
+      "asset_id": 654754615,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-b7e8ca7d6ab09617cedbb66dd41d15fd048787c749e8222814b2d84a5ad182ff.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/selected-successor-seed1882/main-best.pt",
+      "bytes": 180821295,
+      "sha256": "0063d20913335c0d967f8ba04131b4d5c4a308c31336b414dff4732d4a8c905e",
+      "asset_id": 654755354,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-0063d20913335c0d967f8ba04131b4d5c4a308c31336b414dff4732d4a8c905e.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/selected-successor-seed1882/functional-final.pt",
+      "bytes": 181489466,
+      "sha256": "4c7476563fa5caa4b3d05777e51357c1077476017d7dcb3ae67f737c35757262",
+      "asset_id": 654756205,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-4c7476563fa5caa4b3d05777e51357c1077476017d7dcb3ae67f737c35757262.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/selected-successor-seed1882/finetune-best.pt",
+      "bytes": 180821475,
+      "sha256": "36536bf87d0c6bc6bbb873ee8cbd50bf42f00b32fe996351e28345baec87f43b",
+      "asset_id": 654756652,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-36536bf87d0c6bc6bbb873ee8cbd50bf42f00b32fe996351e28345baec87f43b.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/selected-successor-fp32-seed1882/main-best.pt",
+      "bytes": 180821231,
+      "sha256": "eb5158276350e12f30b52713e2f11f9fb793708780fe4532573890efbb38fd90",
+      "asset_id": 654757757,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-eb5158276350e12f30b52713e2f11f9fb793708780fe4532573890efbb38fd90.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/selected-successor-fp32-seed1882/functional-final.pt",
+      "bytes": 181489466,
+      "sha256": "00a04633accd55d09953753c144374cee3d6a9397d5e9a1ff79ba5b5b11dd190",
+      "asset_id": 654759202,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-00a04633accd55d09953753c144374cee3d6a9397d5e9a1ff79ba5b5b11dd190.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/selected-successor-fp32-seed1882/finetune-best.pt",
+      "bytes": 180821411,
+      "sha256": "aa118e9773d1334fe703c846d6e0be15abcbab366239bc2279df611c7b312e70",
+      "asset_id": 654759205,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-aa118e9773d1334fe703c846d6e0be15abcbab366239bc2279df611c7b312e70.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/pilot-results-retry1/official_mos-best.pt",
+      "bytes": 229327858,
+      "sha256": "95f250abf22b441283d27d2873291c9972c0891db9413dbe654e8103c23b82ca",
+      "asset_id": 654760190,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-95f250abf22b441283d27d2873291c9972c0891db9413dbe654e8103c23b82ca.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/pilot-results-retry1/functional_mos-best.pt",
+      "bytes": 229795605,
+      "sha256": "d35a284bba59059098ecfc5737bdabb459e4de22a6b8d8924430cbb04d806a9d",
+      "asset_id": 654760505,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-d35a284bba59059098ecfc5737bdabb459e4de22a6b8d8924430cbb04d806a9d.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/pilot-results-paired/official_mos-best.pt",
+      "bytes": 229327858,
+      "sha256": "0fbb1fa1bff2ea3a8f714298466627b66cd6200fd7fde78876e81dbecf89c50c",
+      "asset_id": 654761981,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-0fbb1fa1bff2ea3a8f714298466627b66cd6200fd7fde78876e81dbecf89c50c.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/pilot-results-paired/functional_mos-best.pt",
+      "bytes": 229795605,
+      "sha256": "7457e85d9220de366273a24f172c37abad4f9a3b13cbb28c95d7a2a4eb3fc3e7",
+      "asset_id": 654762091,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-7457e85d9220de366273a24f172c37abad4f9a3b13cbb28c95d7a2a4eb3fc3e7.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/per-token-growth-continuation-2/candidate-01/best.pt",
+      "bytes": 182008426,
+      "sha256": "1092f8366e4b6e5b56393f20ec42cde315634585b77ea465e44d2aa452bd0991",
+      "asset_id": 654763506,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-1092f8366e4b6e5b56393f20ec42cde315634585b77ea465e44d2aa452bd0991.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/per-token-field-continuation-low-lr-perturb/candidate-00/best.pt",
+      "bytes": 182008298,
+      "sha256": "77c4a6282bca02921e6891462f05060890fd9a7c991491b7f53a6c21a8bb5141",
+      "asset_id": 654763594,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-77c4a6282bca02921e6891462f05060890fd9a7c991491b7f53a6c21a8bb5141.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/per-token-capacity-growth-8x8-perturb/candidate-01/best.pt",
+      "bytes": 185978493,
+      "sha256": "b6ea06129c5beb6a4818c8aee54e94663bdfa20ccc44e2cb90c262322874d00b",
+      "asset_id": 654764667,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-b6ea06129c5beb6a4818c8aee54e94663bdfa20ccc44e2cb90c262322874d00b.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/per-token-capacity-growth-8x8-high-lr-perturb/candidate-01/best.pt",
+      "bytes": 185978493,
+      "sha256": "27ca9b8f6115f5b72c3da4e745aae64591d6d9cc4b725b1b5da48ddfa9d1eb11",
+      "asset_id": 654764792,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-27ca9b8f6115f5b72c3da4e745aae64591d6d9cc4b725b1b5da48ddfa9d1eb11.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/per-token-capacity-growth-8x8-broad-perturb/candidate-00/best.pt",
+      "bytes": 185978557,
+      "sha256": "f966a7d7c66830b058ccdb0b07ba1408c1f9a05092ec0cf9cf8b4745cc21ea9d",
+      "asset_id": 654766334,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-f966a7d7c66830b058ccdb0b07ba1408c1f9a05092ec0cf9cf8b4745cc21ea9d.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/output-calibration-full-functional-epoch540-d39d043d/selected-output-calibration.pt",
+      "bytes": 180047801,
+      "sha256": "547234c86d095aa1ec4ed6e5708389b421d2e0b4109a22139f5d2956f69a657a",
+      "asset_id": 654766478,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-547234c86d095aa1ec4ed6e5708389b421d2e0b4109a22139f5d2956f69a657a.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/output-calibration-field0p75-epoch240-939ed87c/selected-output-calibration.pt",
+      "bytes": 180822521,
+      "sha256": "36d414a576d7142c3819105a5130e71b4465f12b62b3fb0a99e7ae5cad9faa33",
+      "asset_id": 654768360,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/all-experiments-20261018/checkpoint-36d414a576d7142c3819105a5130e71b4465f12b62b3fb0a99e7ae5cad9faa33.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/optimizer-preserving-lr-sweep-epoch220-e6d73358/candidate-00/best-resume.pt",
+      "bytes": 462633986,
+      "sha256": "555c61c955fa2fbb86d9190b067dada2e2d895c3d5d34a36366a12797b8a4942",
+      "asset_id": 654768907,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-555c61c955fa2fbb86d9190b067dada2e2d895c3d5d34a36366a12797b8a4942.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/official-mos-fp32-reference-exact-rng-seed1882/main-best.pt",
+      "bytes": 179580517,
+      "sha256": "25a6a63027890d19d04afddf57c37da17ff2920a8ee7206c82a8dab8183067c3",
+      "asset_id": 654769876,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-25a6a63027890d19d04afddf57c37da17ff2920a8ee7206c82a8dab8183067c3.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/official-mos-fp32-reference-exact-rng-seed1882/functional-final.pt",
+      "bytes": 180248525,
+      "sha256": "8f2e04da14610fdc37980f8f8ace8b1133648f2fb2969e6fb9ee4df861b1f75d",
+      "asset_id": 654769973,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-8f2e04da14610fdc37980f8f8ace8b1133648f2fb2969e6fb9ee4df861b1f75d.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/official-mos-fp32-reference-exact-rng-seed1882/finetune-best.pt",
+      "bytes": 179580677,
+      "sha256": "b1f72b20ce109cf1b34e51719de80649716e7308a3dad563539587c982bc0aba",
+      "asset_id": 654770909,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-b1f72b20ce109cf1b34e51719de80649716e7308a3dad563539587c982bc0aba.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/official-mos-fp32-control-seed1882/main-best.pt",
+      "bytes": 179580453,
+      "sha256": "5a2e87d12ad89a0c3c0d53effe500c5028ad4c42b42fcdd8fc1102b6926d92cb",
+      "asset_id": 654772638,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-5a2e87d12ad89a0c3c0d53effe500c5028ad4c42b42fcdd8fc1102b6926d92cb.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/official-mos-fp32-control-seed1882/functional-final.pt",
+      "bytes": 180248461,
+      "sha256": "5893dffa7505a8ca455934bb748f134903285d21d7cfda1a3c1a0f2e90a16ef1",
+      "asset_id": 654772831,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-5893dffa7505a8ca455934bb748f134903285d21d7cfda1a3c1a0f2e90a16ef1.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/official-mos-fp32-control-seed1882/finetune-best.pt",
+      "bytes": 179580613,
+      "sha256": "99ae7d6d7edcc0cd310913d60a82e14d49ded388d8603b5e0da96e2b2fd1a774",
+      "asset_id": 654774483,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-99ae7d6d7edcc0cd310913d60a82e14d49ded388d8603b5e0da96e2b2fd1a774.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/mature-functional-add-recurrent-output-seed1882-retry1/candidate-00/best.pt",
+      "bytes": 181919857,
+      "sha256": "9645641edc95ea94e8c732d90c7cf92c57d8a8df3ecd5bd805d33640317431ec",
+      "asset_id": 654776101,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-9645641edc95ea94e8c732d90c7cf92c57d8a8df3ecd5bd805d33640317431ec.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/mature-functional-add-recurrent-output-seed1882/candidate-00/best.pt",
+      "bytes": 181919665,
+      "sha256": "556eb4a3fff47351bdb2c7638b4669fc8338afe303310d914d4810c7287bb082",
+      "asset_id": 654777196,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-556eb4a3fff47351bdb2c7638b4669fc8338afe303310d914d4810c7287bb082.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/mature-functional-add-recurrent-new-only-low-lr-seed1882-retry1/candidate-01/best.pt",
+      "bytes": 182485873,
+      "sha256": "606efcc17d1f5d1ed0601e5514f72abf359f87526ba5f674c219a95c73578816",
+      "asset_id": 654778392,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-606efcc17d1f5d1ed0601e5514f72abf359f87526ba5f674c219a95c73578816.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/mature-calibrated-published-finetune-lr20-epoch540/candidate-00/functional-final.pt",
+      "bytes": 180715386,
+      "sha256": "5da78c8a6d8e7cf78f073c9927f1f4077e32df25fe156ec207a4b95826253bb1",
+      "asset_id": 654778394,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-5da78c8a6d8e7cf78f073c9927f1f4077e32df25fe156ec207a4b95826253bb1.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/mature-calibrated-finetune-low-lr-epoch540/candidate-00/functional-final.pt",
+      "bytes": 180715386,
+      "sha256": "c47ed6287e465f979f33a4d8ac01fc8af647d12d0be027f4e66c2fd9ee476d1b",
+      "asset_id": 654779312,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-c47ed6287e465f979f33a4d8ac01fc8af647d12d0be027f4e66c2fd9ee476d1b.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/mature-best-add-recurrent-output-perturbation-seed1882/candidate-00/best.pt",
+      "bytes": 181145457,
+      "sha256": "e5a7ff415fc327d0f69b34b0ced615b2439e8153a8a89fb1927574240fa60ee4",
+      "asset_id": 654781008,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-e5a7ff415fc327d0f69b34b0ced615b2439e8153a8a89fb1927574240fa60ee4.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/mature-adversarial-high-continuation-epoch540-d39d043d/candidate-01/best-resume.pt",
+      "bytes": 460344130,
+      "sha256": "f1ed7cca6e5ad806fe407140aa391fac9c5bb15dd590ff0bf38e4778ed0ea8fd",
+      "asset_id": 654781849,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-f1ed7cca6e5ad806fe407140aa391fac9c5bb15dd590ff0bf38e4778ed0ea8fd.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/mature-adversarial-continuation-epoch540-d39d043d/candidate-03/best-resume.pt",
+      "bytes": 460345218,
+      "sha256": "6cff004d49e31e479dbb8724fc3f2a43fc1e96501276ebb888fa7077a24853ef",
+      "asset_id": 654782595,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-6cff004d49e31e479dbb8724fc3f2a43fc1e96501276ebb888fa7077a24853ef.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/long-finetune-lr30-field0p75-epoch240-939ed87c/candidate-00/functional-final.pt",
+      "bytes": 181489850,
+      "sha256": "c925363186947a5fc48898174cca77fe9554a508036fa5f18465bb9f6c091833",
+      "asset_id": 654784024,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-c925363186947a5fc48898174cca77fe9554a508036fa5f18465bb9f6c091833.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/hybrid-best-anchor-from65p888-v1/candidate-00/best.pt",
+      "bytes": 187778371,
+      "sha256": "9e3711f19aae876f2015912d534e4ddc6e588882ac7aec8703a31fab47cf1549",
+      "asset_id": 654784719,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-9e3711f19aae876f2015912d534e4ddc6e588882ac7aec8703a31fab47cf1549.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/hybrid-adamw-combined-from65p930-v1/candidate-00/best.pt",
+      "bytes": 187778243,
+      "sha256": "dd03ef37c1571bed219d583640fca1452e3dba32ee018b2dfcca46f72a147cac",
+      "asset_id": 654788045,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-dd03ef37c1571bed219d583640fca1452e3dba32ee018b2dfcca46f72a147cac.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/hierarchy-transfer-winner-layer2-short-trust-v1/candidate-00/hierarchical-final.pt",
+      "bytes": 185327747,
+      "sha256": "f779f072f561438386b4f7c89a1980c864144680cb65783ad8dd4069a234c886",
+      "asset_id": 654788656,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-f779f072f561438386b4f7c89a1980c864144680cb65783ad8dd4069a234c886.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/hierarchy-transfer-winner-layer2-micro-trust-v1/candidate-00/hierarchical-final.pt",
+      "bytes": 185327747,
+      "sha256": "f779f072f561438386b4f7c89a1980c864144680cb65783ad8dd4069a234c886",
+      "asset_id": 654788656,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-f779f072f561438386b4f7c89a1980c864144680cb65783ad8dd4069a234c886.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/hierarchy-transfer-winner-layer2-joint-continuation-v1/candidate-00/hierarchical-final.pt",
+      "bytes": 185327747,
+      "sha256": "864da2f5aefb250d107ef610b0608e30b145aba765c976252f2f7be2a8808f11",
+      "asset_id": 654790812,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-864da2f5aefb250d107ef610b0608e30b145aba765c976252f2f7be2a8808f11.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/hierarchy-transfer-winner-joint-continuation-v1/candidate-00/hierarchical-final.pt",
+      "bytes": 185327683,
+      "sha256": "db6d6d56aadc2d02cef74868cc36171ca590115ca27b4d51ac80a2b13cace531",
+      "asset_id": 654792649,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-db6d6d56aadc2d02cef74868cc36171ca590115ca27b4d51ac80a2b13cace531.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/hierarchy-joint-train-only-from65p888-layer2-v1/candidate-02/epoch-010/hierarchy-joint-train-holdout-selected.pt",
+      "bytes": 185244080,
+      "sha256": "1aa382ba9b4bf05bdb7bdf8e89213afcea03d51bbff69f13942f1d0233ef3ce3",
+      "asset_id": 654792720,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-1aa382ba9b4bf05bdb7bdf8e89213afcea03d51bbff69f13942f1d0233ef3ce3.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/hierarchy-joint-train-only-from65p888-layer2-v1/candidate-01/epoch-010/hierarchy-joint-train-holdout-selected.pt",
+      "bytes": 185244080,
+      "sha256": "27d9c4b54af159e9458b0e28713378dffb4f003523fd8ce251fd7af7f62a93ac",
+      "asset_id": 654792750,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-27d9c4b54af159e9458b0e28713378dffb4f003523fd8ce251fd7af7f62a93ac.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/hierarchical-v3-winner-all-weight-adamw-perturb-v1/candidate-00/functional-final.pt",
+      "bytes": 183971572,
+      "sha256": "48f384e776ee61c07980f4f5d951dac38fe0e52aeca743154599ac048cec5a19",
+      "asset_id": 654794267,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-48f384e776ee61c07980f4f5d951dac38fe0e52aeca743154599ac048cec5a19.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/hierarchical-joint-from67p415-v3-architecture-safe/candidate-00/hierarchical-final.pt",
+      "bytes": 183971074,
+      "sha256": "0e1e4786b268d2659b5923f6be53bcdc32d905fc3bd0dc7e8cbeb3e0a4f53a9d",
+      "asset_id": 654797678,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-0e1e4786b268d2659b5923f6be53bcdc32d905fc3bd0dc7e8cbeb3e0a4f53a9d.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/hierarchical-joint-from67p415-v2-measured-identity/candidate-00/hierarchical-final.pt",
+      "bytes": 183971074,
+      "sha256": "60d961ffd8f3b434b21d62562a18d27c179719fc67704c1e3c918c2e18c1b0d4",
+      "asset_id": 654798319,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-60d961ffd8f3b434b21d62562a18d27c179719fc67704c1e3c918c2e18c1b0d4.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/hierarchical-joint-from65p888-v6-cumulative-backoff/candidate-00/hierarchical-final.pt",
+      "bytes": 185238476,
+      "sha256": "afcec29b250b015bc9f0fff7b1b4048c9a4524fd6e2033755b3bb09af7be264c",
+      "asset_id": 654798670,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-afcec29b250b015bc9f0fff7b1b4048c9a4524fd6e2033755b3bb09af7be264c.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/hierarchical-joint-from65p888-v5-trust-backoff/candidate-01/hierarchical-final.pt",
+      "bytes": 185238476,
+      "sha256": "34ef526d9744fe94008828e6286d4fd820c1ef072d3fee9b617c2cd30a61ee7b",
+      "asset_id": 654799268,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-34ef526d9744fe94008828e6286d4fd820c1ef072d3fee9b617c2cd30a61ee7b.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/hierarchical-joint-from65p888-v4-optimizer-rollback/candidate-00/hierarchical-final.pt",
+      "bytes": 185238476,
+      "sha256": "09def6018466d9c85b7c81b5fa92798fe61e7b735d1b3f578656260ff8dd6a13",
+      "asset_id": 654800988,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-09def6018466d9c85b7c81b5fa92798fe61e7b735d1b3f578656260ff8dd6a13.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/hierarchical-joint-from65p888-v3-focused/candidate-00/hierarchical-final.pt",
+      "bytes": 185238476,
+      "sha256": "99585619a18c72c84067ea417ccaf88665f410ad48a2e0b9129ecc5a4a780e6e",
+      "asset_id": 654800999,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-99585619a18c72c84067ea417ccaf88665f410ad48a2e0b9129ecc5a4a780e6e.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/hierarchical-joint-from65p888-v2-decoupled/candidate-00/hierarchical-final.pt",
+      "bytes": 185238476,
+      "sha256": "f7f2bd22992919a29cc14b5b6d671478a9791a7305815c13521a8fb73bdae805",
+      "asset_id": 654801720,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-f7f2bd22992919a29cc14b5b6d671478a9791a7305815c13521a8fb73bdae805.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/hierarchical-joint-from65p888-v1/candidate-02/hierarchical-final.pt",
+      "bytes": 185238476,
+      "sha256": "7a600d2d1165bc6f88b0e5864f3bcb24ace2e19e41ca4e1c862df91af47ec134",
+      "asset_id": 654802340,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-7a600d2d1165bc6f88b0e5864f3bcb24ace2e19e41ca4e1c862df91af47ec134.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/hierarchical-graft-from65p456-v2-low-lr/candidate-00/hierarchical-final.pt",
+      "bytes": 183803331,
+      "sha256": "d5efb79dc1ad88189e4deaf1ce94562cf140521bd7552299e0753bc795851df2",
+      "asset_id": 654803751,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-d5efb79dc1ad88189e4deaf1ce94562cf140521bd7552299e0753bc795851df2.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/hierarchical-graft-from65p456-v1/candidate-00/hierarchical-final.pt",
+      "bytes": 183803331,
+      "sha256": "34d5d070cc64113b387c750e364f3e21074269c28c3718efe2d4a022174cfe16",
+      "asset_id": 654804202,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-34d5d070cc64113b387c750e364f3e21074269c28c3718efe2d4a022174cfe16.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/growth-pilot-epoch20-head16-rank16-retry1/candidate-00/best.pt",
+      "bytes": 181489950,
+      "sha256": "ececcd3696d9df1f69f24c801afe20c19d48d809f1692b11020ac6e821120d90",
+      "asset_id": 654805587,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-ececcd3696d9df1f69f24c801afe20c19d48d809f1692b11020ac6e821120d90.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/growth-pilot-epoch20-full-head16-recurrent4-retry1/candidate-00/best.pt",
+      "bytes": 182485681,
+      "sha256": "a3271f1f43b5995f80924cd77697a09d301e4c23f40d7e3ba9057f758528d430",
+      "asset_id": 654805724,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-a3271f1f43b5995f80924cd77697a09d301e4c23f40d7e3ba9057f758528d430.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/functional-mos-bf16-full-microbatch-canary-seed1882/main-best.pt",
+      "bytes": 180821295,
+      "sha256": "26bd690b6181e73667457099728792b18bc456ebcfa4a74832a18fea0c6f503e",
+      "asset_id": 654805899,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-26bd690b6181e73667457099728792b18bc456ebcfa4a74832a18fea0c6f503e.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/functional-mos-bf16-full-microbatch-canary-seed1882/functional-final.pt",
+      "bytes": 181489466,
+      "sha256": "2861d05884080bd7d6a0e96d50b605d089881d726800c5480b9de73431a41dfd",
+      "asset_id": 654808272,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-2861d05884080bd7d6a0e96d50b605d089881d726800c5480b9de73431a41dfd.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/functional-mos-bf16-full-microbatch-canary-seed1882/finetune-best.pt",
+      "bytes": 180821475,
+      "sha256": "98553436ec76bcc59c6e15304cf9756d399a418302083c608756dea63eaafb51",
+      "asset_id": 654809215,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-98553436ec76bcc59c6e15304cf9756d399a418302083c608756dea63eaafb51.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/full-model-adamw-perturb-from65p457-v1/candidate-02/functional-final.pt",
+      "bytes": 182846133,
+      "sha256": "42c904470870bd06b45441cfa2c15be6be75899c14445d7199c533cd22586f9f",
+      "asset_id": 654809346,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-42c904470870bd06b45441cfa2c15be6be75899c14445d7199c533cd22586f9f.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/full-model-adamw-perturb-from65p457-v1/candidate-01/functional-final.pt",
+      "bytes": 182846133,
+      "sha256": "ca10cf67ca02fee5fe8218585befc7926fa3b76ba6242aaa31a32cfe2a1c97c6",
+      "asset_id": 654810175,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-ca10cf67ca02fee5fe8218585befc7926fa3b76ba6242aaa31a32cfe2a1c97c6.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/full-model-adamw-perturb-from65p457-v1/candidate-00/functional-final.pt",
+      "bytes": 182846133,
+      "sha256": "5dce08beb99453caff5b1c65f3e3ff9721b6a410452b3a30d40373a2a6c69e4d",
+      "asset_id": 654812727,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-5dce08beb99453caff5b1c65f3e3ff9721b6a410452b3a30d40373a2a6c69e4d.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/full-functional-recurrent-cuda-smoke/main-best.pt",
+      "bytes": 181816973,
+      "sha256": "e81c60870f9e9443e5a273193843f3770a47bc4851c5eec5f900bdeac8aadd5b",
+      "asset_id": 654812996,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-e81c60870f9e9443e5a273193843f3770a47bc4851c5eec5f900bdeac8aadd5b.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/full-functional-recurrent-cuda-smoke/functional-final.pt",
+      "bytes": 182485505,
+      "sha256": "1571f6e4e4193a457b8dd06396d1b8a6ed956380397577f8e0abbe91e0d6bb12",
+      "asset_id": 654813074,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-1571f6e4e4193a457b8dd06396d1b8a6ed956380397577f8e0abbe91e0d6bb12.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/full-functional-recurrent-cuda-smoke/finetune-best.pt",
+      "bytes": 181817213,
+      "sha256": "cf3735506f3b8da5e96b3607ee3fb52ee3f9f97749e9017c0ea32d56a484b581",
+      "asset_id": 654813364,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-cf3735506f3b8da5e96b3607ee3fb52ee3f9f97749e9017c0ea32d56a484b581.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/full-functional-continuation-epoch540-d39d043d-retry1/main-best.pt",
+      "bytes": 180046895,
+      "sha256": "ff55e56280cab041338c29b84c9041cd373becbc58100eda940d0c92434f7c94",
+      "asset_id": 654815856,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-ff55e56280cab041338c29b84c9041cd373becbc58100eda940d0c92434f7c94.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/full-functional-continuation-epoch540-d39d043d-retry1/functional-final.pt",
+      "bytes": 180715194,
+      "sha256": "dfc69c3867d2a760774dda9f776fc61b7e14035904278e90a13c9573300b5fea",
+      "asset_id": 654816109,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-dfc69c3867d2a760774dda9f776fc61b7e14035904278e90a13c9573300b5fea.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/full-functional-continuation-epoch540-d39d043d-retry1/finetune-best.pt",
+      "bytes": 180046947,
+      "sha256": "b5eb2fa2f17175e5354e1068afdd3e9051c3c57135393d7f22aa11361b9e2144",
+      "asset_id": 654816322,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-b5eb2fa2f17175e5354e1068afdd3e9051c3c57135393d7f22aa11361b9e2144.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/field-scale-validation-epoch260-b5021c80/selected-field-scale.pt",
+      "bytes": 180822062,
+      "sha256": "05825285dd1f9d0582c1b1c9dd352e6cd430e46225bcd93ad0ff3a2efa718380",
+      "asset_id": 654816536,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-05825285dd1f9d0582c1b1c9dd352e6cd430e46225bcd93ad0ff3a2efa718380.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/field-scale-validation-epoch240-10b735e1/selected-field-scale.pt",
+      "bytes": 180822062,
+      "sha256": "97fb762ae4666411c56ef700c81fee2a4018a7143918b05725a2871c3f048a91",
+      "asset_id": 654818859,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-97fb762ae4666411c56ef700c81fee2a4018a7143918b05725a2871c3f048a91.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/field-scale-full-functional-epoch540-d39d043d/selected-field-scale.pt",
+      "bytes": 180047534,
+      "sha256": "5f5ced3e9582c415c2c91df5b061e04e471398d0bc58e359f7a080a58943a9e1",
+      "asset_id": 654819245,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-5f5ced3e9582c415c2c91df5b061e04e471398d0bc58e359f7a080a58943a9e1.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/field-scale-continuation-epoch240-0p75-v3-unlocked-939ed87c/candidate-00/best-resume.pt",
+      "bytes": 462634306,
+      "sha256": "83057529aad968017d0a62e4570e27deef5f5c88de673259f94e684409ea4468",
+      "asset_id": 654819343,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-83057529aad968017d0a62e4570e27deef5f5c88de673259f94e684409ea4468.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/early-finetune-sweep-epoch200-retry1-c8ad275e/candidate-00/functional-final.pt",
+      "bytes": 181489722,
+      "sha256": "1b97fcd32413d058ad01fd68a03d088ce573e6a6db14e22ab96e368e12f403c4",
+      "asset_id": 654821962,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-1b97fcd32413d058ad01fd68a03d088ce573e6a6db14e22ab96e368e12f403c4.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/early-finetune-low-lr-sweep-epoch200-c8ad275e/candidate-00/functional-final.pt",
+      "bytes": 181489722,
+      "sha256": "b3c14ccc3fcf2b8052d2ba7b8f252005336ac03d7b449783d662aa89a03da7e8",
+      "asset_id": 654821963,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-b3c14ccc3fcf2b8052d2ba7b8f252005336ac03d7b449783d662aa89a03da7e8.pt"
+    },
+    {
+      "source_path": "/Volumes/SP AI 01_16/w560-function-weight-wt2-word-sota-20260828/decoder-function-perturb-continuation-from65p464-v1/candidate-00/best.pt",
+      "bytes": 183023112,
+      "sha256": "83378e56f11a05e13b6e85174a2c27b2893fe7598b56522cfb0b27568419d87b",
+      "asset_id": 654827199,
+      "asset_url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-83378e56f11a05e13b6e85174a2c27b2893fe7598b56522cfb0b27568419d87b.pt"
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "status": "completed",
+  "arm": "kron2h4",
+  "seed": 22102,
+  "checkpoint_sha256": "c42266d4fef09721364d78753d656e293d45d1ddf90c63dc6437381cf0b108a0",
+  "records": [
+    {
+      "arm": "kron2h4",
+      "seed": 22102,
+      "mode": "quiet",
+      "age": 32,
+      "actual_age": [
+        29,
+        32
+      ],
+      "n": 256,
+      "correct": 255,
+      "accuracy": 0.99609375,
+      "loss": 0.005116729524161201,
+      "stale_rate": null,
+      "data_sha256": "dae00170a6831e5bb17f486ec78b84b681a9c3e19096b79562fd937a233e0c65"
+    },
+    {
+      "arm": "kron2h4",
+      "seed": 22102,
+      "mode": "quiet",
+      "age": 128,
+      "actual_age": [
+        125,
+        128
+      ],
+      "n": 256,
+      "correct": 256,
+      "accuracy": 1.0,
+      "loss": 0.0011008447145286482,
+      "stale_rate": null,
+      "data_sha256": "c8636b1141eb91c694fcaa12b5b1efe13a66cf044224c6d7f98179e1693d29b3"
+    },
+    {
+      "arm": "kron2h4",
+      "seed": 22102,
+      "mode": "quiet",
+      "age": 512,
+      "actual_age": [
+        509,
+        512
+      ],
+      "n": 256,
+      "correct": 247,
+      "accuracy": 0.96484375,
+      "loss": 0.11733340652426705,
+      "stale_rate": null,
+      "data_sha256": "dcd533bd521360647701dd01f8ed41b179310103dbac375a6eb533095ebac8d8"
+    },
+    {
+      "arm": "kron2h4",
+      "seed": 22102,
+      "mode": "quiet",
+      "age": 2048,
+      "actual_age": [
+        2045,
+        2048
+      ],
+      "n": 256,
+      "correct": 226,
+      "accuracy": 0.8828125,
+      "loss": 0.6568824220448732,
+      "stale_rate": null,
+      "data_sha256": "2edc8d50620b8bbcf5e8622a3cced8f62ba09ca05444c533ffafd0a9bd174c1e"
+    },
+    {
+      "arm": "kron2h4",
+      "seed": 22102,
+      "mode": "repeat",
+      "age": 32,
+      "actual_age": [
+        29,
+        32
+      ],
+      "n": 256,
+      "correct": 256,
+      "accuracy": 1.0,
+      "loss": 0.0011957929946220247,
+      "stale_rate": null,
+      "data_sha256": "d09f87794f2395751f1e1d8232ee55678844c38ad7980809dc39983df6c5c094"
+    },
+    {
+      "arm": "kron2h4",
+      "seed": 22102,
+      "mode": "repeat",
+      "age": 128,
+      "actual_age": [
+        125,
+        128
+      ],
+      "n": 256,
+      "correct": 256,
+      "accuracy": 1.0,
+      "loss": 0.0005567417783822748,
+      "stale_rate": null,
+      "data_sha256": "9596b61b3e831684b434bb59b8c663805e87d981c2a9bc0121857fd326262343"
+    },
+    {
+      "arm": "kron2h4",
+      "seed": 22102,
+      "mode": "repeat",
+      "age": 512,
+      "actual_age": [
+        509,
+        512
+      ],
+      "n": 256,
+      "correct": 252,
+      "accuracy": 0.984375,
+      "loss": 0.06451053098862758,
+      "stale_rate": null,
+      "data_sha256": "42d0286ae03e523d3e89bb11ab7a74d616146ba3ac6f94a82f5febf9acc11714"
+    },
+    {
+      "arm": "kron2h4",
+      "seed": 22102,
+      "mode": "repeat",
+      "age": 2048,
+      "actual_age": [
+        2045,
+        2048
+      ],
+      "n": 256,
+      "correct": 238,
+      "accuracy": 0.9296875,
+      "loss": 0.3815476449672133,
+      "stale_rate": null,
+      "data_sha256": "044f050bf66f65ea2dc7302147bd6bb81d3957a478b075074915f84a52a4b25e"
+    },
+    {
+      "arm": "kron2h4",
+      "seed": 22102,
+      "mode": "competing",
+      "age": 32,
+      "actual_age": [
+        29,
+        32
+      ],
+      "n": 256,
+      "correct": 256,
+      "accuracy": 1.0,
+      "loss": 0.0025438811353524216,
+      "stale_rate": null,
+      "data_sha256": "beb97729e6dc1ebffb66e05b7c372cd9fb18040f0ea52dcd67df59976a755007"
+    },
+    {
+      "arm": "kron2h4",
+      "seed": 22102,
+      "mode": "competing",
+      "age": 128,
+      "actual_age": [
+        125,
+        128
+      ],
+      "n": 256,
+      "correct": 247,
+      "accuracy": 0.96484375,
+      "loss": 0.13680712564382702,
+      "stale_rate": null,
+      "data_sha256": "5db2a5ce43a05155b05cf3737a611e6707b0b17e2f5dfedd0ae8484c67c2eac3"
+    },
+    {
+      "arm": "kron2h4",
+      "seed": 22102,
+      "mode": "competing",
+      "age": 512,
+      "actual_age": [
+        509,
+        512
+      ],
+      "n": 1024,
+      "correct": 1002,
+      "accuracy": 0.978515625,
+      "loss": 0.09048327405616874,
+      "stale_rate": null,
+      "data_sha256": "329117b16feb38d95da948c8a96abaa2ee8edaa06a9fa5f32c508a7959cc46e9"
+    },
+    {
+      "arm": "kron2h4",
+      "seed": 22102,
+      "mode": "competing",
+      "age": 2048,
+      "actual_age": [
+        2045,
+        2048
+      ],
+      "n": 256,
+      "correct": 203,
+      "accuracy": 0.79296875,
+      "loss": 1.1709430068731308,
+      "stale_rate": null,
+      "data_sha256": "79a46369c3ab54a416da2713661e9e6c6212e4884b3cb260f18e122b3f567c3c"
+    },
+    {
+      "arm": "kron2h4",
+      "seed": 22102,
+      "mode": "overwrite",
+      "age": 32,
+      "actual_age": [
+        29,
+        32
+      ],
+      "n": 256,
+      "correct": 254,
+      "accuracy": 0.9921875,
+      "loss": 0.06522612503613345,
+      "stale_rate": 0.0,
+      "data_sha256": "12654cdb9dd94185e1ef52960a29f300c43278c54a1c4e5d591c25a0128c82f4"
+    },
+    {
+      "arm": "kron2h4",
+      "seed": 22102,
+      "mode": "overwrite",
+      "age": 128,
+      "actual_age": [
+        125,
+        128
+      ],
+      "n": 256,
+      "correct": 255,
+      "accuracy": 0.99609375,
+      "loss": 0.01268194243311882,
+      "stale_rate": 0.0,
+      "data_sha256": "1e721f86b9a8b8cd4f2c8eb0ad2fc37f4dc907b23577cd991bc844f3dd1dc01e"
+    },
+    {
+      "arm": "kron2h4",
+      "seed": 22102,
+      "mode": "overwrite",
+      "age": 512,
+      "actual_age": [
+        509,
+        512
+      ],
+      "n": 1024,
+      "correct": 1008,
+      "accuracy": 0.984375,
+      "loss": 0.04475487116724253,
+      "stale_rate": 0.0009765625,
+      "data_sha256": "870b8a78e9458a8c0a56ac0f0955f291670f1c9329181e481824028b9a9ce479"
+    },
+    {
+      "arm": "kron2h4",
+      "seed": 22102,
+      "mode": "overwrite",
+      "age": 2048,
+      "actual_age": [
+        2045,
+        2048
+      ],
+      "n": 256,
+      "correct": 209,
+      "accuracy": 0.81640625,
+      "loss": 0.9658009558916092,
+      "stale_rate": 0.02734375,
+      "data_sha256": "0d2879fa54fe5f378c8eaf32fbc5068774531c108cb93f97dc7df2c2f809763c"
+    }
+  ],
+  "seconds": 64.60527169300258
+}

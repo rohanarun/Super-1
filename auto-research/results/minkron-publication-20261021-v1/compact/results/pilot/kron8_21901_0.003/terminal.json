@@ -1,0 +1,110 @@
+{
+  "arm": "kron8",
+  "seed": 21901,
+  "lr": 0.003,
+  "phases": [
+    {
+      "phase": "short",
+      "steps": 3810,
+      "tokens": 2924864,
+      "training_cpu_seconds": 99.0093001599998,
+      "cpu_cap": 100.0,
+      "data_sha256": "23654aeef4f70bee3d6cad97284bc73b40ebb113cdd13b075f78ceb000b580bb",
+      "max_step_cpu_seconds": 0.3938644170000032
+    }
+  ],
+  "updates": 3810,
+  "tokens": 2924864,
+  "training_cpu_seconds": 99.0093001599998,
+  "training_wall_seconds": 99.32374584400168,
+  "pilot": true,
+  "status": "completed",
+  "accounting": {
+    "parameters": 95009,
+    "parameter_bytes": 380036,
+    "persistent_tensor_state_bytes": 1024,
+    "persistent_backing_storage_bytes": 1024,
+    "state_shapes": {
+      "segment": [
+        1,
+        64
+      ],
+      "document": [
+        1,
+        64
+      ],
+      "segment_sum": [
+        1,
+        64
+      ],
+      "segment_tokens": 1,
+      "segments": 0,
+      "kron_state": [
+        1,
+        1,
+        8,
+        8
+      ]
+    }
+  },
+  "validation": [
+    {
+      "mode": "quiet",
+      "age": 16,
+      "n": 128,
+      "correct": 128,
+      "accuracy": 1.0
+    },
+    {
+      "mode": "quiet",
+      "age": 32,
+      "n": 128,
+      "correct": 128,
+      "accuracy": 1.0
+    },
+    {
+      "mode": "repeat",
+      "age": 16,
+      "n": 128,
+      "correct": 128,
+      "accuracy": 1.0
+    },
+    {
+      "mode": "repeat",
+      "age": 32,
+      "n": 128,
+      "correct": 128,
+      "accuracy": 1.0
+    },
+    {
+      "mode": "competing",
+      "age": 16,
+      "n": 128,
+      "correct": 128,
+      "accuracy": 1.0
+    },
+    {
+      "mode": "competing",
+      "age": 32,
+      "n": 128,
+      "correct": 128,
+      "accuracy": 1.0
+    },
+    {
+      "mode": "overwrite",
+      "age": 16,
+      "n": 128,
+      "correct": 127,
+      "accuracy": 0.9921875
+    },
+    {
+      "mode": "overwrite",
+      "age": 32,
+      "n": 128,
+      "correct": 127,
+      "accuracy": 0.9921875
+    }
+  ],
+  "checkpoint": "results/pilot/kron8_21901_0.003/final.pt",
+  "checkpoint_sha256": "6a5a71804fd7b549a94acf0afa83d4bc21a68f19d00d7d153ff449c888676ee8"
+}

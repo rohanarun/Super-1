@@ -1,0 +1,41 @@
+{
+  "status": "EXPLORATORY_NOT_SELECTION",
+  "records": [
+    {
+      "arm": "k8",
+      "checkpoint_sha256": "bbca472fbcc217876de6890174be690174a9225f8130b29b5bedbb547daac7c8",
+      "tokens": 4096,
+      "normal_ce": 5.227462291717529,
+      "reset_before_every_token_ce": 5.6987388134002686,
+      "context_gain_nats": 0.47127652168273926,
+      "unigram_ce": 6.8434808656445885,
+      "unigram_training_exposures": 1409024,
+      "unigram_smoothing": "Add one count to each of4096 token types, using only targets this model actually saw.",
+      "interpretation": "Reset-every-token retains the current input token but removes earlier context, including convolution history. Positive context gain is short-window context-use evidence, not long-memory or reasoning ability."
+    },
+    {
+      "arm": "k16_lean",
+      "checkpoint_sha256": "68fe2447263584e68affa36033ca9b9fed8ebf8c9a0cc51e2c8aef979918b24d",
+      "tokens": 4096,
+      "normal_ce": 5.106943726539612,
+      "reset_before_every_token_ce": 5.525108456611633,
+      "context_gain_nats": 0.4181647300720215,
+      "unigram_ce": 6.8430834820941975,
+      "unigram_training_exposures": 1657856,
+      "unigram_smoothing": "Add one count to each of4096 token types, using only targets this model actually saw.",
+      "interpretation": "Reset-every-token retains the current input token but removes earlier context, including convolution history. Positive context gain is short-window context-use evidence, not long-memory or reasoning ability."
+    },
+    {
+      "arm": "transformer_lean",
+      "checkpoint_sha256": "97d69cc4b11e0d3234adb0feddee424c23359330218cc049d7acf2e20f1fffe8",
+      "tokens": 4096,
+      "normal_ce": 4.839274764060974,
+      "reset_before_every_token_ce": 5.4051045179367065,
+      "context_gain_nats": 0.5658297538757324,
+      "unigram_ce": 6.840958717723687,
+      "unigram_training_exposures": 3383296,
+      "unigram_smoothing": "Add one count to each of4096 token types, using only targets this model actually saw.",
+      "interpretation": "Reset-every-token retains the current input token but removes earlier context, including convolution history. Positive context gain is short-window context-use evidence, not long-memory or reasoning ability."
+    }
+  ]
+}

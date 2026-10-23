@@ -1,0 +1,53 @@
+{
+  "content_location_counts": {
+    "archive_object": 15094,
+    "checkpoint_asset": 104,
+    "existing_git_file": 1609,
+    "existing_release_asset": 2,
+    "upload_pending": 58
+  },
+  "files_manifest": "FILES.current.json.gz",
+  "files_manifest_sha256": "fef62411e1ab773a0939457745de2e45940ea9e4fc6af7b134a1f7bc06704663",
+  "final_selected_terminal_checkpoint_objects": 754,
+  "historical_source_executed": false,
+  "mapped_source_paths": 30885,
+  "new_model_inference": false,
+  "new_release_asset_bytes": null,
+  "new_release_assets": null,
+  "new_training": false,
+  "pending_objects": 58,
+  "release_states": [
+    {
+      "draft": true,
+      "id": 416770023,
+      "published_at": null,
+      "tag": "all-experiments-20261018"
+    },
+    {
+      "draft": false,
+      "id": 414367191,
+      "published_at": "2026-10-15T23:24:16Z",
+      "tag": "replication-inputs-20261015"
+    },
+    {
+      "draft": false,
+      "id": 414375373,
+      "published_at": "2026-10-15T23:37:28Z",
+      "tag": "recovered-runtime-20261015"
+    },
+    {
+      "draft": false,
+      "id": 414379034,
+      "published_at": "2026-10-15T23:44:21Z",
+      "tag": "recovered-120m-checkpoints-20261015"
+    }
+  ],
+  "snapshot_note": "Original summary is historical. Current locations reconciled by size/SHA-256 only; no transfers resumed.",
+  "source_roots": 270,
+  "status": "PARTIAL_ARCHIVE_UPLOADS_PAUSED",
+  "unique_content_bytes": 33983273743,
+  "unique_content_objects": 16867,
+  "unresolved_latest_checkpoint_references": 0,
+  "verified_large_checkpoint_bytes": 19571737789,
+  "verified_large_checkpoints": 104
+}

@@ -69,9 +69,9 @@ These user-supplied graphs are historical snapshots from August 22 and August 16
 
 The [extended research audit](auto-research/reports/perturbation-extended-recovery-20261018.md) preserves later direction, tensor-block and scalar refinement through recorded generation 28, the CE-versus-distillation comparison that retained the unchanged parent, and benchmark canary results without accuracy gains. It also explains why these results do not demonstrate new concept learning and how a symmetry-guided proposal would need to be tested.
 
-## Complete experiment archive
+## Indexed experiment archive
 
-The [indexed SSD and iCloud research archive](auto-research/results/all-experiments-archive-20261018-v1/README.md) preserves source, results, logs, graphs and selected final checkpoints across the located Super-1 research. It includes failed and incomplete runs, file provenance, checksums and selective restore tools. Check its [publication status](auto-research/results/all-experiments-archive-20261018-v1/SUMMARY.json) before downloading; checkpoint uploads are in progress.
+The [indexed SSD and iCloud research archive](auto-research/results/all-experiments-archive-20261018-v1/README.md) preserves source, results, logs, graphs and selected final checkpoints across the located Super-1 research. It includes failed and incomplete runs, file provenance, checksums and selective restore tools. Its [reconciled status](auto-research/results/all-experiments-archive-20261018-v1/SUMMARY.current.json) records 104 uploaded large checkpoints and 58 still pending. Uploads remain paused; the release is a draft requiring authorized GitHub access. Merging the index does not make pending objects backed up.
 
 ## Reproduce and inspect
 

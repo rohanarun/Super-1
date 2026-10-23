@@ -1,0 +1,11 @@
+{
+  "checked_utc": "2026-10-23T02:19:12.284610+00:00",
+  "status": "PASS",
+  "scope": "Authenticated restore from draft release; one source object only; no source/model execution",
+  "restored_path": "ssd/hfw-w560-continuous-winner-controller-template-20260816-attempt1/runtime/hfw_continuous/relocation.py",
+  "bytes": 3323,
+  "sha256": "6109b9826b30cc4f84927f6d7b379d35cc557ce2d6700782c475fa0850dd0070",
+  "asset": "research-source-evidence-006.tar.gz",
+  "asset_bytes": 41631983,
+  "asset_id": 654741308
+}

@@ -1,0 +1,11 @@
+{
+  "status": "COMPLETED",
+  "started_utc": "2026-10-21T22:41:40.514811+00:00",
+  "completed_utc": "2026-10-21T23:08:17.637969+00:00",
+  "total_training_seconds": 1488.8454165759622,
+  "screen_runs": 18,
+  "extensions": 3,
+  "all_finite": true,
+  "confirmation_duplicates_passed": 21,
+  "official_test_accessed": false
+}

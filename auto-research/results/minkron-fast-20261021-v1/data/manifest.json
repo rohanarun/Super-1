@@ -1,0 +1,87 @@
+{
+  "source": {
+    "purpose": "separate CPU ~124M 25-minute exploration; not the original GPU comparison contract",
+    "source": {
+      "repo": "HuggingFaceFW/fineweb",
+      "config": "sample-10BT",
+      "revision": "9bb295ddab0e05d785b879661af7260fed5140fc",
+      "path": "sample/10BT/000_00000.parquet",
+      "bytes": 2147292183,
+      "sha256": "6b552ea48424648dc86d00df276f93fdfc55e9ad342ce3e4affc23a3a370792b",
+      "rows_examined": 12692,
+      "total_shard_rows": 1048581
+    },
+    "tokenizer": {
+      "name": "GPT-2",
+      "n_vocab": 50257,
+      "version": "0.14.0",
+      "ranks_sha256": "607697ddcd4fc0347c62f4c421655ef712ec3dd34406b214dafd185cf3426d9a"
+    },
+    "split_rule": "SHA256 exact text first 16 hex digits modulo 100; 0 development, 1 confirmation, 2-99 train; global ID and exact-text deduplication",
+    "eot_policy": "prepend EOT, reset before EOT input; score preceding document final text-to-EOT target",
+    "duplicates_skipped": 0,
+    "preparation_seconds": 2.372284489996673,
+    "splits": {
+      "train": {
+        "file": "train.npy",
+        "sha256": "507c69917bc934cfafa69dd6595509d613233c676147be2f9d884a6bc37128bc",
+        "tokens": 5000001,
+        "scored_tokens": 5000000,
+        "documents": 7192,
+        "document_manifest": "train_documents.json",
+        "document_manifest_sha256": "0b27d5a2bd2af10c2b06d4e13eb031fa3132f842f0d46446fcdee418c7d9ca31"
+      },
+      "development": {
+        "file": "development.npy",
+        "sha256": "851bdd1607ae37594da59dd5266f29c1d58220449f40b60ab6ead767c140d620",
+        "tokens": 65537,
+        "scored_tokens": 65536,
+        "documents": 101,
+        "document_manifest": "development_documents.json",
+        "document_manifest_sha256": "e7ab75b7705e061937308a6ae47eac63c67147cc866c67828f3b909e445e7082"
+      },
+      "confirmation": {
+        "file": "confirmation.npy",
+        "sha256": "47688c70aec72996704da10ec5eb061e03596ca3e2defa499817d1921081a0c0",
+        "tokens": 65537,
+        "scored_tokens": 65536,
+        "documents": 122,
+        "document_manifest": "confirmation_documents.json",
+        "document_manifest_sha256": "7eda6308662e9b455e83a6b281967fb3158ae2c1b38cf82ce12b74cc717accc9"
+      }
+    },
+    "document_disjointness_check": "PASS"
+  },
+  "tokenizer_sha256": "79deb09ce4ad2a7341b34456053eff0cf9ffde966db132293a90ae1fa6b840be",
+  "method": "First 4095 GPT-2 merge ranks plus EOT; lossless byte decoding/reencoding, no fitted vocabulary.",
+  "cross_run_caveat": "Development and confirmation documents were used in the earlier 124M pilot. This is internal ablation evidence, not a globally unseen transfer test.",
+  "splits": {
+    "train": {
+      "file": "train.npy",
+      "sha256": "e9cc19dd52a173cdcab5557acbdedd73710b148a9d3ab791ba620fc4a7b5cc1b",
+      "tokens": 6757905,
+      "source_gpt2_tokens": 5000001,
+      "documents": 7192,
+      "document_manifest": "train_documents.json",
+      "document_manifest_sha256": "38a6e802d2f2c3a73119c831e323017ace9bfc74b745b529385fbb2d076d8dc8"
+    },
+    "development": {
+      "file": "development.npy",
+      "sha256": "29894020b5ae4e82d64698d053bceea480b8e83044bf27f8441d94f38824b55d",
+      "tokens": 88890,
+      "source_gpt2_tokens": 65537,
+      "documents": 101,
+      "document_manifest": "development_documents.json",
+      "document_manifest_sha256": "82fe318287d058a42a513ebfe0065b35a8f22cd70a6cecdc4ed78f489461b57a"
+    },
+    "confirmation": {
+      "file": "confirmation.npy",
+      "sha256": "5d26cce81fe1a8340b6fe2a04f6f9a7fb338a64125726cc397634fdab2ee3b01",
+      "tokens": 88756,
+      "source_gpt2_tokens": 65537,
+      "documents": 122,
+      "document_manifest": "confirmation_documents.json",
+      "document_manifest_sha256": "f02d0f7d9582e47a00d372a57053461b30ebd2371a037f05c5e26acceb111979"
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "status": "PASS",
+  "tests": [
+    {
+      "check": "exact_historical_vs_upstream_batched",
+      "seed": 11,
+      "length": 33,
+      "forward_state_max_abs": 1.3322676295501878e-15,
+      "gradient_max_abs": 4.440892098500626e-16,
+      "adamw_step_max_abs": 5.551115123125783e-17
+    },
+    {
+      "check": "exact_historical_vs_upstream_batched",
+      "seed": 17,
+      "length": 257,
+      "forward_state_max_abs": 1.3322676295501878e-15,
+      "gradient_max_abs": 6.661338147750939e-16,
+      "adamw_step_max_abs": 9.936496070395151e-15
+    },
+    {
+      "check": "upstream_parallel_vs_tokenwise",
+      "kind": "native",
+      "forward_state_max_abs": 1.7763568394002505e-15,
+      "gradient_max_abs": 1.1102230246251565e-16
+    },
+    {
+      "check": "full_network_permutation_and_optimizer",
+      "kind": "native",
+      "forward_state_max_abs": 2.220446049250313e-15,
+      "sketch_max_abs": 2.1996293675385914e-15,
+      "proposal_max_abs": 0.0,
+      "optimizer_step_max_abs": 5.551115123125783e-17
+    },
+    {
+      "check": "upstream_parallel_vs_tokenwise",
+      "kind": "mingru_linear",
+      "forward_state_max_abs": 1.3322676295501878e-15,
+      "gradient_max_abs": 5.551115123125783e-17
+    },
+    {
+      "check": "full_network_permutation_and_optimizer",
+      "kind": "mingru_linear",
+      "forward_state_max_abs": 1.7763568394002505e-15,
+      "sketch_max_abs": 2.9976021664879227e-15,
+      "proposal_max_abs": 0.0,
+      "optimizer_step_max_abs": 9.71445146547012e-17
+    },
+    {
+      "check": "upstream_parallel_vs_tokenwise",
+      "kind": "paragru",
+      "forward_state_max_abs": 1.7763568394002505e-15,
+      "gradient_max_abs": 5.551115123125783e-17
+    },
+    {
+      "check": "full_network_permutation_and_optimizer",
+      "kind": "paragru",
+      "forward_state_max_abs": 1.7763568394002505e-15,
+      "sketch_max_abs": 2.1510571102112408e-15,
+      "proposal_max_abs": 8.673617379884035e-19,
+      "optimizer_step_max_abs": 5.551115123125783e-17
+    }
+  ],
+  "tolerances": {
+    "float64_reference": 1e-09,
+    "parallel_gradient": 2e-08,
+    "equivariant_sketch": 1e-07,
+    "equivariant_proposal_and_optimizer": 1e-08
+  },
+  "torch": "2.8.0+cpu"
+}

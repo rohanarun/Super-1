@@ -1,0 +1,29 @@
+[
+  {
+    "arm": "minkron_8x8",
+    "parameters": 15146800,
+    "parameter_bytes": 60587200,
+    "state_tensor_bytes": 4096,
+    "state_backing_bytes": 4096,
+    "context_tokens": 512,
+    "state_dtype": "FP32; Transformer integer metadata also counted"
+  },
+  {
+    "arm": "mingru_linear",
+    "parameters": 15491584,
+    "parameter_bytes": 61966336,
+    "state_tensor_bytes": 4096,
+    "state_backing_bytes": 4096,
+    "context_tokens": 512,
+    "state_dtype": "FP32; Transformer integer metadata also counted"
+  },
+  {
+    "arm": "transformer",
+    "parameters": 16013824,
+    "parameter_bytes": 64055296,
+    "state_tensor_bytes": 4210752,
+    "state_backing_bytes": 4210752,
+    "context_tokens": 512,
+    "state_dtype": "FP32; Transformer integer metadata also counted"
+  }
+]

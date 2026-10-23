@@ -1,0 +1,136 @@
+WARMUP native-73 64 5.87858
+WARMUP native-73 128 5.43209
+WARMUP native-73 192 5.25299
+INTERVENTION native-73 backprop 5.143824
+COMPLETE native-73 backprop 5.125072 seconds 14.89
+INTERVENTION native-73 iid 5.143795
+COMPLETE native-73 iid 5.12503 seconds 15.43
+INTERVENTION native-73 random_pair 5.143878
+COMPLETE native-73 random_pair 5.124887 seconds 15.23
+INTERVENTION native-73 sketch 5.143761
+COMPLETE native-73 sketch 5.124996 seconds 16.63
+INTERVENTION native-73 scrambled 5.143811
+COMPLETE native-73 scrambled 5.124905 seconds 15.62
+INTERVENTION native-73 replay_backprop 5.13772
+COMPLETE native-73 replay_backprop 5.119366 seconds 15.74
+WARMUP native-191 64 5.75732
+WARMUP native-191 128 5.44545
+WARMUP native-191 192 5.5923
+INTERVENTION native-191 backprop 5.150167
+COMPLETE native-191 backprop 5.133831 seconds 15.32
+INTERVENTION native-191 iid 5.150166
+COMPLETE native-191 iid 5.133818 seconds 16.06
+INTERVENTION native-191 random_pair 5.150057
+COMPLETE native-191 random_pair 5.133651 seconds 16.13
+INTERVENTION native-191 sketch 5.150397
+COMPLETE native-191 sketch 5.134058 seconds 16.1
+INTERVENTION native-191 scrambled 5.150162
+COMPLETE native-191 scrambled 5.133721 seconds 16.17
+INTERVENTION native-191 replay_backprop 5.14798
+COMPLETE native-191 replay_backprop 5.13069 seconds 17.3
+WARMUP native-307 64 5.69675
+WARMUP native-307 128 5.65553
+WARMUP native-307 192 5.2844
+INTERVENTION native-307 backprop 5.136702
+COMPLETE native-307 backprop 5.119121 seconds 15.36
+INTERVENTION native-307 iid 5.136743
+COMPLETE native-307 iid 5.119029 seconds 16.32
+INTERVENTION native-307 random_pair 5.136806
+COMPLETE native-307 random_pair 5.119056 seconds 15.72
+INTERVENTION native-307 sketch 5.136633
+COMPLETE native-307 sketch 5.119134 seconds 16.09
+INTERVENTION native-307 scrambled 5.136823
+COMPLETE native-307 scrambled 5.119078 seconds 16.14
+INTERVENTION native-307 replay_backprop 5.133696
+COMPLETE native-307 replay_backprop 5.116052 seconds 16.32
+WARMUP mingru_linear-73 64 5.86678
+WARMUP mingru_linear-73 128 5.46192
+WARMUP mingru_linear-73 192 5.27518
+INTERVENTION mingru_linear-73 backprop 5.145408
+COMPLETE mingru_linear-73 backprop 5.125837 seconds 10.33
+INTERVENTION mingru_linear-73 iid 5.14544
+COMPLETE mingru_linear-73 iid 5.125809 seconds 10.82
+INTERVENTION mingru_linear-73 random_pair 5.145184
+COMPLETE mingru_linear-73 random_pair 5.125636 seconds 10.97
+INTERVENTION mingru_linear-73 sketch 5.145491
+COMPLETE mingru_linear-73 sketch 5.125924 seconds 11.17
+INTERVENTION mingru_linear-73 scrambled 5.145505
+COMPLETE mingru_linear-73 scrambled 5.12598 seconds 11.09
+INTERVENTION mingru_linear-73 replay_backprop 5.138691
+COMPLETE mingru_linear-73 replay_backprop 5.118359 seconds 10.79
+WARMUP mingru_linear-191 64 5.75693
+WARMUP mingru_linear-191 128 5.48661
+WARMUP mingru_linear-191 192 5.58663
+INTERVENTION mingru_linear-191 backprop 5.155236
+COMPLETE mingru_linear-191 backprop 5.136508 seconds 10.98
+INTERVENTION mingru_linear-191 iid 5.155285
+COMPLETE mingru_linear-191 iid 5.136495 seconds 10.71
+INTERVENTION mingru_linear-191 random_pair 5.155008
+COMPLETE mingru_linear-191 random_pair 5.136296 seconds 10.81
+INTERVENTION mingru_linear-191 sketch 5.155228
+COMPLETE mingru_linear-191 sketch 5.136515 seconds 11.06
+INTERVENTION mingru_linear-191 scrambled 5.155414
+COMPLETE mingru_linear-191 scrambled 5.136314 seconds 11.31
+INTERVENTION mingru_linear-191 replay_backprop 5.150158
+COMPLETE mingru_linear-191 replay_backprop 5.13159 seconds 10.78
+WARMUP mingru_linear-307 64 5.65998
+WARMUP mingru_linear-307 128 5.6722
+WARMUP mingru_linear-307 192 5.29363
+INTERVENTION mingru_linear-307 backprop 5.130412
+COMPLETE mingru_linear-307 backprop 5.112112 seconds 10.49
+INTERVENTION mingru_linear-307 iid 5.130572
+COMPLETE mingru_linear-307 iid 5.112128 seconds 10.6
+INTERVENTION mingru_linear-307 random_pair 5.130255
+COMPLETE mingru_linear-307 random_pair 5.111916 seconds 11.12
+INTERVENTION mingru_linear-307 sketch 5.130407
+COMPLETE mingru_linear-307 sketch 5.111965 seconds 11.55
+INTERVENTION mingru_linear-307 scrambled 5.130509
+COMPLETE mingru_linear-307 scrambled 5.111909 seconds 10.93
+INTERVENTION mingru_linear-307 replay_backprop 5.127546
+COMPLETE mingru_linear-307 replay_backprop 5.107625 seconds 11.02
+WARMUP paragru-73 64 5.9135
+WARMUP paragru-73 128 5.45594
+WARMUP paragru-73 192 5.28092
+INTERVENTION paragru-73 backprop 5.176817
+COMPLETE paragru-73 backprop 5.157746 seconds 12.08
+INTERVENTION paragru-73 iid 5.176979
+COMPLETE paragru-73 iid 5.15779 seconds 12.73
+INTERVENTION paragru-73 random_pair 5.176638
+COMPLETE paragru-73 random_pair 5.157562 seconds 12.58
+INTERVENTION paragru-73 sketch 5.176847
+COMPLETE paragru-73 sketch 5.157761 seconds 13.07
+INTERVENTION paragru-73 scrambled 5.176849
+COMPLETE paragru-73 scrambled 5.157731 seconds 13.29
+INTERVENTION paragru-73 replay_backprop 5.166436
+COMPLETE paragru-73 replay_backprop 5.146624 seconds 13.24
+WARMUP paragru-191 64 5.75214
+WARMUP paragru-191 128 5.47096
+WARMUP paragru-191 192 5.6638
+INTERVENTION paragru-191 backprop 5.230901
+COMPLETE paragru-191 backprop 5.214608 seconds 13.17
+INTERVENTION paragru-191 iid 5.230929
+COMPLETE paragru-191 iid 5.214582 seconds 12.89
+INTERVENTION paragru-191 random_pair 5.230585
+COMPLETE paragru-191 random_pair 5.214511 seconds 12.57
+INTERVENTION paragru-191 sketch 5.230759
+COMPLETE paragru-191 sketch 5.214556 seconds 12.51
+INTERVENTION paragru-191 scrambled 5.230909
+COMPLETE paragru-191 scrambled 5.214528 seconds 12.59
+INTERVENTION paragru-191 replay_backprop 5.229988
+COMPLETE paragru-191 replay_backprop 5.20969 seconds 13.22
+WARMUP paragru-307 64 5.6601
+WARMUP paragru-307 128 5.67297
+WARMUP paragru-307 192 5.26711
+INTERVENTION paragru-307 backprop 5.129129
+COMPLETE paragru-307 backprop 5.110388 seconds 12.9
+INTERVENTION paragru-307 iid 5.129324
+COMPLETE paragru-307 iid 5.110379 seconds 13.26
+INTERVENTION paragru-307 random_pair 5.128986
+COMPLETE paragru-307 random_pair 5.110232 seconds 13.28
+INTERVENTION paragru-307 sketch 5.129181
+COMPLETE paragru-307 sketch 5.110509 seconds 13.04
+INTERVENTION paragru-307 scrambled 5.129145
+COMPLETE paragru-307 scrambled 5.110145 seconds 13.12
+INTERVENTION paragru-307 replay_backprop 5.126859
+COMPLETE paragru-307 replay_backprop 5.105071 seconds 13.53
+ALL_COMPLETE {"status": "COMPLETE", "rows": 54, "wall_seconds": 967.8321093159975, "cpu_seconds": 967.7237744170001, "runtime": {"python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]", "torch": "2.8.0+cpu", "numpy": "2.3.5", "platform": "Linux-6.18.55-x86_64-with-glibc2.39", "threads": 1, "device": "cpu", "dtype": "float32"}, "peak_rss_kib": 435012, "protocol_sha256": "95a246b7909c2e37c20187fbec7981f713192059a7a0ef5facc5423e0a459785", "source_seal_verified": true, "official_test_reads": 0, "official_validation_reads": 0}

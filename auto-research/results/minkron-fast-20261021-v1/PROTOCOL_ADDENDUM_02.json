@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-21T22:40:49.586869+00:00",
+  "before_language_training": true,
+  "reason": "The stricter full FP32 audit also caught an embedding gradient error in k16 seed25101 (3.632e-5 absolute); optimizer epsilon alone was insufficient. No language training has occurred.",
+  "change": "Compute minKron normalization, decay, recurrence, output-head normalization and carried matrix state in FP64. Projection/MLP/embedding weights and logits remain FP32. Transformer stays FP32. This trades compute for numerical fidelity; timings and state bytes must reflect FP64. Both sequential reference and chunked path use this declared precision. Retain all original tolerances.",
+  "failed_receipt": "qualification_epsilon_failed.log",
+  "fidelity_tolerances_unchanged": true,
+  "implication": "This is a conservative CPU correctness implementation; no claim of native fully-FP32 recurrent performance."
+}

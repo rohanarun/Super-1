@@ -1,0 +1,10 @@
+{
+  "output": "auto-research/results/minkron-fast-20261021-v1/checkpoints/replay_screen_k16_25101.pt",
+  "model_tensor_sha256": "46b8eff4547efae9a55f59ee2cd8bbbd31d732103db8a395ff8eabb3b25c20cd",
+  "expected": "46b8eff4547efae9a55f59ee2cd8bbbd31d732103db8a395ff8eabb3b25c20cd",
+  "matches_original_model_tensors": true,
+  "warning": "Exact matching also depends on CPU/PyTorch numerics. Archive bytes need not match.",
+  "wall_seconds": 39.50604033699983,
+  "utc": "2026-10-21T23:11:06.617217+00:00",
+  "scope": "Post-results reconstruction verification only; no model selection or new quality evaluation."
+}

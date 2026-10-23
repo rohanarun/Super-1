@@ -1,0 +1,23 @@
+{
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "python": "3.12.14",
+  "cpu_model": "INTEL(R) XEON(R) PLATINUM 8573C",
+  "instruction_flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch cpuid_fault fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves avx_vnni avx512_bf16 arat avx512vbmi umip waitpkg avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg avx512_vpopcntdq rdpid cldemote movdiri movdir64b fsrm serialize tsxldtrk avx512_fp16 arch_capabilities",
+  "os_cpu_count": 9,
+  "affinity_cpu_count": 9,
+  "cpu_quota": "800000 100000",
+  "memory_limit_bytes": 8589934592,
+  "runtime_path": "/workspace/scratch/a22737d1618c/kron-integrated-runtime:/workspace/scratch/5ff0ad4e5dec/minkron-runtime",
+  "package_versions": {
+    "torch": "2.9.1+cpu",
+    "numpy": "2.3.5",
+    "einops": "0.8.2",
+    "tiktoken": "0.14.0",
+    "requests": "2.34.2",
+    "pyarrow": "26.0.0",
+    "matplotlib": "3.10.8"
+  },
+  "original_comparison_contract_raw_sha256": "d02711a7335fd3a20e147a078b4dd5b527beb749fb31a68673caad232dcb4fd0",
+  "original_comparison_contract_unchanged_from": "3c8bf67fed8231386a720d966775cf5cbd59b5e6",
+  "cpu_experiment_source_commit": "3d761f494daf6c30db10c7a6415837be17167045"
+}

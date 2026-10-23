@@ -1,0 +1,31 @@
+{
+  "repo": "rohanarun/Super-1",
+  "commit": "492a87a5e263e806b0a2581c57259e81f1a000e6",
+  "files": [
+    {
+      "local": "upstream/models.py",
+      "path": "auto-research/results/gru-extended-20261016-v1/models.py",
+      "git_blob_sha1": "00ec06cfcc3f29a52f285f2b9ca20b701d728ed2"
+    },
+    {
+      "local": "upstream/vendor/representation_experiments/common.py",
+      "path": "auto-research/results/gru-extended-20261016-v1/vendor/representation_experiments/common.py",
+      "git_blob_sha1": "ba7a5bd04a9d88dafdd0ac3f16da9338423ab2c3"
+    },
+    {
+      "local": "upstream/vendor/representation_experiments/predictive_models.py",
+      "path": "auto-research/results/gru-extended-20261016-v1/vendor/representation_experiments/predictive_models.py",
+      "git_blob_sha1": "c99cf906a5a6805d490ad84e360170083bd01720"
+    },
+    {
+      "local": "upstream/exact_historical_predictive_models.py",
+      "path": "auto-research/results/cloud-recovery-20261015/exact-historical-source/representation_experiments/predictive_models.py",
+      "git_blob_sha1": "c99cf906a5a6805d490ad84e360170083bd01720"
+    },
+    {
+      "local": "data/tokenizer.json",
+      "path": "auto-research/results/gru-extended-20261016-v1/data_metadata/tokenizer.json",
+      "git_blob_sha1": "d43f9296be6991133ebc574e2479658ba15b8123"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "utc": "2026-10-21T22:41:40.514811+00:00",
+  "files": {
+    "common.py": "9260467b668af973bf39eaefe966b275dab0ef4a0e43f4af4bb66029ba54dd20",
+    "qualify.py": "98847112707b686e94ed3aae0fe6bb03119f86c60d8fea27240ddb7be8e466c7",
+    "prepare_data.py": "a71afea406c4cdbab4a8c510e3cf370510b55e798f593d9d82b1ea89bf0b0dc1",
+    "model.py": "aaa86b789dd760b7294823c7d9b28a3f3aca01f8ca3de4e2056b6249187afe77",
+    "inspect_models.py": "7a68b9ff9439d1548029540298a6a09c50b17212205d963b1dd1976520b5769b",
+    "train.py": "d497a8a0fde2378e59c06ea668e421cb6d93bf8b377abbaa4bc5ab2081efb871"
+  },
+  "protocol_sha256": "4fe1bd5d9339d53232b5a52f0bb6690b3ef6069d0668fc731fe7518ac596ac8d",
+  "profile_sha256": "b0fd43ede74fd8bb172d2b12b003bd310c6fbe17d548696da16e51855c16930a",
+  "addenda": {
+    "PROTOCOL_ADDENDUM_01.json": "07fdcb6e4257c5e00205bf81b7eeda40adb87bec3d71b246bac1cab679288707",
+    "PROTOCOL_ADDENDUM_02.json": "4087fa902d7c9e181497a1a1b7d51a47cbb4b0eefcb6656b1f08725054504f01"
+  }
+}

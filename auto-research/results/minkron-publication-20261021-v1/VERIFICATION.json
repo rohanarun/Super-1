@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "kind": "Stored-artifact audit; no model execution",
+  "included_file_hashes": 182,
+  "explicitly_excluded_members": 226,
+  "python_sources_compiled_without_execution": 85,
+  "compact_confirmation_rows": 192,
+  "compact_cases_in_count_receipts": 67584,
+  "compact_primary_means": {
+    "mingru": {
+      "competing": 0.9892578125,
+      "overwrite": 0.9938151041666666
+    },
+    "kron8": {
+      "competing": 0.9996744791666666,
+      "overwrite": 0.9983723958333334
+    },
+    "kron4h4": {
+      "competing": 0.9847005208333334,
+      "overwrite": 0.9820963541666666
+    },
+    "kron2h4": {
+      "competing": 0.9436848958333334,
+      "overwrite": 0.9723307291666666
+    }
+  },
+  "compact_main_runs": 12,
+  "compact_lr_pilots": 8,
+  "scale_updates": 262,
+  "scale_scored_tokens": 134144,
+  "scale_confirmation_nll": 7.286702007055283,
+  "generations": 10,
+  "new_training": false,
+  "new_model_evaluation": false,
+  "external_checkpoint_reloaded": false,
+  "raw_predictions_checked_in_this_audit": false,
+  "omitted_artifacts": "See RECONSTRUCTION_REQUIRED.md and IMPORT.json. Raw predictions and full training trace were checked locally before slimming; see PREPARATION_AUDIT.json.",
+  "original_checks": "Preserved receipts, not newly repeated numerical fidelity tests."
+}

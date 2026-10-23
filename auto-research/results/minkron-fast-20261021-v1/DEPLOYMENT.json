@@ -1,0 +1,53 @@
+[
+  {
+    "arm": "k8",
+    "batch": 1,
+    "weight_bytes": 7881456,
+    "persistent_state_logical_bytes_128": 18432,
+    "persistent_state_storage_bytes_128": 18432,
+    "persistent_state_logical_bytes_256": 18432,
+    "prefill128_median_ms": 22.554101000423543,
+    "prefill128_p95_ms": 23.73435320023418,
+    "decode_median_ms": 1.544406999983039,
+    "decode_p95_ms": 1.9249985999977064,
+    "decode_tokens_per_second": 639.260120315809,
+    "threads": 4,
+    "precision": "FP32 weights and projections; minKron recurrence/state FP64; convolution cache FP32",
+    "activation_peak": "not separately measured",
+    "isolated_deployment_process_peak": "not measured"
+  },
+  {
+    "arm": "k16_lean",
+    "batch": 1,
+    "weight_bytes": 6112008,
+    "persistent_state_logical_bytes_128": 36864,
+    "persistent_state_storage_bytes_128": 36864,
+    "persistent_state_logical_bytes_256": 36864,
+    "prefill128_median_ms": 14.156731000184664,
+    "prefill128_p95_ms": 15.598659399984172,
+    "decode_median_ms": 1.768284500030859,
+    "decode_p95_ms": 1.9507749994318146,
+    "decode_tokens_per_second": 600.2123832543073,
+    "threads": 4,
+    "precision": "FP32 weights and projections; minKron recurrence/state FP64; convolution cache FP32",
+    "activation_peak": "not separately measured",
+    "isolated_deployment_process_peak": "not measured"
+  },
+  {
+    "arm": "transformer_lean",
+    "batch": 1,
+    "weight_bytes": 6690048,
+    "persistent_state_logical_bytes_128": 592944,
+    "persistent_state_storage_bytes_128": 592944,
+    "persistent_state_logical_bytes_256": 1185840,
+    "prefill128_median_ms": 6.122151999989001,
+    "prefill128_p95_ms": 9.433862399419013,
+    "decode_median_ms": 1.778034500148351,
+    "decode_p95_ms": 3.4953707505337652,
+    "decode_tokens_per_second": 478.47461215851484,
+    "threads": 4,
+    "precision": "FP32 weights and projections; minKron recurrence/state FP64; convolution cache FP32",
+    "activation_peak": "not separately measured",
+    "isolated_deployment_process_peak": "not measured"
+  }
+]

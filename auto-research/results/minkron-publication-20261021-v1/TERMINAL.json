@@ -1,0 +1,17 @@
+{
+  "status": "COMPLETED_ARCHIVAL_PUBLICATION_PREPARATION",
+  "run_id": "minkron-publication-20261021-v1",
+  "new_training": false,
+  "new_model_evaluation": false,
+  "verification": "auto-research/results/minkron-publication-20261021-v1/VERIFICATION.json",
+  "verification_sha256": "34d9535773ea400d1f3580fbedf9de1e42e45add09a6e0834189cad8cd0e9e56",
+  "import_record": "auto-research/results/minkron-publication-20261021-v1/IMPORT.json",
+  "import_record_sha256": "46307fdf5733c82863c7b6df8919625b232325aba3e9ae0352818354939433c5",
+  "report": "auto-research/reports/minkron-publication-20261021-v1.md",
+  "official_test_accessed": false,
+  "source_archive_manifests_verified": 405,
+  "imported_files": 182,
+  "excluded_members": 226,
+  "external_scale_checkpoint_reloaded": false,
+  "publication_scope": "Code, compact results and explicit reconstruction placeholders; no bulk artifacts"
+}

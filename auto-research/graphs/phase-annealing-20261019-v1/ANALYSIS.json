@@ -1,0 +1,851 @@
+{
+  "run_id": "phase-annealing-20261019-v1",
+  "protocol_sha256": "53664aa1acffebda396104cf95a52c2c4c0bf467b2b08a74dbde83a07c81f0f9",
+  "primary_passed_any_architecture": false,
+  "any_exploratory_gate_passed": true,
+  "architectures": {
+    "native": {
+      "parameters": 173136,
+      "mean_final_ce": {
+        "baseline_keep": 5.373521049817403,
+        "baseline_reset": 5.3763331572214765,
+        "sa_mid_keep": 5.37333478530248,
+        "sa_mid_reset": 5.376219431559245,
+        "extra_mid_keep": 5.365570545196533,
+        "extra_mid_reset": 5.368242601553599,
+        "greedy_mid_keep": 5.373237172762553,
+        "sa_post": 5.373521049817403,
+        "extra_post": 5.378606637318929,
+        "sa_pre": 5.365584373474121,
+        "extra_pre": 5.216259916623433
+      },
+      "placements": {
+        "pre": {
+          "versus_extra_bp": {
+            "deltas_nats": [
+              0.12455081939697266,
+              0.16437417268753052,
+              0.15904837846755981
+            ],
+            "mean_nats": 0.14932445685068765,
+            "min_nats": 0.12455081939697266,
+            "max_nats": 0.16437417268753052,
+            "wins": 0
+          },
+          "versus_baseline": {
+            "deltas_nats": [
+              0.003056764602661133,
+              -0.013139843940734863,
+              -0.013726949691772461
+            ],
+            "mean_nats": -0.007936676343282064,
+            "min_nats": -0.013726949691772461,
+            "max_nats": 0.003056764602661133,
+            "wins": 2
+          },
+          "mean_sa_phase_wall_seconds": 3.4456273916681917,
+          "mean_sa_phase_fraction_of_baseline_percent": 9.991912760869916,
+          "mean_observed_total_training_overhead_percent": 12.927169081758734,
+          "mean_sa_vs_extra_total_wall_ratio": 1.0097539441699819,
+          "extra_bp_updates": [
+            22,
+            31,
+            32
+          ],
+          "accepted": [
+            70,
+            75,
+            68
+          ],
+          "uphill_accepted": [
+            28,
+            30,
+            12
+          ],
+          "returned_initial_count": 0,
+          "unchanged_baseline_relative_win": false,
+          "calibration_ce_changes": [
+            -0.01673126220703125,
+            -0.03733634948730469,
+            -0.12387466430664062
+          ],
+          "temperatures": [
+            0.034499927493374945,
+            0.023633640170033415,
+            0.00747859390831355
+          ],
+          "advance": false
+        },
+        "middle_keep": {
+          "versus_extra_bp": {
+            "deltas_nats": [
+              0.008583426475524902,
+              0.01045846939086914,
+              0.004250824451446533
+            ],
+            "mean_nats": 0.0077642401059468584,
+            "min_nats": 0.004250824451446533,
+            "max_nats": 0.01045846939086914,
+            "wins": 0
+          },
+          "versus_baseline": {
+            "deltas_nats": [
+              0.0,
+              0.0,
+              -0.0005587935447692871
+            ],
+            "mean_nats": -0.0001862645149230957,
+            "min_nats": -0.0005587935447692871,
+            "max_nats": 0.0,
+            "wins": 1
+          },
+          "mean_sa_phase_wall_seconds": 2.698156794998795,
+          "mean_sa_phase_fraction_of_baseline_percent": 7.837735577099241,
+          "mean_observed_total_training_overhead_percent": 8.050958123626742,
+          "mean_sa_vs_extra_total_wall_ratio": 0.99179563551286,
+          "extra_bp_updates": [
+            23,
+            23,
+            22
+          ],
+          "accepted": [
+            64,
+            63,
+            48
+          ],
+          "uphill_accepted": [
+            29,
+            28,
+            16
+          ],
+          "returned_initial_count": 2,
+          "unchanged_baseline_relative_win": false,
+          "calibration_ce_changes": [
+            0.0,
+            0.0,
+            -0.0005946159362792969
+          ],
+          "temperatures": [
+            0.003639029785203697,
+            0.004971914684486609,
+            0.003014699546522534
+          ],
+          "advance": false
+        },
+        "middle_reset": {
+          "versus_extra_bp": {
+            "deltas_nats": [
+              0.008413195610046387,
+              0.009478509426116943,
+              0.006038784980773926
+            ],
+            "mean_nats": 0.007976830005645752,
+            "min_nats": 0.006038784980773926,
+            "max_nats": 0.009478509426116943,
+            "wins": 0
+          },
+          "versus_baseline": {
+            "deltas_nats": [
+              0.0,
+              0.0,
+              -0.00034117698669433594
+            ],
+            "mean_nats": -0.00011372566223144531,
+            "min_nats": -0.00034117698669433594,
+            "max_nats": 0.0,
+            "wins": 1
+          },
+          "mean_sa_phase_wall_seconds": 2.698156794998795,
+          "mean_sa_phase_fraction_of_baseline_percent": 7.777762000455368,
+          "mean_observed_total_training_overhead_percent": 7.468861260102622,
+          "mean_sa_vs_extra_total_wall_ratio": 0.9921377809898342,
+          "extra_bp_updates": [
+            23,
+            23,
+            22
+          ],
+          "accepted": [
+            64,
+            63,
+            48
+          ],
+          "uphill_accepted": [
+            29,
+            28,
+            16
+          ],
+          "returned_initial_count": 2,
+          "unchanged_baseline_relative_win": false,
+          "calibration_ce_changes": [
+            0.0,
+            0.0,
+            -0.0005946159362792969
+          ],
+          "temperatures": [
+            0.003639029785203697,
+            0.004971914684486609,
+            0.003014699546522534
+          ],
+          "advance": false
+        },
+        "post": {
+          "versus_extra_bp": {
+            "deltas_nats": [
+              -0.0006352066993713379,
+              -0.01073002815246582,
+              -0.0038915276527404785
+            ],
+            "mean_nats": -0.005085587501525879,
+            "min_nats": -0.01073002815246582,
+            "max_nats": -0.0006352066993713379,
+            "wins": 3
+          },
+          "versus_baseline": {
+            "deltas_nats": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "mean_nats": 0.0,
+            "min_nats": 0.0,
+            "max_nats": 0.0,
+            "wins": 0
+          },
+          "mean_sa_phase_wall_seconds": 3.012187991332515,
+          "mean_sa_phase_fraction_of_baseline_percent": 8.760402780399597,
+          "mean_observed_total_training_overhead_percent": 8.7604027803996,
+          "mean_sa_vs_extra_total_wall_ratio": 0.9978699015399002,
+          "extra_bp_updates": [
+            30,
+            23,
+            21
+          ],
+          "accepted": [
+            60,
+            73,
+            61
+          ],
+          "uphill_accepted": [
+            32,
+            27,
+            26
+          ],
+          "returned_initial_count": 3,
+          "unchanged_baseline_relative_win": true,
+          "calibration_ce_changes": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "temperatures": [
+            0.005951859149054687,
+            0.009608268576876917,
+            0.00658822144801022
+          ],
+          "advance": true
+        }
+      },
+      "sa_vs_greedy_middle": {
+        "deltas_nats": [
+          -0.0008736252784729004,
+          0.001347362995147705,
+          -0.00018090009689331055
+        ],
+        "mean_nats": 9.761253992716472e-05,
+        "min_nats": -0.0008736252784729004,
+        "max_nats": 0.001347362995147705,
+        "wins": 2
+      },
+      "reset_effect_without_sa": {
+        "deltas_nats": [
+          0.0023913979530334473,
+          0.002439737319946289,
+          0.003605186939239502
+        ],
+        "mean_nats": 0.0028121074040730796,
+        "min_nats": 0.0023913979530334473,
+        "max_nats": 0.003605186939239502,
+        "wins": 0
+      },
+      "reset_effect_with_sa": {
+        "deltas_nats": [
+          0.0023913979530334473,
+          0.002439737319946289,
+          0.003822803497314453
+        ],
+        "mean_nats": 0.00288464625676473,
+        "min_nats": 0.0023913979530334473,
+        "max_nats": 0.003822803497314453,
+        "wins": 0
+      },
+      "sa_middle_immediate_heldout_changes": [
+        0.0,
+        0.0,
+        0.005942046642303467
+      ]
+    },
+    "mingru_linear": {
+      "parameters": 177788,
+      "mean_final_ce": {
+        "baseline_keep": 5.379411856333415,
+        "baseline_reset": 5.382944107055664,
+        "sa_mid_keep": 5.3793894449869795,
+        "sa_mid_reset": 5.38293985525767,
+        "extra_mid_keep": 5.367259661356608,
+        "extra_mid_reset": 5.370532035827637,
+        "greedy_mid_keep": 5.379277169704437,
+        "sa_post": 5.386252502600352,
+        "extra_post": 5.387999018033345,
+        "sa_pre": 5.375716586907704,
+        "extra_pre": 5.275822838147481
+      },
+      "placements": {
+        "pre": {
+          "versus_extra_bp": {
+            "deltas_nats": [
+              0.0861174464225769,
+              0.09976518154144287,
+              0.11379861831665039
+            ],
+            "mean_nats": 0.09989374876022339,
+            "min_nats": 0.0861174464225769,
+            "max_nats": 0.11379861831665039,
+            "wins": 0
+          },
+          "versus_baseline": {
+            "deltas_nats": [
+              -0.00023317337036132812,
+              -0.02823936939239502,
+              0.01738673448562622
+            ],
+            "mean_nats": -0.0036952694257100425,
+            "min_nats": -0.02823936939239502,
+            "max_nats": 0.01738673448562622,
+            "wins": 2
+          },
+          "mean_sa_phase_wall_seconds": 2.125821594335624,
+          "mean_sa_phase_fraction_of_baseline_percent": 9.002263487501535,
+          "mean_observed_total_training_overhead_percent": 10.38698312215199,
+          "mean_sa_vs_extra_total_wall_ratio": 0.9954177406746375,
+          "extra_bp_updates": [
+            25,
+            26,
+            28
+          ],
+          "accepted": [
+            57,
+            74,
+            67
+          ],
+          "uphill_accepted": [
+            21,
+            32,
+            22
+          ],
+          "returned_initial_count": 0,
+          "unchanged_baseline_relative_win": false,
+          "calibration_ce_changes": [
+            -0.0567779541015625,
+            -0.05520820617675781,
+            -0.046126365661621094
+          ],
+          "temperatures": [
+            0.01601868291194368,
+            0.028872933971728233,
+            0.01657483147573675
+          ],
+          "advance": false
+        },
+        "middle_keep": {
+          "versus_extra_bp": {
+            "deltas_nats": [
+              0.012970149517059326,
+              0.01460343599319458,
+              0.008815765380859375
+            ],
+            "mean_nats": 0.012129783630371094,
+            "min_nats": 0.008815765380859375,
+            "max_nats": 0.01460343599319458,
+            "wins": 0
+          },
+          "versus_baseline": {
+            "deltas_nats": [
+              -6.723403930664062e-05,
+              0.0,
+              0.0
+            ],
+            "mean_nats": -2.2411346435546875e-05,
+            "min_nats": -6.723403930664062e-05,
+            "max_nats": 0.0,
+            "wins": 1
+          },
+          "mean_sa_phase_wall_seconds": 2.828176850336604,
+          "mean_sa_phase_fraction_of_baseline_percent": 12.010095301148596,
+          "mean_observed_total_training_overhead_percent": 11.603396615559722,
+          "mean_sa_vs_extra_total_wall_ratio": 0.9989997899990614,
+          "extra_bp_updates": [
+            42,
+            38,
+            26
+          ],
+          "accepted": [
+            71,
+            58,
+            58
+          ],
+          "uphill_accepted": [
+            33,
+            29,
+            27
+          ],
+          "returned_initial_count": 2,
+          "unchanged_baseline_relative_win": false,
+          "calibration_ce_changes": [
+            -0.0011396408081054688,
+            0.0,
+            0.0
+          ],
+          "temperatures": [
+            0.005780736514041435,
+            0.004256675545954655,
+            0.006409745887273742
+          ],
+          "advance": false
+        },
+        "middle_reset": {
+          "versus_extra_bp": {
+            "deltas_nats": [
+              0.01278674602508545,
+              0.014065861701965332,
+              0.010370850563049316
+            ],
+            "mean_nats": 0.012407819430033365,
+            "min_nats": 0.010370850563049316,
+            "max_nats": 0.014065861701965332,
+            "wins": 0
+          },
+          "versus_baseline": {
+            "deltas_nats": [
+              -1.2755393981933594e-05,
+              0.0,
+              0.0
+            ],
+            "mean_nats": -4.251797993977864e-06,
+            "min_nats": -1.2755393981933594e-05,
+            "max_nats": 0.0,
+            "wins": 1
+          },
+          "mean_sa_phase_wall_seconds": 2.828176850336604,
+          "mean_sa_phase_fraction_of_baseline_percent": 12.11924826945242,
+          "mean_observed_total_training_overhead_percent": 12.289557082638636,
+          "mean_sa_vs_extra_total_wall_ratio": 0.9878063326342709,
+          "extra_bp_updates": [
+            42,
+            38,
+            26
+          ],
+          "accepted": [
+            71,
+            58,
+            58
+          ],
+          "uphill_accepted": [
+            33,
+            29,
+            27
+          ],
+          "returned_initial_count": 2,
+          "unchanged_baseline_relative_win": false,
+          "calibration_ce_changes": [
+            -0.0011396408081054688,
+            0.0,
+            0.0
+          ],
+          "temperatures": [
+            0.005780736514041435,
+            0.004256675545954655,
+            0.006409745887273742
+          ],
+          "advance": false
+        },
+        "post": {
+          "versus_extra_bp": {
+            "deltas_nats": [
+              0.011295616626739502,
+              -0.011638939380645752,
+              -0.004896223545074463
+            ],
+            "mean_nats": -0.001746515432993571,
+            "min_nats": -0.011638939380645752,
+            "max_nats": 0.011295616626739502,
+            "wins": 2
+          },
+          "versus_baseline": {
+            "deltas_nats": [
+              0.020521938800811768,
+              0.0,
+              0.0
+            ],
+            "mean_nats": 0.006840646266937256,
+            "min_nats": 0.0,
+            "max_nats": 0.020521938800811768,
+            "wins": 0
+          },
+          "mean_sa_phase_wall_seconds": 2.844712191998648,
+          "mean_sa_phase_fraction_of_baseline_percent": 12.019916714409526,
+          "mean_observed_total_training_overhead_percent": 12.019916714409526,
+          "mean_sa_vs_extra_total_wall_ratio": 0.9978034594842002,
+          "extra_bp_updates": [
+            38,
+            26,
+            39
+          ],
+          "accepted": [
+            52,
+            68,
+            70
+          ],
+          "uphill_accepted": [
+            12,
+            32,
+            31
+          ],
+          "returned_initial_count": 2,
+          "unchanged_baseline_relative_win": false,
+          "calibration_ce_changes": [
+            -0.009459495544433594,
+            0.0,
+            0.0
+          ],
+          "temperatures": [
+            0.0021818135964189692,
+            0.009489953317512286,
+            0.007655064125670966
+          ],
+          "advance": false
+        }
+      },
+      "sa_vs_greedy_middle": {
+        "deltas_nats": [
+          -0.0008484125137329102,
+          0.00028765201568603516,
+          0.0008975863456726074
+        ],
+        "mean_nats": 0.00011227528254191081,
+        "min_nats": -0.0008484125137329102,
+        "max_nats": 0.0008975863456726074,
+        "wins": 1
+      },
+      "reset_effect_without_sa": {
+        "deltas_nats": [
+          0.0028589963912963867,
+          0.0029436349868774414,
+          0.004794120788574219
+        ],
+        "mean_nats": 0.003532250722249349,
+        "min_nats": 0.0028589963912963867,
+        "max_nats": 0.004794120788574219,
+        "wins": 0
+      },
+      "reset_effect_with_sa": {
+        "deltas_nats": [
+          0.0029134750366210938,
+          0.0029436349868774414,
+          0.004794120788574219
+        ],
+        "mean_nats": 0.003550410270690918,
+        "min_nats": 0.0029134750366210938,
+        "max_nats": 0.004794120788574219,
+        "wins": 0
+      },
+      "sa_middle_immediate_heldout_changes": [
+        7.653236389160156e-05,
+        0.0,
+        0.0
+      ]
+    },
+    "paragru": {
+      "parameters": 176050,
+      "mean_final_ce": {
+        "baseline_keep": 5.406388620535533,
+        "baseline_reset": 5.409808913866679,
+        "sa_mid_keep": 5.406597336133321,
+        "sa_mid_reset": 5.4101552565892534,
+        "extra_mid_keep": 5.389961342016856,
+        "extra_mid_reset": 5.393556276957194,
+        "greedy_mid_keep": 5.407418608665466,
+        "sa_post": 5.406503399213155,
+        "extra_post": 5.419597367445628,
+        "sa_pre": 5.399075249830882,
+        "extra_pre": 5.164541622002919
+      },
+      "placements": {
+        "pre": {
+          "versus_extra_bp": {
+            "deltas_nats": [
+              0.2626919150352478,
+              0.24028712511062622,
+              0.2006218433380127
+            ],
+            "mean_nats": 0.23453362782796225,
+            "min_nats": 0.2006218433380127,
+            "max_nats": 0.2626919150352478,
+            "wins": 0
+          },
+          "versus_baseline": {
+            "deltas_nats": [
+              -0.010793566703796387,
+              -0.0048667192459106445,
+              -0.0062798261642456055
+            ],
+            "mean_nats": -0.007313370704650879,
+            "min_nats": -0.010793566703796387,
+            "max_nats": -0.0048667192459106445,
+            "wins": 3
+          },
+          "mean_sa_phase_wall_seconds": 4.745555334666278,
+          "mean_sa_phase_fraction_of_baseline_percent": 16.08407317474977,
+          "mean_observed_total_training_overhead_percent": 13.779289971725921,
+          "mean_sa_vs_extra_total_wall_ratio": 0.9932475019177316,
+          "extra_bp_updates": [
+            43,
+            47,
+            52
+          ],
+          "accepted": [
+            70,
+            55,
+            76
+          ],
+          "uphill_accepted": [
+            34,
+            7,
+            26
+          ],
+          "returned_initial_count": 0,
+          "unchanged_baseline_relative_win": false,
+          "calibration_ce_changes": [
+            -0.02555561065673828,
+            -0.1214437484741211,
+            -0.054388999938964844
+          ],
+          "temperatures": [
+            0.023229897703049025,
+            0.003788762090840293,
+            0.031101538913658636
+          ],
+          "advance": false
+        },
+        "middle_keep": {
+          "versus_extra_bp": {
+            "deltas_nats": [
+              0.018178701400756836,
+              0.016114771366119385,
+              0.015614509582519531
+            ],
+            "mean_nats": 0.016635994116465252,
+            "min_nats": 0.015614509582519531,
+            "max_nats": 0.018178701400756836,
+            "wins": 0
+          },
+          "versus_baseline": {
+            "deltas_nats": [
+              9.357929229736328e-06,
+              0.0,
+              0.0006167888641357422
+            ],
+            "mean_nats": 0.00020871559778849283,
+            "min_nats": 0.0,
+            "max_nats": 0.0006167888641357422,
+            "wins": 0
+          },
+          "mean_sa_phase_wall_seconds": 5.326171970334447,
+          "mean_sa_phase_fraction_of_baseline_percent": 18.05536365393124,
+          "mean_observed_total_training_overhead_percent": 17.51438662720621,
+          "mean_sa_vs_extra_total_wall_ratio": 0.9930279701701915,
+          "extra_bp_updates": [
+            51,
+            50,
+            58
+          ],
+          "accepted": [
+            66,
+            63,
+            56
+          ],
+          "uphill_accepted": [
+            26,
+            26,
+            23
+          ],
+          "returned_initial_count": 1,
+          "unchanged_baseline_relative_win": false,
+          "calibration_ce_changes": [
+            -0.002243518829345703,
+            0.0,
+            -0.0007143020629882812
+          ],
+          "temperatures": [
+            0.004016034340467269,
+            0.00528407980382719,
+            0.0065521252671871125
+          ],
+          "advance": false
+        },
+        "middle_reset": {
+          "versus_extra_bp": {
+            "deltas_nats": [
+              0.017185330390930176,
+              0.015079796314239502,
+              0.01753181219100952
+            ],
+            "mean_nats": 0.016598979632059734,
+            "min_nats": 0.015079796314239502,
+            "max_nats": 0.01753181219100952,
+            "wins": 0
+          },
+          "versus_baseline": {
+            "deltas_nats": [
+              -3.88026237487793e-05,
+              0.0,
+              0.0010778307914733887
+            ],
+            "mean_nats": 0.0003463427225748698,
+            "min_nats": -3.88026237487793e-05,
+            "max_nats": 0.0010778307914733887,
+            "wins": 1
+          },
+          "mean_sa_phase_wall_seconds": 5.326171970334447,
+          "mean_sa_phase_fraction_of_baseline_percent": 18.0908170552085,
+          "mean_observed_total_training_overhead_percent": 16.02451954594953,
+          "mean_sa_vs_extra_total_wall_ratio": 0.9760834795011814,
+          "extra_bp_updates": [
+            51,
+            50,
+            58
+          ],
+          "accepted": [
+            66,
+            63,
+            56
+          ],
+          "uphill_accepted": [
+            26,
+            26,
+            23
+          ],
+          "returned_initial_count": 1,
+          "unchanged_baseline_relative_win": false,
+          "calibration_ce_changes": [
+            -0.002243518829345703,
+            0.0,
+            -0.0007143020629882812
+          ],
+          "temperatures": [
+            0.004016034340467269,
+            0.00528407980382719,
+            0.0065521252671871125
+          ],
+          "advance": false
+        },
+        "post": {
+          "versus_extra_bp": {
+            "deltas_nats": [
+              -0.010421991348266602,
+              -0.021227717399597168,
+              -0.007632195949554443
+            ],
+            "mean_nats": -0.013093968232472738,
+            "min_nats": -0.021227717399597168,
+            "max_nats": -0.007632195949554443,
+            "wins": 3
+          },
+          "versus_baseline": {
+            "deltas_nats": [
+              0.0,
+              0.0,
+              0.00034433603286743164
+            ],
+            "mean_nats": 0.00011477867762247722,
+            "min_nats": 0.0,
+            "max_nats": 0.00034433603286743164,
+            "wins": 0
+          },
+          "mean_sa_phase_wall_seconds": 5.130744930000219,
+          "mean_sa_phase_fraction_of_baseline_percent": 17.405624808184456,
+          "mean_observed_total_training_overhead_percent": 17.405624808184456,
+          "mean_sa_vs_extra_total_wall_ratio": 0.9980191105425824,
+          "extra_bp_updates": [
+            51,
+            51,
+            52
+          ],
+          "accepted": [
+            75,
+            64,
+            54
+          ],
+          "uphill_accepted": [
+            34,
+            26,
+            19
+          ],
+          "returned_initial_count": 2,
+          "unchanged_baseline_relative_win": false,
+          "calibration_ce_changes": [
+            0.0,
+            0.0,
+            -0.0031337738037109375
+          ],
+          "temperatures": [
+            0.00799530405231841,
+            0.00864102462037623,
+            0.00493448160807746
+          ],
+          "advance": false
+        }
+      },
+      "sa_vs_greedy_middle": {
+        "deltas_nats": [
+          -0.0004668235778808594,
+          -0.0003097057342529297,
+          -0.0016872882843017578
+        ],
+        "mean_nats": -0.0008212725321451823,
+        "min_nats": -0.0016872882843017578,
+        "max_nats": -0.0003097057342529297,
+        "wins": 3
+      },
+      "reset_effect_without_sa": {
+        "deltas_nats": [
+          0.0027414560317993164,
+          0.0026535987854003906,
+          0.004865825176239014
+        ],
+        "mean_nats": 0.0034202933311462402,
+        "min_nats": 0.0026535987854003906,
+        "max_nats": 0.004865825176239014,
+        "wins": 0
+      },
+      "reset_effect_with_sa": {
+        "deltas_nats": [
+          0.0026932954788208008,
+          0.0026535987854003906,
+          0.00532686710357666
+        ],
+        "mean_nats": 0.003557920455932617,
+        "min_nats": 0.0026535987854003906,
+        "max_nats": 0.00532686710357666,
+        "wins": 0
+      },
+      "sa_middle_immediate_heldout_changes": [
+        0.0004583597183227539,
+        0.0,
+        0.002205789089202881
+      ]
+    }
+  },
+  "status": "EXPLORATORY_GATE_ONLY",
+  "practical_interpretation": "Do not scale this configuration: no qualifying advantage that improved the model rather than returning an unchanged baseline.",
+  "inference": "Paired descriptive results, n=3 per architecture. No p-values or claims of significance; placement comparisons beyond middle/keep are exploratory."
+}

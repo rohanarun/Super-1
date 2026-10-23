@@ -1,0 +1,688 @@
+{
+  "protocol": {
+    "frozen_at": "2026-10-21T05:22:32.696475+00:00",
+    "question": "Can compact Kron outperform minGRU at no greater persistent state, weight memory and training CPU budget?",
+    "scope": "Synthetic retrieval in the existing fast/segment/document hierarchy. No curve-generated weights; CPU implementation only.",
+    "arms": {
+      "mingru": null,
+      "kron8": [
+        1,
+        8,
+        8
+      ],
+      "kron4h4": [
+        4,
+        4,
+        4
+      ],
+      "kron2h4": [
+        2,
+        4,
+        4
+      ]
+    },
+    "seeds": [
+      22101,
+      22102,
+      22103
+    ],
+    "learning_rates": {
+      "mingru": 0.003,
+      "kron8": 0.001,
+      "kron4h4": 0.001,
+      "kron2h4": 0.003
+    },
+    "pilots": [
+      {
+        "arm": "mingru",
+        "lr": 0.001,
+        "score": 0.8837890625,
+        "cpu": 99.00181644599971,
+        "steps": 7403
+      },
+      {
+        "arm": "mingru",
+        "lr": 0.003,
+        "score": 0.9384765625,
+        "cpu": 99.00321015400041,
+        "steps": 8315
+      },
+      {
+        "arm": "kron8",
+        "lr": 0.001,
+        "score": 0.9990234375,
+        "cpu": 99.03257922599954,
+        "steps": 4592
+      },
+      {
+        "arm": "kron8",
+        "lr": 0.003,
+        "score": 0.998046875,
+        "cpu": 99.0093001599998,
+        "steps": 3810
+      },
+      {
+        "arm": "kron4h4",
+        "lr": 0.001,
+        "score": 0.9921875,
+        "cpu": 99.06104835899987,
+        "steps": 2207
+      },
+      {
+        "arm": "kron4h4",
+        "lr": 0.003,
+        "score": 0.9853515625,
+        "cpu": 99.00160821400014,
+        "steps": 2919
+      },
+      {
+        "arm": "kron2h4",
+        "lr": 0.001,
+        "score": 0.994140625,
+        "cpu": 99.00056182500037,
+        "steps": 3200
+      },
+      {
+        "arm": "kron2h4",
+        "lr": 0.003,
+        "score": 0.9951171875,
+        "cpu": 99.00415341300004,
+        "steps": 2828
+      }
+    ],
+    "pilot_budget": "100 process CPU seconds per LR per arm, maximum 10000 short updates; common seed21901 and validation54000000.",
+    "curriculum": [
+      {
+        "name": "short",
+        "ages": [
+          4,
+          8,
+          16,
+          32
+        ],
+        "max_updates": 10000
+      },
+      {
+        "name": "medium",
+        "ages": [
+          32,
+          64,
+          128
+        ],
+        "max_updates": 1000
+      },
+      {
+        "name": "long",
+        "ages": [
+          32,
+          64,
+          128,
+          256,
+          512
+        ],
+        "max_updates": 3000
+      }
+    ],
+    "resource_policy": "Fresh minGRU runs complete all stages. Each compact run is capped by the paired minGRU training process CPU time separately in each stage, and by its update count. A one-second or 1.5x recent-step reserve prevents budget overrun. Faster arms cannot spend more updates/data. Each stage uses paired deterministic prefixes; later-stage offsets are independent of previous update counts.",
+    "cpu_clock": "time.process_time, one Torch/OpenMP/MKL/OpenBLAS thread per worker; includes generation, forward, backward, clipping, optimizer; excludes checkpoints, logging, validation, interpreter import and experiment engineering.",
+    "initialization": "Shared embedding, hierarchy, combine and task head are byte-identical within seed. Compact memory is newly initialized by the same PyTorch default/author gate rules.",
+    "training": {
+      "batch": 32,
+      "optimizer": "AdamW",
+      "betas": [
+        0.9,
+        0.95
+      ],
+      "weight_decay": 0.1,
+      "warmup": 50,
+      "gradient_clip": 1.0,
+      "dtype": "FP32",
+      "device": "CPU",
+      "checkpoint_every": 500
+    },
+    "confirmation": {
+      "seed_base": 76000000,
+      "ages": [
+        32,
+        128,
+        512,
+        2048
+      ],
+      "primary_modes": [
+        "competing",
+        "overwrite"
+      ],
+      "primary_age": 512,
+      "primary_n": 1024,
+      "other_n": 256,
+      "selection": "final checkpoint only; no confirmation-based tuning"
+    },
+    "resource_benchmarks": {
+      "decode_batch": [
+        1,
+        32
+      ],
+      "prefill_length": 513,
+      "training_batch": 32,
+      "training_length": 513,
+      "timing": "serial, interleaved arms, one thread; independent of confirmation selection"
+    },
+    "fidelity": "PASS",
+    "platform": {
+      "python": "3.12.14",
+      "torch": "2.9.1+cpu",
+      "cpu_quota_cores": 8
+    },
+    "source_sha256": {
+      "benchmark_quick.py": "5cfc60fe2525f37d28ce7e10637bc47bbaaddcad574a22f3277bf68860eeefac",
+      "bootstrap.py": "eba6b0bfc015d73762c04a622b1963aba1ce3f14550cea5d51cc1d9d7b4834f1",
+      "confirm.py": "cf3f4e7ea3c12f095ba026b8eb592b22aa215018a436210a5241aed75cf56bc6",
+      "experiment.py": "2fe53472a13758710407d534767a92eec303dae3da26e2d59ffbd7596c9d7446",
+      "freeze_protocol.py": "3949ea82c9c4141fec877e2ce540d39fa104de22d1a7ddc5546d6e7eeaa0460f",
+      "model.py": "25a59e08dc24616a2107c1306b3bd3f1e8934bb09152474b985c774002cbf1c0",
+      "pipeline.py": "7e89dbd9a04c15ca4c44223da12791e8989b8bf0159a831c727c95eccd1aa4d9",
+      "previous_model.py": "8fe958412050fd97504b76c921ae41447149e851db3b1602a2a184db97ae31f5",
+      "previous_train.py": "117b037d271ecf6902f609801aeb66a3a44f6008638c71db3b2749b5ba766620",
+      "references/causal_conv1d_ops.py": "b649c59f257d2b4f9791aff2879a209ee56201b9a978c7d031e6f2cffa5c8719",
+      "references/fused_norm_gate.py": "481d5f635ddda176c648fcd7f6625042d6c86662f1ee90b702366bf1a4079dfb",
+      "references/model_before_carry_pilot.py": "bbd2183e292458e6c5ad70c1c3630bf7a22bde0be8aac74d12ff32d11acfabb5",
+      "references/train_before_carry_pilot.py": "7e3388e810456104816cc92db84b04e12dd23b8a52e7f38a2d903f9003101cf4",
+      "references/train_before_extension.py": "88de633f18460fed057dff8e3c266564c32d3a9a2acfbe2f5500580e5514ff3b",
+      "references/train_before_main.py": "88de633f18460fed057dff8e3c266564c32d3a9a2acfbe2f5500580e5514ff3b",
+      "references/train_pilot_v1.py": "81a685a5eca82e56ca8e1fcefc049c6c12e7575b8dc3d82430e7fb1f939121d5",
+      "resources.py": "51560e21e10818e35e99f56bc9591637f66998c7774bf041997fc879db5548b4",
+      "run_queue.py": "2da6bad08989191ede78c099e952a161cf5705cb86eafb7bffce29d3390b6840",
+      "tasks.py": "a91a736e8c3a55f9698d48c99bb9ad4432d1d11a53113e684c85d585a13a9297",
+      "upstream/fla/layers/kronlstm.py": "6c84ba6ac76aa65a9261f2a06fd9e2d2fc3d3f4e435557a60c17324374b7c84e",
+      "upstream/fla/layers/utils.py": "b765041acdea48aa827dd58473caf5d6df1ac62a422f0656eaaaaea36d6ece75",
+      "upstream/fla/modules/__init__.py": "53a3a5421dd155e08efe18987e0715f07e4d1b470f1b12f88214dc40a51ab797",
+      "upstream/fla/ops/kronlstm/__init__.py": "d2f7cb4fa34f46f38faa4d38876c713bdb9b5f5eab750c50f55b5e6fc96e143d",
+      "upstream/fla/ops/kronlstm/naive.py": "e07cb9976194e7e2244dfb664d977320db5d56b0c5b9f3b1183fdf1620159461",
+      "upstream/hierarchy/models.py": "f340db31acb1b6075c10116de2bc11ad8bd50b11d88e1e5d2520227b9b3f2f70",
+      "upstream/hierarchy/vendor/representation_experiments/common.py": "381c5950aa454fc2275c45755bafd4c3e0641802013c0bf7ce9276abf5415fe1",
+      "upstream/hierarchy/vendor/representation_experiments/predictive_models.py": "b73a7c07801f5672adb52c0cb16a3c772d62e50eebc0366491d497f76d13f73f",
+      "verify.py": "b11b4b9f83e28027636363801179ea311ed84e5b50363b24276e51a2fab218c9"
+    }
+  },
+  "arms": {
+    "mingru": {
+      "name": "minGRU",
+      "accounting": {
+        "parameters": 111048,
+        "parameter_bytes": 444192,
+        "persistent_tensor_state_bytes": 1024,
+        "persistent_backing_storage_bytes": 1024,
+        "state_shapes": {
+          "fast": [
+            1,
+            64
+          ],
+          "segment": [
+            1,
+            64
+          ],
+          "document": [
+            1,
+            64
+          ],
+          "segment_sum": [
+            1,
+            64
+          ],
+          "segment_tokens": 1,
+          "segments": 0
+        }
+      },
+      "primary": {
+        "competing": {
+          "values": [
+            1.0,
+            1.0,
+            0.9677734375
+          ],
+          "mean": 0.9892578125,
+          "sample_sd": 0.0186060145344313
+        },
+        "overwrite": {
+          "values": [
+            1.0,
+            1.0,
+            0.9814453125
+          ],
+          "mean": 0.9938151041666666,
+          "sample_sd": 0.010712553822854385
+        }
+      },
+      "cpu_seconds": [
+        428.19576322899917,
+        429.01025128599866,
+        472.14025074099817
+      ],
+      "tokens": [
+        30262272,
+        30262272,
+        30262272
+      ],
+      "phase_steps": [
+        [
+          10000,
+          1000,
+          3000
+        ],
+        [
+          10000,
+          1000,
+          3000
+        ],
+        [
+          10000,
+          1000,
+          3000
+        ]
+      ],
+      "decode_seconds": {
+        "1": 0.00012720086327533409,
+        "32": 0.0002297000663986637
+      },
+      "train_step_seconds": 0.1983504109994101,
+      "prefill_seconds": 0.0672596850017726,
+      "memory": {
+        "train": {
+          "arm": "mingru",
+          "kind": "train",
+          "batch": 32,
+          "length": 513,
+          "peak_live_tensor_bytes": 129203500,
+          "initial_live_tensor_bytes": 1464236,
+          "peak_increment_bytes": 127739264,
+          "note": "PyTorch CPU profiler tensor allocations, includes observed preexisting tensors. Excludes Python/runtime and untracked library workspace. This is working memory, not persistent sequence state."
+        },
+        "inference": {
+          "arm": "mingru",
+          "kind": "inference",
+          "batch": 32,
+          "length": 513,
+          "peak_live_tensor_bytes": 46901280,
+          "initial_live_tensor_bytes": 575520,
+          "peak_increment_bytes": 46325760,
+          "note": "PyTorch CPU profiler tensor allocations, includes observed preexisting tensors. Excludes Python/runtime and untracked library workspace. This is working memory, not persistent sequence state."
+        }
+      },
+      "cpu_ratios": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "decode_ratios": {
+        "1": 1.0,
+        "32": 1.0
+      },
+      "primary_deltas_pp": {
+        "competing": 0.0,
+        "overwrite": 0.0
+      },
+      "strict_resource_and_mean_accuracy_screen": true
+    },
+    "kron8": {
+      "name": "Kron 1 \u00d7 8 \u00d7 8",
+      "accounting": {
+        "parameters": 95009,
+        "parameter_bytes": 380036,
+        "persistent_tensor_state_bytes": 1024,
+        "persistent_backing_storage_bytes": 1024,
+        "state_shapes": {
+          "segment": [
+            1,
+            64
+          ],
+          "document": [
+            1,
+            64
+          ],
+          "segment_sum": [
+            1,
+            64
+          ],
+          "segment_tokens": 1,
+          "segments": 0,
+          "kron_state": [
+            1,
+            1,
+            8,
+            8
+          ]
+        }
+      },
+      "primary": {
+        "competing": {
+          "values": [
+            0.9990234375,
+            1.0,
+            1.0
+          ],
+          "mean": 0.9996744791666666,
+          "sample_sd": 0.0005638186222554939
+        },
+        "overwrite": {
+          "values": [
+            0.998046875,
+            0.9990234375,
+            0.998046875
+          ],
+          "mean": 0.9983723958333334,
+          "sample_sd": 0.0005638186222554939
+        }
+      },
+      "cpu_seconds": [
+        425.48513167199974,
+        426.177948987001,
+        469.5767852460002
+      ],
+      "tokens": [
+        18589216,
+        18738848,
+        21452416
+      ],
+      "phase_steps": [
+        [
+          5020,
+          432,
+          2053
+        ],
+        [
+          5278,
+          450,
+          2037
+        ],
+        [
+          5988,
+          510,
+          2338
+        ]
+      ],
+      "decode_seconds": {
+        "1": 0.00043331062890672456,
+        "32": 0.0006705717031252334
+      },
+      "train_step_seconds": 0.30755783499807876,
+      "prefill_seconds": 0.0994015654996474,
+      "memory": {
+        "train": {
+          "arm": "kron8",
+          "kind": "train",
+          "batch": 32,
+          "length": 513,
+          "peak_live_tensor_bytes": 146113932,
+          "initial_live_tensor_bytes": 1271804,
+          "peak_increment_bytes": 144842128,
+          "note": "PyTorch CPU profiler tensor allocations, includes observed preexisting tensors. Excludes Python/runtime and untracked library workspace. This is working memory, not persistent sequence state."
+        },
+        "inference": {
+          "arm": "kron8",
+          "kind": "inference",
+          "batch": 32,
+          "length": 513,
+          "peak_live_tensor_bytes": 46837124,
+          "initial_live_tensor_bytes": 511364,
+          "peak_increment_bytes": 46325760,
+          "note": "PyTorch CPU profiler tensor allocations, includes observed preexisting tensors. Excludes Python/runtime and untracked library workspace. This is working memory, not persistent sequence state."
+        }
+      },
+      "cpu_ratios": [
+        0.9936696441446344,
+        0.9933980544975147,
+        0.9945705423526702
+      ],
+      "decode_ratios": {
+        "1": 3.4065069823370386,
+        "32": 2.9193361309761228
+      },
+      "primary_deltas_pp": {
+        "competing": 1.041666666666663,
+        "overwrite": 0.45572916666667407
+      },
+      "strict_resource_and_mean_accuracy_screen": false
+    },
+    "kron4h4": {
+      "name": "Kron 4 \u00d7 4 \u00d7 4",
+      "accounting": {
+        "parameters": 102064,
+        "parameter_bytes": 408256,
+        "persistent_tensor_state_bytes": 1024,
+        "persistent_backing_storage_bytes": 1024,
+        "state_shapes": {
+          "segment": [
+            1,
+            64
+          ],
+          "document": [
+            1,
+            64
+          ],
+          "segment_sum": [
+            1,
+            64
+          ],
+          "segment_tokens": 1,
+          "segments": 0,
+          "kron_state": [
+            1,
+            4,
+            4,
+            4
+          ]
+        }
+      },
+      "primary": {
+        "competing": {
+          "values": [
+            0.994140625,
+            0.9677734375,
+            0.9921875
+          ],
+          "mean": 0.9847005208333334,
+          "sample_sd": 0.014691776167183278
+        },
+        "overwrite": {
+          "values": [
+            0.986328125,
+            0.9775390625,
+            0.982421875
+          ],
+          "mean": 0.9820963541666666,
+          "sample_sd": 0.004403564211741108
+        }
+      },
+      "cpu_seconds": [
+        425.2458153690003,
+        425.7718450400002,
+        469.26472984699996
+      ],
+      "tokens": [
+        10693824,
+        9737248,
+        10120608
+      ],
+      "phase_steps": [
+        [
+          2644,
+          360,
+          1162
+        ],
+        [
+          3104,
+          336,
+          977
+        ],
+        [
+          3475,
+          252,
+          1026
+        ]
+      ],
+      "decode_seconds": {
+        "1": 0.00043604532031338294,
+        "32": 0.0007003237890614855
+      },
+      "train_step_seconds": 0.6470931224994274,
+      "prefill_seconds": 0.21819437150043086,
+      "memory": {
+        "train": {
+          "arm": "kron4h4",
+          "kind": "train",
+          "batch": 32,
+          "length": 513,
+          "peak_live_tensor_bytes": 246152024,
+          "initial_live_tensor_bytes": 1356464,
+          "peak_increment_bytes": 244795560,
+          "note": "PyTorch CPU profiler tensor allocations, includes observed preexisting tensors. Excludes Python/runtime and untracked library workspace. This is working memory, not persistent sequence state."
+        },
+        "inference": {
+          "arm": "kron4h4",
+          "kind": "inference",
+          "batch": 32,
+          "length": 513,
+          "peak_live_tensor_bytes": 46865344,
+          "initial_live_tensor_bytes": 539584,
+          "peak_increment_bytes": 46325760,
+          "note": "PyTorch CPU profiler tensor allocations, includes observed preexisting tensors. Excludes Python/runtime and untracked library workspace. This is working memory, not persistent sequence state."
+        }
+      },
+      "cpu_ratios": [
+        0.9931107495371895,
+        0.9924514478703224,
+        0.9939096044247758
+      ],
+      "decode_ratios": {
+        "1": 3.428005982707335,
+        "32": 3.04886193566011
+      },
+      "primary_deltas_pp": {
+        "competing": -0.45572916666666297,
+        "overwrite": -1.171875
+      },
+      "strict_resource_and_mean_accuracy_screen": false
+    },
+    "kron2h4": {
+      "name": "Kron 2 \u00d7 4 \u00d7 4",
+      "accounting": {
+        "parameters": 94590,
+        "parameter_bytes": 378360,
+        "persistent_tensor_state_bytes": 896,
+        "persistent_backing_storage_bytes": 896,
+        "state_shapes": {
+          "segment": [
+            1,
+            64
+          ],
+          "document": [
+            1,
+            64
+          ],
+          "segment_sum": [
+            1,
+            64
+          ],
+          "segment_tokens": 1,
+          "segments": 0,
+          "kron_state": [
+            1,
+            2,
+            4,
+            4
+          ]
+        }
+      },
+      "primary": {
+        "competing": {
+          "values": [
+            0.94921875,
+            0.978515625,
+            0.9033203125
+          ],
+          "mean": 0.9436848958333334,
+          "sample_sd": 0.037901865547049454
+        },
+        "overwrite": {
+          "values": [
+            0.9658203125,
+            0.984375,
+            0.966796875
+          ],
+          "mean": 0.9723307291666666,
+          "sample_sd": 0.010442067013245728
+        }
+      },
+      "cpu_seconds": [
+        425.47079466399975,
+        426.3687489019998,
+        469.36513195599997
+      ],
+      "tokens": [
+        12269376,
+        10370144,
+        13482240
+      ],
+      "phase_steps": [
+        [
+          3638,
+          308,
+          1312
+        ],
+        [
+          3437,
+          297,
+          1053
+        ],
+        [
+          5096,
+          439,
+          1273
+        ]
+      ],
+      "decode_seconds": {
+        "1": 0.0004373232968788443,
+        "32": 0.0006139331406274096
+      },
+      "train_step_seconds": 0.39851047950105567,
+      "prefill_seconds": 0.16135788899919135,
+      "memory": {
+        "train": {
+          "arm": "kron2h4",
+          "kind": "train",
+          "batch": 32,
+          "length": 513,
+          "peak_live_tensor_bytes": 158388976,
+          "initial_live_tensor_bytes": 1266776,
+          "peak_increment_bytes": 157122200,
+          "note": "PyTorch CPU profiler tensor allocations, includes observed preexisting tensors. Excludes Python/runtime and untracked library workspace. This is working memory, not persistent sequence state."
+        },
+        "inference": {
+          "arm": "kron2h4",
+          "kind": "inference",
+          "batch": 32,
+          "length": 513,
+          "peak_live_tensor_bytes": 46827256,
+          "initial_live_tensor_bytes": 509688,
+          "peak_increment_bytes": 46317568,
+          "note": "PyTorch CPU profiler tensor allocations, includes observed preexisting tensors. Excludes Python/runtime and untracked library workspace. This is working memory, not persistent sequence state."
+        }
+      },
+      "cpu_ratios": [
+        0.9936361617769158,
+        0.993842798916621,
+        0.9941222575693498
+      ],
+      "decode_ratios": {
+        "1": 3.4380529000988864,
+        "32": 2.6727599615137994
+      },
+      "primary_deltas_pp": {
+        "competing": -4.5572916666666625,
+        "overwrite": -2.1484375
+      },
+      "strict_resource_and_mean_accuracy_screen": false
+    }
+  },
+  "note": "Descriptive three-seed screen; resource/accuracy conjunction is not a statistical proof."
+}

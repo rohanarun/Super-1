@@ -1,0 +1,295 @@
+{
+  "rows": [
+    {
+      "arm": "mingru",
+      "seed": 22101,
+      "mode": "competing",
+      "intervention": "intact",
+      "correct": 256,
+      "n": 256,
+      "accuracy": 1.0
+    },
+    {
+      "arm": "mingru",
+      "seed": 22101,
+      "mode": "competing",
+      "intervention": "zero_fast",
+      "correct": 43,
+      "n": 256,
+      "accuracy": 0.16796875
+    },
+    {
+      "arm": "mingru",
+      "seed": 22101,
+      "mode": "competing",
+      "intervention": "zero_slow",
+      "correct": 256,
+      "n": 256,
+      "accuracy": 1.0
+    },
+    {
+      "arm": "mingru",
+      "seed": 22101,
+      "mode": "competing",
+      "intervention": "zero_all",
+      "correct": 38,
+      "n": 256,
+      "accuracy": 0.1484375
+    },
+    {
+      "arm": "mingru",
+      "seed": 22101,
+      "mode": "overwrite",
+      "intervention": "intact",
+      "correct": 256,
+      "n": 256,
+      "accuracy": 1.0
+    },
+    {
+      "arm": "mingru",
+      "seed": 22101,
+      "mode": "overwrite",
+      "intervention": "zero_fast",
+      "correct": 42,
+      "n": 256,
+      "accuracy": 0.1640625
+    },
+    {
+      "arm": "mingru",
+      "seed": 22101,
+      "mode": "overwrite",
+      "intervention": "zero_slow",
+      "correct": 256,
+      "n": 256,
+      "accuracy": 1.0
+    },
+    {
+      "arm": "mingru",
+      "seed": 22101,
+      "mode": "overwrite",
+      "intervention": "zero_all",
+      "correct": 41,
+      "n": 256,
+      "accuracy": 0.16015625
+    },
+    {
+      "arm": "kron8",
+      "seed": 22101,
+      "mode": "competing",
+      "intervention": "intact",
+      "correct": 256,
+      "n": 256,
+      "accuracy": 1.0
+    },
+    {
+      "arm": "kron8",
+      "seed": 22101,
+      "mode": "competing",
+      "intervention": "zero_fast",
+      "correct": 46,
+      "n": 256,
+      "accuracy": 0.1796875
+    },
+    {
+      "arm": "kron8",
+      "seed": 22101,
+      "mode": "competing",
+      "intervention": "zero_slow",
+      "correct": 218,
+      "n": 256,
+      "accuracy": 0.8515625
+    },
+    {
+      "arm": "kron8",
+      "seed": 22101,
+      "mode": "competing",
+      "intervention": "zero_all",
+      "correct": 38,
+      "n": 256,
+      "accuracy": 0.1484375
+    },
+    {
+      "arm": "kron8",
+      "seed": 22101,
+      "mode": "overwrite",
+      "intervention": "intact",
+      "correct": 256,
+      "n": 256,
+      "accuracy": 1.0
+    },
+    {
+      "arm": "kron8",
+      "seed": 22101,
+      "mode": "overwrite",
+      "intervention": "zero_fast",
+      "correct": 30,
+      "n": 256,
+      "accuracy": 0.1171875
+    },
+    {
+      "arm": "kron8",
+      "seed": 22101,
+      "mode": "overwrite",
+      "intervention": "zero_slow",
+      "correct": 254,
+      "n": 256,
+      "accuracy": 0.9921875
+    },
+    {
+      "arm": "kron8",
+      "seed": 22101,
+      "mode": "overwrite",
+      "intervention": "zero_all",
+      "correct": 32,
+      "n": 256,
+      "accuracy": 0.125
+    },
+    {
+      "arm": "kron4h4",
+      "seed": 22101,
+      "mode": "competing",
+      "intervention": "intact",
+      "correct": 254,
+      "n": 256,
+      "accuracy": 0.9921875
+    },
+    {
+      "arm": "kron4h4",
+      "seed": 22101,
+      "mode": "competing",
+      "intervention": "zero_fast",
+      "correct": 24,
+      "n": 256,
+      "accuracy": 0.09375
+    },
+    {
+      "arm": "kron4h4",
+      "seed": 22101,
+      "mode": "competing",
+      "intervention": "zero_slow",
+      "correct": 213,
+      "n": 256,
+      "accuracy": 0.83203125
+    },
+    {
+      "arm": "kron4h4",
+      "seed": 22101,
+      "mode": "competing",
+      "intervention": "zero_all",
+      "correct": 29,
+      "n": 256,
+      "accuracy": 0.11328125
+    },
+    {
+      "arm": "kron4h4",
+      "seed": 22101,
+      "mode": "overwrite",
+      "intervention": "intact",
+      "correct": 254,
+      "n": 256,
+      "accuracy": 0.9921875
+    },
+    {
+      "arm": "kron4h4",
+      "seed": 22101,
+      "mode": "overwrite",
+      "intervention": "zero_fast",
+      "correct": 23,
+      "n": 256,
+      "accuracy": 0.08984375
+    },
+    {
+      "arm": "kron4h4",
+      "seed": 22101,
+      "mode": "overwrite",
+      "intervention": "zero_slow",
+      "correct": 234,
+      "n": 256,
+      "accuracy": 0.9140625
+    },
+    {
+      "arm": "kron4h4",
+      "seed": 22101,
+      "mode": "overwrite",
+      "intervention": "zero_all",
+      "correct": 31,
+      "n": 256,
+      "accuracy": 0.12109375
+    },
+    {
+      "arm": "kron2h4",
+      "seed": 22101,
+      "mode": "competing",
+      "intervention": "intact",
+      "correct": 236,
+      "n": 256,
+      "accuracy": 0.921875
+    },
+    {
+      "arm": "kron2h4",
+      "seed": 22101,
+      "mode": "competing",
+      "intervention": "zero_fast",
+      "correct": 33,
+      "n": 256,
+      "accuracy": 0.12890625
+    },
+    {
+      "arm": "kron2h4",
+      "seed": 22101,
+      "mode": "competing",
+      "intervention": "zero_slow",
+      "correct": 216,
+      "n": 256,
+      "accuracy": 0.84375
+    },
+    {
+      "arm": "kron2h4",
+      "seed": 22101,
+      "mode": "competing",
+      "intervention": "zero_all",
+      "correct": 38,
+      "n": 256,
+      "accuracy": 0.1484375
+    },
+    {
+      "arm": "kron2h4",
+      "seed": 22101,
+      "mode": "overwrite",
+      "intervention": "intact",
+      "correct": 252,
+      "n": 256,
+      "accuracy": 0.984375
+    },
+    {
+      "arm": "kron2h4",
+      "seed": 22101,
+      "mode": "overwrite",
+      "intervention": "zero_fast",
+      "correct": 36,
+      "n": 256,
+      "accuracy": 0.140625
+    },
+    {
+      "arm": "kron2h4",
+      "seed": 22101,
+      "mode": "overwrite",
+      "intervention": "zero_slow",
+      "correct": 250,
+      "n": 256,
+      "accuracy": 0.9765625
+    },
+    {
+      "arm": "kron2h4",
+      "seed": 22101,
+      "mode": "overwrite",
+      "intervention": "zero_all",
+      "correct": 32,
+      "n": 256,
+      "accuracy": 0.125
+    }
+  ],
+  "cut": 256,
+  "nominal_age": 512,
+  "note": "All target writes precede cut; counters preserved; independent diagnostic data; one seed only."
+}

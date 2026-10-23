@@ -1,0 +1,66 @@
+{
+  "status": "PASS",
+  "tests": [
+    {
+      "check": "pinned_upstream_blob_hashes",
+      "status": "PASS",
+      "files": 5
+    },
+    {
+      "check": "metropolis_acceptance_formula",
+      "status": "PASS"
+    },
+    {
+      "check": "quadratic_chain_and_best_restore",
+      "status": "PASS",
+      "sa_uphill_accepted": 10,
+      "sa_best_loss": 1.3677538633346558,
+      "greedy_uphill_accepted": 0
+    },
+    {
+      "check": "no_backward_adam_preserved_and_boundary_identity",
+      "kind": "native",
+      "status": "PASS",
+      "sa_initial_loss": 7.270547866821289,
+      "sa_best_loss": 7.267668724060059,
+      "sa_uphill_accepted": 1
+    },
+    {
+      "check": "no_backward_adam_preserved_and_boundary_identity",
+      "kind": "mingru_linear",
+      "status": "PASS",
+      "sa_initial_loss": 7.183046817779541,
+      "sa_best_loss": 7.1824212074279785,
+      "sa_uphill_accepted": 3
+    },
+    {
+      "check": "no_backward_adam_preserved_and_boundary_identity",
+      "kind": "paragru",
+      "status": "PASS",
+      "sa_initial_loss": 7.227233409881592,
+      "sa_best_loss": 7.227233409881592,
+      "sa_uphill_accepted": 4
+    },
+    {
+      "check": "confirmation_document_separation",
+      "status": "PASS",
+      "fresh_documents": 38
+    }
+  ],
+  "training_only_timings": {
+    "native": {
+      "bp_step_mean_seconds": 0.11393369849974988,
+      "sa_forward_and_proposal_mean_seconds": 0.032563741916116364
+    },
+    "mingru_linear": {
+      "bp_step_mean_seconds": 0.07530077649789746,
+      "sa_forward_and_proposal_mean_seconds": 0.027538716916751582
+    },
+    "paragru": {
+      "bp_step_mean_seconds": 0.08776997450149793,
+      "sa_forward_and_proposal_mean_seconds": 0.04428878499978358
+    }
+  },
+  "rough_main_seconds_excluding_eval": 1429.0341306077898,
+  "confirmation_evaluations_during_preflight": 0
+}

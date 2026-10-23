@@ -1,0 +1,53 @@
+{
+  "purpose": "separate CPU ~124M 25-minute exploration; not the original GPU comparison contract",
+  "source": {
+    "repo": "HuggingFaceFW/fineweb",
+    "config": "sample-10BT",
+    "revision": "9bb295ddab0e05d785b879661af7260fed5140fc",
+    "path": "sample/10BT/000_00000.parquet",
+    "bytes": 2147292183,
+    "sha256": "6b552ea48424648dc86d00df276f93fdfc55e9ad342ce3e4affc23a3a370792b",
+    "rows_examined": 12692,
+    "total_shard_rows": 1048581
+  },
+  "tokenizer": {
+    "name": "GPT-2",
+    "n_vocab": 50257,
+    "version": "0.14.0",
+    "ranks_sha256": "607697ddcd4fc0347c62f4c421655ef712ec3dd34406b214dafd185cf3426d9a"
+  },
+  "split_rule": "SHA256 exact text first 16 hex digits modulo 100; 0 development, 1 confirmation, 2-99 train; global ID and exact-text deduplication",
+  "eot_policy": "prepend EOT, reset before EOT input; score preceding document final text-to-EOT target",
+  "duplicates_skipped": 0,
+  "preparation_seconds": 2.372284489996673,
+  "splits": {
+    "train": {
+      "file": "train.npy",
+      "sha256": "507c69917bc934cfafa69dd6595509d613233c676147be2f9d884a6bc37128bc",
+      "tokens": 5000001,
+      "scored_tokens": 5000000,
+      "documents": 7192,
+      "document_manifest": "train_documents.json",
+      "document_manifest_sha256": "0b27d5a2bd2af10c2b06d4e13eb031fa3132f842f0d46446fcdee418c7d9ca31"
+    },
+    "development": {
+      "file": "development.npy",
+      "sha256": "851bdd1607ae37594da59dd5266f29c1d58220449f40b60ab6ead767c140d620",
+      "tokens": 65537,
+      "scored_tokens": 65536,
+      "documents": 101,
+      "document_manifest": "development_documents.json",
+      "document_manifest_sha256": "e7ab75b7705e061937308a6ae47eac63c67147cc866c67828f3b909e445e7082"
+    },
+    "confirmation": {
+      "file": "confirmation.npy",
+      "sha256": "47688c70aec72996704da10ec5eb061e03596ca3e2defa499817d1921081a0c0",
+      "tokens": 65537,
+      "scored_tokens": 65536,
+      "documents": 122,
+      "document_manifest": "confirmation_documents.json",
+      "document_manifest_sha256": "7eda6308662e9b455e83a6b281967fb3158ae2c1b38cf82ce12b74cc717accc9"
+    }
+  },
+  "document_disjointness_check": "PASS"
+}

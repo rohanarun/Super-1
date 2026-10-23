@@ -1,0 +1,264 @@
+{
+  "source_commit": "3c8bf67fed8231386a720d966775cf5cbd59b5e6",
+  "base_commit": "987c34a4e9ea5fc47e1393c6e4ba1dd2156df6dd",
+  "source_snapshot_is_local": true,
+  "github_push_performed": false,
+  "original_bundle_sha256": "16f71c993b2fa310610604038e3105256f6805868756c7b8d02b0e9324c8d5bc",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 61,
+      "sha256": "a6dd3c3d8b7a613ec612f1e35529459e3da06dc530039afcaf7c86eb74e46575"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3725,
+      "sha256": "6673f3ba4f7696f11277cf0c7cd04db759b557f70748d128bd5ae0599dfcfbb5"
+    },
+    {
+      "path": "comparison_contract.json",
+      "bytes": 2307,
+      "sha256": "d02711a7335fd3a20e147a078b4dd5b527beb749fb31a68673caad232dcb4fd0"
+    },
+    {
+      "path": "data/fixture/handoff_prose.txt",
+      "bytes": 1301,
+      "sha256": "23a46169b4a69b882a3db51620cc81cdad53b8d8f511d450004de2575bb49824"
+    },
+    {
+      "path": "docs/GPU_LAUNCH.md",
+      "bytes": 7237,
+      "sha256": "9f90fab726a33b12303b22c215430eba54a4dad058e64af71464fe5ebcf02ec9"
+    },
+    {
+      "path": "docs/build_report.py",
+      "bytes": 13527,
+      "sha256": "df88458714a415165b8628ef6573483eee29f5154d92b3dce8caecbb131ae895"
+    },
+    {
+      "path": "docs/original_handoff.md",
+      "bytes": 22689,
+      "sha256": "569bfc7342c1548490df9b9d89fe0f64f60f556b60a0fd4b6bf17c08d111fad9"
+    },
+    {
+      "path": "experiments/__init__.py",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "experiments/nanogpt_memory/__init__.py",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "experiments/nanogpt_memory/data.py",
+      "bytes": 5566,
+      "sha256": "66b22cd899459965f34afd540390f6ff2c9dd0fb57e2a73258f232ac99df838e"
+    },
+    {
+      "path": "experiments/nanogpt_memory/model.py",
+      "bytes": 15119,
+      "sha256": "b11822ff94cd8646177ea9951443271a12de02d45246b8b1ba4e0848230801d9"
+    },
+    {
+      "path": "experiments/nanogpt_memory/qualify.py",
+      "bytes": 3946,
+      "sha256": "a4075d2171162cb75895496612b2f0aadadfb561963c3db11e701969546d6108"
+    },
+    {
+      "path": "experiments/nanogpt_memory/smoke.py",
+      "bytes": 8768,
+      "sha256": "97ba9c204792f263598969a08f4effc5f8ee5b8a16acee2e9a57fd8150444f6b"
+    },
+    {
+      "path": "experiments/nanogpt_memory/train.py",
+      "bytes": 13432,
+      "sha256": "c4158e756990d05074e1d4526566bd8754a220db1f6c3a8e3e025706b3f9646f"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 84,
+      "sha256": "338f91ed053b9428c6f91815131d802ca27522cbbcd4fab97c12da572e328e75"
+    },
+    {
+      "path": "research-scratch/nanogpt-memory/data_and_runner_checks.json",
+      "bytes": 980,
+      "sha256": "08877163ede8ee6d2af98daf1a5a1a6965fd86c981a70fdbb74d9054113c666c"
+    },
+    {
+      "path": "research-scratch/nanogpt-memory/data_runner.log",
+      "bytes": 5207,
+      "sha256": "52bc834e9af484dd906f426168f5f04a4135408baf06f37eba165d7d5982d09a"
+    },
+    {
+      "path": "research-scratch/nanogpt-memory/environment.json",
+      "bytes": 5181,
+      "sha256": "1f3283f3ea1d66eccb8b22400a8931678b0deee0f0272c74bb82f0c7db78a1c3"
+    },
+    {
+      "path": "research-scratch/nanogpt-memory/model_accounting.json",
+      "bytes": 782,
+      "sha256": "eee9fc1e06de66c5b05d512e62eae3f955356d2c8e7a8339f4054af99bfc33e7"
+    },
+    {
+      "path": "research-scratch/nanogpt-memory/smoke/curves.json",
+      "bytes": 2472,
+      "sha256": "07db29cde15bd04445d08435a2ac85f4b4c4c3044c3e2817a3fd8c878fe22f83"
+    },
+    {
+      "path": "research-scratch/nanogpt-memory/smoke/protocol.json",
+      "bytes": 2604,
+      "sha256": "ef1ea51b3d881791719912ca297ab8c4ea4a93ebaf0535f205a358b1b804305e"
+    },
+    {
+      "path": "research-scratch/nanogpt-memory/smoke/summary.json",
+      "bytes": 1895,
+      "sha256": "86fd7625b4f6aad8cec84740674355854f7fc104cb53a85ee6afc16f8681d04d"
+    },
+    {
+      "path": "research-scratch/nanogpt-memory/smoke_learning.png",
+      "bytes": 78502,
+      "sha256": "f7d54d9a81ce0710638a1b55ee795b9bde310615965bef43cd212a86bb16a19e"
+    },
+    {
+      "path": "research-scratch/nanogpt-memory/smoke_run.log",
+      "bytes": 3567,
+      "sha256": "27fae8270fd1a3285927af19094386d92935742c181cc6da42f0984c8aa2378e"
+    },
+    {
+      "path": "research-scratch/nanogpt-memory/status.json",
+      "bytes": 5526,
+      "sha256": "4fd9e1a558fb9b165f5bcdd97cb3a8a0b017699fe3127e624c5d60ed5473ef71"
+    },
+    {
+      "path": "research-scratch/nanogpt-memory/verification_cpu.json",
+      "bytes": 5697,
+      "sha256": "72333acb35fd947c30e6887d520d8d4f58befa09cea112ac400ded3b5b6dd70c"
+    },
+    {
+      "path": "research-scratch/nanogpt-memory/verification_cpu.log",
+      "bytes": 4324,
+      "sha256": "ead4b89075570e44946aa100cfbca63f80e2f33f42a5fdf83e7c6420397e8dd7"
+    },
+    {
+      "path": "research-scratch/nanogpt-memory/verification_initial_roundoff_failure.json",
+      "bytes": 4298,
+      "sha256": "24dbf06a36898aef594b34000b6dfc9feb01713c77baf24874c71a5023d9c50e"
+    },
+    {
+      "path": "source_changes.patch",
+      "bytes": 135454,
+      "sha256": "a90a98bbff66c115724439d556d5b777013cd127052d4e59413fd4addf43b481"
+    },
+    {
+      "path": "tests/check_data_and_runner.py",
+      "bytes": 5441,
+      "sha256": "467e052d19a1bf0ddb2d0e2cd758a5e5b9ecc4f2215e247bebab618c9c2c8bc8"
+    },
+    {
+      "path": "tests/verify.py",
+      "bytes": 12362,
+      "sha256": "4da998c481e6ef14a590e743797d4b93630692e682805a8d4d7e03e3259a2e53"
+    },
+    {
+      "path": "vendor/compact_kron_20261021/README.md",
+      "bytes": 4147,
+      "sha256": "d699291673adbcde3bbe87d317b0db57ffab7d1d7f4909eaf405be17010202c7"
+    },
+    {
+      "path": "vendor/compact_kron_20261021/bootstrap.py",
+      "bytes": 343,
+      "sha256": "eba6b0bfc015d73762c04a622b1963aba1ce3f14550cea5d51cc1d9d7b4834f1"
+    },
+    {
+      "path": "vendor/compact_kron_20261021/model.py",
+      "bytes": 8610,
+      "sha256": "25a59e08dc24616a2107c1306b3bd3f1e8934bb09152474b985c774002cbf1c0"
+    },
+    {
+      "path": "vendor/compact_kron_20261021/previous_model.py",
+      "bytes": 5749,
+      "sha256": "8fe958412050fd97504b76c921ae41447149e851db3b1602a2a184db97ae31f5"
+    },
+    {
+      "path": "vendor/compact_kron_20261021/prior_checks/audit.json",
+      "bytes": 4147,
+      "sha256": "a625f0758ed8ab6113ba1dd2918a310834c7e94c8fc586908b5d0b6ea9615d37"
+    },
+    {
+      "path": "vendor/compact_kron_20261021/prior_checks/verification.json",
+      "bytes": 9559,
+      "sha256": "cd657cc646c8e243ddd15ec101749307707e8d73462f3dd3a4dd228758f434f4"
+    },
+    {
+      "path": "vendor/compact_kron_20261021/protocol.json",
+      "bytes": 6964,
+      "sha256": "66b7c36d330d0cec771ce903cb718d35f9a9ed6ba1f53eec52a96f194cc2c127"
+    },
+    {
+      "path": "vendor/compact_kron_20261021/source_manifest.json",
+      "bytes": 2184,
+      "sha256": "bc0c66beb85461669c7d7671cb412c217937bdf90a0e535e0c2fab7dd0d2a172"
+    },
+    {
+      "path": "vendor/compact_kron_20261021/summary.json",
+      "bytes": 19851,
+      "sha256": "0e499b80f66af93e84f0fd424ed59d31ae05bc6b13616408caa1255e9a304ac8"
+    },
+    {
+      "path": "vendor/compact_kron_20261021/upstream/KronLSTM_LICENSE.txt",
+      "bytes": 1125,
+      "sha256": "e405052cdf251a78739ea23812948674cf33676cbed65ef49cc198d064e2263b"
+    },
+    {
+      "path": "vendor/compact_kron_20261021/upstream/Super-1_LICENSE.txt",
+      "bytes": 1067,
+      "sha256": "e449f99f997074cdfe3b3e5b48ebcd94d1d5abbb1268a93a989ffcd4153db4ce"
+    },
+    {
+      "path": "vendor/compact_kron_20261021/upstream/fla/layers/kronlstm.py",
+      "bytes": 18060,
+      "sha256": "6c84ba6ac76aa65a9261f2a06fd9e2d2fc3d3f4e435557a60c17324374b7c84e"
+    },
+    {
+      "path": "vendor/compact_kron_20261021/upstream/fla/layers/utils.py",
+      "bytes": 668,
+      "sha256": "b765041acdea48aa827dd58473caf5d6df1ac62a422f0656eaaaaea36d6ece75"
+    },
+    {
+      "path": "vendor/compact_kron_20261021/upstream/fla/modules/__init__.py",
+      "bytes": 1881,
+      "sha256": "53a3a5421dd155e08efe18987e0715f07e4d1b470f1b12f88214dc40a51ab797"
+    },
+    {
+      "path": "vendor/compact_kron_20261021/upstream/fla/ops/kronlstm/__init__.py",
+      "bytes": 418,
+      "sha256": "d2f7cb4fa34f46f38faa4d38876c713bdb9b5f5eab750c50f55b5e6fc96e143d"
+    },
+    {
+      "path": "vendor/compact_kron_20261021/upstream/fla/ops/kronlstm/naive.py",
+      "bytes": 12892,
+      "sha256": "e07cb9976194e7e2244dfb664d977320db5d56b0c5b9f3b1183fdf1620159461"
+    },
+    {
+      "path": "vendor/compact_kron_20261021/upstream/hierarchy/models.py",
+      "bytes": 10059,
+      "sha256": "f340db31acb1b6075c10116de2bc11ad8bd50b11d88e1e5d2520227b9b3f2f70"
+    },
+    {
+      "path": "vendor/compact_kron_20261021/upstream/hierarchy/vendor/representation_experiments/common.py",
+      "bytes": 5752,
+      "sha256": "381c5950aa454fc2275c45755bafd4c3e0641802013c0bf7ce9276abf5415fe1"
+    },
+    {
+      "path": "vendor/compact_kron_20261021/upstream/hierarchy/vendor/representation_experiments/predictive_models.py",
+      "bytes": 34215,
+      "sha256": "b73a7c07801f5672adb52c0cb16a3c772d62e50eebc0366491d497f76d13f73f"
+    },
+    {
+      "path": "vendor/pinned_fineweb.py",
+      "bytes": 5396,
+      "sha256": "b06d94c85cedb4c4c9c66d9a3ffdf47a2919be05537ef8a7c0b56a0e61593adb"
+    }
+  ]
+}

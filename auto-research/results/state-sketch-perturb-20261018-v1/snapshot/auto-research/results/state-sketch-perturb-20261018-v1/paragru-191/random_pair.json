@@ -1,0 +1,1092 @@
+{
+  "architecture": "paragru",
+  "seed": 191,
+  "method": "random_pair",
+  "parameters": 176050,
+  "parent_ce": 5.337368130683899,
+  "intervention": {
+    "ce": 5.230585396289825,
+    "batch_ce": [
+      5.2564167976379395,
+      5.589469909667969,
+      5.273106575012207,
+      5.182554244995117,
+      5.381311416625977,
+      4.750978469848633,
+      5.2245683670043945,
+      5.186277389526367
+    ],
+    "targets": 16384
+  },
+  "followup": {
+    "ce": 5.214510917663574,
+    "batch_ce": [
+      5.234361171722412,
+      5.574371337890625,
+      5.257319450378418,
+      5.165680408477783,
+      5.361146926879883,
+      4.7394585609436035,
+      5.211391448974609,
+      5.17235803604126
+    ],
+    "targets": 16384
+  },
+  "duplicate_exact": true,
+  "nominal_updates": 128,
+  "extra_replay_updates": 0,
+  "nominal_target_exposures": 262144,
+  "selection_target_exposures": 15360,
+  "intervention_wall_seconds": 9.66287986903626,
+  "intervention_cpu_seconds": 9.662030149000998,
+  "total_training_wall_seconds": 12.567220312033896,
+  "total_training_cpu_seconds": 12.566292191000912,
+  "nominal_training_wall_seconds": 12.050290638027946,
+  "event_wall_seconds": 0.5169296740059508,
+  "metric_seconds": 0.0,
+  "capture_seconds": 0.0,
+  "accepted": 3,
+  "final_state_sha256": "4b65dbc9f072fcc49e7d890567b168abd11eaec20aaf6f85292359bf82bf0d7c",
+  "training_losses": [
+    5.535045623779297,
+    5.331457138061523,
+    5.264647006988525,
+    5.086143970489502,
+    5.354949474334717,
+    5.410773754119873,
+    5.306640148162842,
+    5.792004108428955,
+    5.239259243011475,
+    5.045475959777832,
+    5.148460388183594,
+    5.352574348449707,
+    5.379453182220459,
+    5.508986473083496,
+    5.151873588562012,
+    5.706265926361084,
+    5.0366082191467285,
+    5.163336753845215,
+    5.430769920349121,
+    4.67178201675415,
+    5.181507587432861,
+    5.287530899047852,
+    4.9971137046813965,
+    5.299747467041016,
+    5.359492778778076,
+    5.138647556304932,
+    5.189689636230469,
+    5.253283977508545,
+    5.226029396057129,
+    5.314306735992432,
+    5.2376580238342285,
+    5.31294059753418,
+    5.311097145080566,
+    5.289368152618408,
+    5.449331760406494,
+    5.470758438110352,
+    5.34080171585083,
+    5.244459629058838,
+    5.473669052124023,
+    5.258999347686768,
+    5.1277079582214355,
+    5.229302883148193,
+    5.279131889343262,
+    5.1802215576171875,
+    5.161166191101074,
+    5.219395637512207,
+    5.226274490356445,
+    5.320262432098389,
+    5.1467204093933105,
+    5.269704818725586,
+    5.3486175537109375,
+    5.4286885261535645,
+    5.675711631774902,
+    5.175684928894043,
+    5.202206611633301,
+    5.3499956130981445,
+    5.1382365226745605,
+    5.555665493011475,
+    5.1500372886657715,
+    5.005834579467773,
+    5.400089263916016,
+    5.18590784072876,
+    5.280797958374023,
+    5.22981595993042,
+    5.177236080169678,
+    4.883511066436768,
+    5.214634895324707,
+    5.275656223297119,
+    5.285754203796387,
+    5.282046318054199,
+    5.4524359703063965,
+    5.517460346221924,
+    5.279824256896973,
+    5.40848445892334,
+    5.359785556793213,
+    5.349613666534424,
+    5.342321872711182,
+    5.113234519958496,
+    5.209765911102295,
+    5.226363658905029,
+    5.468469142913818,
+    5.087701797485352,
+    5.4369025230407715,
+    5.264596462249756,
+    5.392178535461426,
+    5.397290229797363,
+    5.564292907714844,
+    5.106887340545654,
+    5.176364898681641,
+    4.917072772979736,
+    5.263796806335449,
+    5.411439895629883,
+    5.118403434753418,
+    5.379670143127441,
+    5.3219990730285645,
+    5.173168659210205,
+    5.183182716369629,
+    5.105644702911377,
+    5.194870948791504,
+    5.173093318939209,
+    5.053537368774414,
+    5.036755561828613,
+    5.1848297119140625,
+    5.377712726593018,
+    5.223159313201904,
+    5.360702991485596,
+    5.366795063018799,
+    5.40856409072876,
+    5.290112018585205,
+    5.419855117797852,
+    5.2249579429626465,
+    4.942119598388672,
+    5.33338737487793,
+    5.13259220123291,
+    4.994743824005127,
+    5.243739128112793,
+    4.912456512451172,
+    5.140134334564209,
+    5.441436290740967,
+    5.409694671630859,
+    5.2860918045043945,
+    5.566231727600098,
+    5.344797134399414,
+    5.284590721130371,
+    5.41051721572876,
+    5.124686241149902,
+    5.335496425628662,
+    5.3498125076293945
+  ],
+  "events": [
+    {
+      "step": 32,
+      "base_loss": 5.333643436431885,
+      "accepted_loss": 5.333468437194824,
+      "accepted": true,
+      "candidates": [
+        {
+          "direction": 0,
+          "sign": -1,
+          "loss": 5.333468437194824,
+          "pairs": {
+            "res": {
+              "pairs": [
+                [
+                  1,
+                  37
+                ],
+                [
+                  9,
+                  49
+                ]
+              ],
+              "shortlist_scores": null
+            },
+            "fast": {
+              "pairs": [
+                [
+                  7,
+                  16
+                ],
+                [
+                  27,
+                  29
+                ]
+              ],
+              "shortlist_scores": null
+            },
+            "segment": {
+              "pairs": [
+                [
+                  7,
+                  12
+                ],
+                [
+                  29,
+                  15
+                ]
+              ],
+              "shortlist_scores": null
+            },
+            "document": {
+              "pairs": [
+                [
+                  10,
+                  38
+                ],
+                [
+                  18,
+                  36
+                ]
+              ],
+              "shortlist_scores": null
+            },
+            "ff": {
+              "pairs": [
+                [
+                  47,
+                  23
+                ],
+                [
+                  63,
+                  79
+                ]
+              ],
+              "shortlist_scores": null
+            }
+          }
+        },
+        {
+          "direction": 0,
+          "sign": 1,
+          "loss": 5.333891868591309,
+          "pairs": {
+            "res": {
+              "pairs": [
+                [
+                  1,
+                  37
+                ],
+                [
+                  9,
+                  49
+                ]
+              ],
+              "shortlist_scores": null
+            },
+            "fast": {
+              "pairs": [
+                [
+                  7,
+                  16
+                ],
+                [
+                  27,
+                  29
+                ]
+              ],
+              "shortlist_scores": null
+            },
+            "segment": {
+              "pairs": [
+                [
+                  7,
+                  12
+                ],
+                [
+                  29,
+                  15
+                ]
+              ],
+              "shortlist_scores": null
+            },
+            "document": {
+              "pairs": [
+                [
+                  10,
+                  38
+                ],
+                [
+                  18,
+                  36
+                ]
+              ],
+              "shortlist_scores": null
+            },
+            "ff": {
+              "pairs": [
+                [
+                  47,
+                  23
+                ],
+                [
+                  63,
+                  79
+                ]
+              ],
+              "shortlist_scores": null
+            }
+          }
+        },
+        {
+          "direction": 1,
+          "sign": -1,
+          "loss": 5.333588600158691,
+          "pairs": {
+            "res": {
+              "pairs": [
+                [
+                  27,
+                  13
+                ],
+                [
+                  6,
+                  0
+                ]
+              ],
+              "shortlist_scores": null
+            },
+            "fast": {
+              "pairs": [
+                [
+                  0,
+                  25
+                ],
+                [
+                  17,
+                  29
+                ]
+              ],
+              "shortlist_scores": null
+            },
+            "segment": {
+              "pairs": [
+                [
+                  2,
+                  27
+                ],
+                [
+                  41,
+                  8
+                ]
+              ],
+              "shortlist_scores": null
+            },
+            "document": {
+              "pairs": [
+                [
+                  22,
+                  41
+                ],
+                [
+                  29,
+                  3
+                ]
+              ],
+              "shortlist_scores": null
+            },
+            "ff": {
+              "pairs": [
+                [
+                  92,
+                  11
+                ],
+                [
+                  17,
+                  61
+                ]
+              ],
+              "shortlist_scores": null
+            }
+          }
+        },
+        {
+          "direction": 1,
+          "sign": 1,
+          "loss": 5.333742618560791,
+          "pairs": {
+            "res": {
+              "pairs": [
+                [
+                  27,
+                  13
+                ],
+                [
+                  6,
+                  0
+                ]
+              ],
+              "shortlist_scores": null
+            },
+            "fast": {
+              "pairs": [
+                [
+                  0,
+                  25
+                ],
+                [
+                  17,
+                  29
+                ]
+              ],
+              "shortlist_scores": null
+            },
+            "segment": {
+              "pairs": [
+                [
+                  2,
+                  27
+                ],
+                [
+                  41,
+                  8
+                ]
+              ],
+              "shortlist_scores": null
+            },
+            "document": {
+              "pairs": [
+                [
+                  22,
+                  41
+                ],
+                [
+                  29,
+                  3
+                ]
+              ],
+              "shortlist_scores": null
+            },
+            "ff": {
+              "pairs": [
+                [
+                  92,
+                  11
+                ],
+                [
+                  17,
+                  61
+                ]
+              ],
+              "shortlist_scores": null
+            }
+          }
+        }
+      ],
+      "search_wall_seconds": 0.18489204499928746,
+      "search_cpu_seconds": 0.1846146679999947,
+      "selection_target_exposures": 5120,
+      "metric_seconds": 0.0,
+      "capture_seconds": 0.0,
+      "anchor_refreshed": false,
+      "total_event_wall_seconds": 0.18500042999949073
+    },
+    {
+      "step": 64,
+      "base_loss": 4.968876361846924,
+      "accepted_loss": 4.96769905090332,
+      "accepted": true,
+      "candidates": [
+        {
+          "direction": 0,
+          "sign": -1,
+          "loss": 4.96769905090332,
+          "pairs": {
+            "res": {
+              "pairs": [
+                [
+                  27,
+                  23
+                ],
+                [
+                  45,
+                  1
+                ]
+              ],
+              "shortlist_scores": null
+            },
+            "fast": {
+              "pairs": [
+                [
+                  9,
+                  44
+                ],
+                [
+                  8,
+                  29
+                ]
+              ],
+              "shortlist_scores": null
+            },
+            "segment": {
+              "pairs": [
+                [
+                  3,
+                  27
+                ],
+                [
+                  6,
+                  14
+                ]
+              ],
+              "shortlist_scores": null
+            },
+            "document": {
+              "pairs": [
+                [
+                  13,
+                  46
+                ],
+                [
+                  6,
+                  26
+                ]
+              ],
+              "shortlist_scores": null
+            },
+            "ff": {
+              "pairs": [
+                [
+                  3,
+                  67
+                ],
+                [
+                  19,
+                  98
+                ]
+              ],
+              "shortlist_scores": null
+            }
+          }
+        },
+        {
+          "direction": 0,
+          "sign": 1,
+          "loss": 4.97012996673584,
+          "pairs": {
+            "res": {
+              "pairs": [
+                [
+                  27,
+                  23
+                ],
+                [
+                  45,
+                  1
+                ]
+              ],
+              "shortlist_scores": null
+            },
+            "fast": {
+              "pairs": [
+                [
+                  9,
+                  44
+                ],
+                [
+                  8,
+                  29
+                ]
+              ],
+              "shortlist_scores": null
+            },
+            "segment": {
+              "pairs": [
+                [
+                  3,
+                  27
+                ],
+                [
+                  6,
+                  14
+                ]
+              ],
+              "shortlist_scores": null
+            },
+            "document": {
+              "pairs": [
+                [
+                  13,
+                  46
+                ],
+                [
+                  6,
+                  26
+                ]
+              ],
+              "shortlist_scores": null
+            },
+            "ff": {
+              "pairs": [
+                [
+                  3,
+                  67
+                ],
+                [
+                  19,
+                  98
+                ]
+              ],
+              "shortlist_scores": null
+            }
+          }
+        },
+        {
+          "direction": 1,
+          "sign": -1,
+          "loss": 4.968789577484131,
+          "pairs": {
+            "res": {
+              "pairs": [
+                [
+                  0,
+                  25
+                ],
+                [
+                  37,
+                  41
+                ]
+              ],
+              "shortlist_scores": null
+            },
+            "fast": {
+              "pairs": [
+                [
+                  7,
+                  15
+                ],
+                [
+                  24,
+                  23
+                ]
+              ],
+              "shortlist_scores": null
+            },
+            "segment": {
+              "pairs": [
+                [
+                  49,
+                  40
+                ],
+                [
+                  6,
+                  44
+                ]
+              ],
+              "shortlist_scores": null
+            },
+            "document": {
+              "pairs": [
+                [
+                  25,
+                  35
+                ],
+                [
+                  46,
+                  49
+                ]
+              ],
+              "shortlist_scores": null
+            },
+            "ff": {
+              "pairs": [
+                [
+                  15,
+                  96
+                ],
+                [
+                  48,
+                  53
+                ]
+              ],
+              "shortlist_scores": null
+            }
+          }
+        },
+        {
+          "direction": 1,
+          "sign": 1,
+          "loss": 4.969052314758301,
+          "pairs": {
+            "res": {
+              "pairs": [
+                [
+                  0,
+                  25
+                ],
+                [
+                  37,
+                  41
+                ]
+              ],
+              "shortlist_scores": null
+            },
+            "fast": {
+              "pairs": [
+                [
+                  7,
+                  15
+                ],
+                [
+                  24,
+                  23
+                ]
+              ],
+              "shortlist_scores": null
+            },
+            "segment": {
+              "pairs": [
+                [
+                  49,
+                  40
+                ],
+                [
+                  6,
+                  44
+                ]
+              ],
+              "shortlist_scores": null
+            },
+            "document": {
+              "pairs": [
+                [
+                  25,
+                  35
+                ],
+                [
+                  46,
+                  49
+                ]
+              ],
+              "shortlist_scores": null
+            },
+            "ff": {
+              "pairs": [
+                [
+                  15,
+                  96
+                ],
+                [
+                  48,
+                  53
+                ]
+              ],
+              "shortlist_scores": null
+            }
+          }
+        }
+      ],
+      "search_wall_seconds": 0.1674016449978808,
+      "search_cpu_seconds": 0.16740169999991394,
+      "selection_target_exposures": 5120,
+      "metric_seconds": 0.0,
+      "capture_seconds": 0.0,
+      "anchor_refreshed": false,
+      "total_event_wall_seconds": 0.16749728000286268
+    },
+    {
+      "step": 96,
+      "base_loss": 5.049966335296631,
+      "accepted_loss": 5.049683094024658,
+      "accepted": true,
+      "candidates": [
+        {
+          "direction": 0,
+          "sign": -1,
+          "loss": 5.050114154815674,
+          "pairs": {
+            "res": {
+              "pairs": [
+                [
+                  2,
+                  18
+                ],
+                [
+                  25,
+                  5
+                ]
+              ],
+              "shortlist_scores": null
+            },
+            "fast": {
+              "pairs": [
+                [
+                  20,
+                  0
+                ],
+                [
+                  31,
+                  22
+                ]
+              ],
+              "shortlist_scores": null
+            },
+            "segment": {
+              "pairs": [
+                [
+                  26,
+                  22
+                ],
+                [
+                  41,
+                  15
+                ]
+              ],
+              "shortlist_scores": null
+            },
+            "document": {
+              "pairs": [
+                [
+                  45,
+                  46
+                ],
+                [
+                  4,
+                  2
+                ]
+              ],
+              "shortlist_scores": null
+            },
+            "ff": {
+              "pairs": [
+                [
+                  13,
+                  27
+                ],
+                [
+                  9,
+                  61
+                ]
+              ],
+              "shortlist_scores": null
+            }
+          }
+        },
+        {
+          "direction": 0,
+          "sign": 1,
+          "loss": 5.0499067306518555,
+          "pairs": {
+            "res": {
+              "pairs": [
+                [
+                  2,
+                  18
+                ],
+                [
+                  25,
+                  5
+                ]
+              ],
+              "shortlist_scores": null
+            },
+            "fast": {
+              "pairs": [
+                [
+                  20,
+                  0
+                ],
+                [
+                  31,
+                  22
+                ]
+              ],
+              "shortlist_scores": null
+            },
+            "segment": {
+              "pairs": [
+                [
+                  26,
+                  22
+                ],
+                [
+                  41,
+                  15
+                ]
+              ],
+              "shortlist_scores": null
+            },
+            "document": {
+              "pairs": [
+                [
+                  45,
+                  46
+                ],
+                [
+                  4,
+                  2
+                ]
+              ],
+              "shortlist_scores": null
+            },
+            "ff": {
+              "pairs": [
+                [
+                  13,
+                  27
+                ],
+                [
+                  9,
+                  61
+                ]
+              ],
+              "shortlist_scores": null
+            }
+          }
+        },
+        {
+          "direction": 1,
+          "sign": -1,
+          "loss": 5.050312042236328,
+          "pairs": {
+            "res": {
+              "pairs": [
+                [
+                  0,
+                  44
+                ],
+                [
+                  42,
+                  36
+                ]
+              ],
+              "shortlist_scores": null
+            },
+            "fast": {
+              "pairs": [
+                [
+                  19,
+                  6
+                ],
+                [
+                  35,
+                  25
+                ]
+              ],
+              "shortlist_scores": null
+            },
+            "segment": {
+              "pairs": [
+                [
+                  36,
+                  24
+                ],
+                [
+                  9,
+                  16
+                ]
+              ],
+              "shortlist_scores": null
+            },
+            "document": {
+              "pairs": [
+                [
+                  3,
+                  48
+                ],
+                [
+                  44,
+                  38
+                ]
+              ],
+              "shortlist_scores": null
+            },
+            "ff": {
+              "pairs": [
+                [
+                  67,
+                  63
+                ],
+                [
+                  12,
+                  19
+                ]
+              ],
+              "shortlist_scores": null
+            }
+          }
+        },
+        {
+          "direction": 1,
+          "sign": 1,
+          "loss": 5.049683094024658,
+          "pairs": {
+            "res": {
+              "pairs": [
+                [
+                  0,
+                  44
+                ],
+                [
+                  42,
+                  36
+                ]
+              ],
+              "shortlist_scores": null
+            },
+            "fast": {
+              "pairs": [
+                [
+                  19,
+                  6
+                ],
+                [
+                  35,
+                  25
+                ]
+              ],
+              "shortlist_scores": null
+            },
+            "segment": {
+              "pairs": [
+                [
+                  36,
+                  24
+                ],
+                [
+                  9,
+                  16
+                ]
+              ],
+              "shortlist_scores": null
+            },
+            "document": {
+              "pairs": [
+                [
+                  3,
+                  48
+                ],
+                [
+                  44,
+                  38
+                ]
+              ],
+              "shortlist_scores": null
+            },
+            "ff": {
+              "pairs": [
+                [
+                  67,
+                  63
+                ],
+                [
+                  12,
+                  19
+                ]
+              ],
+              "shortlist_scores": null
+            }
+          }
+        }
+      ],
+      "search_wall_seconds": 0.16433673099527368,
+      "search_cpu_seconds": 0.164330026000016,
+      "selection_target_exposures": 5120,
+      "metric_seconds": 0.0,
+      "capture_seconds": 0.0,
+      "anchor_refreshed": false,
+      "total_event_wall_seconds": 0.1644319640035974
+    }
+  ],
+  "solver_max_residual": 8.940696716308594e-08
+}

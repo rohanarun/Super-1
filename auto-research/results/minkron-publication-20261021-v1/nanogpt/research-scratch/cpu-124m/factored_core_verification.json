@@ -1,0 +1,63 @@
+{
+  "status": "PASS",
+  "core": [
+    {
+      "dtype": "torch.float32",
+      "length": 1,
+      "decay_scale": 0.1,
+      "output_state_max_abs": 0.0,
+      "gradient_max_abs": 0.0
+    },
+    {
+      "dtype": "torch.float32",
+      "length": 17,
+      "decay_scale": 0.1,
+      "output_state_max_abs": 5.960464477539063e-08,
+      "gradient_max_abs": 0.0166015625
+    },
+    {
+      "dtype": "torch.float32",
+      "length": 32,
+      "decay_scale": 1.0,
+      "output_state_max_abs": 2.9802322387695312e-08,
+      "gradient_max_abs": 0.015625
+    },
+    {
+      "dtype": "torch.float32",
+      "length": 33,
+      "decay_scale": 5.0,
+      "output_state_max_abs": 0.0,
+      "gradient_max_abs": 0.0
+    },
+    {
+      "dtype": "torch.float64",
+      "length": 1,
+      "decay_scale": 0.1,
+      "output_state_max_abs": 0.0,
+      "gradient_max_abs": 0.0
+    },
+    {
+      "dtype": "torch.float64",
+      "length": 17,
+      "decay_scale": 0.1,
+      "output_state_max_abs": 1.1102230246251565e-16,
+      "gradient_max_abs": 1.4551915228366852e-11
+    },
+    {
+      "dtype": "torch.float64",
+      "length": 32,
+      "decay_scale": 1.0,
+      "output_state_max_abs": 8.326672684688674e-17,
+      "gradient_max_abs": 3.637978807091713e-11
+    },
+    {
+      "dtype": "torch.float64",
+      "length": 33,
+      "decay_scale": 5.0,
+      "output_state_max_abs": 0.0,
+      "gradient_max_abs": 0.0
+    }
+  ],
+  "three_step_parameter_max_abs": 4.447996616363525e-06,
+  "caveat": "Timing tests are separate; fallback retains stable core for large decay ranges"
+}

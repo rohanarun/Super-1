@@ -1,0 +1,8 @@
+{
+  "utc": "2026-10-21T22:46:48.459120+00:00",
+  "chronology": "Added after 9 of18 screening runs; before continuation selection, checkpoint generation or confirmation inspection by the analyst.",
+  "purpose": "Distinguish short-context learning from unigram memorization in the final small models; does not alter primary endpoints, selection, training or gates.",
+  "method": "For each final continuation, first4096 confirmation targets: compare normal history against reset before each token. Compare against add-one unigram counts of exactly that model's seen targets.",
+  "status": "Exploratory analysis supplement; not part of original preregistered success rule.",
+  "script_sha256": "4ceceb2cfbb40790d3074120b2ed08db49bb5dc90f6134499a1d5ff035039836"
+}

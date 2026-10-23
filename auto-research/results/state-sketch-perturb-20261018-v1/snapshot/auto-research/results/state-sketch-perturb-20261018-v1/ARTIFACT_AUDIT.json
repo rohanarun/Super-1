@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "branches_audited": 54,
+  "protocol_and_source_seals": true,
+  "fresh_checkpoint_checks": [
+    {
+      "architecture": "native",
+      "seed": 73,
+      "checkpoint_hash_exact": true,
+      "fresh_process_eval_exact": true,
+      "ce": 5.124996483325958
+    },
+    {
+      "architecture": "mingru_linear",
+      "seed": 73,
+      "checkpoint_hash_exact": true,
+      "fresh_process_eval_exact": true,
+      "ce": 5.125923752784729
+    },
+    {
+      "architecture": "paragru",
+      "seed": 73,
+      "checkpoint_hash_exact": true,
+      "fresh_process_eval_exact": true,
+      "ce": 5.157760500907898
+    }
+  ],
+  "scope": "Stored local checkpoints are audited before compact packaging; checkpoint tensors are omitted from the compact archive."
+}

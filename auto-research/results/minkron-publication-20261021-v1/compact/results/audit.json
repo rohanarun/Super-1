@@ -1,0 +1,132 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "arm": "mingru",
+      "seed": 22101,
+      "cpu_and_data_caps": "PASS",
+      "training_data_regeneration": "PASS",
+      "checkpoint_and_state_accounting": "PASS",
+      "trained_long_sequence_tokenwise_max_delta": 0.00012302398681640625
+    },
+    {
+      "arm": "kron8",
+      "seed": 22101,
+      "cpu_and_data_caps": "PASS",
+      "training_data_regeneration": "PASS",
+      "checkpoint_and_state_accounting": "PASS",
+      "trained_long_sequence_tokenwise_max_delta": 1.8015503883361816e-05
+    },
+    {
+      "arm": "kron4h4",
+      "seed": 22101,
+      "cpu_and_data_caps": "PASS",
+      "training_data_regeneration": "PASS",
+      "checkpoint_and_state_accounting": "PASS",
+      "trained_long_sequence_tokenwise_max_delta": 2.765655517578125e-05
+    },
+    {
+      "arm": "kron2h4",
+      "seed": 22101,
+      "cpu_and_data_caps": "PASS",
+      "training_data_regeneration": "PASS",
+      "checkpoint_and_state_accounting": "PASS",
+      "trained_long_sequence_tokenwise_max_delta": 1.7642974853515625e-05
+    },
+    {
+      "arm": "mingru",
+      "seed": 22102,
+      "cpu_and_data_caps": "PASS",
+      "training_data_regeneration": "PASS",
+      "checkpoint_and_state_accounting": "PASS",
+      "trained_long_sequence_tokenwise_max_delta": 4.1961669921875e-05
+    },
+    {
+      "arm": "kron8",
+      "seed": 22102,
+      "cpu_and_data_caps": "PASS",
+      "training_data_regeneration": "PASS",
+      "checkpoint_and_state_accounting": "PASS",
+      "trained_long_sequence_tokenwise_max_delta": 1.6689300537109375e-05
+    },
+    {
+      "arm": "kron4h4",
+      "seed": 22102,
+      "cpu_and_data_caps": "PASS",
+      "training_data_regeneration": "PASS",
+      "checkpoint_and_state_accounting": "PASS",
+      "trained_long_sequence_tokenwise_max_delta": 1.1920928955078125e-05
+    },
+    {
+      "arm": "kron2h4",
+      "seed": 22102,
+      "cpu_and_data_caps": "PASS",
+      "training_data_regeneration": "PASS",
+      "checkpoint_and_state_accounting": "PASS",
+      "trained_long_sequence_tokenwise_max_delta": 9.5367431640625e-06
+    },
+    {
+      "arm": "mingru",
+      "seed": 22103,
+      "cpu_and_data_caps": "PASS",
+      "training_data_regeneration": "PASS",
+      "checkpoint_and_state_accounting": "PASS",
+      "trained_long_sequence_tokenwise_max_delta": 5.245208740234375e-05
+    },
+    {
+      "arm": "kron8",
+      "seed": 22103,
+      "cpu_and_data_caps": "PASS",
+      "training_data_regeneration": "PASS",
+      "checkpoint_and_state_accounting": "PASS",
+      "trained_long_sequence_tokenwise_max_delta": 2.300739288330078e-05
+    },
+    {
+      "arm": "kron4h4",
+      "seed": 22103,
+      "cpu_and_data_caps": "PASS",
+      "training_data_regeneration": "PASS",
+      "checkpoint_and_state_accounting": "PASS",
+      "trained_long_sequence_tokenwise_max_delta": 8.106231689453125e-06
+    },
+    {
+      "arm": "kron2h4",
+      "seed": 22103,
+      "cpu_and_data_caps": "PASS",
+      "training_data_regeneration": "PASS",
+      "checkpoint_and_state_accounting": "PASS",
+      "trained_long_sequence_tokenwise_max_delta": 3.814697265625e-06
+    }
+  ],
+  "frozen_sources": [
+    "benchmark_quick.py",
+    "bootstrap.py",
+    "confirm.py",
+    "experiment.py",
+    "freeze_protocol.py",
+    "model.py",
+    "pipeline.py",
+    "previous_model.py",
+    "previous_train.py",
+    "references/causal_conv1d_ops.py",
+    "references/fused_norm_gate.py",
+    "references/model_before_carry_pilot.py",
+    "references/train_before_carry_pilot.py",
+    "references/train_before_extension.py",
+    "references/train_before_main.py",
+    "references/train_pilot_v1.py",
+    "resources.py",
+    "run_queue.py",
+    "tasks.py",
+    "upstream/fla/layers/kronlstm.py",
+    "upstream/fla/layers/utils.py",
+    "upstream/fla/modules/__init__.py",
+    "upstream/fla/ops/kronlstm/__init__.py",
+    "upstream/fla/ops/kronlstm/naive.py",
+    "upstream/hierarchy/models.py",
+    "upstream/hierarchy/vendor/representation_experiments/common.py",
+    "upstream/hierarchy/vendor/representation_experiments/predictive_models.py",
+    "verify.py"
+  ],
+  "confirmation_data_pairing": "PASS"
+}

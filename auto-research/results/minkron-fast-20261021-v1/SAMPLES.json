@@ -1,0 +1,269 @@
+{
+  "policy": "All eight prompts retained for all three extended models; no selection or retries.",
+  "samples": [
+    {
+      "arm": "k8",
+      "seed": 25101,
+      "prompt": "The little dog",
+      "completion": "s of your gelast.\nSoose to take a new dress of the first-up, the HE-Abus Himati Jalis is a new, there is an expained, where it was a gader, and it is a great to the first time-logovery and I'm not a good time or I'm not the faith of your hanges of a literants?\nS",
+      "generated_tokens": 96,
+      "temperature": 0.8,
+      "top_k": 40,
+      "sampling_seed": 99100,
+      "checkpoint_sha256": "bbca472fbcc217876de6890174be690174a9225f8130b29b5bedbb547daac7c8"
+    },
+    {
+      "arm": "k8",
+      "seed": 25101,
+      "prompt": "The capital of France is",
+      "completion": " all other information to deduated the new male, with the client.\nFrom an other hubbo\u2019s work, and the dedicated for the weddings.\u201d\nRany has a few faith of the most pag, and he is more than in the pa of the turbar of the Bayonic, and we are one.\nFour the bath can be",
+      "generated_tokens": 96,
+      "temperature": 0.8,
+      "top_k": 40,
+      "sampling_seed": 99101,
+      "checkpoint_sha256": "bbca472fbcc217876de6890174be690174a9225f8130b29b5bedbb547daac7c8"
+    },
+    {
+      "arm": "k8",
+      "seed": 25101,
+      "prompt": "To make a cup of tea,",
+      "completion": " the shide of the sample of DDS.\nEll is only with the next is a large mouth that you will be a fidning to your time, the ticks, but a pesrast, and fold, and even you.\n\"It is no not that you will be\nMelate it, it's a pair is to be a great-friend with my way.\nIn a lake,",
+      "generated_tokens": 96,
+      "temperature": 0.8,
+      "top_k": 40,
+      "sampling_seed": 99102,
+      "checkpoint_sha256": "bbca472fbcc217876de6890174be690174a9225f8130b29b5bedbb547daac7c8"
+    },
+    {
+      "arm": "k8",
+      "seed": 25101,
+      "prompt": "Water freezes at",
+      "completion": " a man of Bide is an a game for the TVT. Accessed Potams the TRLL and was not a small.\nThe KIIMHLS.",
+      "generated_tokens": 45,
+      "temperature": 0.8,
+      "top_k": 40,
+      "sampling_seed": 99103,
+      "checkpoint_sha256": "bbca472fbcc217876de6890174be690174a9225f8130b29b5bedbb547daac7c8"
+    },
+    {
+      "arm": "k8",
+      "seed": 25101,
+      "prompt": "In a quiet village,",
+      "completion": " and is a set of the briefly, if shell are not. You have the tribe of all the bandus in the ticky, the baby born, and the first-friendly and the sales. The first-drods, and the stun.\nThe Microso has in the past, the end of a large.\nNE SI can begress, and that are.",
+      "generated_tokens": 96,
+      "temperature": 0.8,
+      "top_k": 40,
+      "sampling_seed": 99104,
+      "checkpoint_sha256": "bbca472fbcc217876de6890174be690174a9225f8130b29b5bedbb547daac7c8"
+    },
+    {
+      "arm": "k8",
+      "seed": 25101,
+      "prompt": "Once upon a time,",
+      "completion": " I\u2019ll make the world, it was so how it would be able that the I don\u2019t think the I am if you are really got a great way to need a perfect.\nIt is so what he has to go how to work with a little a cake to see the last year.\nWere is a few people?\nFrive that is what they are a more than my hunral, and I had to be the next",
+      "generated_tokens": 96,
+      "temperature": 0.8,
+      "top_k": 40,
+      "sampling_seed": 99105,
+      "checkpoint_sha256": "bbca472fbcc217876de6890174be690174a9225f8130b29b5bedbb547daac7c8"
+    },
+    {
+      "arm": "k8",
+      "seed": 25101,
+      "prompt": "The computer program",
+      "completion": " was an express is very important. The BOLLERNIN\nIKO AA SUSY OBISISTOE\nFRR CAATL\nAHLBBO HANGA\nAVIYRR, and CI\nSUISE WECAL: OGK)\nMPMHY WTORO LE OLE WO",
+      "generated_tokens": 96,
+      "temperature": 0.8,
+      "top_k": 40,
+      "sampling_seed": 99106,
+      "checkpoint_sha256": "bbca472fbcc217876de6890174be690174a9225f8130b29b5bedbb547daac7c8"
+    },
+    {
+      "arm": "k8",
+      "seed": 25101,
+      "prompt": "Question: What is 2 + 2?\nAnswer:",
+      "completion": " The Packla is a baby but the next time is going to be the storner with the end of the crowd.\nPlease be a very nice to help for the most of the tack, the clients that are going to keep in a hikk, it's not noting the other sanders on the first time, one the dotb is to take a gain of a few years, and not not up by",
+      "generated_tokens": 96,
+      "temperature": 0.8,
+      "top_k": 40,
+      "sampling_seed": 99107,
+      "checkpoint_sha256": "bbca472fbcc217876de6890174be690174a9225f8130b29b5bedbb547daac7c8"
+    },
+    {
+      "arm": "k16_lean",
+      "seed": 25101,
+      "prompt": "The little dog",
+      "completion": ". Pressing the way.\n- With the last group-to-dotials\n- Hotel-to-pus-based-far-the-bap, and the falal, which it was a gatherer, and tour.\n- Home, a pure of\n- Megronth and\n- Evest-dodine.\n- Vitita -\n- 2",
+      "generated_tokens": 96,
+      "temperature": 0.8,
+      "top_k": 40,
+      "sampling_seed": 99100,
+      "checkpoint_sha256": "68fe2447263584e68affa36033ca9b9fed8ebf8c9a0cc51e2c8aef979918b24d"
+    },
+    {
+      "arm": "k16_lean",
+      "seed": 25101,
+      "prompt": "The capital of France is",
+      "completion": " all other information to dressed. In the new home and can be very more information when the framicious.\nAnd I wanted to be a little way, but you may have the wedd.\nBou can be lying you your fiture and you can go, or bathedly in you just know that you had to get a few months of our own picum-anding.\n\"Fourney has nobody to",
+      "generated_tokens": 96,
+      "temperature": 0.8,
+      "top_k": 40,
+      "sampling_seed": 99101,
+      "checkpoint_sha256": "68fe2447263584e68affa36033ca9b9fed8ebf8c9a0cc51e2c8aef979918b24d"
+    },
+    {
+      "arm": "k16_lean",
+      "seed": 25101,
+      "prompt": "To make a cup of tea,",
+      "completion": " or to be a gese-prondfree fulfs with novel.\n\"It's anteyer, and I really had to not to a long tony. A lot of this can be able to fulfrate me.\n\"It is nobody that you will be daily, but it would be as a pair. I was made to be able to make my way.\n\"So I will have",
+      "generated_tokens": 96,
+      "temperature": 0.8,
+      "top_k": 40,
+      "sampling_seed": 99102,
+      "checkpoint_sha256": "68fe2447263584e68affa36033ca9b9fed8ebf8c9a0cc51e2c8aef979918b24d"
+    },
+    {
+      "arm": "k16_lean",
+      "seed": 25101,
+      "prompt": "Water freezes at",
+      "completion": " a chick, where he is an a galry, he says the gamba, you can be the only older.\nThere is a lot of more I see there, you need to get a lot of for this book, and you have a few years.\nShether you want to be a better hand of your life.\nSo I think the dedits is a bit.\n\"I don't do what I don't see",
+      "generated_tokens": 96,
+      "temperature": 0.8,
+      "top_k": 40,
+      "sampling_seed": 99103,
+      "checkpoint_sha256": "68fe2447263584e68affa36033ca9b9fed8ebf8c9a0cc51e2c8aef979918b24d"
+    },
+    {
+      "arm": "k16_lean",
+      "seed": 25101,
+      "prompt": "In a quiet village,",
+      "completion": " and is a more tonet-year-pireing.\nIf this is the time the day is not to be able to give a vulsy, but that\u2019s not the last. I knew I don\u2019t know her. If this is just a very way.\nI\u2019m not a frait in the past that I love he was the first day I was too much.\nI\u2019d me\u2019",
+      "generated_tokens": 96,
+      "temperature": 0.8,
+      "top_k": 40,
+      "sampling_seed": 99104,
+      "checkpoint_sha256": "68fe2447263584e68affa36033ca9b9fed8ebf8c9a0cc51e2c8aef979918b24d"
+    },
+    {
+      "arm": "k16_lean",
+      "seed": 25101,
+      "prompt": "Once upon a time,",
+      "completion": " I got to the holks, then only I really want to pay, that could be in a Ivisor. I want to get.\nAnd I don't need to be able to be the time, that you will like a lot about I'd bur and I don\u2019t use it. I'm sure I\u2019re a nubth that is what they not a lot of my hunters. The lands can be the next",
+      "generated_tokens": 96,
+      "temperature": 0.8,
+      "top_k": 40,
+      "sampling_seed": 99105,
+      "checkpoint_sha256": "68fe2447263584e68affa36033ca9b9fed8ebf8c9a0cc51e2c8aef979918b24d"
+    },
+    {
+      "arm": "k16_lean",
+      "seed": 25101,
+      "prompt": "The computer program",
+      "completion": "ning was available to the Microsoft and the most of the U.S. A lot of more than $10 for a couple of the two of the sample of the tiny mobby. It was still a small time, but he has still made to be for the time, and they cannar a pairy but that it's a harmen push. The tour of the best, all the cummas, it",
+      "generated_tokens": 96,
+      "temperature": 0.8,
+      "top_k": 40,
+      "sampling_seed": 99106,
+      "checkpoint_sha256": "68fe2447263584e68affa36033ca9b9fed8ebf8c9a0cc51e2c8aef979918b24d"
+    },
+    {
+      "arm": "k16_lean",
+      "seed": 25101,
+      "prompt": "Question: What is 2 + 2?\nAnswer:",
+      "completion": " The Pack-Lear-Baying. Inference of a dynamic-mark-the-gers.\n- Potion, who was also a hilled up ton, the dress that are patched in a hut.\n\"The first year are the other sitting in this partners. The main daily wispks was a gottet of the same, and not it was a",
+      "generated_tokens": 96,
+      "temperature": 0.8,
+      "top_k": 40,
+      "sampling_seed": 99107,
+      "checkpoint_sha256": "68fe2447263584e68affa36033ca9b9fed8ebf8c9a0cc51e2c8aef979918b24d"
+    },
+    {
+      "arm": "transformer_lean",
+      "seed": 25101,
+      "prompt": "The little dog",
+      "completion": "s of the Melkahon and Kansn, and his dressing watched, it had an extensively silling, and the other goods that had her, there were an adopted, it was a gader, and it was a bit of the first thing.\n\"The most of Malaleh'\n\"The Nobli's sidewest of a liter in the Hon",
+      "generated_tokens": 96,
+      "temperature": 0.8,
+      "top_k": 40,
+      "sampling_seed": 99100,
+      "checkpoint_sha256": "97d69cc4b11e0d3234adb0feddee424c23359330218cc049d7acf2e20f1fffe8"
+    },
+    {
+      "arm": "transformer_lean",
+      "seed": 25101,
+      "prompt": "The capital of France is",
+      "completion": " all new to provide a new business.\nAs many years, with its client, the framewery is available for a time, but you will use the number of your company for all. It is available for their faith is the best of the tournament that would cause the product of the same sports of all the other information, for this, as it is a simple one of a number of the world.\nFree you have to do so",
+      "generated_tokens": 96,
+      "temperature": 0.8,
+      "top_k": 40,
+      "sampling_seed": 99101,
+      "checkpoint_sha256": "97d69cc4b11e0d3234adb0feddee424c23359330218cc049d7acf2e20f1fffe8"
+    },
+    {
+      "arm": "transformer_lean",
+      "seed": 25101,
+      "prompt": "To make a cup of tea,",
+      "completion": " or shielding geodded from meli. So we don\u2019t do a very bitpretty. Since, I don\u2019t know what I want to be to be able to be a gams.\nThat\u2019s what I was the diechen. I\u2019m also a good gender, with my own and a nice jutbon is my way I think it is like. I",
+      "generated_tokens": 96,
+      "temperature": 0.8,
+      "top_k": 40,
+      "sampling_seed": 99102,
+      "checkpoint_sha256": "97d69cc4b11e0d3234adb0feddee424c23359330218cc049d7acf2e20f1fffe8"
+    },
+    {
+      "arm": "transformer_lean",
+      "seed": 25101,
+      "prompt": "Water freezes at",
+      "completion": " Kolak Bidar Bonlogala, New York, Storene, Pairs, Tena, and Masca, Pa and Clicks.\nThe first-up for this waste and the fill of Munraza Marshma Burvin, which would be at The Mountaine. He has been the very big spirit after the hip to say and",
+      "generated_tokens": 96,
+      "temperature": 0.8,
+      "top_k": 40,
+      "sampling_seed": 99103,
+      "checkpoint_sha256": "97d69cc4b11e0d3234adb0feddee424c23359330218cc049d7acf2e20f1fffe8"
+    },
+    {
+      "arm": "transformer_lean",
+      "seed": 25101,
+      "prompt": "In a quiet village,",
+      "completion": " there is a more tonialist to be the burreder. It was the second tinin of all the bare of the sources of the duin\u2019s CDR. I hope it was in Mobelena\u2019s, the SU\u2019s gambal-giors in the past few years, but was the first way to do.\nSince the MTDV\u2019",
+      "generated_tokens": 96,
+      "temperature": 0.8,
+      "top_k": 40,
+      "sampling_seed": 99104,
+      "checkpoint_sha256": "97d69cc4b11e0d3234adb0feddee424c23359330218cc049d7acf2e20f1fffe8"
+    },
+    {
+      "arm": "transformer_lean",
+      "seed": 25101,
+      "prompt": "Once upon a time,",
+      "completion": " I am like the hospital and my first fired to be seen in my mind.\nSave I was to put it up her loy. I hope you are being in a nice good, I'm so what he has to go around the raticic. I would have always been in the links and the first blogy. The none is that it was too in a tone in my fabric. I had to be the o",
+      "generated_tokens": 96,
+      "temperature": 0.8,
+      "top_k": 40,
+      "sampling_seed": 99105,
+      "checkpoint_sha256": "97d69cc4b11e0d3234adb0feddee424c23359330218cc049d7acf2e20f1fffe8"
+    },
+    {
+      "arm": "transformer_lean",
+      "seed": 25101,
+      "prompt": "The computer program",
+      "completion": " has received the Set-BBL and the A-PP and the Exture of ENA to the OUR.\nOctron Mobbitan is a PLCA-LBBA, but there are still unclined for the U.S.S. It is also a bit of time to get a harming pages. The tour of the best-targanded and a wish",
+      "generated_tokens": 96,
+      "temperature": 0.8,
+      "top_k": 40,
+      "sampling_seed": 99106,
+      "checkpoint_sha256": "97d69cc4b11e0d3234adb0feddee424c23359330218cc049d7acf2e20f1fffe8"
+    },
+    {
+      "arm": "transformer_lean",
+      "seed": 25101,
+      "prompt": "Question: What is 2 + 2?\nAnswer:",
+      "completion": " The Packlopie\u2019s new. In the Sonner, Press of a Tra-Halkkes in the callenge\u2019s Simitel, and Couvell, but that\u2019s a part of a blue, it\u2019s a few other years as an eth-a-bur dressionships.\nAny example, it\u2019s not going to be",
+      "generated_tokens": 96,
+      "temperature": 0.8,
+      "top_k": 40,
+      "sampling_seed": 99107,
+      "checkpoint_sha256": "97d69cc4b11e0d3234adb0feddee424c23359330218cc049d7acf2e20f1fffe8"
+    }
+  ]
+}

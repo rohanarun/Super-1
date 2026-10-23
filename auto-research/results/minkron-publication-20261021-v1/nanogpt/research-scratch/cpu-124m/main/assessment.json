@@ -1,0 +1,88 @@
+{
+  "checkpoint": {
+    "sha256": "fde8183f3206b16851cfd4857255695176d4c2cbc5adf8cab89380c26c97c326",
+    "bytes": 1480861098,
+    "parameters": 123376800,
+    "optimizer_tensor_bytes": 987014936,
+    "optimizer_finite": true,
+    "data_cursor": 524,
+    "rng_fields": [
+      "torch",
+      "numpy",
+      "python"
+    ],
+    "scheduler": {
+      "kind": "elapsed-wall-time cosine",
+      "budget_seconds": 1500.0,
+      "elapsed_seconds": 1501.156520294,
+      "peak_lr": 0.001,
+      "warmup_fraction": 0.05,
+      "final_lr_fraction": 0.1
+    },
+    "state_policy": "reset at every independent training window"
+  },
+  "confirmation": {
+    "nll": 7.286702007055283,
+    "perplexity": 1460.7452169583212,
+    "token_accuracy": 0.0960693359375,
+    "evaluation_tokens": 8192,
+    "seconds": 26.062665141998878
+  },
+  "recurrence_diagnostic": {
+    "tokens": 2048,
+    "normal_nll": 7.0703043937683105,
+    "reset_every_token_nll": 7.183205962181091,
+    "context_advantage_nats": 0.11290156841278076,
+    "interpretation": "Positive difference means recurrent context helps these tokens; not a long-memory benchmark"
+  },
+  "unigram_baseline": {
+    "training_targets": 134144,
+    "smoothing": "add one",
+    "nll": 7.82789718599369,
+    "perplexity": 2509.6465011033897,
+    "source": "Only targets actually seen by the final training run"
+  },
+  "trained_chunk_vs_recurrent": {
+    "logits_max_abs": 2.384185791015625e-06,
+    "state_max_abs": 5.960464477539062e-07,
+    "status": "PASS"
+  },
+  "generation": {
+    "options": {
+      "prompts": [
+        "The history of the city began",
+        "A computer network is",
+        "Scientists have discovered that",
+        "In a small village near the mountains,",
+        "The best way to learn a new skill is",
+        "During the winter, the river",
+        "The purpose of this experiment is",
+        "To make a simple meal,",
+        "The engineer examined the problem and",
+        "In the years ahead, technology"
+      ],
+      "seeds": [
+        25101,
+        25102,
+        25103,
+        25104,
+        25105,
+        25106,
+        25107,
+        25108,
+        25109,
+        25110
+      ],
+      "temperature": 0.8,
+      "top_k": 50,
+      "max_new_tokens": 64,
+      "stop_on_eot": true,
+      "selection": "exactly these ten prompts; no cherry-picking or regeneration"
+    },
+    "count": 10,
+    "generated_tokens": 636,
+    "decode_seconds": 20.465247356991313,
+    "prefill_seconds": 0.6642813859943999
+  },
+  "assessment_script_sha256": "2661ded1cf57df6a617a670672b2cc324ae57a3964750c9b75e7fef9c76c010c"
+}

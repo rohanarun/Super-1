@@ -4,11 +4,12 @@ This archive covers the Super-1/function-weight/hierarchy research found across 
 
 The owner selected **source, results, logs, graphs and final checkpoints**. The archive includes final/best/selected checkpoints, final model files named by terminal records, and the latest located checkpoint in each saved lineage. There are 754 unique selected checkpoint objects: most are small and packed with the evidence; 162 larger objects are individual release assets. Intermediate checkpoints and raw tensor dumps were not exhaustively uploaded.
 
-[SUMMARY.json](SUMMARY.json) is the publication status. `UPLOAD_IN_PROGRESS` means some checkpoint objects remain pending; `ALL_SELECTED_OBJECTS_LOCATED_AND_UPLOADED` means every selected object has a recorded location. An in-progress index must not be presented as a completed archive.
+[SUMMARY.current.json](SUMMARY.current.json) is the reconciled publication status as of 2026-10-22: **104 large checkpoints uploaded (19,571,737,789 bytes), 58 checkpoint objects still pending**. Uploads remain paused and the release remains a draft. The original [SUMMARY.json](SUMMARY.json), [FILES.json.gz](FILES.json.gz), and upload receipts are preserved as historical snapshots. Merging this index does not publish the draft release or complete the archive.
 
 - [Browse the experiment/source catalogue](CATALOG.md)
 - [Release assets](https://github.com/rohanarun/Super-1/releases/tag/all-experiments-20261018)
-- [Compressed file/provenance index](FILES.json.gz)
+- [Current compressed file/provenance index](FILES.current.json.gz)
+- [Read-only GitHub reconciliation](RECONCILIATION-20261022.json)
 - [Upload receipts with asset sizes and SHA-256](UPLOAD_RECEIPTS.json)
 - [Restoration smoke test](RESTORE_SMOKE.json)
 - [Pinned Git content verification](PINNED_GIT_VERIFICATION.json)
@@ -43,7 +44,7 @@ python3 -B auto-research/results/all-experiments-archive-20261018-v1/restore_exp
   --prefix 'icloud-documents/trin/experiments/disparity_constraints/'
 ```
 
-After publication is complete, restore a chosen prefix using a mounted writable SSD for both output and cache:
+Available objects can be restored selectively with an authenticated `gh` account permitted to download draft assets. Pending objects cannot be restored, and public release links may return 404 while the release is a draft. Use a mounted writable SSD for both output and cache:
 
 ```sh
 python3 -B auto-research/results/all-experiments-archive-20261018-v1/restore_experiments.py \
@@ -60,7 +61,11 @@ Check the index locally, or verify remote asset metadata with an authenticated G
 ```sh
 python3 -B auto-research/results/all-experiments-archive-20261018-v1/verify_archive.py
 python3 -B auto-research/results/all-experiments-archive-20261018-v1/verify_archive.py --remote
+# This intentionally fails while 58 selected objects remain pending:
+python3 -B auto-research/results/all-experiments-archive-20261018-v1/verify_archive.py --require-complete
 ```
+
+The default verifier reports `PASS_PARTIAL_ARCHIVE`, not a completed backup. `--remote` verifies every recorded available asset by size and GitHub SHA-256. To refresh locations without transferring anything, run `reconcile_archive.py`; it writes derived current files and leaves the original index unchanged. Do not resume uploads or publish a draft without authorization.
 
 ## Boundaries
 
