@@ -558,6 +558,22 @@
       "new_training": false,
       "new_model_evaluation": false,
       "publication_scope": "Code, compact result summaries and reconstruction placeholders per user steering."
+    },
+    {
+      "run_id": "kron-exact-core-20261023-v1",
+      "kind": "Exact rational core oracle and diagonal-scaling analysis",
+      "status": "PREREGISTERED_EXACT_ARITHMETIC_STUDY",
+      "parent_run_ids": ["minkron-fast-20261021-v1"],
+      "approval": "Donor's 2026-10-23 continued contribution authorization; standard-library algebra/tests only, no real model execution or dependency installation.",
+      "base_commit": "847bb75042e01b2c879272f97e72746f285c8872",
+      "session_seed": "dcbb91d07e51cf13ee6fda1fefc14ca2",
+      "claim": "https://github.com/rohanarun/Super-1/issues/21",
+      "protocol": "auto-research/results/kron-exact-core-20261023-v1/PROTOCOL.json",
+      "protocol_sha256": "4dbb2d89cbedea4be9e1358d25363b487d8e882e825e0234ea6e9be6b8c1596d",
+      "report": "auto-research/reports/kron-exact-core-20261023-v1.md",
+      "new_training": false,
+      "new_model_evaluation": false,
+      "official_test_accessed": false
     }
   ],
   "schema_version": 1,
