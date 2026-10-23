@@ -558,6 +558,22 @@
       "new_training": false,
       "new_model_evaluation": false,
       "publication_scope": "Code, compact result summaries and reconstruction placeholders per user steering."
+    },
+    {
+      "run_id": "archive-restore-plan-20261023-v1",
+      "kind": "Prospective standard-library archive restore planning; no transfers or model execution",
+      "status": "REGISTERED_STDLIB_RESTORE_PLANNER_NO_ARTIFACT_TRANSFERS",
+      "approval": "Donor authorized contribution tooling and multiple focused PRs; bounded stdlib-only scope in protocol.",
+      "protocol": "auto-research/results/archive-restore-plan-20261023-v1/PROTOCOL.json",
+      "protocol_sha256": "f51c0e04eb254c8a1becaa9f242d1b8008b84c38410c6e7ef8012e142b61e300",
+      "report": "auto-research/reports/archive-restore-plan-20261023-v1.md",
+      "parent_run_ids": [
+        "all-experiments-archive-20261018-v1",
+        "checkpoint-upload-completion-20261022-v1"
+      ],
+      "new_training": false,
+      "new_model_evaluation": false,
+      "artifact_downloads": false
     }
   ],
   "schema_version": 1,
