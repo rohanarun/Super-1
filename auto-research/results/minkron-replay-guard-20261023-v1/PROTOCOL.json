@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "based_on": "auto-research/PROTOCOL_TEMPLATE.json",
+  "status": "PREREGISTERED_ENGINEERING_CONTROL_FLOW_TEST",
+  "experiment_id": "E00_STAGE0_REPLAY_GUARD",
+  "run_id": "minkron-replay-guard-20261023-v1",
+  "parent_run_ids": ["minkron-fast-20261021-v1"],
+  "base_commit": "847bb75042e01b2c879272f97e72746f285c8872",
+  "claim": "https://github.com/rohanarun/Super-1/issues/19",
+  "session_seed": "dcbb91d07e51cf13ee6fda1fefc14ca2",
+  "hypothesis": "A separate checked replay entry point can reject unsupported reconstruction targets before execution, fail on a bound tensor-digest mismatch, and preserve existing outputs under normal and optimized Python without changing frozen research code.",
+  "primary_comparator": "Archived minkron-fast-20261021-v1/replay.py control flow with synthetic files and stubbed tensor operations only.",
+  "primary_metric": "False-success, overwrite and late-validation counts over explicit control-flow/filesystem cases.",
+  "minimum_useful_effect": "Zero false successes and overwrites in the declared tests, with valid matching synthetic control accepted.",
+  "success_rule": "Demonstrate the original failure behaviors without real model execution; validate all 21 saved target plans; pass failure controls for unsupported targets, malformed schedules, mismatched/false/missing replay receipts, child failures, missing or changed inputs, existing outputs and concurrent destination creation. Keep checks active under python -O.",
+  "futility_rule": "Stop and report any safety or source-binding obligation that cannot be met without changing archived evidence or running an unapproved model. Do not weaken a hash match into numerical closeness.",
+  "authorization": {
+    "approved": true,
+    "user_approval_reference": "2026-10-23 donor contribution request and subsequent authorization for multiple focused PRs within the original 480-minute budget.",
+    "approved_resources": "Existing session CPU and standard library for metadata inspection, synthetic-file tests and stubbed control flow only. No real PyTorch/model execution, training, model evaluation, checkpoint deserialization, corpus download, paid services or official-test access.",
+    "max_cost": "0 additional paid spend",
+    "max_walltime": "Within original session ending approximately 2026-10-23 14:04 UTC; no new research after 12:04 UTC.",
+    "local_cpu_budget": "Bounded small unit tests; no model computation."
+  },
+  "design": {
+    "original_source_hashes": {
+      "auto-research/results/minkron-fast-20261021-v1/replay.py": "f56b076e800f704989273d542b7e9dd6e0c3eaebbc71c101416d9ed7d7ba8dc9"
+    },
+    "arms": "All 18 saved screen targets and three saved continuation targets; no new arm.",
+    "control_rationale": "Exercise command status and filesystem behavior with fake computation; this does not test model mathematics or quality.",
+    "seeds": [25101, 25102, 25103],
+    "matching_track": "E00 reconstruction engineering, independent of open PR #18's scalar audit.",
+    "compute_accounting": "Test walltime only; no model performance inference."
+  },
+  "data": {
+    "dataset_versions": "Saved manifests only. A later authorized real invocation must verify required local array hashes before launching the archived runner.",
+    "official_test_access_permitted": false
+  },
+  "execution": {
+    "hardware": "Existing sandboxed session CPU",
+    "runtime_versions": "Python standard library; record actual interpreter in verification receipt.",
+    "resolved_writable_output": "New result directory and synthetic scratch files within the donor session folder.",
+    "source_ownership_and_concurrent_writers": "Independent clean worktree at the pinned base. No parent evidence mutation. Simulate a concurrently created final path in tests.",
+    "fidelity_tolerances": "Exact recorded model-tensor SHA-256 equality; no tolerance relaxation. No tensor arithmetic qualification in this run.",
+    "canary_matrix": "Positive matching synthetic child, mismatch/false flag, invalid JSON, nonzero child, unsupported targets, missing/corrupted source or arrays, existing output, output race, and optimized Python.",
+    "cost_estimate": "No install, accelerator, external data or cloud access."
+  },
+  "evaluation": {
+    "primary_endpoint": "Control-flow and non-overwrite unit tests; no model score.",
+    "canonical_precision": "Not applicable to stubbed control flow",
+    "no_test_tuning": true
+  },
+  "evidence": {
+    "source_manifest": "INPUTS.json with pinned parent source and metadata hashes",
+    "progress_path": "TEST_RESULTS.json",
+    "terminal_receipt_path": "TERMINAL.json",
+    "preservation_policy": "Retain completed parent evidence and any failed real replay output; never overwrite the requested final path.",
+    "cleanup_receipt": "Synthetic test files only may be cleaned; no unrelated workload or artifact."
+  },
+  "decision": {
+    "outcome": "PENDING",
+    "next_experiment": "Actual checkpoint reconstruction remains separately authorized work; these engineering tests cannot claim it passed."
+  }
+}

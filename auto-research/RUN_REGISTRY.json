@@ -558,6 +558,26 @@
       "new_training": false,
       "new_model_evaluation": false,
       "publication_scope": "Code, compact result summaries and reconstruction placeholders per user steering."
+    },
+    {
+      "run_id": "minkron-replay-guard-20261023-v1",
+      "kind": "Checked reconstruction entry point; standard-library control-flow tests",
+      "status": "COMPLETED_AUTHOR_CHECKED_REPLAY_GUARD_ENGINEERING",
+      "parent_run_ids": ["minkron-fast-20261021-v1"],
+      "approval": "2026-10-23 donor authorized continued contributions and multiple focused PRs within 480 minutes. This run tests metadata, synthetic files and stubbed control flow; no real model execution.",
+      "base_commit": "847bb75042e01b2c879272f97e72746f285c8872",
+      "session_seed": "dcbb91d07e51cf13ee6fda1fefc14ca2",
+      "claim": "https://github.com/rohanarun/Super-1/issues/19",
+      "protocol": "auto-research/results/minkron-replay-guard-20261023-v1/PROTOCOL.json",
+      "protocol_sha256": "d64b4a6c7dd107edc1dc19864349accf32afbbdf3ea6e61642ff26ff61b1f01f",
+      "report": "auto-research/reports/minkron-replay-guard-20261023-v1.md",
+      "metrics": "auto-research/results/minkron-replay-guard-20261023-v1/TEST_RESULTS.json",
+      "terminal": "auto-research/results/minkron-replay-guard-20261023-v1/TERMINAL.json",
+      "decision": "Three archived control-flow defects reproduced with stubs; checked entry point passes 16 standard-library tests in normal and optimized Python. Real model reconstruction remains unperformed.",
+      "registration_chronology": "Frozen before control-flow reproduction or implementation tests.",
+      "new_training": false,
+      "new_model_evaluation": false,
+      "official_test_accessed": false
     }
   ],
   "schema_version": 1,
