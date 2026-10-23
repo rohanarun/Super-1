@@ -558,6 +558,32 @@
       "new_training": false,
       "new_model_evaluation": false,
       "publication_scope": "Code, compact result summaries and reconstruction placeholders per user steering."
+    },
+    {
+      "run_id": "kron-decay-canary-20261023-v1",
+      "kind": "Prospective explicitly approved bounded synthetic numerical canary",
+      "status": "COMPLETED_BOUNDED_CANARY_CORE_PASS_MODEL_CANDIDATES_FAIL_NO_PROMOTION",
+      "approval": "auto-research/results/kron-decay-canary-20261023-v1/APPROVAL.json",
+      "protocol": "auto-research/results/kron-decay-canary-20261023-v1/PROTOCOL.json",
+      "protocol_sha256": "1c03fddb8afd93ed9d06b415f0db29a8da48b7af91018bf3ef34e2bbfa8cb8b5",
+      "canary_protocol": "auto-research/results/kron-decay-canary-20261023-v1/CANARY_PROTOCOL.json",
+      "canary_protocol_sha256": "6629c637046d6cad43024447b0638a4fdf62ca16cf09a4ed5fbf91e633e5d7b5",
+      "parent_run_ids": [
+        "minkron-fast-20261021-v1",
+        "kron-exact-core-20261023-v1"
+      ],
+      "report": "auto-research/reports/kron-decay-canary-20261023-v1.md",
+      "new_training": false,
+      "new_model_evaluation": true,
+      "evaluation_scope": "Only approved synthetic core/model mechanics; no corpus, language quality or official-test evaluation.",
+      "terminal": "auto-research/results/kron-decay-canary-20261023-v1/TERMINAL.json",
+      "metrics": "auto-research/results/kron-decay-canary-20261023-v1/SUMMARY.json",
+      "verification": "auto-research/results/kron-decay-canary-20261023-v1/VERIFICATION.json",
+      "decision": "INTERVAL_CORE_STRESS_GATE_PASSED; CANDIDATE_MODEL_GRADIENT_GATES_FAILED; NO_PROMOTION",
+      "numerical_attempts": 1,
+      "charged_numerical_cpu_seconds": 24.792752,
+      "synthetic_optimizer_steps_total": 12,
+      "corpus_training": false
     }
   ],
   "schema_version": 1,

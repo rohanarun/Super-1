@@ -1,0 +1,247 @@
+{
+  "schema_version": 1,
+  "status": "REGISTERED_AUTHORIZED_BOUNDED_NUMERICAL_CANARY",
+  "experiment_id": "E01",
+  "run_id": "kron-decay-canary-20261023-v1",
+  "parent_run_ids": [
+    "minkron-fast-20261021-v1",
+    "kron-exact-core-20261023-v1"
+  ],
+  "hypothesis": "Finite-precision subtraction of large cumulative decay logs loses an intervening decay in the specified short canary; interval products preserve the sequential core result while retaining the same equations.",
+  "primary_comparator": "Frozen sequential kron_recurrent on identical synthetic core inputs; source direct/factored paths are explicit controls.",
+  "primary_metric": "Frozen elementwise allclose gates for outputs/state, gradients, optimizer mechanics and causal/reset/streaming behavior.",
+  "minimum_useful_effect": "Identify or reject the specified rounded-prefix loss mechanism and retain separate core/model qualification gates.",
+  "success_rule": "Interval-product unscaled core passes frozen output/state/gradient/optimizer mechanics tolerances on every declared core case. Source failures, candidate failures and all secondary scaling arms are retained. A model-row gate is reported separately and can fail without being hidden.",
+  "futility_rule": "No tolerance relaxation; retain every failure; stop under frozen CPU/wall/disk/artifact/nonfinite rules.",
+  "authorization": {
+    "approved": true,
+    "user_approval_reference": "auto-research/results/kron-decay-canary-20261023-v1/APPROVAL.json",
+    "approved_resources": "Existing local CPU, one PyTorch/inter-op/BLAS thread; maximum 600 cumulative CPU seconds and 900 cumulative execution wall seconds across all numerical attempts, excluding dependency download/install.",
+    "max_cost": 0,
+    "max_walltime": "900 cumulative numerical execution seconds, excluding dependency download/install; entire session research stops 12:04 UTC.",
+    "local_cpu_budget": "600 cumulative numerical CPU seconds across attempts. Installation CPU reported separately."
+  },
+  "design": {
+    "original_source_hashes": {
+      "model.py": "aaa86b789dd760b7294823c7d9b28a3f3aca01f8ca3de4e2056b6249187afe77",
+      "common.py": "9260467b668af973bf39eaefe966b275dab0ef4a0e43f4af4bb66029ba54dd20",
+      "qualify.py": "98847112707b686e94ed3aae0fe6bb03119f86c60d8fea27240ddb7be8e466c7",
+      "PROTOCOL.json": "4fe1bd5d9339d53232b5a52f0bb6690b3ef6069d0668fc731fe7518ac596ac8d",
+      "PROTOCOL_ADDENDUM_01.json": "07fdcb6e4257c5e00205bf81b7eeda40adb87bec3d71b246bac1cab679288707",
+      "PROTOCOL_ADDENDUM_02.json": "4087fa902d7c9e181497a1a1b7d51a47cbb4b0eefcb6656b1f08725054504f01",
+      "ENVIRONMENT.json": "0924f206a8cd445fde8fbad915e6beaea4d176bc824e5c0beb49aefc982c7b88"
+    },
+    "mechanism_equations": "Same preserved recurrence and 1e-18 norm floor; replace rounded-prefix log subtraction with interval products only in named variants; scaling is a separate factor.",
+    "arms": [
+      "source_direct",
+      "source_factored",
+      "prefix_scaled",
+      "interval_direct",
+      "interval_scaled"
+    ],
+    "control_rationale": "Interval vs prefix and scaled vs unscaled are separated. Primary contrast is interval_direct vs source_direct; combined changes are secondary.",
+    "seeds": [
+      "dcbb91d07e51cf13ee6fda1fefc14ca2",
+      73,
+      191,
+      307,
+      25101
+    ],
+    "seed_selection_method": "Prepared protocol fixed seeds; no seeded task picker exists.",
+    "learning_rate_trials_per_arm": null,
+    "parameter_counts": null,
+    "matching_track": "E01 numerical fidelity; one explicitly approved canary",
+    "compute_accounting": "All numerical attempts cumulative, one Torch/inter-op/BLAS thread; install CPU and peak extra disk retained separately."
+  },
+  "data": {
+    "dataset_versions": "Only synthetic tensors and random token IDs; no dataset or checkpoint bodies.",
+    "tokenizer_sha256": null,
+    "train_sha256": null,
+    "selection_sha256": null,
+    "confirmation_sha256": null,
+    "split_boundaries": null,
+    "research_wide_region_reuse_audit": null,
+    "teacher_and_objective": null,
+    "official_test_access_permitted": false
+  },
+  "training": {
+    "updates": "One AdamW step per variant/reference pair in the one named model row, including separately labeled mixed-core control.",
+    "target_exposures_per_trial": null,
+    "tokens_per_update": null,
+    "microbatch": null,
+    "gradient_accumulation": null,
+    "bptt_length": null,
+    "accessible_history": null,
+    "state_carry_and_detach": null,
+    "document_reset_policy": null,
+    "optimizer_schedule": "Parent AdamW, LR0.001, epsilon1e-4; no language training.",
+    "precision": "FP32/FP64 synthetic cores; FP32 model parameters/core, separate FP64-core control.",
+    "checkpoint_selection_rule": "No checkpoints saved or selected."
+  },
+  "execution": {
+    "hardware": "Existing local CPU; no GPU/cloud.",
+    "runtime_versions": "CPU-only torch==2.9.1+cpu cp313 x86_64 wheel and required dependencies in session-local venv.",
+    "resolved_writable_output": "/root/.t3/scratch/2026-10-23-fetch-https-discoveryathome-org-v0-422259f3/super-1-20261023/canary-run/auto-research/results/kron-decay-canary-20261023-v1",
+    "source_ownership_and_concurrent_writers": "Parent owns new run/report and additive metadata. Parent sources remain unchanged. Shared baseline files are immutable.",
+    "fidelity_tolerances": {
+      "float32": {
+        "atol": 2e-05,
+        "rtol": 0.0002
+      },
+      "float64": {
+        "atol": 1e-08,
+        "rtol": 1e-06
+      },
+      "policy": "Use the frozen parent tolerances; no post-hoc relaxation. Capture finite failures and missing gradients."
+    },
+    "canary_matrix": {
+      "source": "Hash-pinned parent model.py, common.py, qualify.py, protocol/addenda. No archived file modifications.",
+      "variants": [
+        "source_direct",
+        "source_factored",
+        "prefix_scaled",
+        "interval_direct",
+        "interval_scaled"
+      ],
+      "reference": "source sequential recurrence, same visible dtype and input tensors",
+      "factorial_control": "Interval vs prefix and scaled vs unscaled are separated. Primary contrast is interval_direct vs source_direct; combined changes are secondary.",
+      "tiny_core_cases": {
+        "shape": "B=H=K=V=1, T=2 or 3",
+        "q_k_v": "all ones",
+        "beta_write": "both 1/2 at every token",
+        "g_sequences": [
+          [
+            -1,
+            -1
+          ],
+          [
+            -134217728,
+            -1
+          ],
+          [
+            -72057594037927936,
+            -1
+          ],
+          [
+            -1,
+            -134217728,
+            -1
+          ]
+        ],
+        "parameter_dtypes": [
+          "float32",
+          "float64"
+        ],
+        "initial_states": [
+          0,
+          1
+        ],
+        "reset_controls": [
+          "none",
+          "before first token"
+        ],
+        "expected_two_token_zero_state": "For first gate very negative: final=1/2+exp(-1)/4. Hypothesis: FP32 prefix controls give 3/4 at -2^27 while FP64 retains the increment; -2^56 tests the analogous FP64 limit."
+      },
+      "random_core_cases": {
+        "seeds": [
+          73,
+          191,
+          307
+        ],
+        "shapes_B_T_H_K_V": [
+          [
+            1,
+            2,
+            1,
+            1,
+            1
+          ],
+          [
+            2,
+            7,
+            2,
+            4,
+            3
+          ],
+          [
+            2,
+            19,
+            1,
+            4,
+            3
+          ]
+        ],
+        "q_k_v": "normalized seeded synthetic values; include zero and 1e-10-scaled value positions",
+        "gates": "nonpositive seeded gates and sigmoid beta/write",
+        "reset_and_chunk_checks": "nonzero state, before-token resets, irregular split, same-shape future intervention",
+        "derivatives": "all independent core input gradients under one fixed scalar probe"
+      },
+      "model_row": {
+        "arm": "k16",
+        "seed": 25101,
+        "parameter_dtype": "float32",
+        "recurrence_fp64": false,
+        "shape": "B=2,T=19; exact archived random-token/reset construction",
+        "checks": [
+          "logits and all state",
+          "loss",
+          "all parameter gradients",
+          "one AdamW step and optimizer state",
+          "streaming",
+          "reset",
+          "causality"
+        ],
+        "optimizer": "unchanged archived AdamW epsilon 1e-4",
+        "positive_control": "Repeat the source factored/reference row with the archived FP64-core workaround, clearly labeled mixed precision."
+      }
+    },
+    "cost_estimate": {
+      "approved": true,
+      "required_approval": "Exact donor approval under AGENTS.md rule 3 before dependency installation or tensor/model execution.",
+      "resources": "Existing local CPU, one PyTorch/inter-op/BLAS thread; maximum 600 cumulative CPU seconds and 900 cumulative execution wall seconds across all numerical attempts, excluding dependency download/install.",
+      "dependencies": "Session-local virtual environment only, CPU-only torch==2.9.1+cpu and its required Python dependencies; no global install or GPU packages.",
+      "dependency_size_evidence": "Official cp313 x86_64 CPU wheel is 184380800 bytes, SHA256 39b3dff6d8fba240ae0d1bede4ca11c2531ae3b47329206512d99e17907ff74b. This is metadata/HEAD evidence, not a downloaded binary.",
+      "additional_disk_cap": "1 GiB for environment, temporary wheel/install data and canary outputs together; stop if this cannot be met. No corpus or checkpoint downloads.",
+      "artifact_cap": "50 MiB new result/diagnostic artifacts; no full checkpoints saved.",
+      "max_additional_paid_spend": 0,
+      "gpu_cloud_external_accounts": false,
+      "official_test_access": false,
+      "corpus_or_language_training": false,
+      "synthetic_optimizer_steps": "At most one AdamW step per candidate/reference pair in the one named model qualification row.",
+      "approval_reference": "auto-research/results/kron-decay-canary-20261023-v1/APPROVAL.json"
+    }
+  },
+  "evaluation": {
+    "primary_endpoint": "All 50 interval_direct core cases; separately report every variant/model-row gate.",
+    "confirmation_frozen_before_scoring": true,
+    "canonical_precision": "FP32",
+    "duplicate_policy": "Every prepared case/variant retained, including finite failure and incomplete attempts.",
+    "uncertainty_method": "Bounded deterministic mechanics check; no population/model-quality inference.",
+    "multiple_comparison_policy": "No selection by favorable variant/metric; retain every fixed contrast.",
+    "no_test_tuning": true
+  },
+  "deployment": {
+    "weight_dtype": null,
+    "kv_or_state_dtype": null,
+    "quantization_metadata": null,
+    "batching": null,
+    "prefill_decode_protocol": null,
+    "warmup_and_synchronization": null,
+    "memory_components": null,
+    "latency_statistics": null
+  },
+  "evidence": {
+    "protocol_sha256": null,
+    "source_manifest": "auto-research/results/kron-decay-canary-20261023-v1/SOURCE_INPUTS.json",
+    "checkpoint_manifest": null,
+    "progress_path": "auto-research/results/kron-decay-canary-20261023-v1/execution",
+    "terminal_receipt_path": "auto-research/results/kron-decay-canary-20261023-v1/TERMINAL.json",
+    "preservation_policy": "Preserve approved draft, approval, every raw attempt/diagnostic, all controls and unmodified historical evidence. No accepted-result changes.",
+    "cleanup_receipt": null
+  },
+  "decision": {
+    "outcome": "REGISTERED",
+    "reason": "Explicit user approval received; exact prepared scope frozen before installation/execution.",
+    "next_experiment": "If mechanics pass, propose a separately approved wider fidelity/performance canary; do not launch training from this result."
+  }
+}

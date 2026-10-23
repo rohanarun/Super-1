@@ -1,0 +1,39 @@
+{
+  "canary_protocol_sha256": "6629c637046d6cad43024447b0638a4fdf62ca16cf09a4ed5fbf91e633e5d7b5",
+  "core_cases_per_variant": 50,
+  "core_rows_checked": 250,
+  "gradient_arrays_archived": false,
+  "independent_tensor_replay": false,
+  "model_candidate_gates_passed": {
+    "interval_direct": false,
+    "interval_scaled": false
+  },
+  "model_rows_checked": 6,
+  "new_tensor_execution_during_receipt_checks": false,
+  "numerical_gate_failures_preserved": true,
+  "parent_inputs_checked": 7,
+  "protocol_sha256": "1c03fddb8afd93ed9d06b415f0db29a8da48b7af91018bf3ef34e2bbfa8cb8b5",
+  "raw_result_sha256": "2ff304b2b83cea8b7c63e807410e2de1b0abccc452e7a9088bedf0fe86028093",
+  "receipt_corruption_rejections": 10,
+  "result_summary_sha256": "205e5e849f6c0382b83690ff7ef9872e8f35fbf8edf841ef20ee7d2b8690ad51",
+  "status": "PASS_SAVED_RECEIPT_COHERENCE_NOT_NUMERICAL_REPLAY",
+  "tests": [
+    {
+      "label": "receipt-tests",
+      "methods": 8,
+      "passed": true,
+      "seconds": 0.058,
+      "stderr": "execution/receipt-tests.stderr",
+      "stdout": "execution/receipt-tests.stdout"
+    },
+    {
+      "label": "receipt-tests-optimized",
+      "methods": 8,
+      "passed": true,
+      "seconds": 0.06,
+      "stderr": "execution/receipt-tests-optimized.stderr",
+      "stdout": "execution/receipt-tests-optimized.stdout"
+    }
+  ],
+  "tiny_reference_records_checked": 160
+}

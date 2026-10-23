@@ -1,0 +1,16 @@
+{
+  "disk_scope": [
+    "session-local canary-env",
+    "canary-install-temp including caches",
+    "new run source/results/diagnostics"
+  ],
+  "extra_disk_cap_bytes": 1073741824,
+  "installation_excluded_from_numerical_cpu_budget": true,
+  "numerical_cpu_seconds_total": 600,
+  "numerical_execution_wall_seconds_total": 900,
+  "preregistration_commit": "6636bc315022930108de66db2b6906e733429f19",
+  "prior_numerical_attempts": 0,
+  "result_artifact_cap_bytes": 52428800,
+  "sha256": "c6da37044f679cb46d68eeabbb4c5182dee26b96d2d9d05a0d7d49e9315c1d5f",
+  "source": "run_process.py"
+}
