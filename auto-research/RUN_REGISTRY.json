@@ -109,7 +109,7 @@
   "runs": [
     {
       "run_id": "minkron-fast-receipt-audit-20261023-v1",
-      "status": "PREREGISTERED_READ_ONLY_AUDIT",
+      "status": "COMPLETED_AUTHOR_CHECKED_STORED_EVIDENCE_AUDIT",
       "kind": "Stored-receipt consistency and replay-binding audit",
       "parent_run_ids": ["minkron-fast-20261021-v1"],
       "approval": "2026-10-23 donor authorized a bounded contribution and one focused PR; this run is standard-library receipt analysis only, with no model execution or paid resources.",
@@ -119,6 +119,10 @@
       "protocol": "auto-research/results/minkron-fast-receipt-audit-20261023-v1/PROTOCOL.json",
       "protocol_sha256": "d081c4ad416845c5f96eaa3e2b35097196e8f398d5e165c2c6efc314e2721e48",
       "report": "auto-research/reports/minkron-fast-receipt-audit-20261023-v1.md",
+      "metrics": "auto-research/results/minkron-fast-receipt-audit-20261023-v1/AUDIT.json",
+      "terminal": "auto-research/results/minkron-fast-receipt-audit-20261023-v1/TERMINAL.json",
+      "verification": "auto-research/results/minkron-fast-receipt-audit-20261023-v1/VERIFICATION.json",
+      "decision": "Saved scalar receipts, selection, 9,089 step/LR rows and 15 printed result rows agree. No new model execution, independent replay or accepted-result promotion.",
       "new_training": false,
       "new_model_evaluation": false,
       "official_test_accessed": false,
