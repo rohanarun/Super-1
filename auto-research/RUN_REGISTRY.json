@@ -62,6 +62,17 @@
       "verification": "auto-research/results/perturbation-extended-recovery-20261018-v1/VERIFICATION.json"
     },
     {
+      "catalog": "auto-research/results/all-experiments-archive-20261018-v1/CATALOG.md",
+      "id": "all-experiments-archive-20261018-v1",
+      "inventory": "auto-research/results/all-experiments-archive-20261018-v1/FILES.current.json.gz",
+      "new_model_evaluation": false,
+      "new_training": false,
+      "report": "auto-research/results/all-experiments-archive-20261018-v1/README.md",
+      "scope": "User selected source, results, logs, graphs and final checkpoints. Intermediate tensor artifacts, dependencies, credentials and raw datasets excluded. Partial archive only: uploads remain paused and pending objects are not backed up.",
+      "status": "PARTIAL_ARCHIVE_UPLOADS_PAUSED",
+      "summary": "auto-research/results/all-experiments-archive-20261018-v1/SUMMARY.current.json"
+    },
+    {
       "run_id": "minkron-fast-20261021-v1",
       "status": "COMPLETED_EXPLORATORY_TRADEOFF",
       "kind": "Authorized small CPU language architecture screen",

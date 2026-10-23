@@ -1,0 +1,23 @@
+{
+  "content_location_counts": {
+    "archive_object": 15094,
+    "checkpoint_asset": 42,
+    "existing_git_file": 1609,
+    "existing_release_asset": 2,
+    "upload_pending": 120
+  },
+  "files_manifest_sha256": "6c7351ef8208fcae870af053e7341362893c253ecf01cc085f4545edff0c46cb",
+  "final_selected_terminal_checkpoint_objects": 754,
+  "historical_source_executed": false,
+  "mapped_source_paths": 30885,
+  "new_model_inference": false,
+  "new_release_asset_bytes": 8483220696,
+  "new_release_assets": 50,
+  "new_training": false,
+  "pending_objects": 120,
+  "source_roots": 270,
+  "status": "UPLOAD_IN_PROGRESS",
+  "unique_content_bytes": 33983273743,
+  "unique_content_objects": 16867,
+  "unresolved_latest_checkpoint_references": 0
+}

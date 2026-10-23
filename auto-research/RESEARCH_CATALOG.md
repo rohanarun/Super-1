@@ -101,3 +101,7 @@ The earlier initial GitHub audit searched incomplete SSD project copies and miss
 ## Extended perturbation records — 2026-10-18
 
 The [SSD/iCloud follow-up audit](reports/perturbation-extended-recovery-20261018.md) preserves 271 additional historical files, 21 later heads/decisions, tensor/scalar refinement, CE/KD parent retention, benchmark regressions, one-backward scalar screening, historical test skips and pipeline failures. Source/receipt recovery does not establish new concept learning or authorize a new experiment.
+
+## Repository-wide experiment archive — 2026-10-18
+
+The [full source-path catalogue](results/all-experiments-archive-20261018-v1/CATALOG.md) indexes selected SSD/iCloud research across 270 roots, with 30,885 source paths and 16,867 unique objects, including failures and incomplete runs. [SUMMARY.current.json](results/all-experiments-archive-20261018-v1/SUMMARY.current.json) reconciles 104 uploaded large checkpoints and 58 pending objects. Uploads remain paused and the release remains a draft; the original summary and index are historical snapshots. Archival verification does not rerun the science or certify pending files as backed up.

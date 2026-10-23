@@ -1,0 +1,32 @@
+[
+  {
+    "path": "/Users/rohanarun/Library/Mobile Documents/com~apple~CloudDocs/Documents/trin-visualizations/w560-360-dark.png",
+    "status": "read_success",
+    "sha256": "b11145847b149755d02eda9aa50c38c7ce67533d37072977d25c41b6ec532652"
+  },
+  {
+    "path": "/Users/rohanarun/Library/Mobile Documents/com~apple~CloudDocs/Documents/trin-visualizations/w560-360-light.png",
+    "status": "read_success",
+    "sha256": "1a1aeeb51fec4a6e56507774a9eacd4dcfc3bcb7b87b8562a44ecccd2835df48"
+  },
+  {
+    "path": "/Users/rohanarun/Library/Mobile Documents/com~apple~CloudDocs/Documents/trin-visualizations/w560-736-dark.png",
+    "status": "read_success",
+    "sha256": "6b9eef125fbcec0f6480342995ae1d0de0bbed307f49c35971bf5562a85e33fb"
+  },
+  {
+    "path": "/Users/rohanarun/Library/Mobile Documents/com~apple~CloudDocs/Documents/trin-visualizations/w560-736-light.png",
+    "status": "read_success",
+    "sha256": "46fcf3e450414ab1578244369917db181089fdfdb6affed9565ebe3bd63eebe8"
+  },
+  {
+    "path": "/Users/rohanarun/Library/Mobile Documents/com~apple~CloudDocs/Documents/trin-visualizations/w560-canonical-ce-progress-preview.html",
+    "status": "read_success",
+    "sha256": "e0a0e45edcbca34cd35b3629caa81eb4005fce2fad8a5a77a03984ff608b9324"
+  },
+  {
+    "path": "/Users/rohanarun/Library/Mobile Documents/com~apple~CloudDocs/Documents/trin-visualizations/w560-canonical-ce-progress.html",
+    "status": "read_success",
+    "sha256": "eb7955853c9054445975c6dd7c6cef9b28d68a9592551b41dc880b57e5b529a2"
+  }
+]

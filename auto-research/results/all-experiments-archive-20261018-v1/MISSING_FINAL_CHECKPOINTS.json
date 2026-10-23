@@ -1,0 +1,38 @@
+[
+  {
+    "receipt": "/Volumes/SP AI 01_16/hfw-w560-continuous-mps-cumulative-optimizer-20260816-v1-attempt1/runtime/inputs/imported_snapshot/heads/00000001-e22c204228a1af52810a817441677ed55c262d8b7620e879855e62a2aad11a8d.head.json",
+    "checkpoint": "/home/rohanarun/funcweights-hierarchy-compiler-v1/runs/hfw-w560-continuous-optimizer-20260815-v1r1-attempt2/ledger/promoted_checkpoints/generation-00000001-748411ffb34c2ce9-attempt-0001.pt",
+    "sha256": "4abc27b15d47fd08f539d0aa7c8842f22d83c0f9f846193d4ac7a9b9c7f9c76f",
+    "resolved_by_sha256": "/Volumes/SP AI 01_16/hfw-w560-continuous-mps-cumulative-optimizer-20260816-v1-attempt1/runtime/inputs/imported_snapshot/current/generation-00000001-4abc27b15d47fd08f539d0aa7c8842f22d83c0f9f846193d4ac7a9b9c7f9c76f.pt"
+  },
+  {
+    "receipt": "/Volumes/SP AI 01_16/hfw-w560-continuous-mps-proposal-20260816-v1-attempt4/runtime/inputs/imported_snapshot/heads/00000001-e22c204228a1af52810a817441677ed55c262d8b7620e879855e62a2aad11a8d.head.json",
+    "checkpoint": "/home/rohanarun/funcweights-hierarchy-compiler-v1/runs/hfw-w560-continuous-optimizer-20260815-v1r1-attempt2/ledger/promoted_checkpoints/generation-00000001-748411ffb34c2ce9-attempt-0001.pt",
+    "sha256": "4abc27b15d47fd08f539d0aa7c8842f22d83c0f9f846193d4ac7a9b9c7f9c76f",
+    "resolved_by_sha256": "/Volumes/SP AI 01_16/hfw-w560-continuous-mps-cumulative-optimizer-20260816-v1-attempt1/runtime/inputs/imported_snapshot/current/generation-00000001-4abc27b15d47fd08f539d0aa7c8842f22d83c0f9f846193d4ac7a9b9c7f9c76f.pt"
+  },
+  {
+    "receipt": "/Volumes/SP AI 01_16/hfw-w560-continuous-mps-proposal-20260816-v1-attempt5/runtime/inputs/imported_snapshot/heads/00000001-e22c204228a1af52810a817441677ed55c262d8b7620e879855e62a2aad11a8d.head.json",
+    "checkpoint": "/home/rohanarun/funcweights-hierarchy-compiler-v1/runs/hfw-w560-continuous-optimizer-20260815-v1r1-attempt2/ledger/promoted_checkpoints/generation-00000001-748411ffb34c2ce9-attempt-0001.pt",
+    "sha256": "4abc27b15d47fd08f539d0aa7c8842f22d83c0f9f846193d4ac7a9b9c7f9c76f",
+    "resolved_by_sha256": "/Volumes/SP AI 01_16/hfw-w560-continuous-mps-cumulative-optimizer-20260816-v1-attempt1/runtime/inputs/imported_snapshot/current/generation-00000001-4abc27b15d47fd08f539d0aa7c8842f22d83c0f9f846193d4ac7a9b9c7f9c76f.pt"
+  },
+  {
+    "receipt": "/Volumes/SP AI 01_16/hfw-w560-continuous-mps-proposal-20260816-v1-attempt2/runtime/inputs/imported_snapshot/heads/00000001-e22c204228a1af52810a817441677ed55c262d8b7620e879855e62a2aad11a8d.head.json",
+    "checkpoint": "/home/rohanarun/funcweights-hierarchy-compiler-v1/runs/hfw-w560-continuous-optimizer-20260815-v1r1-attempt2/ledger/promoted_checkpoints/generation-00000001-748411ffb34c2ce9-attempt-0001.pt",
+    "sha256": "4abc27b15d47fd08f539d0aa7c8842f22d83c0f9f846193d4ac7a9b9c7f9c76f",
+    "resolved_by_sha256": "/Volumes/SP AI 01_16/hfw-w560-continuous-mps-cumulative-optimizer-20260816-v1-attempt1/runtime/inputs/imported_snapshot/current/generation-00000001-4abc27b15d47fd08f539d0aa7c8842f22d83c0f9f846193d4ac7a9b9c7f9c76f.pt"
+  },
+  {
+    "receipt": "/Volumes/SP AI 01_16/hfw-w560-continuous-mps-proposal-20260816-v1-attempt3/runtime/inputs/imported_snapshot/heads/00000001-e22c204228a1af52810a817441677ed55c262d8b7620e879855e62a2aad11a8d.head.json",
+    "checkpoint": "/home/rohanarun/funcweights-hierarchy-compiler-v1/runs/hfw-w560-continuous-optimizer-20260815-v1r1-attempt2/ledger/promoted_checkpoints/generation-00000001-748411ffb34c2ce9-attempt-0001.pt",
+    "sha256": "4abc27b15d47fd08f539d0aa7c8842f22d83c0f9f846193d4ac7a9b9c7f9c76f",
+    "resolved_by_sha256": "/Volumes/SP AI 01_16/hfw-w560-continuous-mps-cumulative-optimizer-20260816-v1-attempt1/runtime/inputs/imported_snapshot/current/generation-00000001-4abc27b15d47fd08f539d0aa7c8842f22d83c0f9f846193d4ac7a9b9c7f9c76f.pt"
+  },
+  {
+    "receipt": "/Volumes/SP AI 01_16/hfw-w560-mps-authority-snapshot-20260816-attempt1/ledger/heads/00000001-e22c204228a1af52810a817441677ed55c262d8b7620e879855e62a2aad11a8d.head.json",
+    "checkpoint": "/home/rohanarun/funcweights-hierarchy-compiler-v1/runs/hfw-w560-continuous-optimizer-20260815-v1r1-attempt2/ledger/promoted_checkpoints/generation-00000001-748411ffb34c2ce9-attempt-0001.pt",
+    "sha256": "4abc27b15d47fd08f539d0aa7c8842f22d83c0f9f846193d4ac7a9b9c7f9c76f",
+    "resolved_by_sha256": "/Volumes/SP AI 01_16/hfw-w560-continuous-mps-cumulative-optimizer-20260816-v1-attempt1/runtime/inputs/imported_snapshot/current/generation-00000001-4abc27b15d47fd08f539d0aa7c8842f22d83c0f9f846193d4ac7a9b9c7f9c76f.pt"
+  }
+]
