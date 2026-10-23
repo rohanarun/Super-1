@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "status": "REGISTERED_AUTHORIZED_STDLIB_TOOLING_ONLY",
+  "experiment_id": "E00",
+  "run_id": "archive-restore-plan-20261023-v1",
+  "parent_run_ids": [
+    "all-experiments-archive-20261018-v1",
+    "checkpoint-upload-completion-20261022-v1"
+  ],
+  "hypothesis": "A manifest-only plan can predict actual fresh-cache payload and logical output bytes, including archive-member amplification and aliases, without transfers.",
+  "primary_comparator": "Pinned restore_experiments.py control flow; isolated tiny synthetic local restores with network calls stubbed.",
+  "primary_metric": "Exact integer payload/cache/output agreement with controlled restores; complete current/historical metadata accounting.",
+  "minimum_useful_effect": "Identify whole-archive transfer costs that path-size list mode does not report.",
+  "success_rule": "All frozen synthetic controls pass; current full selection agrees with saved manifest counts, historical pending objects remain blocked; all disjoint first-two-component root selections account for the complete current snapshot.",
+  "futility_rule": "Any inability to bind payload size/digest/locator or any false restorable status blocks the plan. Retain failures; do not relax expectations.",
+  "authorization": {
+    "approved": true,
+    "user_approval_reference": "2026-10-23 donor contribution request and later multiple-focused-PR permission; claim https://github.com/rohanarun/Super-1/issues/23",
+    "approved_resources": "Stdlib metadata reads, unit tests and tiny synthetic local restore fixtures only. No real artifact fetch, model execution, dependency install or official-test access.",
+    "max_cost": 0,
+    "max_walltime": "60 minutes implementation/research, ending before 12:04 UTC; final session quarter reserved for verification.",
+    "local_cpu_budget": "At most 600 CPU seconds total for new metadata/planner/control executions."
+  },
+  "design": {
+    "original_source_hashes": {
+      "auto-research/results/all-experiments-archive-20261018-v1/FILES.current.json.gz": "bcf0e2421a64f6f22edd0c7776ae7f609fa49c65edd350daf727bf6d2167ab88",
+      "auto-research/results/all-experiments-archive-20261018-v1/FILES.json.gz": "6c7351ef8208fcae870af053e7341362893c253ecf01cc085f4545edff0c46cb",
+      "auto-research/results/all-experiments-archive-20261018-v1/SUMMARY.current.json": "a00058ea08b7cb2d66f993494e5062e9866cd5f4863babf18295326c47f2c2f4",
+      "auto-research/results/all-experiments-archive-20261018-v1/SUMMARY.json": "9077467a8920643006a1657b6df36ec8a336ac8451b73666d0b7b33b22c8b608",
+      "auto-research/results/all-experiments-archive-20261018-v1/restore_experiments.py": "8d08b7a61a579b0a1871e1b150413608222e9105eec4dc0e4f484fcfee0c5419",
+      "auto-research/results/all-experiments-archive-20261018-v1/verify_archive.py": "b42b1458c83354ff0278e901506462aa4164ccfb1d842e1945945a9d760ff591",
+      "auto-research/results/all-experiments-archive-20261018-v1/test_archive_tools.py": "b38a018231f42a99582b51c803c4c2630f6dcb484d68f6872e09e52f85987a7f",
+      "auto-research/results/all-experiments-archive-20261018-v1/README.md": "acbe7c952a29840687d3de7b9bdd40674e42143c439a6efb60210c97db56bd43"
+    },
+    "mechanism_equations": null,
+    "arms": [
+      "new manifest-only planner",
+      "unchanged restorer driven with tiny synthetic bytes and stubbed network"
+    ],
+    "control_rationale": "Alias deduplication, whole-archive member extraction, direct Git/release objects, pending status and malformed/inconsistent metadata are checked separately.",
+    "seeds": [
+      "dcbb91d07e51cf13ee6fda1fefc14ca2"
+    ],
+    "seed_selection_method": "No seeded picker exists. E00 transfer-planning gap chosen from source inspection and current priorities. Synthetic fixtures deterministic.",
+    "learning_rate_trials_per_arm": null,
+    "parameter_counts": null,
+    "matching_track": "E00 / Stage 0 portability",
+    "compute_accounting": "Measure CPU/wall time for metadata grid; no training/benchmark/model work."
+  },
+  "data": {
+    "dataset_versions": "No dataset bodies opened; only pinned current/historical archive indexes and summaries.",
+    "tokenizer_sha256": null,
+    "train_sha256": null,
+    "selection_sha256": null,
+    "confirmation_sha256": null,
+    "split_boundaries": null,
+    "research_wide_region_reuse_audit": null,
+    "teacher_and_objective": null,
+    "official_test_access_permitted": false
+  },
+  "training": {
+    "updates": null,
+    "target_exposures_per_trial": null,
+    "tokens_per_update": null,
+    "microbatch": null,
+    "gradient_accumulation": null,
+    "bptt_length": null,
+    "accessible_history": null,
+    "state_carry_and_detach": null,
+    "document_reset_policy": null,
+    "optimizer_schedule": null,
+    "precision": null,
+    "checkpoint_selection_rule": null
+  },
+  "execution": {
+    "hardware": "Existing local session CPU; no external/cloud resources.",
+    "runtime_versions": "Session Python standard library only; record exact version in terminal receipt.",
+    "resolved_writable_output": "/root/.t3/scratch/2026-10-23-fetch-https-discoveryathome-org-v0-422259f3/super-1-20261023/archive-planner/auto-research/results/archive-restore-plan-20261023-v1",
+    "source_ownership_and_concurrent_writers": "Parent owns this new run, report, additive registry/manifest entries and contributor row. Frozen parent unchanged.",
+    "fidelity_tolerances": "Exact integer and canonical JSON equality; no relaxed numerical tolerance.",
+    "canary_matrix": [
+      "Archive member requires whole payload, not member bytes",
+      "Same payload/object aliases fetched once and copied to distinct outputs",
+      "Direct pinned Git and release objects",
+      "Mixed-location plan versus unchanged restorer using stubbed network",
+      "Pending selected objects block status",
+      "Empty prefix selection errors",
+      "Missing archive mapping, unsupported kind, duplicate restore path, malformed digest or conflicting blob size errors",
+      "Input row order does not change canonical plan",
+      "Full current and historical selections; every disjoint first-two-component current root selection"
+    ],
+    "cost_estimate": "Zero money/network payload. Metadata outputs only; <=10 MiB new result artifacts."
+  },
+  "evaluation": {
+    "primary_endpoint": "Metadata/functional contract only; no scientific metric or independent reproduction.",
+    "confirmation_frozen_before_scoring": true,
+    "canonical_precision": "Exact integer bytes/counts",
+    "duplicate_policy": "Content aliases count separately in restored output, once in unique content; fetched blobs deduplicate exactly by cache digest as in source.",
+    "uncertainty_method": "No sampling inference; frozen full metadata inventory and deterministic synthetic controls.",
+    "multiple_comparison_policy": "Report every snapshot/root selection and every failure; no selection by favorable totals.",
+    "no_test_tuning": true
+  },
+  "deployment": {
+    "weight_dtype": null,
+    "kv_or_state_dtype": null,
+    "quantization_metadata": null,
+    "batching": null,
+    "prefill_decode_protocol": null,
+    "warmup_and_synchronization": null,
+    "memory_components": null,
+    "latency_statistics": null
+  },
+  "evidence": {
+    "protocol_sha256": null,
+    "source_manifest": "auto-research/results/archive-restore-plan-20261023-v1/INPUTS.json",
+    "checkpoint_manifest": null,
+    "progress_path": "auto-research/results/archive-restore-plan-20261023-v1/DEVELOPMENT_CHECKS.json",
+    "terminal_receipt_path": "auto-research/results/archive-restore-plan-20261023-v1/TERMINAL.json",
+    "preservation_policy": "Add new files; retain every parent byte and all original registry content/status. Never fetch or modify accepted results.",
+    "cleanup_receipt": null
+  },
+  "decision": {
+    "outcome": "REGISTERED",
+    "reason": "Prospective tooling protocol before planner implementation and selected-budget analysis.",
+    "next_experiment": "Implement bounded offline planner; any real restore requires a separate explicit exact transfer/storage approval."
+  }
+}

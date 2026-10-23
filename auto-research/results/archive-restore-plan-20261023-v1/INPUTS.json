@@ -1,0 +1,14 @@
+{
+  "base_commit": "847bb75042e01b2c879272f97e72746f285c8872",
+  "files": {
+    "auto-research/results/all-experiments-archive-20261018-v1/FILES.current.json.gz": "bcf0e2421a64f6f22edd0c7776ae7f609fa49c65edd350daf727bf6d2167ab88",
+    "auto-research/results/all-experiments-archive-20261018-v1/FILES.json.gz": "6c7351ef8208fcae870af053e7341362893c253ecf01cc085f4545edff0c46cb",
+    "auto-research/results/all-experiments-archive-20261018-v1/SUMMARY.current.json": "a00058ea08b7cb2d66f993494e5062e9866cd5f4863babf18295326c47f2c2f4",
+    "auto-research/results/all-experiments-archive-20261018-v1/SUMMARY.json": "9077467a8920643006a1657b6df36ec8a336ac8451b73666d0b7b33b22c8b608",
+    "auto-research/results/all-experiments-archive-20261018-v1/restore_experiments.py": "8d08b7a61a579b0a1871e1b150413608222e9105eec4dc0e4f484fcfee0c5419",
+    "auto-research/results/all-experiments-archive-20261018-v1/verify_archive.py": "b42b1458c83354ff0278e901506462aa4164ccfb1d842e1945945a9d760ff591",
+    "auto-research/results/all-experiments-archive-20261018-v1/test_archive_tools.py": "b38a018231f42a99582b51c803c4c2630f6dcb484d68f6872e09e52f85987a7f",
+    "auto-research/results/all-experiments-archive-20261018-v1/README.md": "acbe7c952a29840687d3de7b9bdd40674e42143c439a6efb60210c97db56bd43"
+  },
+  "purpose": "Pinned metadata and unchanged stdlib restorer; no archive bodies or model execution"
+}

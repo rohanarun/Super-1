@@ -1,0 +1,37 @@
+{
+  "ai_disclosure": "Substantially AI-assisted by Codex for @thakrarsagar.",
+  "artifact_transfers": 0,
+  "base_commit": "847bb75042e01b2c879272f97e72746f285c8872",
+  "cloud_resources": 0,
+  "completed_at_utc": "2026-10-23T09:46:01.582271+00:00",
+  "cumulative_cpu_budget_seconds": 600,
+  "current_root_prefixes_checked": 161,
+  "dependency_installs": 0,
+  "deterministic_root_plans_sha256": "94aa8ebdb2d7f156f383b9f652c5600062c3209f7632606464baa3e4986995cd",
+  "evidence_level": "author-checked",
+  "final_unittest_methods": 14,
+  "malformed_metadata_controls": 13,
+  "model_evaluations": 0,
+  "money_spent": 0,
+  "not_checked": [
+    "live remote state, credentials, authorization and asset-body availability",
+    "real archive/cache/output bodies and disk allocation",
+    "checkpoint deserialization/reconstruction",
+    "dataset or model replay and scientific metrics"
+  ],
+  "official_test_accessed": false,
+  "predecessor_credit": [
+    "Rohan Arun",
+    "Original Super-1 archive and recovery contributors"
+  ],
+  "preregistration_commit": "d880a914c5589f12c86034f5ddc72082ed94bdc6",
+  "primary_metadata_cpu_seconds": 49.912214299,
+  "primary_metadata_wall_seconds": 49.95285765698645,
+  "protocol_sha256": "f51c0e04eb254c8a1becaa9f242d1b8008b84c38410c6e7ef8012e142b61e300",
+  "python": "3.13.5",
+  "recorded_metadata_attempt_wall_seconds": 54.318033321993425,
+  "results_sha256": "254cbaf788c31777c6fc9430950908f5da4b14cce2d895090c59d0d7dc3e1c0a",
+  "run_id": "archive-restore-plan-20261023-v1",
+  "status": "COMPLETED_OFFLINE_PLAN_VERIFICATION_NO_TRANSFERS",
+  "training_runs": 0
+}
