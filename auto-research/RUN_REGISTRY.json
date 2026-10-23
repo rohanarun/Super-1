@@ -108,6 +108,23 @@
   "historical_authorization_note": "Language training remains paused. Fresh user-authorized synthetic angular/radial optimization completed without recovery; no future execution authorized. Previous synthetic failure/recovery remains preserved.",
   "runs": [
     {
+      "run_id": "minkron-fast-receipt-audit-20261023-v1",
+      "status": "PREREGISTERED_READ_ONLY_AUDIT",
+      "kind": "Stored-receipt consistency and replay-binding audit",
+      "parent_run_ids": ["minkron-fast-20261021-v1"],
+      "approval": "2026-10-23 donor authorized a bounded contribution and one focused PR; this run is standard-library receipt analysis only, with no model execution or paid resources.",
+      "base_commit": "847bb75042e01b2c879272f97e72746f285c8872",
+      "session_seed": "dcbb91d07e51cf13ee6fda1fefc14ca2",
+      "claim": "https://github.com/rohanarun/Super-1/issues/17",
+      "protocol": "auto-research/results/minkron-fast-receipt-audit-20261023-v1/PROTOCOL.json",
+      "protocol_sha256": "d081c4ad416845c5f96eaa3e2b35097196e8f398d5e165c2c6efc314e2721e48",
+      "report": "auto-research/reports/minkron-fast-receipt-audit-20261023-v1.md",
+      "new_training": false,
+      "new_model_evaluation": false,
+      "official_test_accessed": false,
+      "registration_chronology": "Protocol and additive registry entry frozen before cross-receipt analysis."
+    },
+    {
       "approval": "User-requested separate-chat synthetic self-test; not language-training or cloud authorization",
       "arm_seed_rows": 12,
       "kind": "synthetic acceptance",
