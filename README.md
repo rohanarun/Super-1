@@ -71,7 +71,7 @@ The [extended research audit](auto-research/reports/perturbation-extended-recove
 
 ## Indexed experiment archive
 
-The [indexed SSD and iCloud research archive](auto-research/results/all-experiments-archive-20261018-v1/README.md) preserves source, results, logs, graphs and selected final checkpoints across the located Super-1 research. It includes failed and incomplete runs, file provenance, checksums and selective restore tools. Its [reconciled status](auto-research/results/all-experiments-archive-20261018-v1/SUMMARY.current.json) records 104 uploaded large checkpoints and 58 still pending. Uploads remain paused; the release is a draft requiring authorized GitHub access. Merging the index does not make pending objects backed up.
+The [indexed SSD and iCloud research archive](auto-research/results/all-experiments-archive-20261018-v1/README.md) preserves source, results, logs, graphs and selected final checkpoints across the located Super-1 research. It includes failed and incomplete runs, file provenance, checksums and selective restore tools. Its [reconciled status](auto-research/results/all-experiments-archive-20261018-v1/SUMMARY.current.json) records verified upload coverage and any remaining pending objects. The release is a draft requiring authorized GitHub access. Merging the index does not itself publish release assets or back up pending files.
 
 ## Reproduce and inspect
 

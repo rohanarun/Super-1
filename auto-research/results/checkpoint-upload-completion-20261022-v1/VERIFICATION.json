@@ -1,0 +1,9 @@
+{
+  "authorized_objects_verified": 58,
+  "bytes_verified": 12917704417,
+  "input_index_sha256": "fef62411e1ab773a0939457745de2e45940ea9e4fc6af7b134a1f7bc06704663",
+  "new_model_execution": false,
+  "remote_assets_checked": 58,
+  "roundtrip_download_verified": true,
+  "status": "PASS"
+}

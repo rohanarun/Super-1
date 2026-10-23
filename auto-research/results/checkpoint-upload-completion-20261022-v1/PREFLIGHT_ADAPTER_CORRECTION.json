@@ -1,0 +1,8 @@
+{
+  "stage": "Before any uploads or frozen upload plan",
+  "failure": "Initial preflight mistakenly required historical source files to live on the SSD; some indexed checkpoints exist in the materialized iCloud research archive.",
+  "correction": "Allow read-only access to exact recorded source paths, preferring SSD aliases. All new scripts, outputs and receipts remain on the mounted SSD.",
+  "checkpoint_bytes_modified": false,
+  "uploads_before_failure": 0,
+  "training_or_model_execution": false
+}

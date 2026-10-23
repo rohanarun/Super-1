@@ -1,0 +1,524 @@
+{
+  "02e53d1ef3e54020c4faa52b340dd25946fe9db2da4ee37c0efca93ef2af1acf": {
+    "asset_id": 667727509,
+    "bytes": 399517590,
+    "github_digest_verified": true,
+    "name": "checkpoint-02e53d1ef3e54020c4faa52b340dd25946fe9db2da4ee37c0efca93ef2af1acf.pt",
+    "sha256": "02e53d1ef3e54020c4faa52b340dd25946fe9db2da4ee37c0efca93ef2af1acf",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-02e53d1ef3e54020c4faa52b340dd25946fe9db2da4ee37c0efca93ef2af1acf.pt",
+    "verified_utc": "2026-10-23T02:44:08.094747+00:00"
+  },
+  "04830cf33045b19dadb610873770b97e8d0cdb1446b5bccf96389f35b35b76fd": {
+    "asset_id": 667727512,
+    "bytes": 399517590,
+    "github_digest_verified": true,
+    "name": "checkpoint-04830cf33045b19dadb610873770b97e8d0cdb1446b5bccf96389f35b35b76fd.pt",
+    "sha256": "04830cf33045b19dadb610873770b97e8d0cdb1446b5bccf96389f35b35b76fd",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-04830cf33045b19dadb610873770b97e8d0cdb1446b5bccf96389f35b35b76fd.pt",
+    "verified_utc": "2026-10-23T02:44:08.094995+00:00"
+  },
+  "070b8b5b4897633d19f9cd075114497c41fa61e90058d3879fee93671aa2c79b": {
+    "asset_id": 667733966,
+    "bytes": 100010377,
+    "github_digest_verified": true,
+    "name": "checkpoint-070b8b5b4897633d19f9cd075114497c41fa61e90058d3879fee93671aa2c79b.pt",
+    "sha256": "070b8b5b4897633d19f9cd075114497c41fa61e90058d3879fee93671aa2c79b",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-070b8b5b4897633d19f9cd075114497c41fa61e90058d3879fee93671aa2c79b.pt",
+    "verified_utc": "2026-10-23T02:44:08.095051+00:00"
+  },
+  "0c69fbf81526282d7d68ac258a98867d7de0f0e88e69e5f9f0543fdf1c535fba": {
+    "asset_id": 667734118,
+    "bytes": 1198558775,
+    "github_digest_verified": true,
+    "name": "checkpoint-0c69fbf81526282d7d68ac258a98867d7de0f0e88e69e5f9f0543fdf1c535fba.pt",
+    "sha256": "0c69fbf81526282d7d68ac258a98867d7de0f0e88e69e5f9f0543fdf1c535fba",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-0c69fbf81526282d7d68ac258a98867d7de0f0e88e69e5f9f0543fdf1c535fba.pt",
+    "verified_utc": "2026-10-23T02:44:08.095478+00:00"
+  },
+  "140635b2679bd7f1801ca5eec65a559ca67ee0d1c7aa034cf6d87782514b54af": {
+    "asset_id": 667735206,
+    "bytes": 182846261,
+    "github_digest_verified": true,
+    "name": "checkpoint-140635b2679bd7f1801ca5eec65a559ca67ee0d1c7aa034cf6d87782514b54af.pt",
+    "sha256": "140635b2679bd7f1801ca5eec65a559ca67ee0d1c7aa034cf6d87782514b54af",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-140635b2679bd7f1801ca5eec65a559ca67ee0d1c7aa034cf6d87782514b54af.pt",
+    "verified_utc": "2026-10-23T02:44:08.095837+00:00"
+  },
+  "15fa8b850eba044fca86c488abc2feb07258f831772a3e1e1e73d6a5bc169f43": {
+    "asset_id": 667737630,
+    "bytes": 121172386,
+    "github_digest_verified": true,
+    "name": "checkpoint-15fa8b850eba044fca86c488abc2feb07258f831772a3e1e1e73d6a5bc169f43.pt",
+    "sha256": "15fa8b850eba044fca86c488abc2feb07258f831772a3e1e1e73d6a5bc169f43",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-15fa8b850eba044fca86c488abc2feb07258f831772a3e1e1e73d6a5bc169f43.pt",
+    "verified_utc": "2026-10-23T02:44:08.096314+00:00"
+  },
+  "171a5742811367fad5867ed3b8a8b03fa0d4da9e16a82f6d98230b6a139598e3": {
+    "asset_id": 667738518,
+    "bytes": 121172386,
+    "github_digest_verified": true,
+    "name": "checkpoint-171a5742811367fad5867ed3b8a8b03fa0d4da9e16a82f6d98230b6a139598e3.pt",
+    "sha256": "171a5742811367fad5867ed3b8a8b03fa0d4da9e16a82f6d98230b6a139598e3",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-171a5742811367fad5867ed3b8a8b03fa0d4da9e16a82f6d98230b6a139598e3.pt",
+    "verified_utc": "2026-10-23T02:44:08.097020+00:00"
+  },
+  "25501debc1ac0780a5829662784df1aa149fee0a9d7aed75938550a5aa4096fd": {
+    "asset_id": 667739486,
+    "bytes": 121116142,
+    "github_digest_verified": true,
+    "name": "checkpoint-25501debc1ac0780a5829662784df1aa149fee0a9d7aed75938550a5aa4096fd.pt",
+    "sha256": "25501debc1ac0780a5829662784df1aa149fee0a9d7aed75938550a5aa4096fd",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-25501debc1ac0780a5829662784df1aa149fee0a9d7aed75938550a5aa4096fd.pt",
+    "verified_utc": "2026-10-23T02:44:08.097296+00:00"
+  },
+  "271dd1d4249f487fae3ef3d283a93e0963731ceb48b9f0e24ce3f135145017d3": {
+    "asset_id": 667741006,
+    "bytes": 399517590,
+    "github_digest_verified": true,
+    "name": "checkpoint-271dd1d4249f487fae3ef3d283a93e0963731ceb48b9f0e24ce3f135145017d3.pt",
+    "sha256": "271dd1d4249f487fae3ef3d283a93e0963731ceb48b9f0e24ce3f135145017d3",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-271dd1d4249f487fae3ef3d283a93e0963731ceb48b9f0e24ce3f135145017d3.pt",
+    "verified_utc": "2026-10-23T02:44:08.097906+00:00"
+  },
+  "3065d5a2af3061e9ae224028f95ce191205d3e7dc57ee4cc7d45214ec2da8fd1": {
+    "asset_id": 667745629,
+    "bytes": 121172386,
+    "github_digest_verified": true,
+    "name": "checkpoint-3065d5a2af3061e9ae224028f95ce191205d3e7dc57ee4cc7d45214ec2da8fd1.pt",
+    "sha256": "3065d5a2af3061e9ae224028f95ce191205d3e7dc57ee4cc7d45214ec2da8fd1",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-3065d5a2af3061e9ae224028f95ce191205d3e7dc57ee4cc7d45214ec2da8fd1.pt",
+    "verified_utc": "2026-10-23T02:44:08.098361+00:00"
+  },
+  "3b2138d61f2d03b709b7c57d80e409055bb458002c405cfd3b2e8c008ee9c3e5": {
+    "asset_id": 667747698,
+    "bytes": 70264953,
+    "github_digest_verified": true,
+    "name": "checkpoint-3b2138d61f2d03b709b7c57d80e409055bb458002c405cfd3b2e8c008ee9c3e5.pt",
+    "sha256": "3b2138d61f2d03b709b7c57d80e409055bb458002c405cfd3b2e8c008ee9c3e5",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-3b2138d61f2d03b709b7c57d80e409055bb458002c405cfd3b2e8c008ee9c3e5.pt",
+    "verified_utc": "2026-10-23T02:44:08.098797+00:00"
+  },
+  "4364f0153b0ec894d4bdc1e86306451441f1192c46ca2be75929f697ba9f1941": {
+    "asset_id": 667748754,
+    "bytes": 180047865,
+    "github_digest_verified": true,
+    "name": "checkpoint-4364f0153b0ec894d4bdc1e86306451441f1192c46ca2be75929f697ba9f1941.pt",
+    "sha256": "4364f0153b0ec894d4bdc1e86306451441f1192c46ca2be75929f697ba9f1941",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-4364f0153b0ec894d4bdc1e86306451441f1192c46ca2be75929f697ba9f1941.pt",
+    "verified_utc": "2026-10-23T02:44:08.099105+00:00"
+  },
+  "4abc27b15d47fd08f539d0aa7c8842f22d83c0f9f846193d4ac7a9b9c7f9c76f": {
+    "asset_id": 667750845,
+    "bytes": 399517590,
+    "github_digest_verified": true,
+    "name": "checkpoint-4abc27b15d47fd08f539d0aa7c8842f22d83c0f9f846193d4ac7a9b9c7f9c76f.pt",
+    "sha256": "4abc27b15d47fd08f539d0aa7c8842f22d83c0f9f846193d4ac7a9b9c7f9c76f",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-4abc27b15d47fd08f539d0aa7c8842f22d83c0f9f846193d4ac7a9b9c7f9c76f.pt",
+    "verified_utc": "2026-10-23T02:44:08.100005+00:00"
+  },
+  "4fa36420a655338e07d5b321cadbceba811a85d0e93f0fc6d7c639095c7f0e5d": {
+    "asset_id": 667759520,
+    "bytes": 183023112,
+    "github_digest_verified": true,
+    "name": "checkpoint-4fa36420a655338e07d5b321cadbceba811a85d0e93f0fc6d7c639095c7f0e5d.pt",
+    "sha256": "4fa36420a655338e07d5b321cadbceba811a85d0e93f0fc6d7c639095c7f0e5d",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-4fa36420a655338e07d5b321cadbceba811a85d0e93f0fc6d7c639095c7f0e5d.pt",
+    "verified_utc": "2026-10-23T02:46:27.142507+00:00"
+  },
+  "509dc93c21759e93b4132ec53ce297181db4fa38d8f6bc6578fcc6d5f8f35de0": {
+    "asset_id": 667753916,
+    "bytes": 121172386,
+    "github_digest_verified": true,
+    "name": "checkpoint-509dc93c21759e93b4132ec53ce297181db4fa38d8f6bc6578fcc6d5f8f35de0.pt",
+    "sha256": "509dc93c21759e93b4132ec53ce297181db4fa38d8f6bc6578fcc6d5f8f35de0",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-509dc93c21759e93b4132ec53ce297181db4fa38d8f6bc6578fcc6d5f8f35de0.pt",
+    "verified_utc": "2026-10-23T02:44:08.104628+00:00"
+  },
+  "51f4cee21cd3a886c6d40d952a50779d10d123ed951f4fa335473d70b84c3ced": {
+    "asset_id": 667759521,
+    "bytes": 121172386,
+    "github_digest_verified": true,
+    "name": "checkpoint-51f4cee21cd3a886c6d40d952a50779d10d123ed951f4fa335473d70b84c3ced.pt",
+    "sha256": "51f4cee21cd3a886c6d40d952a50779d10d123ed951f4fa335473d70b84c3ced",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-51f4cee21cd3a886c6d40d952a50779d10d123ed951f4fa335473d70b84c3ced.pt",
+    "verified_utc": "2026-10-23T02:45:31.404529+00:00"
+  },
+  "5200dfa93ba21ff38371b7aef64445563f5153a030777905a7ecd17f5a38b312": {
+    "asset_id": 667759517,
+    "bytes": 183107814,
+    "github_digest_verified": true,
+    "name": "checkpoint-5200dfa93ba21ff38371b7aef64445563f5153a030777905a7ecd17f5a38b312.pt",
+    "sha256": "5200dfa93ba21ff38371b7aef64445563f5153a030777905a7ecd17f5a38b312",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-5200dfa93ba21ff38371b7aef64445563f5153a030777905a7ecd17f5a38b312.pt",
+    "verified_utc": "2026-10-23T02:46:28.795516+00:00"
+  },
+  "5343ed0dedbbef89d2d0895434e9b44ab185a98f29bea95d463205b3505dade1": {
+    "asset_id": 667759525,
+    "bytes": 399517590,
+    "github_digest_verified": true,
+    "name": "checkpoint-5343ed0dedbbef89d2d0895434e9b44ab185a98f29bea95d463205b3505dade1.pt",
+    "sha256": "5343ed0dedbbef89d2d0895434e9b44ab185a98f29bea95d463205b3505dade1",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-5343ed0dedbbef89d2d0895434e9b44ab185a98f29bea95d463205b3505dade1.pt",
+    "verified_utc": "2026-10-23T02:50:21.386798+00:00"
+  },
+  "5c3ebcebade6c7b6323558efb8c5cf02885f80dd59d9c0140a1f43c330cc6f9e": {
+    "asset_id": 667762439,
+    "bytes": 121172386,
+    "github_digest_verified": true,
+    "name": "checkpoint-5c3ebcebade6c7b6323558efb8c5cf02885f80dd59d9c0140a1f43c330cc6f9e.pt",
+    "sha256": "5c3ebcebade6c7b6323558efb8c5cf02885f80dd59d9c0140a1f43c330cc6f9e",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-5c3ebcebade6c7b6323558efb8c5cf02885f80dd59d9c0140a1f43c330cc6f9e.pt",
+    "verified_utc": "2026-10-23T02:47:35.532415+00:00"
+  },
+  "60e8421407fa8b9ebcef25460d77a6cf6dd38fb236ba7084078c6c98822ccdb7": {
+    "asset_id": 667764305,
+    "bytes": 121172386,
+    "github_digest_verified": true,
+    "name": "checkpoint-60e8421407fa8b9ebcef25460d77a6cf6dd38fb236ba7084078c6c98822ccdb7.pt",
+    "sha256": "60e8421407fa8b9ebcef25460d77a6cf6dd38fb236ba7084078c6c98822ccdb7",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-60e8421407fa8b9ebcef25460d77a6cf6dd38fb236ba7084078c6c98822ccdb7.pt",
+    "verified_utc": "2026-10-23T02:48:33.130492+00:00"
+  },
+  "635918f545a47ae23dc77e539c9ce2083b590a8621d740c0f6ba015b46297dc2": {
+    "asset_id": 667764421,
+    "bytes": 121172386,
+    "github_digest_verified": true,
+    "name": "checkpoint-635918f545a47ae23dc77e539c9ce2083b590a8621d740c0f6ba015b46297dc2.pt",
+    "sha256": "635918f545a47ae23dc77e539c9ce2083b590a8621d740c0f6ba015b46297dc2",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-635918f545a47ae23dc77e539c9ce2083b590a8621d740c0f6ba015b46297dc2.pt",
+    "verified_utc": "2026-10-23T02:48:29.820606+00:00"
+  },
+  "6580bbeafb5da3a9d09da2e15b9e78aed9176e615931fb5fa038e6b591a45839": {
+    "asset_id": 667766636,
+    "bytes": 185518367,
+    "github_digest_verified": true,
+    "name": "checkpoint-6580bbeafb5da3a9d09da2e15b9e78aed9176e615931fb5fa038e6b591a45839.pt",
+    "sha256": "6580bbeafb5da3a9d09da2e15b9e78aed9176e615931fb5fa038e6b591a45839",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-6580bbeafb5da3a9d09da2e15b9e78aed9176e615931fb5fa038e6b591a45839.pt",
+    "verified_utc": "2026-10-23T02:49:49.362426+00:00"
+  },
+  "6f07e776f28df8eea5c4b24d81848b6c8fefa273b3d430cb1d4f5b378605d8c1": {
+    "asset_id": 667768284,
+    "bytes": 399517590,
+    "github_digest_verified": true,
+    "name": "checkpoint-6f07e776f28df8eea5c4b24d81848b6c8fefa273b3d430cb1d4f5b378605d8c1.pt",
+    "sha256": "6f07e776f28df8eea5c4b24d81848b6c8fefa273b3d430cb1d4f5b378605d8c1",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-6f07e776f28df8eea5c4b24d81848b6c8fefa273b3d430cb1d4f5b378605d8c1.pt",
+    "verified_utc": "2026-10-23T02:53:22.655772+00:00"
+  },
+  "6f1722e064c18f2130e10eced4e601fd2690d98ed41457f4a8111b9a2dd76d47": {
+    "asset_id": 667768388,
+    "bytes": 182008426,
+    "github_digest_verified": true,
+    "name": "checkpoint-6f1722e064c18f2130e10eced4e601fd2690d98ed41457f4a8111b9a2dd76d47.pt",
+    "sha256": "6f1722e064c18f2130e10eced4e601fd2690d98ed41457f4a8111b9a2dd76d47",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-6f1722e064c18f2130e10eced4e601fd2690d98ed41457f4a8111b9a2dd76d47.pt",
+    "verified_utc": "2026-10-23T02:50:35.120193+00:00"
+  },
+  "7081ca83232766af67b897c456c7e720f5d834c1c97fb3cf000da7cc0cceba2c": {
+    "asset_id": 667770755,
+    "bytes": 399517590,
+    "github_digest_verified": true,
+    "name": "checkpoint-7081ca83232766af67b897c456c7e720f5d834c1c97fb3cf000da7cc0cceba2c.pt",
+    "sha256": "7081ca83232766af67b897c456c7e720f5d834c1c97fb3cf000da7cc0cceba2c",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-7081ca83232766af67b897c456c7e720f5d834c1c97fb3cf000da7cc0cceba2c.pt",
+    "verified_utc": "2026-10-23T02:55:13.301354+00:00"
+  },
+  "7440ccfcfe3fafd0c4f7a92cc9bbcb0e6696d373a8ce1f9065a2efc92384f1fd": {
+    "asset_id": 667771937,
+    "bytes": 462634306,
+    "github_digest_verified": true,
+    "name": "checkpoint-7440ccfcfe3fafd0c4f7a92cc9bbcb0e6696d373a8ce1f9065a2efc92384f1fd.pt",
+    "sha256": "7440ccfcfe3fafd0c4f7a92cc9bbcb0e6696d373a8ce1f9065a2efc92384f1fd",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-7440ccfcfe3fafd0c4f7a92cc9bbcb0e6696d373a8ce1f9065a2efc92384f1fd.pt",
+    "verified_utc": "2026-10-23T02:56:15.242416+00:00"
+  },
+  "78d8f4a6bd2e6df3bf57f40815179510ccf5643cd45cd5e5e174395917f4cbb3": {
+    "asset_id": 667772359,
+    "bytes": 183808283,
+    "github_digest_verified": true,
+    "name": "checkpoint-78d8f4a6bd2e6df3bf57f40815179510ccf5643cd45cd5e5e174395917f4cbb3.pt",
+    "sha256": "78d8f4a6bd2e6df3bf57f40815179510ccf5643cd45cd5e5e174395917f4cbb3",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-78d8f4a6bd2e6df3bf57f40815179510ccf5643cd45cd5e5e174395917f4cbb3.pt",
+    "verified_utc": "2026-10-23T02:52:42.769092+00:00"
+  },
+  "7da2fac7b161b69a904287254044686d20f5a765e3a82657732e043d9d606f04": {
+    "asset_id": 667775689,
+    "bytes": 121172386,
+    "github_digest_verified": true,
+    "name": "checkpoint-7da2fac7b161b69a904287254044686d20f5a765e3a82657732e043d9d606f04.pt",
+    "sha256": "7da2fac7b161b69a904287254044686d20f5a765e3a82657732e043d9d606f04",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-7da2fac7b161b69a904287254044686d20f5a765e3a82657732e043d9d606f04.pt",
+    "verified_utc": "2026-10-23T02:54:29.599058+00:00"
+  },
+  "7f071b3a5a76de8648fb99cac14a2845daacaea9986ac598f50cb3817524e625": {
+    "asset_id": 667776942,
+    "bytes": 181489722,
+    "github_digest_verified": true,
+    "name": "checkpoint-7f071b3a5a76de8648fb99cac14a2845daacaea9986ac598f50cb3817524e625.pt",
+    "sha256": "7f071b3a5a76de8648fb99cac14a2845daacaea9986ac598f50cb3817524e625",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-7f071b3a5a76de8648fb99cac14a2845daacaea9986ac598f50cb3817524e625.pt",
+    "verified_utc": "2026-10-23T02:55:53.579892+00:00"
+  },
+  "816ef6b7bc0b35998f64890d5debe25ef52a220fd3eff5a826e642e66efc02ad": {
+    "asset_id": 667779015,
+    "bytes": 100010377,
+    "github_digest_verified": true,
+    "name": "checkpoint-816ef6b7bc0b35998f64890d5debe25ef52a220fd3eff5a826e642e66efc02ad.pt",
+    "sha256": "816ef6b7bc0b35998f64890d5debe25ef52a220fd3eff5a826e642e66efc02ad",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-816ef6b7bc0b35998f64890d5debe25ef52a220fd3eff5a826e642e66efc02ad.pt",
+    "verified_utc": "2026-10-23T02:55:51.034816+00:00"
+  },
+  "84a0580ff8dc5a8434a8faa73c1c169a929ad6776d73f08bc1b6e114b33980d3": {
+    "asset_id": 667780742,
+    "bytes": 123033906,
+    "github_digest_verified": true,
+    "name": "checkpoint-84a0580ff8dc5a8434a8faa73c1c169a929ad6776d73f08bc1b6e114b33980d3.pt",
+    "sha256": "84a0580ff8dc5a8434a8faa73c1c169a929ad6776d73f08bc1b6e114b33980d3",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-84a0580ff8dc5a8434a8faa73c1c169a929ad6776d73f08bc1b6e114b33980d3.pt",
+    "verified_utc": "2026-10-23T02:57:37.277960+00:00"
+  },
+  "90662d43662af99f2bbebcabee7ded2255a17f39cbb42337f2d32adc2029e054": {
+    "asset_id": 667781826,
+    "bytes": 399517590,
+    "github_digest_verified": true,
+    "name": "checkpoint-90662d43662af99f2bbebcabee7ded2255a17f39cbb42337f2d32adc2029e054.pt",
+    "sha256": "90662d43662af99f2bbebcabee7ded2255a17f39cbb42337f2d32adc2029e054",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-90662d43662af99f2bbebcabee7ded2255a17f39cbb42337f2d32adc2029e054.pt",
+    "verified_utc": "2026-10-23T03:00:55.443558+00:00"
+  },
+  "9226b0f1ea64e45a78b7e451ada362b1f6c7289e29bd852865f7b43b2586eb17": {
+    "asset_id": 667781930,
+    "bytes": 183107686,
+    "github_digest_verified": true,
+    "name": "checkpoint-9226b0f1ea64e45a78b7e451ada362b1f6c7289e29bd852865f7b43b2586eb17.pt",
+    "sha256": "9226b0f1ea64e45a78b7e451ada362b1f6c7289e29bd852865f7b43b2586eb17",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-9226b0f1ea64e45a78b7e451ada362b1f6c7289e29bd852865f7b43b2586eb17.pt",
+    "verified_utc": "2026-10-23T02:58:03.412266+00:00"
+  },
+  "93df74ca9d49494f0065eaaa941d152fca32dcdaf7de7047239030a015bdba18": {
+    "asset_id": 667782582,
+    "bytes": 399517590,
+    "github_digest_verified": true,
+    "name": "checkpoint-93df74ca9d49494f0065eaaa941d152fca32dcdaf7de7047239030a015bdba18.pt",
+    "sha256": "93df74ca9d49494f0065eaaa941d152fca32dcdaf7de7047239030a015bdba18",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-93df74ca9d49494f0065eaaa941d152fca32dcdaf7de7047239030a015bdba18.pt",
+    "verified_utc": "2026-10-23T03:02:22.074213+00:00"
+  },
+  "94313481f8791477e79e08baf464668d7480a8b5ff65873e1572dc83650fcfed": {
+    "asset_id": 667784879,
+    "bytes": 121116142,
+    "github_digest_verified": true,
+    "name": "checkpoint-94313481f8791477e79e08baf464668d7480a8b5ff65873e1572dc83650fcfed.pt",
+    "sha256": "94313481f8791477e79e08baf464668d7480a8b5ff65873e1572dc83650fcfed",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-94313481f8791477e79e08baf464668d7480a8b5ff65873e1572dc83650fcfed.pt",
+    "verified_utc": "2026-10-23T02:59:19.681090+00:00"
+  },
+  "a0850b524d13efb4ed4c1ad9295c79db45711b39200739dbbdcd2800e341de0b": {
+    "asset_id": 667785728,
+    "bytes": 121116142,
+    "github_digest_verified": true,
+    "name": "checkpoint-a0850b524d13efb4ed4c1ad9295c79db45711b39200739dbbdcd2800e341de0b.pt",
+    "sha256": "a0850b524d13efb4ed4c1ad9295c79db45711b39200739dbbdcd2800e341de0b",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-a0850b524d13efb4ed4c1ad9295c79db45711b39200739dbbdcd2800e341de0b.pt",
+    "verified_utc": "2026-10-23T02:59:16.118825+00:00"
+  },
+  "a6490ef5b71d863e26b4ce7db639779d26e354694d1ccf03ba198b7f4a953d98": {
+    "asset_id": 667787858,
+    "bytes": 40010377,
+    "github_digest_verified": true,
+    "name": "checkpoint-a6490ef5b71d863e26b4ce7db639779d26e354694d1ccf03ba198b7f4a953d98.pt",
+    "sha256": "a6490ef5b71d863e26b4ce7db639779d26e354694d1ccf03ba198b7f4a953d98",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-a6490ef5b71d863e26b4ce7db639779d26e354694d1ccf03ba198b7f4a953d98.pt",
+    "verified_utc": "2026-10-23T02:59:42.219116+00:00"
+  },
+  "ab800bd88a60fe9cc4784df09853c367a38e11b4e54fcebd85b0f4802af53ff3": {
+    "asset_id": 667787985,
+    "bytes": 399517590,
+    "github_digest_verified": true,
+    "name": "checkpoint-ab800bd88a60fe9cc4784df09853c367a38e11b4e54fcebd85b0f4802af53ff3.pt",
+    "sha256": "ab800bd88a60fe9cc4784df09853c367a38e11b4e54fcebd85b0f4802af53ff3",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-ab800bd88a60fe9cc4784df09853c367a38e11b4e54fcebd85b0f4802af53ff3.pt",
+    "verified_utc": "2026-10-23T03:04:58.101851+00:00"
+  },
+  "b7a41092ee080c0263cfb5502612cad613bf005d658401762ed9bd5e21b4e77f": {
+    "asset_id": 667788743,
+    "bytes": 399517590,
+    "github_digest_verified": true,
+    "name": "checkpoint-b7a41092ee080c0263cfb5502612cad613bf005d658401762ed9bd5e21b4e77f.pt",
+    "sha256": "b7a41092ee080c0263cfb5502612cad613bf005d658401762ed9bd5e21b4e77f",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-b7a41092ee080c0263cfb5502612cad613bf005d658401762ed9bd5e21b4e77f.pt",
+    "verified_utc": "2026-10-23T03:04:55.516402+00:00"
+  },
+  "c7b6bd857ead73f6816d3216db13be86e842effeecdb3f4052a1ea9f6585c1c1": {
+    "asset_id": 667791293,
+    "bytes": 182846197,
+    "github_digest_verified": true,
+    "name": "checkpoint-c7b6bd857ead73f6816d3216db13be86e842effeecdb3f4052a1ea9f6585c1c1.pt",
+    "sha256": "c7b6bd857ead73f6816d3216db13be86e842effeecdb3f4052a1ea9f6585c1c1",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-c7b6bd857ead73f6816d3216db13be86e842effeecdb3f4052a1ea9f6585c1c1.pt",
+    "verified_utc": "2026-10-23T03:03:27.728593+00:00"
+  },
+  "cc6fa975ffa3d049a504dfb00082b8b1ed198d1caee0539f23f5996eef045ff9": {
+    "asset_id": 667794202,
+    "bytes": 121172386,
+    "github_digest_verified": true,
+    "name": "checkpoint-cc6fa975ffa3d049a504dfb00082b8b1ed198d1caee0539f23f5996eef045ff9.pt",
+    "sha256": "cc6fa975ffa3d049a504dfb00082b8b1ed198d1caee0539f23f5996eef045ff9",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-cc6fa975ffa3d049a504dfb00082b8b1ed198d1caee0539f23f5996eef045ff9.pt",
+    "verified_utc": "2026-10-23T03:04:02.006615+00:00"
+  },
+  "cd18926e249ae5d296b73285194183b5ae99dd8cab53e8b5bb81a2bc51553db5": {
+    "asset_id": 667796028,
+    "bytes": 121172386,
+    "github_digest_verified": true,
+    "name": "checkpoint-cd18926e249ae5d296b73285194183b5ae99dd8cab53e8b5bb81a2bc51553db5.pt",
+    "sha256": "cd18926e249ae5d296b73285194183b5ae99dd8cab53e8b5bb81a2bc51553db5",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-cd18926e249ae5d296b73285194183b5ae99dd8cab53e8b5bb81a2bc51553db5.pt",
+    "verified_utc": "2026-10-23T03:04:59.562119+00:00"
+  },
+  "d0c8a6874822904e2fb28e24230114140a94b702b888685588f253aff402ba32": {
+    "asset_id": 667797139,
+    "bytes": 60221577,
+    "github_digest_verified": true,
+    "name": "checkpoint-d0c8a6874822904e2fb28e24230114140a94b702b888685588f253aff402ba32.pt",
+    "sha256": "d0c8a6874822904e2fb28e24230114140a94b702b888685588f253aff402ba32",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-d0c8a6874822904e2fb28e24230114140a94b702b888685588f253aff402ba32.pt",
+    "verified_utc": "2026-10-23T03:04:27.339351+00:00"
+  },
+  "d7df1e449175b6988baba68485407b50128704593b537e86b2748f0d7fbf9b77": {
+    "asset_id": 667797957,
+    "bytes": 182846261,
+    "github_digest_verified": true,
+    "name": "checkpoint-d7df1e449175b6988baba68485407b50128704593b537e86b2748f0d7fbf9b77.pt",
+    "sha256": "d7df1e449175b6988baba68485407b50128704593b537e86b2748f0d7fbf9b77",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-d7df1e449175b6988baba68485407b50128704593b537e86b2748f0d7fbf9b77.pt",
+    "verified_utc": "2026-10-23T03:07:07.418875+00:00"
+  },
+  "d92e82c48472b081f68e4a71f91fd784c49df3cbb2552fa8c27db0765d9ec5cf": {
+    "asset_id": 667798723,
+    "bytes": 462642434,
+    "github_digest_verified": true,
+    "name": "checkpoint-d92e82c48472b081f68e4a71f91fd784c49df3cbb2552fa8c27db0765d9ec5cf.pt",
+    "sha256": "d92e82c48472b081f68e4a71f91fd784c49df3cbb2552fa8c27db0765d9ec5cf",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-d92e82c48472b081f68e4a71f91fd784c49df3cbb2552fa8c27db0765d9ec5cf.pt",
+    "verified_utc": "2026-10-23T03:11:08.127172+00:00"
+  },
+  "dabdb12c4131abb9b634f369fe3310260b8c017edcd81ea7506296c5490aadfd": {
+    "asset_id": 667798907,
+    "bytes": 60221577,
+    "github_digest_verified": true,
+    "name": "checkpoint-dabdb12c4131abb9b634f369fe3310260b8c017edcd81ea7506296c5490aadfd.pt",
+    "sha256": "dabdb12c4131abb9b634f369fe3310260b8c017edcd81ea7506296c5490aadfd",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-dabdb12c4131abb9b634f369fe3310260b8c017edcd81ea7506296c5490aadfd.pt",
+    "verified_utc": "2026-10-23T03:05:59.605292+00:00"
+  },
+  "dc2e2af684caf5197ebd4b1096b6b5cadad7da16a6d83954000d5a08b9f2f147": {
+    "asset_id": 667798958,
+    "bytes": 121172386,
+    "github_digest_verified": true,
+    "name": "checkpoint-dc2e2af684caf5197ebd4b1096b6b5cadad7da16a6d83954000d5a08b9f2f147.pt",
+    "sha256": "dc2e2af684caf5197ebd4b1096b6b5cadad7da16a6d83954000d5a08b9f2f147",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-dc2e2af684caf5197ebd4b1096b6b5cadad7da16a6d83954000d5a08b9f2f147.pt",
+    "verified_utc": "2026-10-23T03:06:46.979673+00:00"
+  },
+  "dcbf97625d0bdbfb923a72aac2fa0e994328e40b3323271695295d10003905ec": {
+    "asset_id": 667801060,
+    "bytes": 121172386,
+    "github_digest_verified": true,
+    "name": "checkpoint-dcbf97625d0bdbfb923a72aac2fa0e994328e40b3323271695295d10003905ec.pt",
+    "sha256": "dcbf97625d0bdbfb923a72aac2fa0e994328e40b3323271695295d10003905ec",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-dcbf97625d0bdbfb923a72aac2fa0e994328e40b3323271695295d10003905ec.pt",
+    "verified_utc": "2026-10-23T03:07:42.753393+00:00"
+  },
+  "e6b3c3c7ad858b9160ca5a9b06b7a4dc5d7369472111ab72062d640c08e6ca74": {
+    "asset_id": 667802301,
+    "bytes": 399517590,
+    "github_digest_verified": true,
+    "name": "checkpoint-e6b3c3c7ad858b9160ca5a9b06b7a4dc5d7369472111ab72062d640c08e6ca74.pt",
+    "sha256": "e6b3c3c7ad858b9160ca5a9b06b7a4dc5d7369472111ab72062d640c08e6ca74",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-e6b3c3c7ad858b9160ca5a9b06b7a4dc5d7369472111ab72062d640c08e6ca74.pt",
+    "verified_utc": "2026-10-23T03:13:17.754430+00:00"
+  },
+  "e73c89828e3055f07b680704994a053d4c31eee2d0477f48edcfbab3775f8acd": {
+    "asset_id": 667802755,
+    "bytes": 40010377,
+    "github_digest_verified": true,
+    "name": "checkpoint-e73c89828e3055f07b680704994a053d4c31eee2d0477f48edcfbab3775f8acd.pt",
+    "sha256": "e73c89828e3055f07b680704994a053d4c31eee2d0477f48edcfbab3775f8acd",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-e73c89828e3055f07b680704994a053d4c31eee2d0477f48edcfbab3775f8acd.pt",
+    "verified_utc": "2026-10-23T03:07:40.121543+00:00"
+  },
+  "ea4bf52f6a4708d20bd3289fd9cf2ef95b86bf27defdff6083bbafd6b1f8d4e6": {
+    "asset_id": 667803651,
+    "bytes": 399517590,
+    "github_digest_verified": true,
+    "name": "checkpoint-ea4bf52f6a4708d20bd3289fd9cf2ef95b86bf27defdff6083bbafd6b1f8d4e6.pt",
+    "sha256": "ea4bf52f6a4708d20bd3289fd9cf2ef95b86bf27defdff6083bbafd6b1f8d4e6",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-ea4bf52f6a4708d20bd3289fd9cf2ef95b86bf27defdff6083bbafd6b1f8d4e6.pt",
+    "verified_utc": "2026-10-23T03:13:44.725894+00:00"
+  },
+  "eba2f5755494c96518c44ff62937d4a03a8cc8b72b1fda114bc8888abb7849f5": {
+    "asset_id": 667803726,
+    "bytes": 40010377,
+    "github_digest_verified": true,
+    "name": "checkpoint-eba2f5755494c96518c44ff62937d4a03a8cc8b72b1fda114bc8888abb7849f5.pt",
+    "sha256": "eba2f5755494c96518c44ff62937d4a03a8cc8b72b1fda114bc8888abb7849f5",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-eba2f5755494c96518c44ff62937d4a03a8cc8b72b1fda114bc8888abb7849f5.pt",
+    "verified_utc": "2026-10-23T03:08:19.217264+00:00"
+  },
+  "ef69b6109cb8d5387e2221f44082c18fef4e5e7cf1e5d37b87754a4597c21e5d": {
+    "asset_id": 667804613,
+    "bytes": 121172386,
+    "github_digest_verified": true,
+    "name": "checkpoint-ef69b6109cb8d5387e2221f44082c18fef4e5e7cf1e5d37b87754a4597c21e5d.pt",
+    "sha256": "ef69b6109cb8d5387e2221f44082c18fef4e5e7cf1e5d37b87754a4597c21e5d",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-ef69b6109cb8d5387e2221f44082c18fef4e5e7cf1e5d37b87754a4597c21e5d.pt",
+    "verified_utc": "2026-10-23T03:10:02.046498+00:00"
+  },
+  "f1e58fffb5ca3956825bfccea576bc038a7f24406e79ba90c675e2e96c01ba17": {
+    "asset_id": 667807414,
+    "bytes": 121172386,
+    "github_digest_verified": true,
+    "name": "checkpoint-f1e58fffb5ca3956825bfccea576bc038a7f24406e79ba90c675e2e96c01ba17.pt",
+    "sha256": "f1e58fffb5ca3956825bfccea576bc038a7f24406e79ba90c675e2e96c01ba17",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-f1e58fffb5ca3956825bfccea576bc038a7f24406e79ba90c675e2e96c01ba17.pt",
+    "verified_utc": "2026-10-23T03:11:31.383400+00:00"
+  },
+  "f24fd7ec1736017fb062abf5635bf960afc961a6a5b6cb6a54956c31fe1f9758": {
+    "asset_id": 667809360,
+    "bytes": 121172386,
+    "github_digest_verified": true,
+    "name": "checkpoint-f24fd7ec1736017fb062abf5635bf960afc961a6a5b6cb6a54956c31fe1f9758.pt",
+    "sha256": "f24fd7ec1736017fb062abf5635bf960afc961a6a5b6cb6a54956c31fe1f9758",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-f24fd7ec1736017fb062abf5635bf960afc961a6a5b6cb6a54956c31fe1f9758.pt",
+    "verified_utc": "2026-10-23T03:12:13.434137+00:00"
+  },
+  "f337b6a217feced41d1eb9c2ce8c49b0a949a6238833ce3f81be5b3362f59852": {
+    "asset_id": 667810117,
+    "bytes": 183795961,
+    "github_digest_verified": true,
+    "name": "checkpoint-f337b6a217feced41d1eb9c2ce8c49b0a949a6238833ce3f81be5b3362f59852.pt",
+    "sha256": "f337b6a217feced41d1eb9c2ce8c49b0a949a6238833ce3f81be5b3362f59852",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-f337b6a217feced41d1eb9c2ce8c49b0a949a6238833ce3f81be5b3362f59852.pt",
+    "verified_utc": "2026-10-23T03:13:16.934915+00:00"
+  },
+  "f3827adb05c2956afaf5d8cd85c3c6d9aadfe2d022b3b2b911a866a1d1176efb": {
+    "asset_id": 667811547,
+    "bytes": 399517590,
+    "github_digest_verified": true,
+    "name": "checkpoint-f3827adb05c2956afaf5d8cd85c3c6d9aadfe2d022b3b2b911a866a1d1176efb.pt",
+    "sha256": "f3827adb05c2956afaf5d8cd85c3c6d9aadfe2d022b3b2b911a866a1d1176efb",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-f3827adb05c2956afaf5d8cd85c3c6d9aadfe2d022b3b2b911a866a1d1176efb.pt",
+    "verified_utc": "2026-10-23T03:14:44.779797+00:00"
+  },
+  "fa2c54411cf4f1507d65b535b6579b6d82255f9522ae51682515fb32ea1f725c": {
+    "asset_id": 667813618,
+    "bytes": 70276187,
+    "github_digest_verified": true,
+    "name": "checkpoint-fa2c54411cf4f1507d65b535b6579b6d82255f9522ae51682515fb32ea1f725c.pt",
+    "sha256": "fa2c54411cf4f1507d65b535b6579b6d82255f9522ae51682515fb32ea1f725c",
+    "url": "https://github.com/rohanarun/Super-1/releases/download/untagged-47c0dc0c8fa95295cd50/checkpoint-fa2c54411cf4f1507d65b535b6579b6d82255f9522ae51682515fb32ea1f725c.pt",
+    "verified_utc": "2026-10-23T03:13:58.526966+00:00"
+  }
+}

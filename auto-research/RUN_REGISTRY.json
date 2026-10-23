@@ -68,8 +68,9 @@
       "new_model_evaluation": false,
       "new_training": false,
       "report": "auto-research/results/all-experiments-archive-20261018-v1/README.md",
-      "scope": "User selected source, results, logs, graphs and final checkpoints. Intermediate tensor artifacts, dependencies, credentials and raw datasets excluded. Partial archive only: uploads remain paused and pending objects are not backed up.",
-      "status": "PARTIAL_ARCHIVE_UPLOADS_PAUSED",
+      "scope": "User selected source, results, logs, graphs and final checkpoints. Intermediate tensor artifacts, dependencies, credentials and raw datasets excluded. All 16,867 selected objects have verified Git/release/archive locations; final 58 large checkpoint uploads completed under fresh user authorization. Release remains draft; no new model execution.",
+      "status": "ALL_SELECTED_OBJECTS_LOCATED_AND_UPLOADED",
+      "completion_receipts": "auto-research/results/checkpoint-upload-completion-20261022-v1/REPORT.md",
       "summary": "auto-research/results/all-experiments-archive-20261018-v1/SUMMARY.current.json"
     },
     {
