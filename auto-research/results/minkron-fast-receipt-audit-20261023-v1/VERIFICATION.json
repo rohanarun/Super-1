@@ -1,0 +1,65 @@
+{
+  "status": "PASS_AUTHOR_CHECKED_STORED_RECEIPTS",
+  "python": "3.13.5, GCC 14.2.0, Linux session CPU",
+  "baseline_before_edits": {
+    "command": "python3 -B scripts/verify_evidence.py",
+    "exit_code": 0,
+    "file_hashes": 2810,
+    "selected_checkpoint_hashes": 21,
+    "wall_seconds": 1.819
+  },
+  "preregistered_positive_controls": [
+    {
+      "command": "python3 -B scripts/verify_evidence.py",
+      "exit_code": 0,
+      "file_hashes": 2811,
+      "wall_seconds": 2.1751
+    },
+    {
+      "command": "python3 -B auto-research/results/minkron-fast-20261021-v1/verify_run.py",
+      "exit_code": 0,
+      "checked_local_parent_bodies": [],
+      "wall_seconds": 0.1314
+    }
+  ],
+  "audit": {
+    "command": "python3 -B auto-research/results/minkron-fast-receipt-audit-20261023-v1/audit.py",
+    "exit_code": 0,
+    "wall_seconds": 0.2726,
+    "result": "PASS_STORED_RECEIPT_CONSISTENCY"
+  },
+  "tests": {
+    "command": "python3 -B -m unittest discover -s auto-research/results/minkron-fast-receipt-audit-20261023-v1 -p test_audit.py -v",
+    "exit_code": 0,
+    "unittest_methods": 4,
+    "semantic_corruptions_rejected": 19,
+    "inventory_and_hash_corruptions_rejected": 2,
+    "positive_control_passed": true,
+    "irrelevant_report_table_regression_passed": true,
+    "wall_seconds": 4.4787
+  },
+  "isolated_audit": {
+    "command": "python3 -I -B auto-research/results/minkron-fast-receipt-audit-20261023-v1/audit.py",
+    "exit_code": 0,
+    "wall_seconds": 0.30425607395591214
+  },
+  "optimized_python_tests": {
+    "command": "python3 -O -B -m unittest discover -s auto-research/results/minkron-fast-receipt-audit-20261023-v1 -p test_audit.py -v",
+    "exit_code": 0,
+    "wall_seconds": 4.924535444006324,
+    "checks_do_not_depend_on_python_assert": true
+  },
+  "source_compilation_without_execution": {
+    "files": ["audit.py", "test_audit.py"],
+    "status": "PASS",
+    "bytecode_written": false
+  },
+  "preservation_checks": {
+    "all_previous_registry_content_unchanged_after_removing_new_entry": true,
+    "parent_run_and_parent_report_unchanged_from_base": true,
+    "frozen_audit_protocol_unchanged": true,
+    "accepted_result_status_changed": false
+  },
+  "final_packaging_check": "After manifest/credit packaging, rerun python3 -B scripts/verify_evidence.py; final publication receipt records the resulting hash count.",
+  "limits": "These checks verify included bytes and saved scalar consistency, not raw model/corpus execution, generalization or deployment measurements. Test timings are verification overhead, not model benchmarks."
+}

@@ -1,0 +1,12 @@
+{
+  "purpose": "Retain a verifier-development failure separately from findings about the parent evidence.",
+  "initial_audit_invocation": {
+    "exit_code": 1,
+    "elapsed_wall_seconds": 0.3359,
+    "error": "FAIL: published result tables length",
+    "cause": "The first audit implementation parsed every Markdown table in the report, including the separate deployment table outside the intended Results scope.",
+    "correction": "Restrict scalar-result table parsing to the Results section. Add a regression check that an unrelated later table cannot affect the result.",
+    "parent_evidence_changed": false,
+    "protocol_or_tolerances_changed": false
+  }
+}

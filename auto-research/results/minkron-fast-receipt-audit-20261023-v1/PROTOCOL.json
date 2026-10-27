@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "status": "PREREGISTERED_READ_ONLY_AUDIT",
+  "experiment_id": "E00_E01_STORED_EVIDENCE_AUDIT",
+  "run_id": "minkron-fast-receipt-audit-20261023-v1",
+  "parent_run_ids": ["minkron-fast-20261021-v1"],
+  "base_commit": "847bb75042e01b2c879272f97e72746f285c8872",
+  "session_seed": "dcbb91d07e51cf13ee6fda1fefc14ca2",
+  "claim": "https://github.com/rohanarun/Super-1/issues/17",
+  "hypothesis": "The saved minKron fast-screen receipts internally support the published selection, continuation comparison, exposure accounting, qualification status and reconstruction bindings.",
+  "primary_comparator": "The archived report, frozen protocol/addenda, and original verify_run.py; no model comparator is executed.",
+  "primary_metric": "Count of explicit cross-receipt inconsistencies and unbound required reconstruction inputs.",
+  "minimum_useful_effect": "Not a performance experiment. One reproducible discrepancy or one meaningful checked obligation is reportable.",
+  "success_rule": "Reconcile all saved arm/seed/stage identities, scalar summaries and predeclared gates; distinguish matching receipts from missing evidence; reject deliberate inconsistent receipt mutations; preserve the entire completed parent run.",
+  "futility_rule": "Stop if required evidence cannot be obtained within the workspace and existing public text receipts; report the precise missing dependency. One bounded scope adjustment is allowed and must be recorded.",
+  "authorization": {
+    "approved": true,
+    "user_approval_reference": "2026-10-23 donor request: contribute to Super-1, about 480 minutes, permissions post, at most one focused PR.",
+    "approved_resources": "Existing session CPU for read-only standard-library receipt analysis and tests only. No training, inference, model import, checkpoint deserialization, dataset download, cloud resources, paid services or official-test access.",
+    "max_cost": "0 additional paid resource spend",
+    "max_walltime": "480 minutes from 2026-10-23 06:04 UTC; no new investigation after 12:04 UTC; final 120 minutes reserved for verification and handoff.",
+    "local_cpu_budget": "Small text/JSON/gzip analyses and bounded corruption tests; no model computation. Expected seconds per audit invocation."
+  },
+  "design": {
+    "original_source_hashes": "Bind the parent SOURCE_MANIFEST.json, protocol, addenda, profile, data/tokenizer manifests and directly consumed receipts to the pinned Git base.",
+    "mechanism_equations": "Not modified or executed; numerical claims are checked only against saved qualification rows and frozen tolerances.",
+    "arms": ["k8", "k16", "k32", "k16_lean", "k16_lean_conv", "transformer_lean"],
+    "control_rationale": "Run the original repository and run-specific receipt verifiers as positive controls; exercise independent mutations of identities, metrics, counts, status and binding fields as negative controls.",
+    "seeds": [25101, 25102, 25103],
+    "seed_selection_method": "Parent run's paired seeds; no new experiment seed. Session seed recorded; project has no seeded task picker.",
+    "learning_rate_trials_per_arm": "No new trials; inspect saved schedule accounting only.",
+    "parameter_counts": "Reconcile saved counts without constructing a model.",
+    "matching_track": "E00/E01 evidence and replay readiness; no quality or speed advance claim.",
+    "compute_accounting": "Recompute saved training-second and target-exposure sums; timings are historical receipts, not fresh benchmarks."
+  },
+  "data": {
+    "dataset_versions": "Read existing public manifests only; resolve identity and reconstruction links without downloading corpora.",
+    "tokenizer_sha256": "Check the included tokenizer metadata hash against its parent manifest.",
+    "train_sha256": "Metadata binding only; original array bodies are omitted.",
+    "selection_sha256": "Metadata binding only; original array bodies are omitted.",
+    "confirmation_sha256": "Metadata binding only; original array bodies are omitted.",
+    "split_boundaries": "Check saved split metadata and stated document-disjoint/reused-region limitations; no claim of fresh holdout independence.",
+    "research_wide_region_reuse_audit": "Parent explicitly reports reuse from prior work. This audit cannot establish unseen evaluation from scalar receipts.",
+    "teacher_and_objective": "No teacher execution or objective change.",
+    "official_test_access_permitted": false
+  },
+  "training": {
+    "updates": "No new updates; reconcile saved step sequences.",
+    "target_exposures_per_trial": "Recompute from saved step records and parent batch/context recipe.",
+    "tokens_per_update": "Read the frozen parent budget; require agreement across trajectory and terminal receipts.",
+    "microbatch": "No execution",
+    "gradient_accumulation": "No execution",
+    "bptt_length": "No execution",
+    "accessible_history": "No capability claim beyond the parent report.",
+    "state_carry_and_detach": "Static source/receipt inspection only.",
+    "document_reset_policy": "Static source/receipt inspection only.",
+    "optimizer_schedule": "Recorded scalar trajectories only.",
+    "precision": "Check parent qualification receipts under their existing numerical policy; do not relax tolerances.",
+    "checkpoint_selection_rule": "Recompute the parent development-only selection and distinguish it from reused confirmation."
+  },
+  "execution": {
+    "hardware": "Existing sandboxed session CPU, no accelerator use.",
+    "runtime_versions": "Python standard library only; record version in terminal evidence.",
+    "resolved_writable_output": "This new run directory and the surrounding donor session folder only.",
+    "source_ownership_and_concurrent_writers": "Fresh isolated clone. No delegated workers or writes to the completed parent run.",
+    "fidelity_tolerances": "Use the parent frozen inequalities; scalar recomputation uses math.isclose(rel_tol=1e-12, abs_tol=1e-12), with separately explicit historical printed-rounding checks.",
+    "canary_matrix": "Unmodified positive fixture plus independent deliberate corruptions of each major checked obligation.",
+    "cost_estimate": "No install, model execution or large download; bounded standard-library work."
+  },
+  "evaluation": {
+    "primary_endpoint": "Machine-readable audit of saved evidence; supported conclusions, mismatches and missing dependencies all retained.",
+    "confirmation_frozen_before_scoring": true,
+    "canonical_precision": "Python binary64 for saved scalar arithmetic; not a new model evaluation.",
+    "duplicate_policy": "Cross-bind the 21 saved first/second confirmation receipts to selected checkpoints; duplicates are repeatability receipts, not independent seeds.",
+    "uncertainty_method": "Recompute descriptive paired means and existing all-seed sign checks only; no new statistical significance or generalization claim.",
+    "multiple_comparison_policy": "Preserve all six screen arms and three continuations; no post-hoc winner or threshold change.",
+    "no_test_tuning": true
+  },
+  "deployment": {
+    "weight_dtype": "Receipt/static source only",
+    "kv_or_state_dtype": "Receipt/static source only",
+    "quantization_metadata": "Not applicable",
+    "batching": "No execution",
+    "prefill_decode_protocol": "Not rerun",
+    "warmup_and_synchronization": "Not rerun",
+    "memory_components": "No fresh total-memory measurement",
+    "latency_statistics": "No fresh timing claim"
+  },
+  "evidence": {
+    "protocol_sha256": "Recorded in the additive run registry entry before analysis; omit self-reference.",
+    "source_manifest": "INPUTS.json: exact repository-relative consumed input paths and hashes at the pinned base.",
+    "checkpoint_manifest": "Parent metadata only; checkpoint bodies are explicitly not checked.",
+    "progress_path": "AUDIT.json and verification log in this new directory",
+    "terminal_receipt_path": "TERMINAL.json in this new directory",
+    "preservation_policy": "Never rewrite archived evidence, prior registry entries or accepted-result status. New evidence and additive audit registration only.",
+    "cleanup_receipt": "Record that no unrelated artifacts or workloads were touched."
+  },
+  "decision": {
+    "outcome": "PENDING",
+    "reason": "Preregistered before cross-receipt analysis.",
+    "next_experiment": "A precise evidence or replay handoff if this audit identifies one; any model execution requires separate exact authorization."
+  }
+}
