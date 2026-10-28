@@ -1,0 +1,8 @@
+{
+  "attempt": 1,
+  "status": "FAIL_NOT_FINAL",
+  "exit_code": 1,
+  "stdout": "",
+  "stderr": "Traceback (most recent call last):\n  File \"/root/.t3/scratch/2026-10-23-fetch-https-discoveryathome-org-v0-422259f3/super-1-20261023/archive-planner/auto-research/results/archive-restore-plan-20261023-v1/verify_plans.py\", line 81, in <module>\n    print(json.dumps(verify(), indent=2, sort_keys=True))\n                     ~~~~~~^^\n  File \"/root/.t3/scratch/2026-10-23-fetch-https-discoveryathome-org-v0-422259f3/super-1-20261023/archive-planner/auto-research/results/archive-restore-plan-20261023-v1/verify_plans.py\", line 41, in verify\n    plan = build_plan(manifest, prefix, summary.get('release_states', ()))\n  File \"/root/.t3/scratch/2026-10-23-fetch-https-discoveryathome-org-v0-422259f3/super-1-20261023/archive-planner/auto-research/results/archive-restore-plan-20261023-v1/restore_plan.py\", line 47, in build_plan\n    require(rows, 'No restore paths match the prefix')\n    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/root/.t3/scratch/2026-10-23-fetch-https-discoveryathome-org-v0-422259f3/super-1-20261023/archive-planner/auto-research/results/archive-restore-plan-20261023-v1/restore_plan.py\", line 20, in require\n    raise ValueError(message)\nValueError: No restore paths match the prefix\n",
+  "wall_seconds": 4.365175665006973
+}
