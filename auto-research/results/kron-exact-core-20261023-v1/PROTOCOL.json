@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "based_on": "auto-research/PROTOCOL_TEMPLATE.json",
+  "status": "PREREGISTERED_EXACT_ARITHMETIC_STUDY",
+  "experiment_id": "E01_EXACT_CORE_AND_DIAGONAL_SCALING",
+  "run_id": "kron-exact-core-20261023-v1",
+  "parent_run_ids": ["minkron-fast-20261021-v1"],
+  "base_commit": "847bb75042e01b2c879272f97e72746f285c8872",
+  "claim": "https://github.com/rohanarun/Super-1/issues/21",
+  "session_seed": "dcbb91d07e51cf13ee6fda1fefc14ca2",
+  "hypothesis": "The sequential recurrence, original triangular system, factored pair kernel and diagonally scaled triangular system are exactly equivalent with before-token resets and the unchanged 1e-18 norm floor; the scaled system has bounded coefficients and a useful state-stability contract without implying small parameter gradients.",
+  "primary_comparator": "An independently expressed sequential Fraction recurrence following the frozen core equations; no model or tensor library execution.",
+  "primary_metric": "Exact rational output/state/directional-derivative discrepancies, contract violations, and exact infinity-norm condition numbers in specified control families.",
+  "minimum_useful_effect": "Zero exact discrepancies on the declared domain; retain both favorable and unfavorable conditioning examples. No speed, model quality or fully FP32 advance gate is evaluated.",
+  "success_rule": "Supply an explicit algebraic derivation, independent rational implementations, hand-computed edge controls, exact derivative checks away from the floor kink, reset/chunk checks and a reproducible bounded domain. Report numerical qualification as unperformed.",
+  "futility_rule": "Stop on a genuine counterexample or after 600 seconds of single-process verification; preserve the exact failing input or incomplete domain. One documented implementation correction/pivot is allowed without changing the equations or floor.",
+  "authorization": {
+    "approved": true,
+    "user_approval_reference": "2026-10-23 donor request and continuation: useful contributions and multiple focused PRs within the original 480-minute session.",
+    "approved_resources": "Existing CPU and Python standard library for exact algebra and software tests only. No PyTorch/model import, training/evaluation, checkpoint deserialization, corpus download, dependency installation, cloud or spending.",
+    "max_cost": "0 additional paid spend",
+    "max_walltime": "Original session through about 14:04 UTC; no new research after 12:04 UTC; final quarter reserved for verification/handoff.",
+    "local_cpu_budget": "One process, at most 600 seconds for the finite exact verification, plus small unit tests."
+  },
+  "design": {
+    "equations": "S_t=D_t S_(t-1)+u_t k_t v_t^T; u_t=w_t n_t/m_t-beta_t/m_t <k_t,D_t S_(t-1) v_t>; n_t=||v_t||^2, m_t=max(n_t,1e-18). Existing before-token resets retained.",
+    "scaled_representation": "r_t=sqrt(m_t), z_t=v_t/r_t, alpha_t=r_t*u_t. The strict-lower coefficient becomes beta_t <k_t,P_(t,s) k_s><z_t,z_s>, with rhs w_t*n_t/r_t-beta_t<k_t,O_t S_0 z_t>. This is diagonal similarity, not a new architecture.",
+    "fully_charged_best_case": "Same quadratic pair kernels and solve; extra O(T*V) scaling plus T reciprocal-square-roots. No theoretical gain when all value norms are exactly one. Bounded coefficients do not guarantee a better condition number for every input or a passing FP32 gradient gate.",
+    "matching_track": "E01 exact algebra and qualification oracle only",
+    "seed_selection_method": "Four 32-bit words of donor seed, used only for deterministic rational fixture generation.",
+    "seed_words_hex": ["dcbb91d0", "7e51cf13", "ee6fda1f", "efc14ca2"],
+    "forward_lengths": [1, 2, 4, 8],
+    "key_value_dimensions": [[1, 1], [2, 1], [2, 2], [4, 3]],
+    "regimes": ["unit", "zero", "near_floor", "mixed"],
+    "initial_states": ["zero", "nonzero"],
+    "resets": "All bit patterns through length 4. At length 8 use masks 0,255,1,128,85,170,24,16.",
+    "chunks": "All compositions through length 4; length 8 uses [8], [1,7], [4,4], [3,2,3], and eight unit chunks.",
+    "fixture_domains": "Rational unit vectors via stereographic parameterization, with zero/small value scales; decay in {1/8,1/2,3/4,1}; beta in {0,1/2,1}; write in {0,1/3,1}. Values/keys have norm at most one. Include zero and exact floor-boundary forward cases.",
+    "gradient_domain": "T=2,K=2,V=2; all four reset patterns, four seeds, unit/strictly-below-floor regimes, zero/nonzero initial states. Check every independent input directional partial (24 per case), excluding the norm-floor kink. Square roots have rational values in these fixtures; derivatives are exact rational dual numbers.",
+    "conditioning_controls": "Collinear two-step values [1,epsilon], [epsilon,1], and [1,1], epsilon in {1/10,1/1000000,1/10000000000}. Preserve reverse-scaling cases where original conditioning is better. Check any claimed general bound separately from finite examples."
+  },
+  "data": {
+    "dataset_versions": "No dataset; deterministic rational fixtures only",
+    "official_test_access_permitted": false
+  },
+  "execution": {
+    "runtime_versions": "Python standard library only; record interpreter in terminal evidence.",
+    "fidelity_tolerances": "Exact Fraction/Dual equality; no numerical tolerance. Common output factor 1/sqrt(K) is omitted from both sides and restored only in a later explicitly approved floating-point canary.",
+    "source_ownership_and_concurrent_writers": "Clean dedicated worktree. Background research agent owns only its primary-source note; parent owns this package. Frozen evidence never edited."
+  },
+  "evaluation": {
+    "primary_endpoint": "Exact core equivalence and scoped mathematical contracts, not a model score",
+    "canonical_precision": "Unbounded rational arithmetic",
+    "no_test_tuning": true
+  },
+  "evidence": {
+    "source_manifest": "INPUTS.json pins parent source, protocol/addenda and failure receipts",
+    "progress_path": "EXACT_RESULTS.json",
+    "terminal_receipt_path": "TERMINAL.json",
+    "preservation_policy": "Keep all controls, null/unfavorable conditioning results and any implementation failure separately. Never promote finite checks to a proof of all inputs."
+  },
+  "decision": {
+    "outcome": "PENDING",
+    "next_experiment": "A concrete tensor-only numerical canary may be proposed after exact checks; it requires separate exact approval and local dependency/storage permission."
+  }
+}
