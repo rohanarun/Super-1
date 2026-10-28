@@ -1,0 +1,26 @@
+{
+  "dependency_wheel_sources": "Public PyPI via TLS; CPU Torch official download-r2.pytorch.org with separately verified frozen SHA-256.",
+  "installation_report": "INSTALL_REPORT.json",
+  "kernel_release": "6.12.113+deb13-amd64",
+  "libc": [
+    "glibc",
+    "2.41"
+  ],
+  "machine": "x86_64",
+  "numerical_runs_before_capture": 0,
+  "platform_system": "Linux",
+  "python": "3.13.5",
+  "required_packages": {
+    "Jinja2": "3.1.6",
+    "MarkupSafe": "3.0.4",
+    "filelock": "4.2.4",
+    "fsspec": "2026.9.0",
+    "mpmath": "1.3.0",
+    "networkx": "3.7",
+    "setuptools": "84.2.1",
+    "sympy": "1.14.0",
+    "torch": "2.9.1+cpu",
+    "typing_extensions": "4.16.0"
+  },
+  "torch_imported_during_setup": false
+}

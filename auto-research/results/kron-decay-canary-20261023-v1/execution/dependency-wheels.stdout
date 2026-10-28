@@ -1,0 +1,41 @@
+Collecting filelock
+  Downloading filelock-4.2.4-py3-none-any.whl.metadata (2.0 kB)
+Collecting typing-extensions>=4.10.0
+  Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting setuptools
+  Downloading setuptools-84.2.1-py3-none-any.whl.metadata (6.6 kB)
+Collecting sympy>=1.13.3
+  Downloading sympy-1.14.0-py3-none-any.whl.metadata (12 kB)
+Collecting networkx>=2.5.1
+  Downloading networkx-3.7-py3-none-any.whl.metadata (6.7 kB)
+Collecting jinja2
+  Downloading jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+Collecting fsspec>=0.8.5
+  Downloading fsspec-2026.9.0-py3-none-any.whl.metadata (10 kB)
+Collecting mpmath<1.4,>=1.1.0 (from sympy>=1.13.3)
+  Downloading mpmath-1.3.0-py3-none-any.whl.metadata (8.6 kB)
+Collecting MarkupSafe>=2.0 (from jinja2)
+  Downloading markupsafe-3.0.4-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.7 kB)
+Downloading filelock-4.2.4-py3-none-any.whl (162 kB)
+Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+Downloading setuptools-84.2.1-py3-none-any.whl (876 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 876.3/876.3 kB 67.8 MB/s eta 0:00:00
+Downloading sympy-1.14.0-py3-none-any.whl (6.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.3/6.3 MB 122.8 MB/s eta 0:00:00
+Downloading mpmath-1.3.0-py3-none-any.whl (536 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 536.2/536.2 kB 236.2 MB/s eta 0:00:00
+Downloading networkx-3.7-py3-none-any.whl (2.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 111.2 MB/s eta 0:00:00
+Downloading jinja2-3.1.6-py3-none-any.whl (134 kB)
+Downloading fsspec-2026.9.0-py3-none-any.whl (221 kB)
+Downloading markupsafe-3.0.4-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (23 kB)
+Saved /root/.t3/scratch/2026-10-23-fetch-https-discoveryathome-org-v0-422259f3/super-1-20261023/canary-install-temp/dependencies/filelock-4.2.4-py3-none-any.whl
+Saved /root/.t3/scratch/2026-10-23-fetch-https-discoveryathome-org-v0-422259f3/super-1-20261023/canary-install-temp/dependencies/typing_extensions-4.16.0-py3-none-any.whl
+Saved /root/.t3/scratch/2026-10-23-fetch-https-discoveryathome-org-v0-422259f3/super-1-20261023/canary-install-temp/dependencies/setuptools-84.2.1-py3-none-any.whl
+Saved /root/.t3/scratch/2026-10-23-fetch-https-discoveryathome-org-v0-422259f3/super-1-20261023/canary-install-temp/dependencies/sympy-1.14.0-py3-none-any.whl
+Saved /root/.t3/scratch/2026-10-23-fetch-https-discoveryathome-org-v0-422259f3/super-1-20261023/canary-install-temp/dependencies/mpmath-1.3.0-py3-none-any.whl
+Saved /root/.t3/scratch/2026-10-23-fetch-https-discoveryathome-org-v0-422259f3/super-1-20261023/canary-install-temp/dependencies/networkx-3.7-py3-none-any.whl
+Saved /root/.t3/scratch/2026-10-23-fetch-https-discoveryathome-org-v0-422259f3/super-1-20261023/canary-install-temp/dependencies/jinja2-3.1.6-py3-none-any.whl
+Saved /root/.t3/scratch/2026-10-23-fetch-https-discoveryathome-org-v0-422259f3/super-1-20261023/canary-install-temp/dependencies/fsspec-2026.9.0-py3-none-any.whl
+Saved /root/.t3/scratch/2026-10-23-fetch-https-discoveryathome-org-v0-422259f3/super-1-20261023/canary-install-temp/dependencies/markupsafe-3.0.4-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl
+Successfully downloaded filelock typing-extensions setuptools sympy mpmath networkx jinja2 fsspec MarkupSafe

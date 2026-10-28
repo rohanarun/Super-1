@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "status": "REGISTERED_AUTHORIZED_BOUNDED_CANARY",
+  "run_id": "kron-decay-canary-20261023-v1",
+  "parent_run_ids": [
+    "minkron-fast-20261021-v1",
+    "kron-exact-core-20261023-v1"
+  ],
+  "base_commit": "847bb75042e01b2c879272f97e72746f285c8872",
+  "session_seed": "dcbb91d07e51cf13ee6fda1fefc14ca2",
+  "primary_hypothesis": "Finite-precision subtraction of large cumulative decay logs loses an intervening decay in the specified short canary; interval products preserve the sequential core result while retaining the same equations.",
+  "primary_comparator": "Frozen sequential kron_recurrent on identical synthetic core inputs; source direct/factored paths are explicit controls.",
+  "primary_success_rule": "Interval-product unscaled core passes frozen output/state/gradient/optimizer mechanics tolerances on every declared core case. Source failures, candidate failures and all secondary scaling arms are retained. A model-row gate is reported separately and can fail without being hidden.",
+  "authorization": {
+    "approved": true,
+    "required_approval": "Exact donor approval under AGENTS.md rule 3 before dependency installation or tensor/model execution.",
+    "resources": "Existing local CPU, one PyTorch/inter-op/BLAS thread; maximum 600 cumulative CPU seconds and 900 cumulative execution wall seconds across all numerical attempts, excluding dependency download/install.",
+    "dependencies": "Session-local virtual environment only, CPU-only torch==2.9.1+cpu and its required Python dependencies; no global install or GPU packages.",
+    "dependency_size_evidence": "Official cp313 x86_64 CPU wheel is 184380800 bytes, SHA256 39b3dff6d8fba240ae0d1bede4ca11c2531ae3b47329206512d99e17907ff74b. This is metadata/HEAD evidence, not a downloaded binary.",
+    "additional_disk_cap": "1 GiB for environment, temporary wheel/install data and canary outputs together; stop if this cannot be met. No corpus or checkpoint downloads.",
+    "artifact_cap": "50 MiB new result/diagnostic artifacts; no full checkpoints saved.",
+    "max_additional_paid_spend": 0,
+    "gpu_cloud_external_accounts": false,
+    "official_test_access": false,
+    "corpus_or_language_training": false,
+    "synthetic_optimizer_steps": "At most one AdamW step per candidate/reference pair in the one named model qualification row.",
+    "approval_reference": "auto-research/results/kron-decay-canary-20261023-v1/APPROVAL.json"
+  },
+  "design": {
+    "source": "Hash-pinned parent model.py, common.py, qualify.py, protocol/addenda. No archived file modifications.",
+    "variants": [
+      "source_direct",
+      "source_factored",
+      "prefix_scaled",
+      "interval_direct",
+      "interval_scaled"
+    ],
+    "reference": "source sequential recurrence, same visible dtype and input tensors",
+    "factorial_control": "Interval vs prefix and scaled vs unscaled are separated. Primary contrast is interval_direct vs source_direct; combined changes are secondary.",
+    "tiny_core_cases": {
+      "shape": "B=H=K=V=1, T=2 or 3",
+      "q_k_v": "all ones",
+      "beta_write": "both 1/2 at every token",
+      "g_sequences": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -134217728,
+          -1
+        ],
+        [
+          -72057594037927936,
+          -1
+        ],
+        [
+          -1,
+          -134217728,
+          -1
+        ]
+      ],
+      "parameter_dtypes": [
+        "float32",
+        "float64"
+      ],
+      "initial_states": [
+        0,
+        1
+      ],
+      "reset_controls": [
+        "none",
+        "before first token"
+      ],
+      "expected_two_token_zero_state": "For first gate very negative: final=1/2+exp(-1)/4. Hypothesis: FP32 prefix controls give 3/4 at -2^27 while FP64 retains the increment; -2^56 tests the analogous FP64 limit."
+    },
+    "random_core_cases": {
+      "seeds": [
+        73,
+        191,
+        307
+      ],
+      "shapes_B_T_H_K_V": [
+        [
+          1,
+          2,
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          7,
+          2,
+          4,
+          3
+        ],
+        [
+          2,
+          19,
+          1,
+          4,
+          3
+        ]
+      ],
+      "q_k_v": "normalized seeded synthetic values; include zero and 1e-10-scaled value positions",
+      "gates": "nonpositive seeded gates and sigmoid beta/write",
+      "reset_and_chunk_checks": "nonzero state, before-token resets, irregular split, same-shape future intervention",
+      "derivatives": "all independent core input gradients under one fixed scalar probe"
+    },
+    "model_row": {
+      "arm": "k16",
+      "seed": 25101,
+      "parameter_dtype": "float32",
+      "recurrence_fp64": false,
+      "shape": "B=2,T=19; exact archived random-token/reset construction",
+      "checks": [
+        "logits and all state",
+        "loss",
+        "all parameter gradients",
+        "one AdamW step and optimizer state",
+        "streaming",
+        "reset",
+        "causality"
+      ],
+      "optimizer": "unchanged archived AdamW epsilon 1e-4",
+      "positive_control": "Repeat the source factored/reference row with the archived FP64-core workaround, clearly labeled mixed precision."
+    }
+  },
+  "tolerances": {
+    "float32": {
+      "atol": 2e-05,
+      "rtol": 0.0002
+    },
+    "float64": {
+      "atol": 1e-08,
+      "rtol": 1e-06
+    },
+    "policy": "Use the frozen parent tolerances; no post-hoc relaxation. Capture finite failures and missing gradients."
+  },
+  "stop_rules": [
+    "600 CPU seconds",
+    "900 wall seconds",
+    "1 GiB additional disk",
+    "50 MiB artifacts",
+    "nonfinite candidate values or unexpected resource requirement: preserve diagnostics and stop that line"
+  ],
+  "claims_excluded": [
+    "language quality",
+    "speed win",
+    "general full-model FP32 qualification",
+    "historical failure root cause",
+    "deployment or SOTA"
+  ],
+  "next": "If mechanics pass, propose a separately approved wider fidelity/performance canary; do not launch training from this result.",
+  "approved_draft_sha256": "a98d73e2c7a9c6430745afae155e8d37650cdf1921b0fa25932f2d1ff8990280",
+  "implementation_sha256": {
+    "candidate_core.py": "6d5a6c06ced95d7ce75074042ddbf5048365716da8bf327f351424c5cd318086",
+    "tensor_canary.py": "acc5f089a7deafc09ac7c9092a79363a946c679538655ba316716f31e264f36c",
+    "SOURCE_INPUTS.json": "40823df409b4b8c7506880fcde060fff96eaa23dac8bb23099007c91f20770bb"
+  }
+}

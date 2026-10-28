@@ -1,0 +1,23 @@
+{
+  "charged_cpu_seconds": 24.792752,
+  "charged_wall_seconds": 23.213875569985248,
+  "command": [
+    "/root/.t3/scratch/2026-10-23-fetch-https-discoveryathome-org-v0-422259f3/super-1-20261023/canary-env/bin/python",
+    "-B",
+    "tensor_canary.py"
+  ],
+  "disk_cap_bytes": 1073741824,
+  "disk_sample_interval_seconds": 1,
+  "exit_code": 0,
+  "label": "attempt-01",
+  "maximum_child_rss_kib": 460364,
+  "numerical_cpu_before": 0,
+  "numerical_process_cpu_limit": 597,
+  "numerical_wall_before": 0,
+  "peak_sampled_environment_temp_results_bytes": 778162176,
+  "phase": "numerical",
+  "preflight_required": "Wheel expansion sizes are checked before offline install; disk sampling is additional enforcement.",
+  "stderr_bytes": 83518,
+  "stdout_bytes": 141306,
+  "stopped_by_guard": null
+}

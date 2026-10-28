@@ -1,0 +1,13 @@
+test_claimed_core_and_model_gates_rejected (test_verify_results.ReceiptTests.test_claimed_core_and_model_gates_rejected) ... ok
+test_false_precision_label_rejected (test_verify_results.ReceiptTests.test_false_precision_label_rejected) ... ok
+test_missing_and_duplicate_core_rows_rejected (test_verify_results.ReceiptTests.test_missing_and_duplicate_core_rows_rejected) ... ok
+test_optimizer_gate_does_not_hide_gradient_failure (test_verify_results.ReceiptTests.test_optimizer_gate_does_not_hide_gradient_failure) ... ok
+test_original_keeps_failed_model_gate (test_verify_results.ReceiptTests.test_original_keeps_failed_model_gate) ... ok
+test_resource_overruns_rejected (test_verify_results.ReceiptTests.test_resource_overruns_rejected) ... ok
+test_threads_and_missing_approval_rejected (test_verify_results.ReceiptTests.test_threads_and_missing_approval_rejected) ... ok
+test_wrong_tiny_reference_rejected (test_verify_results.ReceiptTests.test_wrong_tiny_reference_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.058s
+
+OK

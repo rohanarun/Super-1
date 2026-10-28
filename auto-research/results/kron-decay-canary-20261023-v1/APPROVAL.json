@@ -1,0 +1,19 @@
+{
+  "status": "EXPLICIT_DONOR_APPROVAL",
+  "user_message": "Approve this bounded canary",
+  "approved_request": "One CPU thread, at most 10 numerical CPU-minutes, synthetic tensors plus the single named model gradient/optimizer-step check; session-local CPU-only PyTorch install, 1 GiB additional environment/temp/results disk; no GPU/cloud, paid spend, corpus training or official-test access.",
+  "prepared_protocol_path": "/root/.t3/scratch/2026-10-23-fetch-https-discoveryathome-org-v0-422259f3/super-1-20261023/kron-numerics/auto-research/research-scratch/kron-decay-canary-20261023-proposal/CANARY_PROTOCOL.json",
+  "approved_draft_sha256": "a98d73e2c7a9c6430745afae155e8d37650cdf1921b0fa25932f2d1ff8990280",
+  "original_draft_file_hashes": {
+    "CANARY_PROTOCOL.json": "a98d73e2c7a9c6430745afae155e8d37650cdf1921b0fa25932f2d1ff8990280",
+    "candidate_core.py": "6d5a6c06ced95d7ce75074042ddbf5048365716da8bf327f351424c5cd318086",
+    "tensor_canary.py": "422767639e5a2c663f87c56871e640cd5f5ee78b8b97bd03efe9040b9a8ed675",
+    "SOURCE_INPUTS.json": "40823df409b4b8c7506880fcde060fff96eaa23dac8bb23099007c91f20770bb"
+  },
+  "recorded_at_utc": "2026-10-23T10:09:26.099659+00:00",
+  "authorization_reference": "Explicit user reply in this conversation on 2026-10-23 after the bounded canary approval question. No further per-action confirmation required within that scope.",
+  "implementation_changes_before_execution": [
+    "Tighten process CPU hard limit to the remaining cumulative allowance (never above 600 seconds).",
+    "Record tiny actual/reference outputs and states, normalized error diagnostics, exact CPU-only build and inter-op thread metadata. No case, variant, hypothesis, tolerance or tensor equation changed."
+  ]
+}
