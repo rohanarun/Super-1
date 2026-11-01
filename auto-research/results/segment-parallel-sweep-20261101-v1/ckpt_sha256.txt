@@ -1,0 +1,1 @@
+<session>/ckpt/pure-hierarchy-final.pt: OK

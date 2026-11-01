@@ -1,0 +1,161 @@
+{
+ "run_id": "segment-parallel-sweep-20261101-v1",
+ "cpu_seconds_ceiling": 900,
+ "rows": [
+  {
+   "id": "smoke_default_w32",
+   "condition": "default",
+   "width": 32,
+   "init_seed": 1,
+   "stream": "uniform",
+   "stream_seed": 1,
+   "batch": 2,
+   "T": 256,
+   "dtype": "fp64",
+   "role": "positive control: must converge and pass hidden parity"
+  },
+  {
+   "id": "failctl_broken_last_token_w32",
+   "condition": "default",
+   "width": 32,
+   "init_seed": 1,
+   "stream": "uniform",
+   "stream_seed": 1,
+   "batch": 2,
+   "T": 256,
+   "dtype": "fp64",
+   "broken_last_token": true,
+   "role": "failure control: deliberately wrong last-token slow states; hidden parity must FAIL"
+  },
+  {
+   "id": "default_w688_s1",
+   "condition": "default",
+   "init_seed": 1,
+   "stream": "uniform",
+   "stream_seed": 101,
+   "batch": 2,
+   "T": 1024,
+   "dtype": "fp64",
+   "role": "favorable synthetic: PyTorch default init"
+  },
+  {
+   "id": "default_w688_s2",
+   "condition": "default",
+   "init_seed": 2,
+   "stream": "uniform",
+   "stream_seed": 102,
+   "batch": 2,
+   "T": 1024,
+   "dtype": "fp64",
+   "role": "favorable synthetic: PyTorch default init"
+  },
+  {
+   "id": "default_w688_s3",
+   "condition": "default",
+   "init_seed": 3,
+   "stream": "uniform",
+   "stream_seed": 103,
+   "batch": 2,
+   "T": 1024,
+   "dtype": "fp64",
+   "role": "favorable synthetic: PyTorch default init"
+  },
+  {
+   "id": "scale3_w688_s1",
+   "condition": "scale3",
+   "init_seed": 1,
+   "stream": "uniform",
+   "stream_seed": 201,
+   "batch": 2,
+   "T": 1024,
+   "dtype": "fp64",
+   "role": "saturated synthetic: cell/combine params x3 as parity64.py"
+  },
+  {
+   "id": "scale3_w688_s2",
+   "condition": "scale3",
+   "init_seed": 2,
+   "stream": "uniform",
+   "stream_seed": 202,
+   "batch": 2,
+   "T": 1024,
+   "dtype": "fp64",
+   "role": "saturated synthetic: cell/combine params x3 as parity64.py"
+  },
+  {
+   "id": "scale3_w688_s3",
+   "condition": "scale3",
+   "init_seed": 3,
+   "stream": "uniform",
+   "stream_seed": 203,
+   "batch": 2,
+   "T": 1024,
+   "dtype": "fp64",
+   "role": "saturated synthetic: cell/combine params x3 as parity64.py"
+  },
+  {
+   "id": "longmem_w688_s1",
+   "condition": "longmem",
+   "init_seed": 1,
+   "stream": "uniform",
+   "stream_seed": 301,
+   "batch": 1,
+   "T": 1024,
+   "dtype": "fp64",
+   "role": "adversarial stress: fast update-gate bias +4 (z~0.98); expected slow convergence, wavefront bound must still hold"
+  },
+  {
+   "id": "trained_uniform_T1024",
+   "condition": "trained",
+   "stream": "uniform",
+   "stream_seed": 11,
+   "batch": 3,
+   "T": 1024,
+   "dtype": "fp64",
+   "role": "PRIMARY: trained 120M historical checkpoint"
+  },
+  {
+   "id": "trained_periodic_T1024",
+   "condition": "trained",
+   "stream": "periodic",
+   "stream_seed": 12,
+   "batch": 1,
+   "T": 1024,
+   "dtype": "fp64",
+   "role": "PRIMARY: trained, repeated 64-token phrase"
+  },
+  {
+   "id": "trained_smallalpha_T1024",
+   "condition": "trained",
+   "stream": "small_alphabet",
+   "stream_seed": 13,
+   "batch": 1,
+   "T": 1024,
+   "dtype": "fp64",
+   "role": "PRIMARY: trained, 512-id alphabet"
+  },
+  {
+   "id": "trained_uniform_T2048",
+   "condition": "trained",
+   "stream": "uniform",
+   "stream_seed": 14,
+   "batch": 2,
+   "T": 2048,
+   "dtype": "fp64",
+   "max_sweeps": 40,
+   "role": "secondary: N=64 segments, capped at 40 sweeps"
+  },
+  {
+   "id": "trained_uniform_T1024_fp32",
+   "condition": "trained",
+   "stream": "uniform",
+   "stream_seed": 11,
+   "batch": 3,
+   "T": 1024,
+   "dtype": "fp32",
+   "role": "secondary: FP32 residual floor and parity vs FP32 reference"
+  }
+ ],
+ "primary_metric": "max over the three PRIMARY rows of K(1e-6): sweeps until every guessed boundary input changes by <= 1e-6 (abs, FP64)",
+ "falsifier": "max K(1e-6) >= 16 on the PRIMARY rows (T=1024, N=32: break-even vs the sequential segment loop under the favorable cost model)"
+}

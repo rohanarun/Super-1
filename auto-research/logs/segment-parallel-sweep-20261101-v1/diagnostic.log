@@ -1,0 +1,7 @@
+[capped] Waiting for the other heavy job to finish.
+{"base": "trained_uniform_T1024", "mode": "fast_only", "at_tolerance": {"0.0001": {"K": 4, "hidden_err": 1.0743225216214292e-05}, "1e-06": {"K": 5, "hidden_err": 4.5579627130920564e-07}, "1e-09": {"K": 8, "hidden_err": 6.539171981678749e-11}, "1e-12": {"K": 10, "hidden_err": 1.3278267374516872e-13}}, "cpu_s_sweeps": 5.64}
+{"base": "trained_uniform_T1024", "mode": "slow_only", "at_tolerance": {"0.0001": {"K": 9, "hidden_err": 4.43946280043947e-05}, "1e-06": {"K": 14, "hidden_err": 4.4630806150108837e-07}, "1e-09": {"K": 19, "hidden_err": 8.190895045556701e-10}, "1e-12": {"K": 23, "hidden_err": 7.622097397685934e-13}}, "cpu_s_sweeps": 10.97}
+{"base": "default_w688_s1", "mode": "fast_only", "at_tolerance": {"0.0001": {"K": 2, "hidden_err": 3.3962070759840923e-09}, "1e-06": {"K": 2, "hidden_err": 3.3962070759840923e-09}, "1e-09": {"K": 3, "hidden_err": 2.7929047963226594e-15}, "1e-12": {"K": 3, "hidden_err": 2.7929047963226594e-15}}, "cpu_s_sweeps": 2.29}
+{"base": "default_w688_s1", "mode": "slow_only", "at_tolerance": {"0.0001": {"K": 8, "hidden_err": 5.874570918953936e-06}, "1e-06": {"K": 12, "hidden_err": 6.912731403442562e-08}, "1e-09": {"K": 18, "hidden_err": 1.5596824179398006e-11}, "1e-12": {"K": 22, "hidden_err": 1.1345091532888318e-14}}, "cpu_s_sweeps": 7.25}
+TOTAL_CPU_S 43.99
+exit=0

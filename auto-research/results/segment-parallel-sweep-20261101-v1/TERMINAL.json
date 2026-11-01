@@ -1,0 +1,89 @@
+{
+ "run_id": "segment-parallel-sweep-20261101-v1",
+ "status": "COMPLETED_PREREGISTERED_MECHANICS_CANARY_PRIMARY_FALSIFIED_NO_PROMOTION",
+ "terminal_utc": "2026-11-01T07:42Z",
+ "primary": {
+  "metric": "max K(1e-6) over the three PRIMARY rows (trained 120M checkpoint, T=1024)",
+  "by_row": {
+   "trained_uniform_T1024": 16,
+   "trained_periodic_T1024": 16,
+   "trained_smallalpha_T1024": 15
+  },
+  "max": 16,
+  "falsifier": "K(1e-6) >= 16",
+  "outcome": "FALSIFIED",
+  "note": "met at the boundary: K=16,16,15; uniform-stream residual after sweep 15 was ~1.1e-6; single streams, no uncertainty estimate"
+ },
+ "controls": {
+  "positive_control_pass": true,
+  "failure_control_fails_as_required": true,
+  "wavefront_all_rows_all_sweeps": true
+ },
+ "rows_completed": "14 of 14",
+ "diagnostic_A1": {
+  "rows_completed": "4 of 4",
+  "cpu_seconds": 43.99,
+  "K_1e-6_full_fast_only_slow_only": {
+   "trained_uniform_T1024": [
+    16,
+    5,
+    14
+   ],
+   "default_w688_s1": [
+    13,
+    2,
+    12
+   ]
+  },
+  "reading": "post-hoc, one trained row and one default-init seed: the slow feedback path is the main obstruction; trained fast-only K=5 misses the declared <=4 by one sweep, so the fast path contributes too"
+ },
+ "charged_cpu_seconds": {
+  "canary": 193.88,
+  "diagnostic": 43.99,
+  "total": 237.87
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "outcome": "Stopped at the stored-evidence positive control (verify_evidence.py: Changed file: CONTRIBUTORS.md, caused by an edit in the clone while the job was queued). No model code executed.",
+   "log": "auto-research/logs/segment-parallel-sweep-20261101-v1/run_attempt1_verifier_failed.log"
+  },
+  {
+   "attempt": 2,
+   "outcome": "verify_evidence PASS; 14 of 14 rows completed",
+   "log": "auto-research/logs/segment-parallel-sweep-20261101-v1/run_attempt2.log"
+  }
+ ],
+ "frozen_before_execution_sha256": {
+  "PROTOCOL.json": "5f46377ba811c8aaeaf84ada787c5c3e20003e7be5b2f3b03226c7db3e8b3149",
+  "PLAN.json": "8684b667afad683d43e8b4aff56ea02ed02ce388ec9732347e66ad5ee4f79329",
+  "sweep_canary.py": "0a90981a93350dcfc26ba29e9e237074ed5e8d71f42c18e9b88367f7f2ba3bac"
+ },
+ "diagnostic_script_sha256": {
+  "diagnostic/path_diagnostic.py": "d0b444bdf5d52b842475912ffda06ed6199cab0316c8bbb77587b1730dfa5306"
+ },
+ "outputs_sha256": {
+  "RESULTS.json": "0ab8b8c1a7f43cc615fbf0050ed04bd1715edc6716017cc6abd4997d1dd177ee",
+  "diagnostic/DIAGNOSTIC.json": "1767b1a2885dbf42154f1382937106b2bd75a32f100b395deb1f4e05c8fe1930"
+ },
+ "checkpoint": {
+  "name": "pure-hierarchy-final.pt",
+  "release": "downloaded from rohanarun/Super-1 release recovered-120m-checkpoints-20261015; CHECKPOINT_RECOVERY.json records the same tag under rohanarun/function-weights-research, and the sha256 matches the hash recorded there",
+  "sha256": "beb12f7a9fce10195c639365cc673200e04c97affa9557239b70edd28bd9c66f",
+  "loaded_with": "torch.load(weights_only=True), strict load_state_dict"
+ },
+ "runtime": {
+  "python": "3.12.13 (uv-managed venv; the frozen protocol listed the host's 3.12.3)",
+  "torch": "2.8.0+cpu",
+  "numpy": "2.2.6",
+  "threads": 1,
+  "sandbox": "bwrap, no network, read-only outside the session folder",
+  "device": "donor desktop CPU"
+ },
+ "official_test_accessed": false,
+ "corpus_read": false,
+ "training_or_optimizer_steps": 0,
+ "speed_evidence": "none; latency figures in the report are projections from matched-scratch-fineweb-20261017-v1",
+ "evidence_level": "author-checked, local",
+ "fp64_converged_parity_all_rows_except_failure_control": true
+}
