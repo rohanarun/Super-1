@@ -1,0 +1,40 @@
+[capped] Waiting for the other heavy job to finish.
+Using Python 3.12.13 environment at: venv
+Resolved 10 packages in 712ms
+Downloading networkx (2.0MiB)
+Downloading setuptools (1.2MiB)
+Downloading torch (175.4MiB)
+Downloading sympy (6.0MiB)
+ Downloaded setuptools
+ Downloaded networkx
+ Downloaded sympy
+ Downloaded torch
+Prepared 10 packages in 4.03s
+Installed 10 packages in 2.36s
+ + filelock==4.2.4
+ + fsspec==2026.9.0
+ + jinja2==3.1.6
+ + markupsafe==3.0.3
+ + mpmath==1.3.0
+ + networkx==3.7
+ + setuptools==78.1.0
+ + sympy==1.14.0
+ + torch==2.8.0+cpu
+ + typing-extensions==4.16.0
+Using Python 3.12.13 environment at: venv
+Resolved 1 package in 208ms
+Installed 1 package in 140ms
+ + numpy==2.2.6
+torch 2.8.0+cpu numpy 2.2.6
+<session>/ckpt/pure-hierarchy-final.pt: OK
+Traceback (most recent call last):
+  File "<session>/repo/scripts/verify_evidence.py", line 39, in <module>
+    if __name__=="__main__":main()
+                            ^^^^^^
+  File "<session>/repo/scripts/verify_evidence.py", line 12, in main
+    require(hashlib.sha256(p.read_bytes()).hexdigest()==expected,"Changed file: "+name)
+  File "<session>/repo/scripts/verify_evidence.py", line 5, in require
+    if not value:raise RuntimeError(message)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Changed file: CONTRIBUTORS.md
+exit=1

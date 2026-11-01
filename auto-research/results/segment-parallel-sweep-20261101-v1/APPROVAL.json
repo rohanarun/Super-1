@@ -1,0 +1,28 @@
+{
+ "run_id": "segment-parallel-sweep-20261101-v1",
+ "approval_type": "DONOR_OWN_COMPUTE_NOT_MAINTAINER",
+ "note": "Discovery@Home donated session. The donor approved these experiments for his own desktop and nothing more. This is not an approval from the project maintainer, and it authorizes no maintainer accounts, credits, hardware or future runs.",
+ "approvals": [
+  {
+   "scope": "Preregistered canary (PROTOCOL.json, PLAN.json, 14 rows)",
+   "approved_by": "VibeCodyH (GitHub), the donor running the session",
+   "channel": "Claude Code session, structured question answered by the donor",
+   "utc": "2026-11-01T06:19Z",
+   "question": "Approve the preregistered Super-1 CPU mechanics canary on your desktop? It needs a uv venv in the session folder with CPU torch 2.8.0 + numpy (~175 MB download, ~0.7 GB disk), the 479 MB pure-hierarchy-final.pt from rohanarun/Super-1 Releases (sha256 checked), and FP64 forward passes only: synthetic tokens, no training, no corpus or sealed test, one thread under capped + bwrap with no network, 900 CPU-second hard guard, <=50 MiB artifacts.",
+   "answer": "Yes, run it",
+   "used": "193.88 CPU-seconds; 14 of 14 rows completed"
+  },
+  {
+   "scope": "Post-hoc path-decomposition diagnostic (PROTOCOL_ADDENDA.md, A1; 4 rows)",
+   "approved_by": "VibeCodyH (GitHub), the donor running the session",
+   "channel": "Claude Code session, structured question answered by the donor",
+   "utc": "2026-11-01T07:26Z",
+   "question": "OK to run one small post-hoc diagnostic that pins down why? It's 4 extra rows on the same checkpoint and synthetic tokens: slow states held at their exact values with only fast boundaries iterated, and the reverse, on the trained model and on default init. Same sandbox, one thread, <=60 CPU-seconds, labeled exploratory in a protocol addendum.",
+   "answer": "Yes, run it",
+   "used": "43.99 CPU-seconds; 4 of 4 rows completed"
+  }
+ ],
+ "official_test_access": false,
+ "training": false,
+ "paid_or_cloud_resources": false
+}

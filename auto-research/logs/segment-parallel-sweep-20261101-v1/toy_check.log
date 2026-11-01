@@ -1,0 +1,9 @@
+sweep 1: residual 9.51e-01  hidden_err 2.26e-01  wavefront_err 0.00e+00
+sweep 2: residual 3.75e-01  hidden_err 8.62e-02  wavefront_err 0.00e+00
+sweep 3: residual 6.94e-02  hidden_err 4.18e-03  wavefront_err 0.00e+00
+sweep 4: residual 5.74e-03  hidden_err 8.98e-04  wavefront_err 0.00e+00
+sweep 5: residual 3.41e-04  hidden_err 4.04e-05  wavefront_err 0.00e+00
+sweep 6: residual 0.00e+00  hidden_err 0.00e+00  wavefront_err 0.00e+00
+sweep 7: residual 0.00e+00  hidden_err 0.00e+00  wavefront_err 0.00e+00
+wavefront ok: True | final hidden err: 0.00e+00 | broken-control err: 3.62e-01
+TOY_PASS

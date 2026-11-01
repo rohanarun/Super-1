@@ -1,0 +1,112 @@
+{
+ "schema_version": 1,
+ "status": "FROZEN_APPROVED_BEFORE_EXECUTION",
+ "experiment_id": "E01",
+ "run_id": "segment-parallel-sweep-20261101-v1",
+ "parent_run_ids": [
+  "matched-scratch-fineweb-20261017-v1",
+  "cloud-recovery-20261015"
+ ],
+ "hypothesis": "For the exact historical fast/segment/document hierarchy, segment-parallel Jacobi (multiple-shooting) sweeps reach the sequential reference to a 1e-6 boundary-input residual in fewer than 16 sweeps at T=1024 (N=32 segments) on the trained 120M checkpoint, so the sequential loop over segments that FastHierarchy leaves could be replaced by a few batched sweeps without changing the equations.",
+ "primary_comparator": "Token-by-token HierarchicalDistributionStudent.transition from the recovered byte-exact source (unchanged), which FastHierarchy matched at FP64 1e-9 in matched-scratch-fineweb-20261017-v1.",
+ "primary_metric": "K(1e-6): sweeps until every guessed boundary input (fast state entering each segment, segment state, document state used as fast input) changes by <= 1e-6 absolute in FP64; max over the three PRIMARY rows of PLAN.json. Reported with the true max |hidden - reference| at that sweep.",
+ "minimum_useful_effect": "K(1e-6) < 16 at T=1024. Break-even under the favorable cost model: a sweep costs at most two reference segment iterations (~1.0 ms vs ~0.50 ms per segment iteration inferred from the matched-scratch H100 B=1 table), so 32 iterations ~16 ms equal 16 sweeps. Minimum possible K is 2 (one sweep plus one verifying sweep).",
+ "success_rule": "Advance to a GPU latency proposal only if max K(1e-6) < 16 on the PRIMARY rows AND every row's wavefront check passes (segments 0..k-1 within the parity tolerance after sweep k) AND the hidden error at convergence (residual 1e-12) is <= 1e-9 in FP64 AND the failure control fails parity. CPU timings are not speed evidence.",
+ "futility_rule": "Stop this line if max K(1e-6) >= 16 on the PRIMARY rows: record the obstruction (slow-state or fast-state sensitivity) and do not lower the target. Stop and report a defect if any wavefront check fails or the positive control fails.",
+ "authorization": {
+  "approved": true,
+  "user_approval_reference": "Donor Cody (VibeCodyH) approved this exact experiment and budget for his own desktop in the Discovery@Home Claude Code session, answer 'Yes, run it' at 2026-11-01T06:19Z, before any execution. This is the donor's approval of his own compute, not the maintainer's.",
+  "approved_resources": "Donor's own desktop CPU only: uv venv in the session folder (torch 2.8.0 CPU, numpy 2.2.6), one 479 MB public release asset, one thread under `capped` and bwrap (no network).",
+  "max_cost": "0 USD; no cloud, GPU, paid or maintainer resources",
+  "max_walltime": "30 minutes wall for the canary",
+  "local_cpu_budget": "900 cumulative CPU seconds (guard in sweep_canary.py), <= 50 MiB committed artifacts, ~1.2 GB local disk outside Git"
+ },
+ "design": {
+  "original_source_hashes": {
+   "auto-research/results/cloud-recovery-20261015/exact-historical-source/representation_experiments/predictive_models.py": "b73a7c07801f5672adb52c0cb16a3c772d62e50eebc0366491d497f76d13f73f",
+   "auto-research/results/cloud-recovery-20261015/exact-historical-source/representation_experiments/common.py": "381c5950aa454fc2275c45755bafd4c3e0641802013c0bf7ce9276abf5415fe1",
+   "auto-research/results/cloud-recovery-20261015/exact-historical-source/representation_experiments/__init__.py": "4b2b1b57ddcc301f00957747a5f40e3a28f3e8d7e151b99c6e395b2865c82d54",
+   "auto-research/results/matched-scratch-fineweb-20261017-v1/train.py (FastHierarchy, read only)": "eaa0866a5ab5f8e0a1f23517d570a529533d2027c2da12599c18de59eccb39cf"
+  },
+  "mechanism_equations": "Unchanged reference equations. Sweep k: given guesses Hin_j (fast state entering segment j), S_j, D_floor(j/8), run fast GRU over all N segments as one batch (input projection split as W_tok e_t + W_seg S_j + W_doc D + b, same GRUCell gates); Hin_{j+1} <- last fast state of segment j; S_{i+1} = segment_cell(mean_i, S_i) for i=0..N-1; D_m = document_cell(S_{8m}, D_{m-1}); hidden = combine([fast, S, D]) with the last token of segment j using S_{j+1}, D_floor((j+1)/8). Cold start: all guesses zero. Wavefront: segment 0 always has exact inputs, so after sweep k segments 0..k-1 are exact; N sweeps reproduce the reference.",
+  "arms": [
+   "sequential reference (class transition)",
+   "segment-parallel sweeps (this run)"
+  ],
+  "control_rationale": "Positive control: small-width default init must converge and pass hidden parity. Failure control: a deliberately wrong last-token slow-state rule must fail hidden parity, showing the verifier catches the plausible indexing defect. Favorable (default init), saturated (x3, as parity64.py) and adversarial long-memory (z-bias +4) synthetic rows bracket the trained rows.",
+  "seeds": "Init seeds 1,2,3 for synthetic rows; stream seeds fixed per row in PLAN.json; trained checkpoint fixed.",
+  "seed_selection_method": "Fixed before execution; no reruns to select seeds.",
+  "learning_rate_trials_per_arm": 0,
+  "parameter_counts": "Trained: from checkpoint (expected V*d+32d^2+23d at V=151936, d=688 = 119,694,800). Synthetic: V=4096, d=688 or 32.",
+  "matching_track": "Not a quality comparison. Same weights and inputs in both arms; mechanics only.",
+  "compute_accounting": "CPU seconds per row for reference and sweeps (process_time), total under a 900 s guard. Not speed evidence."
+ },
+ "data": {
+  "dataset_versions": "None. Synthetic token streams only (uniform, periodic 64-id phrase, 512-id alphabet), generated from fixed seeds.",
+  "tokenizer_sha256": null,
+  "train_sha256": null,
+  "selection_sha256": null,
+  "confirmation_sha256": null,
+  "split_boundaries": null,
+  "research_wide_region_reuse_audit": "No corpus region read.",
+  "teacher_and_objective": "None (no training).",
+  "official_test_access_permitted": false
+ },
+ "training": {
+  "updates": "N/A: no training or optimizer step",
+  "target_exposures_per_trial": "N/A: no training or optimizer step",
+  "tokens_per_update": "N/A: no training or optimizer step",
+  "microbatch": "N/A: no training or optimizer step",
+  "gradient_accumulation": "N/A: no training or optimizer step",
+  "bptt_length": "N/A: no training or optimizer step",
+  "accessible_history": "N/A: no training or optimizer step",
+  "state_carry_and_detach": "N/A: no training or optimizer step",
+  "document_reset_policy": "N/A: no training or optimizer step",
+  "optimizer_schedule": "N/A: no training or optimizer step",
+  "precision": "N/A: no training or optimizer step",
+  "checkpoint_selection_rule": "N/A: no training or optimizer step"
+ },
+ "execution": {
+  "hardware": "Donor desktop CPU (x86_64 Linux), one thread",
+  "runtime_versions": "Python 3.12.3, torch 2.8.0+cpu, numpy 2.2.6 (recorded in out/env.txt)",
+  "resolved_writable_output": "Donor session folder outside the clone; only small JSON/log artifacts copied into auto-research/",
+  "source_ownership_and_concurrent_writers": "Fresh clone owned by this session; no other writer.",
+  "fidelity_tolerances": "FP64: max |hidden - reference| <= 1e-9 at residual 1e-12 and for the wavefront (as parity64.py). FP32 row: 1e-5 (as parity.py). Declared before execution; not to be relaxed.",
+  "canary_matrix": "PLAN.json (14 rows)",
+  "cost_estimate": "Estimate (not measured): ~6 CPU minutes; worst case bounded by the 900 s guard."
+ },
+ "evaluation": {
+  "primary_endpoint": "max K(1e-6) over PRIMARY rows; hidden error at that K and at convergence",
+  "confirmation_frozen_before_scoring": true,
+  "canonical_precision": "FP64 for parity; FP32 secondary",
+  "duplicate_policy": "None; deterministic single-thread CPU",
+  "uncertainty_method": "None: K is reported per row and stream; synthetic streams only",
+  "multiple_comparison_policy": "Single primary metric; all rows reported",
+  "no_test_tuning": true
+ },
+ "deployment": {
+  "weight_dtype": "Not measured. Latency is a projection from matched-scratch-fineweb-20261017-v1's H100 table, labeled as such.",
+  "kv_or_state_dtype": "Not measured. Latency is a projection from matched-scratch-fineweb-20261017-v1's H100 table, labeled as such.",
+  "quantization_metadata": "Not measured. Latency is a projection from matched-scratch-fineweb-20261017-v1's H100 table, labeled as such.",
+  "batching": "Not measured. Latency is a projection from matched-scratch-fineweb-20261017-v1's H100 table, labeled as such.",
+  "prefill_decode_protocol": "Not measured. Latency is a projection from matched-scratch-fineweb-20261017-v1's H100 table, labeled as such.",
+  "warmup_and_synchronization": "Not measured. Latency is a projection from matched-scratch-fineweb-20261017-v1's H100 table, labeled as such.",
+  "memory_components": "Not measured. Latency is a projection from matched-scratch-fineweb-20261017-v1's H100 table, labeled as such.",
+  "latency_statistics": "Not measured. Latency is a projection from matched-scratch-fineweb-20261017-v1's H100 table, labeled as such."
+ },
+ "evidence": {
+  "protocol_sha256": null,
+  "source_manifest": "design.original_source_hashes",
+  "checkpoint_manifest": "pure-hierarchy-final.pt sha256 beb12f7a9fce10195c639365cc673200e04c97affa9557239b70edd28bd9c66f (CHECKPOINT_RECOVERY.json)",
+  "progress_path": "repo/auto-research/results/segment-parallel-sweep-20261101-v1/RESULTS.json",
+  "terminal_receipt_path": "repo/auto-research/results/segment-parallel-sweep-20261101-v1/TERMINAL.json",
+  "preservation_policy": "Never overwrite; failures and every row kept",
+  "cleanup_receipt": "repo/auto-research/results/segment-parallel-sweep-20261101-v1/CLEANUP.json"
+ },
+ "decision": {
+  "outcome": null,
+  "reason": null,
+  "next_experiment": null
+ },
+ "frozen_utc": "2026-11-01T06:19Z"
+}

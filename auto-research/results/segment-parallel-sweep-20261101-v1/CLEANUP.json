@@ -1,0 +1,13 @@
+{
+ "run_id": "segment-parallel-sweep-20261101-v1",
+ "cloud_or_remote_resources": "none created; nothing to clean up",
+ "gpu": "none used",
+ "scheduled_jobs_or_alerts": "none created",
+ "network_inside_sandbox": "disabled (bwrap --unshare-net)",
+ "kept_outside_git_in_donor_session_folder": [
+  {"path": "ckpt/pure-hierarchy-final.pt", "size": "457 MiB", "sha256": "beb12f7a9fce10195c639365cc673200e04c97affa9557239b70edd28bd9c66f", "note": "copy of a public release asset; the donor may delete it"},
+  {"path": "venv/", "size": "796 MiB", "note": "private CPU environment (torch 2.8.0+cpu, numpy 2.2.6); the donor may delete it"}
+ ],
+ "committed_artifacts": "small JSON, Python, Markdown, SVG and log files only, well under the 50 MiB cap",
+ "temporary_files": "the sandbox's /tmp was a tmpfs and was discarded"
+}
